@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="1388" MadCap:lastWidth="915">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Sakai® Install Guide for TurningPoint® Cloud</h1>
+        <div class="Warning" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #ee4137;&quot; class=&quot;mcFormatColor&quot;&gt;WARNING&lt;/span&gt;&lt;/span&gt;">
+            <p>Before installation, ensure that there are no existing Turning Technologies tools installed. (components\turningtool-pack, shared\lib\turningtool-api-0.1.jar, shared\lib\turningtool-webservices-0.1.jar, webapps\turningtool-tool.war, and webapps\turningtool-tool)</p>
+        </div>
+        <ol class="Gotham">
+            <li><span class="Bold">Extract</span> the .zip&#160;file in the Sakai root directory (components,shared, webapps, directories).<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>If using Shibboleth, copy and paste the text below:<br />sakai.properties:#Turning Technologies Shibboleth<br />config: turningtool.shibbolethEnabled=true<br /><br />If using CAS, copy and paste the text below:<br />sakai.properties:<br />#Turning Technologies CAS config: turningtool.casBaseUrl=&lt;CAS_SERVER_PATH&gt;</p></div></li>
+            <li><span class="Bold">Restart</span>&#160;the Sakai Server.</li>
+            <li>Log in&#160;to Sakai as an Instructor.</li>
+            <li>Select the desired <span class="Bold">course</span> to add the LTI link.</li>
+            <li>Select <span class="Bold">Site Info</span>.</li>
+            <li>Select <span class="Bold">Edit Tools</span>.</li>
+            <li>Select <span class="Bold">Basic LTI</span>.</li>
+            <li>Select <span class="Bold">Continue</span>.</li>
+            <li>Enter a <span class="Bold">Title</span>.</li>
+            <li>Select <span class="Bold">Continue</span>.</li>
+            <li>Select <span class="Bold">Finish</span>.</li>
+            <li>Select the <span class="Bold">Basic LTI</span> link from the left menu.</li>
+            <li>Select <span class="Bold">Edit </span><img src="../../Graphics/LMS/Sakai/03000001.png" style="width: 26px; height: 27px;" class="Inline30px" />in the top right portion of the window.</li>
+            <li>Enter the Remote Tool URL. The Tool Base URL below is an example of what should be entered: <a href="https://account.turningtechnologies.com/account/lti?lmsUrl=http://sakai.university.com/"><span class="Hyperlink">https://account.turningtechnologies.com/account/lti?lmsUrl=http://sakai.university.com/</span></a><![CDATA[  ]]></li>
+            <li>Enter the <span class="Bold">Remote Tool Key</span> provided by Turning Technologies. <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>Requests should be made to <a href="mailto:support@turningtechnologies.zendesk.com"><span class="Hyperlink">support@turningtechnologies.zendesk.com</span></a> .&#160; Please include the Sakai URL with the request.&#160; </p></div></li>
+            <li>Enter the <span class="Bold">Remote Tool Secret</span> provided by Turning Technologies.</li>
+            <li>Set <span class="Bold">Button Text</span> to the desired name.</li>
+            <li>Set <span class="Bold">Tool Title</span> to the desired name.</li>
+            <li>Check <span class="Bold">Open in a New Window</span>.</li>
+            <li>Check <span class="Bold">Send Names to the External Tool</span>.</li>
+            <li>Check <span class="Bold">Send Email Addresses to the External Tool</span>.</li>
+            <li>Enter the following <span class="Bold">Custom Launch Parameter</span>:<ul><li>lms_type=Sakai</li></ul></li>
+            <li>Select <span class="Bold">Update Options</span>.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ContactIntegrationsSupport.flsnp" />
+    </body>
+</html>

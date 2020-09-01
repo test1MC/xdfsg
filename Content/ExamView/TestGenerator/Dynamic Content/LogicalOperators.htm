@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="569" MadCap:lastWidth="1077" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../../Resources/TableStyles/AlternateShading.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3>Logical Operators</h3>
+        <p>ExamView Test Generator provides you with numerous pre-defined logical operators to use when defining variables, conditions, and user-defined functions. </p>
+        <table style="caption-side: top;mc-table-style: url('../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="100px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col class="TableStyle-AlternateShading-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>AND </p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">expression AND expression</p>
+                        <p>Returns TRUE (1) only if both expressions evaluate to non-zero, otherwise returns FALSE (0). If the first expression evaluates to FALSE, the second expression is not evaluated.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>EQV </p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">expression EQV expression</p>
+                        <p>Returns TRUE (1) if both expressions evaluate to non-zero or if both expressions evaluate to zero, otherwise returns FALSE (0).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>IMP </p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">expression IMP expression</p>
+                        <p>Returns TRUE (1) if the first expression evaluates to non-zero and the second expression evaluates to zero, otherwise returns FALSE (0).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>MOD </p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">expression MOD expression</p>
+                        <p>Divides the first expression by the second expression and returns the remainder. If the second expression is equal to zero, the function will return zero. Integer division may return a negative value to satisfy the identity: (-A)/B = -(A/B) = A/(-B)</p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p>-34 MOD 6 will return -4</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>NOT </p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">NOT expression</p>
+                        <p>If expression evaluates to non-zero, this will return FALSE (0), otherwise it will return TRUE (1).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>OR </p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">expression OR expression</p>
+                        <p>Returns TRUE (1) if either expression evaluates to non-zero, otherwise returns FALSE (0). If the first expression evaluates to TRUE, the second expression is not evaluated.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>XOR </p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p class="ComputerText">expression XOR expression</p>
+                        <p>Returns the bitwise exclusive-OR or the two expressions.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

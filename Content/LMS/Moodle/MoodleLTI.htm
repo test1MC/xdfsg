@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1400" MadCap:lastWidth="941">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Moodle™ Install Guide for TurningPoint® Cloud</h1>
+        <div class="Important" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #f07600;&quot; class=&quot;mcFormatColor&quot;&gt;IMPORTANT&lt;/span&gt;&lt;/span&gt;">
+            <p>Perform a backup of mod/lti on the server before following the below installation instructions. This mod contains 'lti' and 'turningtech' directories.&#160;The LTI directory contains modifications to existing LTI functionality in order to pass the 'Moodle User Name.'&#160; In IMS LTI this is the lis_person_sourcedid which is not an option using the default LTI tool.&#160; </p>
+        </div>
+        <div class="Warning" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #ee4137;&quot; class=&quot;mcFormatColor&quot;&gt;WARNING&lt;/span&gt;&lt;/span&gt;">
+            <p>Ensure that block/turningtech is not installed on the system and is not in the directory prior to installation.</p>
+        </div>
+        <ol class="Gotham">
+            <li>Enable&#160;Mcrypt&#160;and&#160;SOAP&#160;in&#160;PHP.</li>
+            <li>Unzip&#160;the&#160;turningtech.zip&#160;file.</li>
+            <li>Move the&#160;lti and turningtech&#160;folders into your Moodle Server&#160;mod directory.</li>
+            <li>Allow the LTI directory to be overwritten.</li>
+            <li>Log in to Moodle as the Administrator and select&#160;Notifications&#160;in&#160;Site Administration.</li>
+            <li>Follow the&#160;prompts&#160;to make the mods available.</li>
+        </ol>
+        <h3>Installing the LTI </h3>
+        <ol class="Gotham">
+            <li>Log in to Moodle as an Instructor or Administrator.</li>
+            <li>Navigate to the desired course.</li>
+            <li>Click the <span class="Bold">Turn editing on </span>link.</li>
+            <li>Click the <span class="Bold">Add an activity or resource </span>link.</li>
+            <li>Select <span class="Bold">External Tool </span>from the <span class="Italic">Activities</span> menu.</li>
+            <li>Click <span class="Bold">Add</span>.</li>
+            <li>Enter a name in the <span class="Italic">Activity Name</span> field, i.e. Turning Account Registration.</li>
+            <li>To the right of <span class="Italic">External tool type</span>, select <span class="Bold">+</span>.</li>
+            <li>Enter a name in the <span class="Italic">Tool Name</span> field, i.e. Turning Account Registration.</li>
+            <li>Enter the <span class="Bold">Tool Base URL</span>.&#160; The Tool Base URL below is an example of what should be entered:<p class="InList"><a href="https://account.turningtechnologies.com/account/lti?lmsUrl=http://moodle.university.com/" class="Hyperlink">https://account.turningtechnologies.com/account/lti?lmsUrl=http://moodle.university.com/</a>&#160; </p></li>
+            <li>Enter the <span class="Bold">Consumer Key</span> provided by Turning Technologies. </li>
+            <li>Enter the <span class="Bold">Shared Secret</span> provided by Turning Technologies.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>Requests for Keys and Secrets should be sent to <a href="mailto:support@turningtechnologies.zendesk.com"><span class="Hyperlink">support@turningtechnologies.zendesk.com</span></a>.&#160; Please include the Moodle URL with the request.</p></div></li>
+            <li>Enter the following Custom parameter:<ul><li>lms_type=Moodle</li></ul></li>
+            <li>Change the <span class="Italic">Default Launch Container</span> to <span class="Bold">New window</span>.</li>
+            <li>Change <span class="Italic">Share launcher's username with tool</span> to <span class="Bold">Always</span>.</li>
+            <li>Change <span class="Italic">Share launcher's name with tool</span> to <span class="Bold">Always</span>.</li>
+            <li>Change <span class="Italic">Share launcher's email with tool</span> to <span class="Bold">Always</span>.</li>
+            <li>Change <span class="Italic">Accept grades from the tool</span> to <span class="Bold">Always</span>.<p class="InList">Optionally, select the box&#160;labeled <span class="Bold">Force SSL</span>.</p></li>
+            <li>Click <span class="Bold">Save changes</span>.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ContactIntegrationsSupport.flsnp" />
+    </body>
+</html>

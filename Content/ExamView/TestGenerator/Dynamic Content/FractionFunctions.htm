@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1192" MadCap:lastWidth="1077" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../../Resources/TableStyles/AlternateShading.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3>Fraction Functions</h3>
+        <p>ExamView Test Generator provides you with numerous fraction functions to use when defining variables, conditions, and user-defined functions.</p>
+        <table style="caption-side: top;mc-table-style: url('../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="100px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col class="TableStyle-AlternateShading-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>fracs*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string fracs(double <span class="Italic">numer</span>, double <span class="Italic">denom</span>)</p>
+                        <p>After reducing the fraction numer / denom, this function will return a string as either a whole number, or a fraction in the form "numer/denom". When displayed, this function will draw a stacked fraction if necessary. <MadCap:snippetText src="../../../Resources/Snippets/EV/Denom0.flsnp" /></p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">fracs(22, 6)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mfrac><mrow><mn>11</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">fracs(22, 11)</span>   will return  2</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>mixfracs*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string mixfracs(double <span class="Italic">numer</span>, double <span class="Italic">denom</span>)</p>
+                        <p>After reducing the fraction numer / denom, this function will return a string as either a whole number, or a fraction in the form "whole/numer/denom". When displayed, this function will draw a stacked fraction if necessary. <MadCap:snippetText src="../../../Resources/Snippets/EV/Denom0.flsnp" /></p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">mixfracs(22, 6)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mn>3</mn><mfrac><mrow><mn>2</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">mixfracs(2, 6)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML" style="mc-tag-and-class: span;"><math><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>rfracs*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string rfracs(double <span class="Italic">numer</span>, double <span class="Italic">denom</span>)</p>
+                        <p>Reduces the fraction numer / denom. When displayed, this function will always draw a ratio in stacked fraction form. <MadCap:snippetText src="../../../Resources/Snippets/EV/Denom0.flsnp" /> </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">rfracs(22, 6)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mfrac><mrow><mn>11</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">rfracs(22, 11)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mfrac><mrow><mn>2</mn></mrow><mrow><mn>1</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>sfracs*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string sfracs(double <span class="Italic">numer</span>, double <span class="Italic">denom</span>)</p>
+                        <p>After reducing the fraction numer / denom, this function will return a string as either a whole number, or a fraction in the form "numer/denom". When displayed, this function will draw a small stacked fraction if necessary. <MadCap:snippetText src="../../../Resources/Snippets/EV/Denom0.flsnp" /></p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">sfracs(22, 6)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mfrac><mrow><mn>11</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">sfracs(22, 11)</span>   will return  2</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>smixfracs*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string smixfracs(double <span class="Italic">numer</span>, double <span class="Italic">denom</span>)</p>
+                        <p>After reducing the fraction numer / denom, this function will return a string as either a whole number, or a fraction in the form "whole/numer/denom". When displayed, this function will draw a small stacked fraction if necessary. <MadCap:snippetText src="../../../Resources/Snippets/EV/Denom0.flsnp" /></p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">smixfracs(22, 6)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mn>3</mn><mfrac><mrow><mn>2</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">smixfracs(2, 6)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mfrac><mrow><mn>1</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>srfracs*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p class="ComputerText">string srfracs(double <span class="Italic">numer</span>, double <span class="Italic">denom</span>)</p>
+                        <p>Reduces the fraction numer / denom. When displayed, this function will always draw a small ratio in stacked fraction form. <MadCap:snippetText src="../../../Resources/Snippets/EV/Denom0.flsnp" /></p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">srfracs(22, 6)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mfrac><mrow><mn>11</mn></mrow><mrow><mn>3</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">srfracs(22, 11)</span>   will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mfrac><mrow><mn>2</mn></mrow><mrow><mn>1</mn></mrow></mfrac></mrow></math></MadCap:equation></p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>* Keywords marked with an asterisk are for display only and cannot be used as parts of an expression.</p>
+    </body>
+</html>

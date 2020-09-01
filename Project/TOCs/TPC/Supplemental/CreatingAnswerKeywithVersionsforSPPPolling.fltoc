@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Creating an Answer Key with Versions for Self-Paced Polling"
+    Link="/Content/TPC/Content/QuestionLists/Versions/CreatinganAnswerKeywithVersionsforSelfPacedPolling.htm">
+    <TocEntry
+      Title="Creating a New Question List"
+      Link="/Content/TPC/Content/QuestionLists/CreatingaNewQuestionList.htm" />
+    <TocEntry
+      Title="Adding a Version"
+      Link="/Content/TPC/Content/QuestionLists/Versions/AddingaVersion.htm"
+      StartSection="false" />
+    <TocEntry
+      Title="Loading an Answer Key for Self-Paced Polling"
+      Link="/Content/TPC/SelfPacedPolling/Polling/LoadinganAnswerKeyforSelfPacedPolling.htm" />
+  </TocEntry>
+</CatapultToc>

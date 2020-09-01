@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h2>Before Class</h2>
+        <p>Before class, the participant list file must be downloaded from <MadCap:variable name="Schemes.NewVariable" />. The downloaded file will then need to be imported into TurningPoint for use as a participant list.</p>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Participants Using ResponseWare and TurningPoint 5"
+    Link="/Content/ResponseWare/Participants/TurningPoint5/ParticipantsUsingResponseWareandTurningPoint5.htm">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/ResponseWare/Participants/TurningPoint5/TechnicalRequirements.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Create a Turning Account and Purchase or Redeem a License"
+    Link="/Content/ResponseWare/Participants/TurningPoint5/CreateaTurningAccountandPurchaseorRedeemaLicense.htm">
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Participants/CreatingaTurningAccount-Participants.htm" />
+    <TocEntry
+      Title="Purchasing or Redeeming a License"
+      Link="/Content/TurningAccount/Participants/PurchasingaLicense.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Register Your Device ID"
+    Link="/Content/ResponseWare/Participants/TurningPoint5/RegisterYourDeviceID.htm">
+    <TocEntry
+      Title="Web Registration Tool for Participants"
+      Link="/Content/ResponseWare/Web Registration Tool for Students/Web Registration Tool for Students.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Connect and Respond in Class"
+    Link="/Content/ResponseWare/Participants/TurningPoint5/ConnectandRespondinClass.htm">
+    <TocEntry
+      Title="Connecting and Responding in Class with the ResponseWare App"
+      Link="/Content/ResponseWare/Participants/TurningPoint5/ConnectingandRespondinginClasswiththeResponseWareApp.htm" />
+    <TocEntry
+      Title="Connecting and Responding in Class with ResponseWare Web"
+      Link="/Content/ResponseWare/Participants/TurningPoint5/ConnectandRespondinClasswithResponseWareWeb.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us - Condensed"
+    Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+</CatapultToc>

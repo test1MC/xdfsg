@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/WorkSpace/WorkSpaceConnect.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.UG]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">WorkSpace Connect</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/user-guides</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Version #">2.0</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">WorkSpace Connect</Variable>
+    <Variable
+      Name="General/ProductName">WorkSpace Connect</Variable>
+    <Variable
+      Name="General/UserGuideTitle">WorkSpace Connect User Guide</Variable>
+    <Variable
+      Name="General/VersionNumber">2.0</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+  <DocumentProperties
+    Title="WorkSpaceConnectUserGuide"
+    Subject="WorkSpaceConnectUserGuide"
+    Author="Turning Technologies"
+    Keywords="UGWSC-1rev2_032514" />
+</CatapultTarget>

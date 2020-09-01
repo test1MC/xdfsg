@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TP5/Supplemental/PairingaSessiontoanAutoParticipantList.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Pairing a Session to a Participant List</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Pairing a Session to a Participant List"
+    Subject="Pairing a Session to a Participant List"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

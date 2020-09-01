@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Triton and CIITS"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Export Schemes/Triton/Triton and CIITS.fltoc"
+  ConditionTagExpression="include[DocType.UG] "
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Author="Turning Technologies"
+    Title="Triton Data Collection System and CIITS"
+    Subject="Triton Data Collection System and CIITS"
+    Keywords="Triton Data Collection System and CIITS" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Triton Data Collection System and CIITS</Variable>
+    <Variable
+      Name="Variables/WEB">tritondatacollectionsystem.com/triton-support</Variable>
+  </Variables>
+</CatapultTarget>

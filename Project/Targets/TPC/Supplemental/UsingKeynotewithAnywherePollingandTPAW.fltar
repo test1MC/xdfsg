@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/Keynote.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="Using Keynote with Anywhere Polling and TurningPoint AnyWhere"
+    Subject="Using Keynote with Anywhere Polling and TurningPoint AnyWhere"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Using Keynote with Anywhere Polling and TurningPoint AnyWhere</Variable>
+  </Variables>
+</CatapultTarget>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Flow/Flow QSG.fltoc"
+  ConditionTagExpression="include[DocType.QSG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Flow QSG/Product Name">FLow Quick Start Guide</Variable>
+    <Variable
+      Name="Flow 2_0/WEB">einstruction.eu/flowsoftware</Variable>
+    <Variable
+      Name="Flow QSG/WEB">einstruction.eu/flowsoftware</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Flow Quick Start Guide"
+    Subject="Flow Quick Start Guide"
+    Keywords="Flow Quick Start Guide" />
+  <PDF
+    InitialMagnification="0"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

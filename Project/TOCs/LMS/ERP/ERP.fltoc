@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Accounting"
+    Link="/Project/TOCs/LMS/ERP/Accounting.fltoc" />
+  <TocEntry
+    Title="LMS Support"
+    Link="/Project/TOCs/LMS/ERP/LMS Support.fltoc" />
+  <TocEntry
+    Title="Sales Support"
+    Link="/Project/TOCs/LMS/ERP/Sales Support.fltoc" />
+  <TocEntry
+    Title="Technical Support"
+    Link="/Project/TOCs/LMS/ERP/Technical Support.fltoc" />
+</CatapultToc>

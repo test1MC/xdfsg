@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Running a Polling Test"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Support Documents/Polling Test.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Running a Polling Test in TurningPoint</Variable>
+    <Variable
+      Name="General/PRODUCT">Running a Polling Test in TurningPoint</Variable>
+    <Variable
+      Name="General/ProductName">Running a Polling Test in TurningPoint</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Running a Polling Test in TurningPoint</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Running a Polling Test in TurningPoint"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

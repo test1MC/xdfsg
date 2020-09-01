@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Downloading Standards"
+    Link="/Content/TP5/Content/DownloadingStandards.htm" />
+  <TocEntry
+    Title="Assigning Standards Using a Downloaded Standards List"
+    Link="/Content/TP5/Content/AssigningStandardsUsingaDownloadedStandardsList.htm" />
+</CatapultToc>

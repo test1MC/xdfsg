@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h3 class="task">Updating the Participant List<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5"> with the Web Registration Tool</MadCap:conditionalText></h3>
+        <ol class="Gotham">
+            <li>Open TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud and sign in to your Turning Account</MadCap:conditionalText>.<div class="ImageFloatRight"><p><img src="../../../Graphics/ExportSchemes/TPC-Manage-ResultsManager.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint Cloud" /><img src="../../../Graphics/ExportSchemes/TP5Dashboard-ResultsManager.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint 5" /></p></div></li>
+            <li>From the Manage tab, select the <span class="Bold">participant list</span> and click <span class="Bold">Results Manager</span> in the lower right-corner of the window.</li>
+            <li>Click <span class="Bold">Integrations</span>.<p class="InList">The <span class="Italic">Connect to Integration</span> window is displayed.</p></li>
+            <li>Select <span class="Bold" MadCap:conditions="TurningPoint.TurningPoint Cloud">Turning Account Registration</span><span class="Bold" MadCap:conditions="TurningPoint.TurningPoint 5">Web Registration Tool</span> from the <span class="Italic">Integration</span> drop-down menu and click <span class="Bold">Connect</span>.</li>
+            <li>Select <span class="Bold">Update Participant List</span> and click <span class="Bold">Update List</span>.<p><img src="../../../Graphics/ExportSchemes/TPC-Window-UpdateList.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint Cloud" /><img src="../../../Graphics/ExportSchemes/TP5Window-UpdateList.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint 5" /></p><div class="Note" MadCap:conditions="TurningPoint.TurningPoint 5" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p class="Note">An unassigned device will be linked with its respective participant via the web registration information the participant entered at <a href="http://webreg.turningtechnologies.com/">webreg.turningtechnologies.com</a>. Participants that did not register a Device ID at the time of the update will remain under Unassigned Devices as a Device ID only.</p></div></li>
+        </ol>
+    </body>
+</html>

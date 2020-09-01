@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Interactions (Question Types)"
+    StartSection="false">
+    <TocEntry
+      Title="Choice Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/ChoiceInteraction.htm" />
+    <TocEntry
+      Title="Match Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/MatchInteraction.htm" />
+    <TocEntry
+      Title="Matrix Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/MatrixInteraction.htm" />
+    <TocEntry
+      Title="Hotspot Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/HotspotInteraction.htm" />
+    <TocEntry
+      Title="Hottext Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/HottextInteraction.htm" />
+    <TocEntry
+      Title="Order Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/OrderInteraction.htm" />
+    <TocEntry
+      Title="Text Entry Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/TextEntryInteraction.htm" />
+    <TocEntry
+      Title="Numerical Input Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/NumericalInputInteraction.htm" />
+    <TocEntry
+      Title="Calculation Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/CalculationInteraction.htm" />
+    <TocEntry
+      Title="Formula Comparison"
+      Link="../../../../Content/TurningAccount/Content/Interactions/FormulaComparison.htm" />
+    <TocEntry
+      Title="Extended Text Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/ExtendedTextInteraction.htm" />
+    <TocEntry
+      Title="Upload Interaction"
+      Link="../../../../Content/TurningAccount/Content/Interactions/UploadInteraction.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Tests">
+    <TocEntry
+      Title="Creating a New Test"
+      Link="../../../../Content/TurningAccount/Content/Tests/CreatingaNewTest.htm" />
+    <TocEntry
+      Title="Setting Up the Test Structure"
+      Link="../../../../Content/TurningAccount/Content/Tests/SettingUptheTestStructure.htm" />
+    <TocEntry
+      Title="Adding Questions From a Question Bank to Your Test"
+      Link="../../../../Content/TurningAccount/Content/Tests/AddingQuestionsFromaQuestionBanktoYourTest.htm" />
+    <TocEntry
+      Title="Previewing a Test"
+      Link="../../../../Content/TurningAccount/Content/Tests/PreviewingaTest.htm" />
+    <TocEntry
+      Title="Managing Access Rights for Tests"
+      Link="../../../../Content/TurningAccount/Content/Tests/ManagingAccessRightsforTests.htm" />
+  </TocEntry>
+</CatapultToc>

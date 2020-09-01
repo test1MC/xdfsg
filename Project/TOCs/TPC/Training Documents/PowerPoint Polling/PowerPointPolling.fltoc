@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PowerPoint Polling For PC"
+    Link="/Content/TPC/TrainingDocuments/PPPolling/PowerPointPollingNewUsers.htm"
+    StartSection="false">
+    <TocEntry
+      Title="Before Class"
+      Link="/Content/TPC/TrainingDocuments/SectionTitles/BeforeClass_PPP.htm">
+      <TocEntry
+        Title="Creating the Presentation"
+        Link="/Content/TPC/TrainingDocuments/PPPolling/CreatingthePresentation.htm" />
+      <TocEntry
+        Title="Setting Correct Answers and Adding Objects (Optional)"
+        Link="/Content/TPC/TrainingDocuments/PPPolling/SettingCorrectAnswersandAddingObjectsOptional.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Saving the Presentation"
+        Link="/Content/TPC/TrainingDocuments/PPPolling/SavingthePresentation.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="During Class"
+      Link="/Content/TPC/TrainingDocuments/SectionTitles/DuringClass.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Response Connections"
+        Link="/Content/TPC/TrainingDocuments/SectionTitles/Response Connections.htm">
+        <TocEntry
+          Title="Verifying the Receiver Channel"
+          Link="/Content/TPC/TrainingDocuments/VerifyingReceiverChannel.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard RF and RF LCD"
+          Link="/Content/TPC/TrainingDocuments/Changing_the_Channel_on_ResponseCard_RF_and_RF_LCD.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard NXT"
+          Link="/Content/TPC/TrainingDocuments/Changing_the_Channel_on_ResponseCard_NXT.htm" />
+        <TocEntry
+          Title="Connecting to ResponseWare (if applicable)"
+          Link="/Content/TPC/TrainingDocuments/Connecting to ResponseWare if applicable.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Running Your TurningPoint Presentation"
+        Link="/Content/TPC/TrainingDocuments/PPPolling/RunningTPPresentation.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="After Class"
+      Link="/Content/TPC/TrainingDocuments/SectionTitles/AfterClass.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Generating Reports"
+        Link="/Content/TPC/TrainingDocuments/Generating_Reports.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="The PowerPoint Polling Showbar"
+      Link="/Content/TPC/PowerPointPolling/Polling/ThePowerPointPollingShowbar.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  </TocEntry>
+</CatapultToc>

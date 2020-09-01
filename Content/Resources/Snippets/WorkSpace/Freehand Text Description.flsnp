@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="64" MadCap:lastWidth="969">
+    <body>
+        <p MadCap:conditions="OS.PC">Convert handwritten text into typed text and insert the typed text into a blank page or an active application, such as Excel, PowerPoint, Word (in Office Mode). </p>
+        <p MadCap:conditions="OS.Mac,OS.Linux">Convert any alphanumeric characters written with this tool into typed text.</p>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="Programming Device IDs"
+    Link="/Content/Hardware/SupportDocuments/ProgrammingDeviceIDs.htm"
+    BreakType="chapter"
+    PageType="normal"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

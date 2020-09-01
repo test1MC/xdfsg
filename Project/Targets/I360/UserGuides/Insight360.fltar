@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/I360/WelcomeI360.htm"
+  ConditionTagExpression="include[DocType.HTML] "
+  Skin="/Project/Skins/I360.flskn"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  Medium="non-print"
+  ExcludeUnreferencedContent="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  MasterToc="/Project/TOCs/I360/I360.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Insight 360 and PowerSchool/Product Name">Insight 360</Variable>
+    <Variable
+      Name="Variables/Product Name">Insight 360</Variable>
+    <Variable
+      Name="Variables/Version #">2.8</Variable>
+    <Variable
+      Name="General/ProductName">Insight 360</Variable>
+    <Variable
+      Name="General/PRODUCT">Insight 360</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/VersionNumber">3.0</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

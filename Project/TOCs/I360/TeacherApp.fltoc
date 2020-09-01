@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/I360/TeacherApp/Welcome_Apps.htm"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UGTitlePage.flpgl"
+    conditions="DocType.UG"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.UG"
+    BreakType="pageLayout"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"></TocEntry>
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="About Insight 360™ Teacher"
+    Link="/Content/I360/TeacherApp/About.htm">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/I360/TeacherApp/TechnicalRequirements.htm" />
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Instructors/CreatingaTurningAccount-Instructor.htm" />
+    <TocEntry
+      Title="Insight 360 Teacher App Setup"
+      Link="/Content/I360/TeacherApp/Insight360TeacherAppSetup.htm">
+      <TocEntry
+        Title="Configuring the Insight 360 Software for the Insight 360 Teacher App"
+        Link="/Content/I360/TeacherApp/ConfiguringtheInsight360SoftwarefortheInsight360TeacherApp.htm" />
+      <TocEntry
+        Title="Connecting the Insight 360 Teacher App"
+        Link="/Content/I360/TeacherApp/ConnectingtheInsight360TeacherApp.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Starting a Class"
+      Link="/Content/I360/TeacherApp/StartingaClass.htm">
+      <TocEntry
+        Title="Starting a Class on Insight 360 Teacher App"
+        Link="/Content/I360/TeacherApp/StartingaClassonInsight360TeacherApp.htm" />
+      <TocEntry
+        Title="Starting an Anonymous Session"
+        Link="/Content/I360/TeacherApp/StartingAnonymousSession.htm" />
+      <TocEntry
+        Title="Accessing Favorites"
+        Link="/Content/I360/TeacherApp/AccessingFavorites.htm" />
+      <TocEntry
+        Title="Viewing the Class Roster"
+        Link="/Content/I360/TeacherApp/ViewingtheClassRoster.htm"
+        conditions="OS.Mac"
+        StartSection="false" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Teaching Class"
+    Link="/Content/I360/TeacherApp/TeachingClass.htm">
+    <TocEntry
+      Title="Lesson Zone"
+      Link="/Content/I360/TeacherApp/LessonZone.htm">
+      <TocEntry
+        Title="Annotating in the Lesson Zone"
+        Link="/Content/I360/TeacherApp/AnnotatingintheLessonZone.htm"
+        conditions="OS.PC" />
+      <TocEntry
+        Title="Display Options"
+        Link="/Content/I360/TeacherApp/DisplayOptions.htm"
+        conditions="OS.Mac">
+        <TocEntry
+          Title="Displaying the Computer Screen from the Insight 360 Teacher app"
+          Link="/Content/I360/TeacherApp/DisplayingtheComputerScreenfromtheInsight360Teacherapp.htm" />
+        <TocEntry
+          Title="Displaying Whiteboard Mode from the Insight 360 Teacher app"
+          Link="/Content/I360/TeacherApp/DisplayingWhiteboardModefromtheInsight360Teacherapp.htm" />
+        <TocEntry
+          Title="Displaying Screenshots"
+          Link="/Content/I360/TeacherApp/DisplayingScreenshots.htm" />
+        <TocEntry
+          Title="Using the Curtain to Hide the Screen"
+          Link="/Content/I360/TeacherApp/UsingtheCurtaintoHidetheScreen.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Annotations"
+        Link="/Content/I360/TeacherApp/Annotations.htm"
+        conditions="OS.Mac">
+        <TocEntry
+          Title="Using the Mouse Pointer"
+          Link="/Content/I360/TeacherApp/UsingtheMousePointer.htm" />
+        <TocEntry
+          Title="Using the Pen Tools"
+          Link="/Content/I360/TeacherApp/UsingthePenTools.htm" />
+        <TocEntry
+          Title="Deleting Annotations"
+          Link="/Content/I360/TeacherApp/DeletingAnnotations.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Notes"
+        Link="/Content/I360/TeacherApp/Notes.htm">
+        <TocEntry
+          Title="Creating and Displaying a New Note"
+          Link="/Content/I360/TeacherApp/CreatingandDisplayingaNewNote.htm" />
+        <TocEntry
+          Title="Displaying a Previous Note"
+          Link="/Content/I360/TeacherApp/DisplayingaPreviousNote.htm" />
+        <TocEntry
+          Title="Deleting a Note"
+          Link="/Content/I360/TeacherApp/DeletingaNote.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Screenshots"
+        Link="/Content/I360/TeacherApp/Screenshots.htm">
+        <TocEntry
+          Title="Saving Screenshots"
+          Link="/Content/I360/TeacherApp/SavingScreenshots.htm"
+          conditions="OS.Mac"></TocEntry>
+        <TocEntry
+          Title="Taking and Displaying a Screenshot"
+          Link="/Content/I360/TeacherApp/TakingandDisplayingScreenshots.htm"
+          conditions="OS.PC" />
+        <TocEntry
+          Title="Using the Screenshot Sorter"
+          Link="/Content/I360/TeacherApp/UsingtheScreenshotSorter.htm"
+          BreakType="none"
+          StartSection="false"
+          PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+        <TocEntry
+          Title="Annotating Screenshots with the Insight 360 Teacher app"
+          Link="/Content/I360/TeacherApp/AnnotatingScreenshotswiththeInsight360Teacherapp.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Question Zone"
+      Link="/Content/I360/TeacherApp/QuestionZone.htm">
+      <TocEntry
+        Title="Asking Verbal Questions"
+        Link="/Content/I360/TeacherApp/AskingVerbalQuestions.htm" />
+      <TocEntry
+        Title="Asking ExamView Questions"
+        Link="/Content/I360/TeacherApp/AskingExamViewQuestions.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Asking Tagged Questions"
+        Link="/Content/I360/TeacherApp/AskingTaggedQuestions.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Displaying the Student Response Grid On-Screen"
+        Link="/Content/I360/TeacherApp/DisplayingtheStudentResponseGridOnScreen.htm" />
+      <TocEntry
+        Title="Viewing Real-Time Results"
+        Link="/Content/I360/TeacherApp/ViewingRealTimeResults.htm" />
+      <TocEntry
+        Title="Displaying Question Results On-screen"
+        Link="/Content/I360/TeacherApp/DisplayingQuestionResultsOnscreen.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Roster Zone"
+      Link="/Content/I360/TeacherApp/RosterZone.htm"
+      conditions="OS.PC">
+      <TocEntry
+        Title="Viewing the Class Roster"
+        Link="/Content/I360/TeacherApp/ViewingtheClassRoster.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Multi-User Mode"
+      Link="/Content/I360/TeacherApp/MultiUserMode.htm">
+      <TocEntry
+        Title="Entering Multi-User Mode"
+        Link="/Content/I360/TeacherApp/EnteringMultiUserMode.htm" />
+      <TocEntry
+        Title="Locking or Hiding the Screen in Multi-User Mode"
+        Link="/Content/I360/TeacherApp/LockingorHidingtheScreeninMultiUserMode.htm" />
+      <TocEntry
+        Title="Closing Multi-User Mode"
+        Link="/Content/I360/TeacherApp/ClosingMultiUserMode.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Constructed Response"
+      Link="/Content/I360/TeacherApp/ConstructedResponse.htm">
+      <TocEntry
+        Title="Enabling Constructed Response Mode in Insight 360"
+        Link="/Content/I360/TeacherApp/EnablingConstructedResponseModeinInsight360.htm" />
+      <TocEntry
+        Title="Engaging Constructed Response Mode"
+        Link="/Content/I360/TeacherApp/EngagingConstructedResponseMode.htm"></TocEntry>
+      <TocEntry
+        Title="Viewing Constructed Response Annotations in Insight 360"
+        Link="/Content/I360/TeacherApp/ViewingConstructedResponseAnnotationsinInsight360.htm"
+        conditions="OS.PC" />
+    </TocEntry>
+    <TocEntry
+      Title="Results"
+      Link="/Content/I360/TeacherApp/Results.htm">
+      <TocEntry
+        Title="Viewing the Performance and Item Summary Reports"
+        Link="/Content/I360/TeacherApp/ViewingthePerformanceandItemSummaryReports.htm" />
+      <TocEntry
+        Title="Viewing Scratchpad Annotations"
+        Link="/Content/I360/TeacherApp/ViewingScratchpadAnnotations.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Ending a Class Session"
+      Link="/Content/I360/TeacherApp/EndingaClassSession.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.HTML"></TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+</CatapultToc>

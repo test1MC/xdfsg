@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h2>After Class</h2>
+        <p>After class, the participant list needs to be updated with the latest information from the Web Registration Tool. Once the participant list is up-to-date, the session information can be exported from TurningPoint and uploaded into <MadCap:variable name="Schemes.NewVariable" />.</p>
+    </body>
+</html>

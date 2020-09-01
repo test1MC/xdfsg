@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[Versions.2-5]"
+  MasterToc="/Project/TOCs/I360/PlugIns/ManagePlugins.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="Managing Plugins with Insight 360"
+    Subject="Managing Plugins with Insight 360"
+    Keywords="Managing Plugins with Insight 360"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Managing Plugins with Insight 360</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/insight-360-overview</Variable>
+  </Variables>
+</CatapultTarget>

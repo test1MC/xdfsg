@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="QT Device"
+    Link="/Content/Hardware/Clickers/QTDevice/Intro.htm">
+    <TocEntry
+      Title="Changing the Channel on the QT Device"
+      Link="/Content/Hardware/Clickers/QTDevice/ChangingtheChannelQT.htm" />
+    <TocEntry
+      Title="Finding Channels on the QT Device"
+      Link="/Content/Hardware/Clickers/QTDevice/FindingChannelsQT.htm" />
+    <TocEntry
+      Title="Presentation Mode Toolbox"
+      Link="/Content/Hardware/Clickers/QTDevice/PresentationMode-Toolbox.htm" />
+    <TocEntry
+      Title="Responding in Presentation Mode"
+      Link="/Content/Hardware/Clickers/QTDevice/PresentationMode-Responding.htm" />
+    <TocEntry
+      Title="Presentation Mode Example Screens"
+      Link="/Content/Hardware/Clickers/QTDevice/PresentationMode-ExampleScreens.htm" />
+    <TocEntry
+      Title="Test Mode Toolbox"
+      Link="/Content/Hardware/Clickers/QTDevice/TestMode-Toolbox.htm" />
+    <TocEntry
+      Title="Logging Into a Test on a QT Device"
+      Link="/Content/Hardware/Clickers/QTDevice/TestMode-LoggingIn.htm" />
+    <TocEntry
+      Title="Taking a Test on the QT Device"
+      Link="/Content/Hardware/Clickers/QTDevice/TestMode-TakingaTest.htm" />
+    <TocEntry
+      Title="Navigating Questions on the QT Device"
+      Link="/Content/Hardware/Clickers/QTDevice/TestMode-Navigating.htm" />
+    <TocEntry
+      Title="Sending a Test on the QT Device"
+      Link="/Content/Hardware/Clickers/QTDevice/TestMode-SendingaTest.htm" />
+  </TocEntry>
+</CatapultToc>

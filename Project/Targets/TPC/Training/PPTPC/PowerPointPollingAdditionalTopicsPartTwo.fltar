@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Training Documents/PowerPoint Polling/PC/PowerPointPolling AdditionalTopicsPartTwoPC.fltoc"
+  ConditionTagExpression="include[DocType.Training or OS.PC or &quot;Product.TurningPoint Cloud&quot; or Versions.6_1]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+    <Variable
+      Name="Variables/Product Name">PowerPoint Polling for PC Additional Topics Part Two</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="PowerPoint Polling for PC Additional Topics Part Two"
+    Subject="PowerPoint Polling for PC Additional Topics Part Two"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="4206" MadCap:lastWidth="1091">
+    <head>&#160;<link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud</MadCap:conditionalText> and WebCT/Blackboard Vista™</h1>
+        <p>This document outlines the steps for using TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>with the WebCT/Blackboard Vista Learning Management System (LMS).</p>
+        <p class="SmallTitle" MadCap:conditions="TurningPoint.TurningPoint 5">How does the integration work?</p>
+        <p MadCap:conditions="TurningPoint.TurningPoint 5">Participants are instructed to register their response device through the Web Registration Tool hosted by Turning Technologies. The participant information from WebCT/Blackboard Vista is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. In Results Manager, the participant list is updated with the latest registrations from the Web Registration Tool. Once the participant list is updated, the session scores are exported from TurningPoint in a specific format and then imported into WebCT/Blackboard Vista.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/How-TurningAccount.flsnp" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading the Grade Book from WebCT/Blackboard Vista</h3>
+        <ol class="Gotham">
+            <li>Login to WebCT/Blackboard Vista.</li>
+            <li>Select the appropriate course below <b>Course List</b>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/WebCT-Home.png" class="LargeWide480px" /></p></li>
+            <li>Click the <b>Teach</b> tab.</li>
+            <li>Select <b>Grade Book</b> from the <i>Instructor Tools</i> menu.</li>
+            <li style="page-break-before: always;">Click the <b>Export to Spreadsheet</b> icon.<p>The <i>Export to Spreadsheet</i> window is displayed.</p><p style="text-align: left;"><img src="../../Graphics/ExportSchemes/WebCT-Export.png" class="LargeWide480px" /></p></li>
+            <li>Select the <b>Visible Columns</b> radio button below <i>Columns to Export</i>.<div class="Warning" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #ee4137;&quot; class=&quot;mcFormatColor&quot;&gt;WARNING&lt;/span&gt;&lt;/span&gt;"><p>Make sure that the Last Name, First Name and User ID columns are visible.</p></div></li>
+            <li>Select the <b>Comma-delimited</b> radio button below <i>Export Format</i>.</li>
+            <li>Select the <b>Unicode (UTF-8)</b> radio button below <i>Character Set</i>.</li>
+            <li>Click <b>Export</b>.</li>
+            <li>When prompted, choose <b>Save File</b>.<p class="InList">Now that the CSV file has been saved, it is time to import the information as a TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>participant list.</p></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/PowerPointPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AnywherePolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AfterClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/UpdatingPList.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to WebCT/Blackboard Vista</h3>
+        <ol class="Gotham">
+            <li>Login to WebCT/Blackboard Vista and select the appropriate course below <b>Course List</b>.</li>
+            <li>Click the <b>Teach</b> tab.</li>
+            <li>Select <b>Grade Book</b> from the <i>Instructor Tools</i> menu.</li>
+            <li>Click the<b> Import from Spreadsheet</b> icon.</li>
+            <li>Click <b>Browse...</b> to locate the saved file. Choose <b>Comma</b> as the <i>Separator</i> and Unicode <b>(UTF-8)</b> as the <i>Character Set</i>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/WebCT-TeachTab.png" class="LargeWide480px" /></p></li>
+            <li>Click <b>Upload</b>.</li>
+            <li>Name the new assignment and click <b>Import</b>.<p class="InList">The assignment now appears in the LMS.</p></li>
+        </ol>
+    </body>
+</html>

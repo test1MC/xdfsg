@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h3 class="task">Importing the File into TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText></h3>
+        <div class="ImageFloatRight" MadCap:conditions="TurningPoint.TurningPoint Cloud">
+            <p>
+                <img src="../../../Graphics/ExportSchemes/TPC-ParticipantList-Import.png" class="SmallWide192pxGrayBorder" />
+            </p>
+        </div>
+        <ol class="Gotham">
+            <li>Open TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud and sign in to your Turning Account</MadCap:conditionalText>.</li>
+            <li>Select the <span class="Bold">Manage</span> tab.</li>
+            <li>Click the <span class="Italic">Participant List</span> drop-down menu and select <span class="Bold">Import</span>.<p class="InList">The <span class="Italic">Import Participant List</span> window is displayed.</p></li>
+            <li>Select the radio button labeled <span class="Bold">File from Integration</span>.<p style="text-align: left;"><img src="../../../Graphics/ExportSchemes/TPC-Window-FilefromIntegration.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint Cloud" /><img src="../../../Graphics/ExportSchemes/TP5Window-FileFromIntegration.png" class="MediumWide288px" style="width: 258px; height: 106px;" MadCap:conditions="TurningPoint.TurningPoint 5" /></p></li>
+            <li>Select <MadCap:variable name="Schemes.NewVariable" /> from the <span class="Italic">Select a Format</span> drop-down menu and click <span class="Bold">Choose File.</span></li>
+            <li>Select the <span class="Bold">file</span> that was saved in the previous section and click <span class="Bold">Open</span>.<p class="InList">The file is converted to a TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText> participant list and can be found within the Manage tab. </p></li>
+        </ol>
+    </body>
+</html>

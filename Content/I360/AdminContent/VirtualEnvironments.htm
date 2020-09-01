@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="696" MadCap:lastWidth="822">
+    <head>
+        <link href="../../Resources/TableStyles/AlternateShading.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Virtual Environments</h1>
+        <p>Many client applications of virtualized environments come in the form of a software client or a dedicated hardware thin client like a Cisco VXC 2211/12. The chart below illustrates the network setup and the thin clients that may be in the classroom. The goal is to configure your system so eInstruction products (Mobi 360, Pulse 360/Spark 360 receivers, etc.) can be plugged into the USB ports of the clients and have them successfully communicate to the virtualized desktop on the server.</p>
+        <p>You will need to modify the configuration of your client device to pass-through the USB information from all the eInstruction devices that you are utilizing. </p>
+        <p>For example, the Cisco VXC 2211/12 has a client GUI that allows the VID (Vendor ID) and PID (Product ID) of various USB devices to be entered as “bridged devices.” By entering the VID and PID numbers for all of the eInstruction devices in use, the Cisco thin client will allow all of the USB information from the device to pass-through to the server-based desktop image. In most cases this will allow a proper connection. The text of the Cisco description of the client feature is below along with a screen shot of where the VID/PIDs are entered. Again, your environment may be different, but the principles are the same.</p>
+        <p>Below is a list of eInstruction product families and the individual VID and PID identifiers. There is usually no harm in entering all of the IDs. However, you may choose to enter only the product families that you currently use. There is some duplication between product families as some devices are used across several products. Some client systems want you to enter the full hex ID of the device (“0x34F”) and others only the part that follows the “x” (“34F”).</p>
+        <p style="margin-bottom: 0pt;">For previous eInstruction devices please contact eInstruction Sales Support.</p>
+        <table style="width: 708px;caption-side: top;mc-table-style: url('../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="220px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="67px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="67px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="220px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="67px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="67px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Device</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>VID</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>PID</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Device</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>VID</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>PID</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Mobi 360</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x1008</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>MobiView</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>0x1007</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Mobi 360 Receiver</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x60d</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Mobi WorkSpace RF*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>0x60A</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Pulse / Spark 360 Receiver</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x703</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Mobi RF*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>0x60C</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>DualBoard 12xx</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x0403</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Mobi KWIK and Learner</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>0x1005</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Mobi WorkSpace RF*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x60A</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>CPS RF Receiver</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Mobi RF*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x60C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>CPS RF Receiver</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>0x701</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Touch Board</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x40A</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>CPS Gen2 RF Receiver</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>0x702</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Touch Board during firmware update mode</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>0x078C</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>0x40B</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Please enter each of the above devices if using CPS and/or Response.</p>
+        <p>* Only one receiver needs to be entered based on your purchase(s).</p>
+    </body>
+</html>

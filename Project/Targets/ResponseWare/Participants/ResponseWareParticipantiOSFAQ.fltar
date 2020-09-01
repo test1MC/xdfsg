@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseWare Student FAQ"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/ResponseWare/Participants/ResponseWareParticipantFAQ.fltoc"
+  PatchHeadingLevels="false"
+  ConditionTagExpression="include[OS.Mac]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="ResponseWare Student FAQ"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseWare Participant FAQ</Variable>
+  </Variables>
+</CatapultTarget>

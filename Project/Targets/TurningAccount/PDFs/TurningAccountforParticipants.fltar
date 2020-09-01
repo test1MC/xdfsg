@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TurningAccount/PDF/Turning Account Registration Participants.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  ConditionTagExpression="include[DocType.UG or &quot;Product.Turning Account&quot; or Users.Students]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Turning Account Registration for Participants</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/user-guides</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Turning Account Registration for Participants"
+    Subject="Turning Account Registration for Participants"
+    Keywords="UGrev2_12182014"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

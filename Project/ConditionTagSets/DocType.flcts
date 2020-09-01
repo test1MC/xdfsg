@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment="Quick Start Guide"
+    Name="QSG"
+    BackgroundColor="Blue" />
+  <ConditionTag
+    Comment="User Guide"
+    Name="UG"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Training"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Support"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="Handbook"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="StyleGuide"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="HTML"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="Other"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#f886f8"
+    Name="HTML-PC"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#7fffd4"
+    Name="HTML-Mac"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff1493"
+    Name="UG-PC"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ffff"
+    Name="UG-Mac"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="Internal"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0076c0"
+    Name="External"
+    Comment="" />
+</CatapultConditionTagSet>

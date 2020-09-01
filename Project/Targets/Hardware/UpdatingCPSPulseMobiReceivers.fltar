@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="false"
+  MasterToc="/Project/TOCs/Hardware/UpdatingPulseMobiReceivers.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <PDF
+    ShowUsedBookmarks="false" />
+  <DocumentProperties
+    Title="Updating the CPS Pulse™ or Mobi™ Receiver Firmware"
+    Subject="Updating the CPS Pulse™ or Mobi™ Receiver Firmware"
+    Author="Turning Technologies" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Updating the CPS Pulse™ or Mobi™ Receiver Firmware</Variable>
+    <Variable
+      Name="General/PRODUCT">Updating the CPS Pulse™ or Mobi™ Receiver Firmware</Variable>
+    <Variable
+      Name="General/ProductName">Updating the CPS Pulse™ or Mobi™ Receiver Firmware</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Updating the CPS Pulse™ or Mobi™ Receiver Firmware</Variable>
+  </Variables>
+</CatapultTarget>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/I360/Supplemental/QSG.fltoc"
+  ConditionTagExpression="include[DocType.QSG or Versions.2-5]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/DocType">Quick Start Guide</Variable>
+    <Variable
+      Name="Variables/Product Name">Insight 360</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/insight-360-overview</Variable>
+  </Variables>
+  <DocumentProperties
+    Keywords="QSGI360-2.4rev3_110613"
+    Title="Insight 360 Quick Start Guide"
+    Subject="Insight 360 Quick Start Guide"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

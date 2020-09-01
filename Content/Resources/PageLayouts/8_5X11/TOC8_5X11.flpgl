@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="First Right" Padding="20px" PageSize="Letter" PageType="firstright" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundColor="#000000" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="bottom" BackgroundImage="../../Images/Footer_RightPage.png">
+        <Frame Flow="body" Y="192px" Bottom="48px" X="85px" Right="-48px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="539px" Height="624px" FlowIndex="1">
+        </Frame>
+        <Frame X="-334px" Y="391px" Width="700px" Height="80px" FlowIndex="0" Flow="body" Right="210px" Bottom="393px" Rotate="-90" Anchors="Left,Top,Bottom" />
+    </Page>
+    <Page Name="Left" Padding="20px" PageSize="Letter" PageType="left" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundColor="#000000" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="bottom" BackgroundImage="../../Images/Footer_LeftPage.png">
+        <Frame Flow="body" Y="-12px" Bottom="12px" X="-96px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="672px" Height="864px">
+        </Frame>
+        <Frame Flow="footer" Height="35px" Anchors="Left,Right,Bottom" Right="0px" Bottom="-58px" X="96px" Y="887px" Width="480px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="color: #a9a9a9;"><MadCap:variable xhtml:name="General.VanityURL" xhtml:style="font-size: 9pt;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-96px" Y="-66px" Width="672px" Height="34px" Flow="header" Right="0px" Bottom="896px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:style="vertical-align: middle;font-size: 8pt;color: #a9a9a9;"><MadCap:variable xhtml:name="System.PageNumber" />
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;vertical-align: middle;font-size: 8pt;color: #a9a9a9;">CONTENTS | <MadCap:variable xhtml:name="General.UserGuideTitle" /></xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Empty Left" Padding="20px" PageSize="Letter" PageType="emptyleft" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="bottom" BackgroundImage="../../Images/Footer_LeftPage.png">
+        <Frame X="137px" Y="406px" Width="303px" Height="52px" Flow="decoration0" Right="136px" Bottom="406px" Anchors="Left,Right,Top,Bottom">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally left blank to ensure new chapters start on right (odd number) pages.</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="35px" Anchors="Left,Right,Bottom" Right="0px" Bottom="-58px" X="96px" Y="887px" Width="480px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="color: #a9a9a9;"><MadCap:variable xhtml:name="General.VanityURL" xhtml:style="font-size: 9pt;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-96px" Y="-66px" Width="672px" Height="34px" Flow="header" Right="0px" Bottom="896px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:style="vertical-align: middle;font-size: 8pt;color: #a9a9a9;"><MadCap:variable xhtml:name="System.PageNumber" />
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;vertical-align: middle;font-size: 8pt;color: #a9a9a9;">CONTENTS | <MadCap:variable xhtml:name="General.UserGuideTitle" /></xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Right" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="right" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundColor="#000000" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="bottom" BackgroundImage="../../Images/Footer_RightPage.png">
+        <Frame Flow="body" Y="-12px" Bottom="12px" X="-48px" Right="-48px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="672px" Height="864px">
+        </Frame>
+        <Frame X="-48px" Y="-66px" Width="672px" Height="34px" Flow="header" Right="-48px" Bottom="896px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:style="vertical-align: middle;font-size: 8pt;color: #a9a9a9;">CONTENTS | <MadCap:variable xhtml:name="General.UserGuideTitle" /></xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;vertical-align: middle;font-size: 8pt;color: #a9a9a9;"><MadCap:variable xhtml:name="System.PageNumber" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="35px" Anchors="Left,Right,Bottom" Right="144px" Bottom="-58px" X="-48px" Y="887px" Width="480px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="color: #a9a9a9;"><MadCap:variable xhtml:name="General.VanityURL" xhtml:style="font-size: 9pt;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1.5in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundColor="#000000" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="bottom" BackgroundImage="../../Images/Footer_RightPage.png">
+        <Frame X="-96px" Y="-66px" Width="720px" Height="34px" Flow="header" Right="-48px" Bottom="896px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:table xhtml:style="width: 100%;">
+                            <xhtml:col />
+                            <xhtml:col />
+                            <xhtml:tbody>
+                                <xhtml:tr>
+                                    <xhtml:td xhtml:style="vertical-align: middle;font-size: 8pt;color: #a9a9a9;">CONTENTS | <MadCap:variable xhtml:name="General.UserGuideTitle" /></xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;vertical-align: middle;font-size: 8pt;color: #a9a9a9;"><MadCap:variable xhtml:name="System.PageNumber" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="35px" Anchors="Left,Right,Bottom" Right="144px" Bottom="-58px" X="-96px" Y="887px" Width="528px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="color: #a9a9a9;"><MadCap:variable xhtml:name="General.VanityURL" xhtml:style="font-size: 9pt;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" Y="-12px" Bottom="12px" X="-96px" Right="-48px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="720px" Height="864px">
+        </Frame>
+    </Page>
+</PageStyles>

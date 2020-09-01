@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseWare Session Data Recovery Tool"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/ResponseWare/Supplemental/ResponseWareSessionDataRecovery.fltoc"
+  PatchHeadingLevels="true"
+  Skin="/Project/Skins/ResponseWare.flskn"
+  ExcludeUnreferencedContent="true"
+  DefaultUrl="/Content/ResponseWare/ResponseWareSessionDataRecovery.htm"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  Medium="non-print">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseWare Session Data Recovery Tool</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false" />
+  <DocumentProperties
+    Title="ResponseWare Session Data Recovery Tool"
+    Author="Turning Technologies" />
+</CatapultTarget>

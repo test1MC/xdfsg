@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="ResponseCard NXT Device ID Loop Fix"
+    Link="/Content/Hardware/ResponseCardNXTDeviceIDLoopFix.htm"
+    BreakType="chapter"
+    PageType="normal"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

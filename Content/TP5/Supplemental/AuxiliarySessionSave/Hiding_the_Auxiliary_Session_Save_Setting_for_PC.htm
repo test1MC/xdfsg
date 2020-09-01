@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="371" MadCap:lastWidth="887">
+    <head>&#160;<link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h2 class="task" style="margin-top: 18pt;">Hiding the Auxiliary Session Save Setting for PC</h2>
+        <p>The secondary save location may be hidden so that users cannot choose their own save location.</p>
+        <p class="Prerequisites" MadCap:autonum="Prerequisites">&#160;</p>
+        <p>TurningPoint 5 must be closed.</p>
+        <ol class="Gotham">
+            <li>Open the TurningPoint 5 folder.</li>
+            <li>Double-click the <span class="Bold">Application</span> folder.</li>
+            <li>Locate and open the <span class="Bold">TurningPointexe.settings</span> file. It is recommended to open the file with Notepad.</li>
+            <li>In Notepad, click <span class="Bold">Edit</span> and select <span class="Bold">Find</span>.</li>
+            <li>Search for <span class="Bold">secondary</span>.</li>
+            <li>Press <span class="Bold">Enter</span> three times until the command <br /><span class="ComputerText">&lt;DisplaySecondarySaveLocation datatype="Boolean"&gt;True&lt;/DisplaySecondarySaveLocation&gt;</span> is displayed.</li>
+            <li>In the above command, change <span class="ComputerText">True</span> to <span class="Bold">False</span>.</li>
+            <li>Click <span class="Bold">File</span> and select <span class="Bold">Save</span>.<p class="InList">The setting is now hidden, but will still apply.</p></li>
+        </ol>
+    </body>
+</html>

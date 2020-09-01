@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[DocType.HTML-Mac or OS.Mac] "
+  UseLocalBuildSettings="false"
+  DefaultUrl="/Content/I360/StudentApp/Welcome.htm"
+  ExcludeUnreferencedContent="true"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  Skin="/Project/Skins/I360.flskn"
+  Medium="non-print"
+  MasterToc="/Project/TOCs/I360/Insight360Student.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Insight 360 Student App</Variable>
+    <Variable
+      Name="Variables/Version #">1.1</Variable>
+  </Variables>
+</CatapultTarget>

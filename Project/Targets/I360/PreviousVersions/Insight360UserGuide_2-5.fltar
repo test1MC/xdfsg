@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/I360/PreviousVersions/Insight360UserGuide_2-5.fltoc"
+  ConditionTagExpression="include[DocType.UG or Versions.2-5] "
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Product Name">Insight 360</Variable>
+    <Variable
+      Name="Variables/Version #">2.6</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/insight360</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true" />
+  <DocumentProperties
+    Title="Insight 360 User Guide"
+    Author="Turning Technologies"
+    Subject="Insight 360 User Guide"
+    Keywords="UGI360_2rev4-031014" />
+</CatapultTarget>

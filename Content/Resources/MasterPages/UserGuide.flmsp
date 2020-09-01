@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="223" MadCap:lastWidth="836">
+    <head>
+    </head>
+    <body>
+        <MadCap:breadcrumbsProxy />
+        <MadCap:bodyProxy />
+        <div class="Stripe">
+        </div>
+        <table style="width: 100%;">
+            <col style="width: 271px;" />
+            <col style="width: 271px;" />
+            <col />
+            <tbody>
+                <tr>
+                    <td style="vertical-align: top;padding-left: 2px;padding-right: 2px;padding-top: 4px;padding-bottom: 4px;">
+                        <p><span class="Bold">Support Links</span>
+                        </p>
+                        <p><a href="mailto:support@turningtechnologies.com" target="_blank">support@turningtechnologies.com</a>
+                        </p>
+                        <p><a href="http://www.turningtechnologies.com/technical-support" target="_blank">Technical Support Home Page</a>
+                        </p>
+                    </td>
+                    <td style="vertical-align: top;padding-left: 2px;padding-right: 2px;padding-top: 4px;padding-bottom: 4px;">
+                        <p><span class="Bold">Training Links</span>
+                        </p>
+                        <p><a href="mailto:training@turningtechnologies.com" target="_blank">training@turningtechnologies.com</a>
+                        </p>
+                        <p><a href="http://www.turningtechnologies.com/training-support" target="_popup">Training Home Page</a>
+                        </p>
+                    </td>
+                    <td style="mc-hyphenate: never;text-align: right;vertical-align: top;padding-left: 2px;padding-right: 2px;padding-top: 4px;padding-bottom: 4px;"><a href="http://www.turningtechnologies.com/" target="_blank"><img src="../Images/Logos/ttech_2014_web_400px.png" style="width: 205px; height: 56px;" class="LargerIcon50px" /></a>
+                        <p style="text-align: right;"><span style="font-size: 8pt;">Last Published <MadCap:variable name="General.PublishDate" /></span>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

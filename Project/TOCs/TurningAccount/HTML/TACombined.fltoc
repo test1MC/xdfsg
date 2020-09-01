@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/TurningAccount/Welcome.htm" />
+  <TocEntry
+    Title="Instructors"
+    Link="/Project/TOCs/TurningAccount/HTML/Instructors.fltoc"
+    ReplaceMergeNode="true"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false" />
+  <TocEntry
+    Title="Participants"
+    Link="/Project/TOCs/TurningAccount/HTML/Participants.fltoc"
+    ReplaceMergeNode="true" />
+  <TocEntry
+    Title="Managing Your Account"
+    Link="/Content/TurningAccount/ManagingYourAccount.htm" />
+  <TocEntry
+    Title="Copyright Statement"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+</CatapultToc>

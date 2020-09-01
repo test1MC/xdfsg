@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3864" MadCap:lastWidth="1091">
+    <head>&#160;<link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>TurningPoint 5® and Sakai®</h1>
+        <p>This document outlines the steps for using TurningPoint with the Sakai Learning Management System (LMS).</p>
+        <p class="SmallTitle">How does the integration work?</p>
+        <p>Participants are instructed to register their response device through the Web Registration Tool hosted by Turning Technologies. The participant information from Sakai is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. In Results Manager, the participant list is updated with the latest registrations from the Web Registration Tool. Once the participant list is updated, the session scores are exported from TurningPoint in a specific format and then imported into Sakai.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading the Gradebook from Sakai</h3>
+        <div class="ImageFloatRight">
+            <p>
+                <img src="../../Graphics/Sakai/GradebookCourse.png" class="LargeWide480pxGrayBorder">
+                </img>
+            </p>
+        </div>
+        <ol class="Gotham">
+            <li>Login to Sakai.</li>
+            <li>Click the appropriate <span class="Bold">course tab</span>.</li>
+            <li>Click <span class="Bold">Gradebook</span> and select <span class="Bold">All Grades</span>.</li>
+            <li>Click <span class="Bold">Export as CSV</span>.</li>
+            <li>When prompted, choose <span class="Bold">Save File</span>.<p class="InList">Now that the CSV file has been saved, it is time to import the information as a TurningPoint participant list.</p></li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/PowerPointPolling.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AnywherePolling.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AfterClass.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/UpdatingPList.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to Sakai</h3>
+        <ol class="Gotham">
+            <li>Login to Sakai and select the appropriate <span class="Bold">course tab</span>.</li>
+            <li>Click <span class="Bold">Gradebook</span> and select <span class="Bold">Import gradebook item from spreadsheet</span>.<p style="text-align: left;"><img src="../../Graphics/Sakai/ImportGradebookItemFromSpreadsheet.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Click <span class="Bold">Upload Spreadsheet to Loading Dock</span>.</li>
+            <li><span class="Bold">Name</span> the new assignment.</li>
+            <li>Click <span class="Bold">Choose File</span>.</li>
+            <li>Click <span class="Bold">Browse...</span> to locate the saved file.</li>
+            <li>Click <span class="Bold">Continue</span>.</li>
+            <li>Click <span class="Bold">Save</span>.</li>
+            <li>Verify the import and click <span class="Bold">OK</span>.</li>
+            <li>Click the <span class="Bold">Import</span> link associated with the newly added assignment.<p style="text-align: left;"><img src="../../Graphics/Sakai/Import.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Select the <span class="Bold">Points Received</span> radio button, <span class="Bold">preview the import</span> and click <span class="Bold">Import Selected</span>.<p style="text-align: left;"><img src="../../Graphics/Sakai/ImportPreview.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Enter the <span class="Bold">assignment name</span> in the Title field and the <span class="Bold">point value</span> in the <span class="Bold">Gradebook Item Point Value</span> field.</li>
+            <li>Click <span class="Bold">Submit</span>.</li>
+            <li>Click <span class="Bold">All Grades</span> to view the assignment.<p style="text-align: left;"><img src="../../Graphics/Sakai/AllGrades.png" class="LargeWide480pxGrayBorder" /></p></li>
+        </ol>
+    </body>
+</html>

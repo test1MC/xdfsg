@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Touch Board/Touch Board.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.UG or OS.Linux or OS.Mac or OS.PC or &quot;Product.Touch Board&quot;]exclude[DocType.HTML or &quot;Product.AdjustIt - Arm&quot; or &quot;Product.AdjustIt - Mount&quot; or &quot;Product.AdjustIt - Stand&quot; or Product.DeviceManager or Product.DualBoard or Product.EV-LS or Product.EV-TG or Product.EV-TM or Product.EV-TP or Product.Flow or Product.HardwareUpdater or Product.I360 or Product.I360ITA or Product.I360SA or Product.I360TA or Product.KeyTrak or Product.Mobi360 or Product.MobiView or &quot;Product.PPP Mac&quot; or &quot;Product.PPP PC&quot; or Product.PresenterCard or Product.PresenterWare or Product.RCProgrammer or Product.RW or &quot;Product.Touch Board Plus&quot; or Product.TP or Product.Triton-PA or Product.Triton-W or &quot;Product.TurningPoint Cloud&quot; or Product.vPad or Product.WS or Product.WS-Connect]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Touch Board</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">Touch Board</Variable>
+    <Variable
+      Name="General/ProductName">Touch Board</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Touch Board User Guide</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TouchBoard"
+    Subject="TouchBoard"
+    Author="Turning Technologies"
+    Keywords="UGTBrev1_07242014" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

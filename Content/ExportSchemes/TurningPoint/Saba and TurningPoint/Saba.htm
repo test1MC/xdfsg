@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="6054" MadCap:lastWidth="1078">
+    <head>&#160;<link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud</MadCap:conditionalText> and Saba®</h1>
+        <p>This document outlines the steps for using TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>with the Saba Learning Management System (LMS).</p>
+        <p class="SmallTitle">How does the integration work?</p>
+        <p>A participant roster (report) is downloaded from Saba and imported as a CSV into TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText>. The participant list is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. After viewing results and making any necessary edits, the session can be imported into Saba.</p>
+        <h2>Getting Started - For System Administrators </h2>
+        <p>The following tasks MUST be completed for a participant roster (report) to properly export as a CSV to TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText>.</p>
+        <h3 class="task">Placing the Roster Report File (RPT) into the Report Repository</h3>
+        <ol class="Gotham">
+            <li>On the machine where the Report Saver is running and relates to the Saba environment, copy the TTech.rpt file into the directory where the other managed Saba reports are stored. This will more than likely be a directory path similar to &lt;SabaWeb&gt;\web\CrWeb.<ol><li>Note that the directory structure will be configured in the Crystal Reports Embedded report engine definition accessible to a user with System Administration capabilities in the Saba UI.</li><li>The configuration of the Embedded report engine is accessible through the following click-path in Saba: System Administration &gt; Reports tab &gt; Report Engine left-menu item &gt; Engines left-menu item. Click the link for the name of the Crystal Report Server XI Embedded. The directory path where the RPT files are kept is the Report (.rpt) File Location attribute.</li></ol></li>
+        </ol>
+        <h3 class="task">Creating the Report Tool</h3>
+        <div class="Important" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #f07600;&quot; class=&quot;mcFormatColor&quot;&gt;IMPORTANT&lt;/span&gt;&lt;/span&gt;">
+            <p>Creating the Report Tool only needs to be done ONCE per Saba environment!</p>
+        </div>
+        <ol class="Gotham">
+            <li>Login to Saba as a user with System Administration capabilities.</li>
+            <li>Select <span class="Bold">System Administration</span> from the <span class="Italic">Go To</span> drop-down menu.</li>
+            <li>Select the <span class="Bold">Reports</span> tab.</li>
+            <li>Click <span class="Bold">Report Engine</span> from the left menu.</li>
+            <li>Click <span class="Bold">Managed Reports</span>.</li>
+            <li>Click the <span class="Bold">New Managed Reports</span> link.</li>
+            <li style="page-break-before: always;" MadCap:conditions="DocType.UG">Enter the following attributes on the <span class="Bold">New Managed Reports</span> page:<ul><li>Name - Anything that makes the report stand out in a list of reports (i.e, Turning Tech Roster)</li></ul><ul><li>Enter a description, if desired</li></ul><ul><li>Engine - Enter <span class="Italic">cr</span> and select <span class="Italic">Crystal Report Server XI Embedded</span> from the drop-down menu</li><li>ID - <span class="Italic">Enter TTech.rpt</span></li><li>Attach to - Enter <span class="Italic">sys</span> and select <span class="Italic">System</span>. This makes the report available below the Reports tab. </li><li>Domain - Ensure the domain is visible to user(s) who will run the report</li></ul></li>
+            <li>Click <span class="Bold">Save</span>.</li>
+            <li>Enter the following attributes on the <span class="Bold">Edit</span> page:<ul><li>Report Parameters - Click the link to Add Parameter</li><li>Description - Enter <span class="Italic">Enter Offering Number(ID)</span></li><li>Parameter Type - Select <span class="Italic">Text(10)</span></li><li>Parameter Sequence - Enter <span class="Italic">1</span></li><li>User Input Required - Select <span class="Italic">Yes</span> from the drop-down menu</li><li>Click <span class="Bold">Save</span>. The parameter details entered above are listed on the Report details page.</li><li>Menu Roles - Click the <span class="Bold">Add Menu Role</span> link. Select the <span class="Bold">Learning Administration</span> menu role and click the <span class="Bold">Select</span> button.</li><li>Security Roles - Click the <span class="Bold">Add Security Roles</span> link. Search for and select the following security roles (a standard set for running reports).</li><li>Super User</li><li>TenantAdministrator</li><li>Report privileges in world domain</li></ul></li>
+            <li>Click <span class="Bold">Save</span>. The report is now accessible.</li>
+        </ol>
+        <h2>Before Class - For Learners or Trainers</h2>
+        <h3 class="task">Running the Turning Technologies Roster Report</h3>
+        <ol class="Gotham">
+            <li>Login to Saba as a user with Learning or Training Administration capabilities.</li>
+            <li>Select <span class="Bold">Learning Administration</span> from the <span class="Italic">Go To</span> drop-down menu.</li>
+            <li style="page-break-before: always;">Search for the <span class="Bold">course offering</span> by Title, Start Date, etc.<p MadCap:conditions="" class="InList">Note the ID value shown in the search results and on the Details page.</p><p style="text-align: left;"><img src="../../Graphics/Saba/Search.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Select the <span class="Bold">Reports</span> tab.</li>
+            <li>Search for the <span class="Italic">Turning Tech Roster</span> report. (The report may be named something other than Turning Tech Roster.)</li>
+            <li>In the results list, mouse over the <span class="Bold">Actions</span> link for the desired report and select <span class="Bold">Execute</span>.</li>
+            <li>Enter the <span class="Bold">offering ID</span> noted above into the entry box.</li>
+            <li>Select <span class="Bold">Generate Report</span>.</li>
+            <li>In the report viewer, click the icon to the left end of the line that displays the group tree above the report results. This will export the report.</li>
+            <li>In the export dialog box, select the file format <span class="Bold">Separate Values (CSV)</span> and click <span class="Bold">Export</span>.</li>
+            <li><span class="Bold">Save</span> the file to a specified location.</li>
+        </ol>
+        <h3 class="task" style="page-break-before: avoid;">Importing the CSV File into TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText></h3>
+        <ol class="Gotham">
+            <li>
+                <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">Open TurningPoint and select the <span class="Bold">Manage</span> tab.</MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Open TurningPoint Cloud and sign in to your Turning Account.</MadCap:conditionalText>
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">Select the <span class="Bold">Manage</span> tab.</li>
+            <li>Click the <span class="Italic">Participant List</span> drop-down menu<span class="Bold"> </span>and select <span class="Bold">Import</span>.<p style="text-align: left;"><img src="../../Graphics/Dashboard-ParticipantList.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint 5"></img><img src="../../Graphics/ParticipantListDropDown-Import.png" class="LargeWide480px" MadCap:conditions="TurningPoint.TurningPoint Cloud"></img></p><p class="InList">The <span class="Italic">Import Participant List</span> window is displayed.</p></li>
+            <li>Select the radio button labeled <span class="Bold">File from Integration</span>.<p style="text-align: left;"><img src="../../Graphics/Window-FileFromIntegration.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint 5"></img><img src="../../Graphics/Window-ImportParticipantListIntegration.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint Cloud"></img></p></li>
+            <li>Select <span class="Bold">Saba</span> from the <span class="Italic">Select a Format</span> drop-down menu and click <span class="Bold">Choose File...</span></li>
+            <li>Select the <span class="Bold">file</span> that was saved in the previous section and click <span class="Bold">Open</span>.<p class="InList">The Saba file is converted to a TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>participant list and can be found under the Manage tab.</p></li>
+            <li>Select the Saba <span class="Bold">participant list</span> from the left panel.</li>
+            <li>Click <span class="Bold">Edit Participants</span> in the bottom right corner.</li>
+            <li>Click <span class="Bold">Column</span> and select <span class="Bold">Add</span>.</li>
+            <li>Enter <span class="Bold">ID</span> and click <span class="Bold">OK</span>.</li>
+            <li>Select the blank field under ID and enter 1. Select the field under 1 and enter 2. Continue this process until you have the same amount of ID numbers as participants.</li>
+            <li>Click <span class="Bold">Save and Close</span>.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/PowerPointPolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AwywherePolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AfterClass-NoWebReg.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to Saba</h3>
+        <ol class="Gotham">
+            <li>Login to Saba.</li>
+            <li>Select <span class="Bold">System Administration</span> from the <span class="Italic">Go To</span> drop-down menu.</li>
+            <li>Click the <span class="Bold">Data Import</span> tab.</li>
+            <li>Select <span class="Bold">Ad Hoc Transcript</span> from the <span class="Italic">Object Name</span> drop-down menu.</li>
+            <li>Select <span class="Bold">Delimited</span> as the Import Type.</li>
+            <li>Enter a <span class="Bold">comma</span> (,) in the delimiter field.</li>
+            <li>Click <span class="Bold">Browse</span> to locate and open the saved file.<p style="text-align: left;"><img src="../../Graphics/Saba/Browse.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Click <span class="Bold">Prepare</span>.</li>
+            <li>Click <span class="Bold">Import</span> after receiving the message, The data in the specified file has been staged.</li>
+            <li>Click <span class="Bold">Status</span> to view the results of the import.<p class="InList">A successful import appears as:</p><p style="text-align: left;"><img src="../../Graphics/Saba/Successful.png" class="LargeWide480pxGrayBorder" /></p></li>
+        </ol>
+    </body>
+</html>

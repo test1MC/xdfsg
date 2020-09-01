@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Creating an Answer Key with Versions for Self-Paced Polling"
+    Link="/Content/TP5/Supplemental/AnswerKeywithVersions/CreatinganAnswerKeywithVersions.htm">
+    <TocEntry
+      Title="Adding a Version"
+      Link="/Content/TP5/Supplemental/AnswerKeywithVersions/AddingaVersion.htm" />
+    <TocEntry
+      Title="Loading an Answer Key for Self-Paced Polling"
+      Link="/Content/TP5/Supplemental/AnswerKeywithVersions/LoadinganAnswerKeyforSelfPacedPolling.htm" />
+  </TocEntry>
+</CatapultToc>

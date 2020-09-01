@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  MasterToc="/Project/TOCs/TurningAccount/PDF/ConcurrentLicense.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  PatchHeadingLevels="true"
+  GlossaryTermConversion="marked">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="Adding Users to a Concurrent License"
+    Subject="Adding Users to a Concurrent License"
+    Keywords="Adding Users to a Concurrent License"
+    Author="Turning Technologies" />
+  <PDF
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Adding Users to a Concurrent License</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

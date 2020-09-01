@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Manage Plugins"
+    Link="/Content/I360/MySettings/ManagePlugins.htm">
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/I360/MySettings/ManagePlugins/GettingStarted.htm" />
+    <TocEntry
+      Title="Importing a Class from a Third-Party Testing System"
+      Link="/Content/I360/MySettings/ManagePlugins/ImportingaClassfromaThirdPartyTestingSystem.htm" />
+    <TocEntry
+      Title="Viewing and Editing an Imported Class"
+      Link="/Content/I360/MySettings/ManagePlugins/ViewingandEditinganImportedClass.htm" />
+    <TocEntry
+      Title="Using a Test from a Third-party Testing System"
+      Link="/Content/I360/MySettings/ManagePlugins/UsingaTestfromaThirdPartyTestingSystem.htm" />
+    <TocEntry
+      Title="Viewing Test Results from an Imported Test"
+      Link="/Content/I360/MySettings/ManagePlugins/ViewingTestResultsfromanImportedTest.htm" />
+  </TocEntry>
+</CatapultToc>

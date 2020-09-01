@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  MasterToc="/Project/TOCs/I360/Supplemental/i360 Known Issues.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="Inisght 360 Known Issues"
+    Subject="Inisght 360 Known Issues"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Insight 360</Variable>
+  </Variables>
+</CatapultTarget>

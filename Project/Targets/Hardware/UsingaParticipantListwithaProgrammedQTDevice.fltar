@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Plist and QT.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Creating a Participant List in TurningPoint 5 with a Programmed QT Device</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Creating a Participant List in TurningPoint 5 with a Programmed QT Device</Variable>
+    <Variable
+      Name="General/PRODUCT">Creating a Participant List in TurningPoint 5 with a Programmed QT Device</Variable>
+    <Variable
+      Name="General/ProductName">Creating a Participant List in TurningPoint 5 with a Programmed QT Device</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Creating a Participant List in TurningPoint 5 with a Programmed QT Device"
+    Subject="Creating a Participant List in TurningPoint 5 with a Programmed QT Device"
+    Keywords="Creating a Participant List in TurningPoint 5 with a Programmed QT Device"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

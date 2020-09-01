@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/TPCtoTP5.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">TurningPoint Cloud to TurningPoint 5</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TurningPoint Cloud to TurningPoint 5"
+    Subject="TurningPoint Cloud to TurningPoint 5"
+    Keywords="TurningPoint Cloud to TurningPoint 5"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

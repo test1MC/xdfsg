@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="Level1"
+    BackgroundColor="#8a2be2"
+    OriginalName="Level1" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="Level2"
+    Comment=""
+    OriginalName="Level2" />
+  <ConditionTag
+    BackgroundColor="#9acd32"
+    Name="Level3"
+    Comment=""
+    OriginalName="Level3" />
+  <ConditionTag
+    BackgroundColor="#008b8b"
+    Name="Publisher"
+    Comment=""
+    OriginalName="Publisher" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="Non-publisher"
+    Comment=""
+    OriginalName="Non-publisher" />
+  <ConditionTag
+    BackgroundColor="#ff1493"
+    Name="Site Manager"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ffff"
+    Name="Org Manager"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#9370db"
+    Name="Proctor"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Students"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="Instructors"
+    Comment="" />
+</CatapultConditionTagSet>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PowerPoint Polling For PC"
+    Link="/Content/TP5/TrainingDocuments/PPPolling/PowerPointPolling_New Users.htm"
+    BreakType="chapter"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+    <TocEntry
+      Title="Before Class"
+      Link="/Content/TP5/TrainingDocuments/SectionTitles/BeforeClass_PPP.htm">
+      <TocEntry
+        Title="Creating the Presentation"
+        Link="/Content/TP5/TrainingDocuments/PPPolling/CreatingthePresentation.htm" />
+      <TocEntry
+        Title="Setting Correct Answers and Adding Objects (Optional)"
+        Link="/Content/TP5/TrainingDocuments/PPPolling/Setting_Correct_Answers_and_Adding_Objects__Optional_.htm"
+        BreakType="none"
+        StartSection="false" />
+      <TocEntry
+        Title="Saving the Presentation"
+        Link="/Content/TP5/TrainingDocuments/PPPolling/Saving_the_Presentation.htm" />
+      <TocEntry
+        Title="Creating a Participant List"
+        Link="/Content/TP5/TrainingDocuments/Creating_a_Participant_List.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="During Class"
+      Link="/Content/TP5/TrainingDocuments/SectionTitles/DuringClass.htm"
+      BreakType="none"
+      StartSection="false">
+      <TocEntry
+        Title="Response Connections"
+        Link="/Content/TP5/TrainingDocuments/SectionTitles/Response Connections.htm">
+        <TocEntry
+          Title="Verifying the Receiver Channel"
+          Link="/Content/TP5/TrainingDocuments/VerifyingReceiverChannel.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard RF and RF LCD"
+          Link="/Content/TP5/TrainingDocuments/Changing_the_Channel_on_ResponseCard_RF_and_RF_LCD.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard NXT"
+          Link="/Content/TP5/TrainingDocuments/Changing_the_Channel_on_ResponseCard_NXT.htm" />
+        <TocEntry
+          Title="Connecting to ResponseWare (if applicable)"
+          Link="/Content/TP5/TrainingDocuments/Connecting_to_ResponseWare__if_applicable_.htm"
+          conditions="Versions.5"></TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Running Your TurningPoint Presentation"
+        Link="/Content/TP5/TrainingDocuments/PPPolling/RunningTPPresentation.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="After Class"
+      Link="/Content/TP5/TrainingDocuments/SectionTitles/AfterClass.htm">
+      <TocEntry
+        Title="Generating Reports"
+        Link="/Content/TP5/TrainingDocuments/Generating_Reports.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="The PowerPoint Polling Showbar"
+      Link="/Content/TP5/PowerPointPolling/ThePowerPointPollingShowbar.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,486 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/I360/WelcomeI360.htm"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UGTitlePage.flpgl"
+    conditions="DocType.UG"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="About Insight 360™"
+    Link="/Content/I360/About/About.htm">
+    <TocEntry
+      Title="How Insight 360 Works"
+      Link="/Content/I360/About/HowInsight360Works.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/I360/About/Technical_Requirements.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/I360/About/GettingStarted.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Creating a Turning Account"
+        Link="/Content/TurningAccount/Instructors/CreatingaTurningAccount-Instructor.htm" />
+      <TocEntry
+        Title="Downloading Software"
+        Link="/Content/TurningAccount/Instructors/DownloadingSoftware.htm" />
+      <TocEntry
+        Title="Setting Up the Mobi 360 and Clickers"
+        Link="/Content/I360/About/SettingUptheHardware.htm" />
+      <TocEntry
+        Title="Setting Up the Insight 360 Teacher and Student Apps"
+        Link="/Content/I360/About/SettingUptheInsight360TeacherandStudentApps.htm" />
+      <TocEntry
+        Title="Generating a Session Code"
+        Link="/Content/I360/About/GeneratingaSessionCode.htm" />
+      <TocEntry
+        Title="Setting Up Insight 360 Web Access"
+        Link="/Content/I360/About/SettingUpInsight360WebAccess.htm" />
+      <TocEntry
+        Title="Upgrading Devices to Insight 360"
+        Link="/Content/I360/About/UpgradingDevicestoInsight360.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="The Insight 360 Home Tab"
+      Link="/Content/I360/About/TheInsight360HomeTab.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Removing a Message from the Message Center"
+        Link="/Content/I360/About/RemovingaMessagefromtheMessageCenter.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="CueTag™ Creator"
+      Link="/Content/I360/About/CueTagCreator.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="My Classes"
+    Link="/Content/I360/MyClasses/MyClasses.htm">
+    <TocEntry
+      Title="Classes"
+      Link="/Content/I360/MyClasses/Classes/Classes.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Creating a New Class"
+        Link="/Content/I360/MyClasses/Classes/CreatingaNewClass.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Adding/Removing Students from a Class"
+        Link="/Content/I360/MyClasses/Classes/AddingRemovingStudentsfromaClass.htm" />
+      <TocEntry
+        Title="Copying a Class"
+        Link="/Content/I360/MyClasses/Classes/CopyingaClass.htm" />
+      <TocEntry
+        Title="Deleting a Class"
+        Link="/Content/I360/MyClasses/Classes/DeletingaClass.htm" />
+      <TocEntry
+        Title="Editing Class Details"
+        Link="/Content/I360/MyClasses/Classes/EditingClassDetails.htm" />
+      <TocEntry
+        Title="Combining Classes"
+        Link="/Content/I360/MyClasses/Classes/CombiningClasses.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Students"
+      Link="/Content/I360/MyClasses/Students/Students.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Adding a Student Manually"
+        Link="/Content/I360/MyClasses/Students/AddingaStudentManually.htm" />
+      <TocEntry
+        Title="Importing Students"
+        Link="/Content/I360/MyClasses/Students/ImportingStudents.htm" />
+      <TocEntry
+        Title="Viewing the Student Import Exception Log"
+        Link="/Content/I360/MyClasses/Students/ViewingtheStudentImportExceptionLog.htm" />
+      <TocEntry
+        Title="Editing a Student in the Exception Log"
+        Link="/Content/I360/MyClasses/Students/EditingaStudentintheExceptionLog.htm" />
+      <TocEntry
+        Title="Editing Student Details"
+        Link="/Content/I360/MyClasses/Students/EditingStudentDetails.htm" />
+      <TocEntry
+        Title="Enrolling a Student in a Class"
+        Link="/Content/I360/MyClasses/Students/EnrollingaStudentinaClass.htm" />
+      <TocEntry
+        Title="Removing a Student from a Class"
+        Link="/Content/I360/MyClasses/Students/RemovingaStudentfromaClass.htm" />
+      <TocEntry
+        Title="Removing a Student from the Database"
+        Link="/Content/I360/MyClasses/Students/RemovingaStudentfromtheDatabase.htm" />
+      <TocEntry
+        Title="Inactivating a Student"
+        Link="/Content/I360/MyClasses/Students/InactivatingaStudent.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="My Favorites"
+    Link="/Content/I360/MyFavorites/MyFavorites.htm">
+    <TocEntry
+      Title="Setting Up Favorites"
+      Link="/Content/I360/MyFavorites/SettingUp/SettingUpFavorites.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Creating a Favorite by Browsing for or Using a Path"
+        Link="/Content/I360/MyFavorites/SettingUp/CreatingaFavoritebyBrowsingfororUsingaPath.htm" />
+      <TocEntry
+        Title="Creating a Favorite Using Drag and Drop"
+        Link="/Content/I360/MyFavorites/SettingUp/CreatingaFavoriteUsingDragandDrop.htm"
+        BreakType="none"
+        StartSection="false"
+        PageNumberReset="continue" />
+    </TocEntry>
+    <TocEntry
+      Title="Organizing Favorites"
+      Link="/Content/I360/MyFavorites/Organizing/OrganizingFavorites.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue">
+      <TocEntry
+        Title="Changing a Favorite Page Name"
+        Link="/Content/I360/MyFavorites/Organizing/ChangingaFavoritePageName.htm" />
+      <TocEntry
+        Title="Deleting a Favorite"
+        Link="/Content/I360/MyFavorites/Organizing/DeletingaFavorite.htm" />
+      <TocEntry
+        Title="Editing a Favorite"
+        Link="/Content/I360/MyFavorites/Organizing/EditingaFavorite.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Viewing a Favorite from Insight 360"
+      Link="/Content/I360/MyFavorites/ViewingaFavoritefromInsight360.htm" />
+    <TocEntry
+      Title="Accessing Favorites During Instruction"
+      Link="/Content/I360/MyFavorites/AccessingFavoritesDuringInstruction.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="My Tests"
+    Link="/Content/I360/MyTests/MyTests.htm">
+    <TocEntry
+      Title="Answer Key Tests"
+      Link="/Content/I360/MyTests/AnswerKey/AnswerKeyTests.htm">
+      <TocEntry
+        Title="Creating an Answer Key Test"
+        Link="/Content/I360/MyTests/AnswerKey/CreatinganAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Adding a Question to an Answer Key Test"
+        Link="/Content/I360/MyTests/AnswerKey/AddingaQuestiontoanAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Attaching a Test File Document"
+        Link="/Content/I360/MyTests/AnswerKey/AttachingaTestFileDocument.htm" />
+      <TocEntry
+        Title="Editing an Answer Key Test"
+        Link="/Content/I360/MyTests/AnswerKey/EditinganAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Copying an Answer Key Test"
+        Link="/Content/I360/MyTests/AnswerKey/CopyinganAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Importing an Answer Key Test"
+        Link="/Content/I360/MyTests/AnswerKey/ImportingAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Exporting an Answer Key Test"
+        Link="/Content/I360/MyTests/AnswerKey/ExportingAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Deleting an Answer Key Test"
+        Link="/Content/I360/MyTests/AnswerKey/DeletinganAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Question Types"
+        Link="/Content/I360/MyTests/AnswerKey/QuestionTypes/QuestionTypes.htm"
+        BreakType="none"
+        StartSection="false"
+        PageNumberReset="continue">
+        <TocEntry
+          Title="Creating Multiple Choice Questions"
+          Link="/Content/I360/MyTests/AnswerKey/QuestionTypes/CreatingMultipleChoiceQuestions.htm" />
+        <TocEntry
+          Title="Creating Multiple Answer Questions"
+          Link="/Content/I360/MyTests/AnswerKey/QuestionTypes/CreatingMultipleAnswerQuestions.htm" />
+        <TocEntry
+          Title="Creating Numeric Questions"
+          Link="/Content/I360/MyTests/AnswerKey/QuestionTypes/CreatingNumericQuestions.htm" />
+        <TocEntry
+          Title="Creating Short Answer Questions"
+          Link="/Content/I360/MyTests/AnswerKey/QuestionTypes/CreatingShortAnswerQuestions.htm" />
+        <TocEntry
+          Title="Creating True/False Questions"
+          Link="/Content/I360/MyTests/AnswerKey/QuestionTypes/CreatingTrueFalseQuestions.htm" />
+        <TocEntry
+          Title="Creating Yes/No Questions"
+          Link="/Content/I360/MyTests/AnswerKey/QuestionTypes/CreatingYesNoQuestions.htm" />
+        <TocEntry
+          Title="Creating Poll Questions"
+          Link="/Content/I360/MyTests/AnswerKey/QuestionTypes/CreatingPollQuestions.htm"
+          BreakType="none"
+          StartSection="false"
+          PageNumberReset="continue" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="ExamView® Tests"
+      Link="/Content/I360/MyTests/ExamView/ExamViewTests.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Opening ExamView® Test Generator"
+        Link="/Content/I360/MyTests/ExamView/OpeningExamViewTestGenerator.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="The Test Player"
+      Link="/Content/I360/MyTests/TestPlayer/TheTestPlayer.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Starting a Self-Paced Test"
+        Link="/Content/I360/MyTests/TestPlayer/StartingaSelfPacedTest.htm" />
+      <TocEntry
+        Title="Using the Timer for Self-Paced Tests"
+        Link="/Content/I360/MyTests/TestPlayer/UsingtheTimerforSelfPacedTests.htm" />
+      <TocEntry
+        Title="Displaying the Student Response Grid During a Test"
+        Link="/Content/I360/MyTests/TestPlayer/DisplayingtheStudentResponseGridDuringaTest.htm" />
+      <TocEntry
+        Title="Ending a Self-Paced Test"
+        Link="/Content/I360/MyTests/TestPlayer/EndingaSelfPacedTest.htm" />
+      <TocEntry
+        Title="Viewing Results of a Self-Paced Test"
+        Link="/Content/I360/MyTests/TestPlayer/ViewingResultsofaSelfPacedTest.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Standards"
+    Link="/Content/I360/MyStandards/Standards.htm"
+    BreakType="none"
+    StartSection="false"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="Adding Standards to the Quick Select List"
+      Link="/Content/I360/MyStandards/AddingStandardstotheQuickSelectList.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Adding a Standard to a Test Question"
+      Link="/Content/I360/MyStandards/AddingaStandardtoaTestQuestion.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="My Results"
+    Link="/Content/I360/MyResults/MyResults.htm">
+    <TocEntry
+      Title="Configuring Reports"
+      Link="/Content/I360/MyResults/Configuring/ConfiguringReports.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Generating a Report from My Results"
+        Link="/Content/I360/MyResults/Configuring/GeneratingaReport.htm" />
+      <TocEntry
+        Title="Setting a Report Date Range"
+        Link="/Content/I360/MyResults/Configuring/SettingaReportDateRange.htm" />
+      <TocEntry
+        Title="Changing the Proficiency Setting for a Report"
+        Link="/Content/I360/MyResults/Configuring/ChangingtheProficiencySettingforaReport.htm" />
+      <TocEntry
+        Title="Switching the Report View"
+        Link="/Content/I360/MyResults/Configuring/SwitchingtheReportView.htm" />
+      <TocEntry
+        Title="Saving,  Printing and Exporting Reports"
+        Link="/Content/I360/MyResults/Configuring/SavingPrintingandExportingReports.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Class Reports"
+      Link="/Content/I360/MyResults/ClassReports/ClassReports.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Generating a Performance Analysis Report"
+        Link="/Content/I360/MyResults/ClassReports/GeneratingaPerformanceAnalysisReport.htm" />
+      <TocEntry
+        Title="Generating a Standards Analysis Report"
+        Link="/Content/I360/MyResults/ClassReports/GeneratingaStandardsAnalysisReport.htm" />
+      <TocEntry
+        Title="Generating a Multiple Standard Analysis Report"
+        Link="/Content/I360/MyResults/ClassReports/GeneratingaMultipleStandardAnalysisReport.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Session Reports"
+      Link="/Content/I360/MyResults/SessionReports/SessionReports.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Generating a Performance Analysis Report"
+        Link="/Content/I360/MyResults/SessionReports/GeneratingaPerformanceAnalysisReport1.htm" />
+      <TocEntry
+        Title="Generating a Question Analysis Report"
+        Link="/Content/I360/MyResults/SessionReports/GeneratingaQuestionAnalysisReport.htm" />
+      <TocEntry
+        Title="Generating a Session Content Report"
+        Link="/Content/I360/MyResults/SessionReports/GeneratingaSessionContentReport.htm" />
+      <TocEntry
+        Title="Generating a Response Summary Report"
+        Link="/Content/I360/MyResults/SessionReports/GeneratingaResponseSummaryReport.htm" />
+      <TocEntry
+        Title="Generating a Student Summary Report"
+        Link="/Content/I360/MyResults/SessionReports/GeneratingaStudentSummaryReport.htm" />
+      <TocEntry
+        Title="Generating a Response Grid Report"
+        Link="/Content/I360/MyResults/SessionReports/GeneratingaResponseGridReport.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Student Reports"
+      Link="/Content/I360/MyResults/StudentReports/StudentReports.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Generating a Performance Summary Report"
+        Link="/Content/I360/MyResults/StudentReports/GeneratingaPerformanceSummaryReport.htm" />
+      <TocEntry
+        Title="Generating a Session Results Report"
+        Link="/Content/I360/MyResults/StudentReports/GeneratingaSessionResultsReport.htm" />
+      <TocEntry
+        Title="Generating a Standards Analysis Report"
+        Link="/Content/I360/MyResults/StudentReports/GeneratingaStandardsAnalysisReport.htm" />
+      <TocEntry
+        Title="Generating a Multiple Standard Analysis Report"
+        Link="/Content/I360/MyResults/StudentReports/GeneratingaMultipleStandardAnalysisReport.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Viewing and Editing Scores"
+      Link="/Content/I360/MyResults/ViewingEditingScores/Viewing_and_Editing_Scores.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Viewing Scores for a Class Session"
+        Link="/Content/I360/MyResults/ViewingEditingScores/ViewingScoresforaClassSession.htm" />
+      <TocEntry
+        Title="Editing Student Results"
+        Link="/Content/I360/MyResults/ViewingEditingScores/EditingStudentResults.htm" />
+      <TocEntry
+        Title="Assigning Scores to an Anonymous Student"
+        Link="/Content/I360/MyResults/ViewingEditingScores/AssigningScorestoanAnonymousStudent.htm" />
+      <TocEntry
+        Title="Editing Question Results"
+        Link="/Content/I360/MyResults/ViewingEditingScores/EditingQuestionResults.htm" />
+      <TocEntry
+        Title="Exporting Constructed Response Images"
+        Link="/Content/I360/MyResults/ViewingEditingScores/ExportingConstructedResponseImages.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="My Settings"
+    Link="/Content/I360/MySettings/MySettings.htm">
+    <TocEntry
+      Title="Device Management"
+      Link="/Content/I360/MySettings/DeviceManagement.htm" />
+    <TocEntry
+      Title="Preferences"
+      Link="/Content/I360/MySettings/Preferences.htm" />
+    <TocEntry
+      Title="Mobile Devices"
+      Link="/Content/I360/MySettings/MobileDevices.htm" />
+    <TocEntry
+      Title="Manage Plugins"
+      Link="/Content/I360/MySettings/ManagePlugins.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Getting Started"
+        Link="/Content/I360/MySettings/ManagePlugins/GettingStarted.htm" />
+      <TocEntry
+        Title="Importing a Class from a Third-Party Testing System"
+        Link="/Content/I360/MySettings/ManagePlugins/ImportingaClassfromaThirdPartyTestingSystem.htm" />
+      <TocEntry
+        Title="Viewing and Editing an Imported Class"
+        Link="/Content/I360/MySettings/ManagePlugins/ViewingandEditinganImportedClass.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Using a Test from a Third-party Testing System"
+        Link="/Content/I360/MySettings/ManagePlugins/UsingaTestfromaThirdPartyTestingSystem.htm" />
+      <TocEntry
+        Title="Viewing Test Results from an Imported Test"
+        Link="/Content/I360/MySettings/ManagePlugins/ViewingTestResultsfromanImportedTest.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Backup/Restore"
+      Link="/Content/I360/MySettings/Backup.htm" />
+    <TocEntry
+      Title="Upgrade Devices to Insight 360"
+      Link="/Content/I360/MySettings/UpgradeDevicestoInsight360.htm" />
+    <TocEntry
+      Title="About"
+      Link="/Content/I360/MySettings/About.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Troubleshooting Insight 360"
+    Link="/Content/I360/TroubleshootingInsight360.htm" />
+  <TocEntry
+    Title="Using Insight 360 with a Programmed QT Device"
+    Link="/Content/I360/ProgramYourIDontheQTDevice.htm"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+</CatapultToc>

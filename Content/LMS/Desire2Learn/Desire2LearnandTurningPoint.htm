@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="3635" MadCap:lastWidth="941">
+    <head>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Desire2Learn® and TurningPoint® <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud</MadCap:conditionalText></h1>
+        <p>The integration with Desire2Learn® allows for Turning Technologies users to leverage response devices in class to easily collect student achievement data. Very simply one can import from Desire2Learn a participant list of students into TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>and then export assessment data into Desire2Learn.</p>
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/LMS/Covers.flsnp" />
+        </p>
+        <MadCap:miniTocProxy />
+        <h2 class="task">
+            <MadCap:snippetText src="../../Resources/Snippets/LMS/Downloading Plist.flsnp" />
+        </h2>
+        <p>Users can import participant information from Desire2Learn.</p>
+        <ol class="Gotham" MadCap:continue="true">
+            <li MadCap:conditions="TurningPoint.TurningPoint 5">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Open TP.flsnp" />
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Open TP Cloud.flsnp" />
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Click Manage.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Click plist dropdown.flsnp" />
+                <p class="InList">
+                    <MadCap:snippetText src="../../Resources/Snippets/LMS/Create plist.flsnp" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/DL from integration.flsnp" />
+                <p class="InList">
+                    <MadCap:snippetText src="../../Resources/Snippets/LMS/Connect to Integration.flsnp" />
+                </p>
+            </li>
+            <li>Select <b>Desire2Learn</b> from the <i>Integration</i> drop-down menu and enter the <b>Server Address</b> in the box provided. The Server Address is the URL of the registration link normally residing in the <b>News </b>section. Depending on your institution's application protocol, enter <span class="Bold">http://</span> OR <span class="Bold">https://</span> before the URL.<div class="ImageFloatRight"><p><img src="../../Graphics/LMS/Desire2Moodle/Window-Login.png" style="width: 308.3511px; height: 193.1513px;" class="SmallHigh192pxGrayBorder" /></p></div></li>
+            <li>Click <b>Connect</b>.<p class="InList">The <span class="Italic">Desire2Learn Login</span> window is displayed.</p></li>
+            <li>Enter your Desire2Learn <b>Username </b>and <b>Password</b> and click <b>Login</b>.<div class="ImageANDCaption"><p class="InList">The <i>Import Participant List</i> window is displayed.</p><p style="text-align: left;"><img src="../../Graphics/LMS/Blackboard/Window-SelectCourse.png" class="SmallHigh192pxGrayBorder" style="width: 400px; height: 250px;" /></p></div></li>
+            <li>Select the course(s) in which the participant list(s) is to be imported and click <b>Import</b>.<MadCap:snippetBlock src="../../Resources/Snippets/LMS/Left panel.flsnp" /></li>
+            <li>Click <b>OK</b>.<div class="Tip" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #904799;&quot; class=&quot;mcFormatColor&quot;&gt;TIP&lt;/span&gt;&lt;/span&gt;"><p>The imported participant list contains the following information: Device ID(s), License Status, First Name, Last Name, User ID and Email.</p></div></li>
+        </ol>
+        <h2 class="task">
+            <MadCap:snippetText src="../../Resources/Snippets/LMS/Using a DL plist.flsnp" />
+        </h2>
+        <p>A participant list from Desire2Learn can be loaded into TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>to track participant results. </p>
+        <ol class="Gotham">
+            <li MadCap:conditions="TurningPoint.TurningPoint 5">Open TurningPoint.</li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Open TP Cloud.flsnp" />
+            </li>
+            <li>From the Polling tab, select the <b>participant</b><b>list</b>, the <b>content file</b> (optional) and the <b>polling environment</b>.<div class="Warning" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #ee4137;&quot; class=&quot;mcFormatColor&quot;&gt;WARNING&lt;/span&gt;&lt;/span&gt;"><p>A Desire2Learn participant list must be loaded prior to running a session.</p></div></li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Run and save.flsnp" />
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint 5">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Close.flsnp" />
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">Close the polling environment to return to the TurningPoint Cloud Dashboard.</li>
+        </ol>
+        <h2 class="task">
+            <MadCap:snippetText src="../../Resources/Snippets/LMS/Updating a plist.flsnp" />
+        </h2>
+        <p>Participant lists can be updated with the latest participant information from Desire2Learn through the export function in Results Manager.</p>
+        <ol class="Gotham">
+            <li MadCap:conditions="TurningPoint.TurningPoint 5">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Open TP.flsnp" />
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Open TP Cloud.flsnp" />
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Click Manage.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Select plist.flsnp" />
+                <p>
+                    <img src="../../Graphics/LMS/Blackboard/Manage-ParticipantListOverview.png" style="width: 364.7988px; height: 245.5679px;" class="MediumWide288pxGrayBorder" MadCap:conditions="TurningPoint.TurningPoint 5" />
+                </p>
+                <p>
+                    <img src="../../Graphics/LMS/Blackboard/Manage-ResultsManager.png" class="MediumWide288pxGrayBorder" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Click Integrations.flsnp" />
+            </li>
+            <li>Select <b>Desire2Learn</b> from the <i>Integration</i> drop-down menu and enter the <b>Server Address</b> in the box provided. The Server Address is the URL of the registration link normally residing in the <b>News </b>section. Depending on your institution's application protocol, enter <span class="Bold">http://</span> OR <span class="Bold">https://</span> before the URL.</li>
+            <li>Click <b>Connect</b>.<div class="ImageFloatRight"><p><img src="../../Graphics/LMS/Desire2Moodle/Window-UpdateList.png" style="width: 308.3511px; height: 193.1513px;" class="SmallHigh192pxGrayBorder" MadCap:conditions="TurningPoint.TurningPoint 5" /></p></div><div class="ImageFloatRight"><p><img src="../../Graphics/LMS/Desire2Moodle/Window-UpdateListTPC.png" class="SmallHigh192pxGrayBorder" MadCap:conditions="TurningPoint.TurningPoint Cloud" /></p></div></li>
+            <li>At the <i>Connect to Integration</i> window, enter your Desire2Learn <b>Username </b>and <b>Password</b> and click <b>Login</b>.<p><MadCap:snippetText src="../../Resources/Snippets/LMS/Update with integration.flsnp" /></p></li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Update plist.flsnp" />
+                <div class="Note" MadCap:conditions="TurningPoint.TurningPoint Cloud" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+                    <p>The following message is displayed if there are any unlicensed participants.</p>
+                    <p>
+                        <img src="../../Graphics/LMS/Blackboard/Window-Unlicensed.png" class="SmallWide192pxGrayBorder" />
+                    </p>
+                </div>
+            </li>
+            <li>Click <b>Close</b>.</li>
+        </ol>
+        <h2 class="task">Exporting a Session to Desire2Learn</h2>
+        <p>Sessions can be exported to Desire2Learn via Results Manager.</p>
+        <ol class="Gotham">
+            <li MadCap:conditions="TurningPoint.TurningPoint 5">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Open TP.flsnp" />
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Open TP Cloud.flsnp" />
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Click Manage.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Select plist.flsnp" />
+                <p>
+                    <img src="../../Graphics/LMS/Blackboard/Manage-ParticipantListOverview.png" style="width: 364.7988px; height: 245.5679px;" class="MediumWide288pxGrayBorder" MadCap:conditions="TurningPoint.TurningPoint 5" />
+                </p>
+                <p>
+                    <img src="../../Graphics/LMS/Blackboard/Manage-ResultsManager.png" class="MediumWide288pxGrayBorder" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+                </p>
+            </li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Click Integrations.flsnp" />
+            </li>
+            <li>Select <b>Desire2Learn</b> from the <i>Integration</i> drop-down menu and enter the <b>Server Address</b> in the box provided. The Server Address is the URL of the registration link normally residing in the <b>News </b>section. Depending on your institution's application protocol, enter <span class="Bold">http://</span> OR <span class="Bold">https://</span> before the URL.</li>
+            <li>Click <b>Connect</b>.</li>
+            <li>At the <i>Connect to Integration</i> window, enter your Desire2Learn <b>Username </b>and <b>Password</b> and click <b>Login</b>.<p class="InList"><MadCap:snippetText src="../../Resources/Snippets/LMS/Update with integration.flsnp" /></p></li>
+            <li>Select <b>Export Session(s)</b>.</li>
+            <li>
+                <MadCap:snippetText src="../../Resources/Snippets/LMS/Select columns.flsnp" />
+                <div class="ImageFloatRight">
+                    <p>
+                        <img src="../../Graphics/LMS/Desire2Moodle/Window-ExportColumn.png" style="width: 305.9516px; height: 191.4228px;" class="SmallHigh192pxGrayBorder" MadCap:conditions="TurningPoint.TurningPoint 5" />
+                    </p>
+                </div>
+                <div class="ImageFloatRight">
+                    <p>
+                        <img src="../../Graphics/LMS/Desire2Moodle/Window-ExportColumnTPC.png" class="SmallHigh192pxGrayBorder" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+                    </p>
+                </div>
+                <p>
+                    <MadCap:snippetText src="../../Resources/Snippets/LMS/Active participants only.flsnp" />
+                </p>
+                <p class="InList">
+                    <MadCap:snippetText src="../../Resources/Snippets/LMS/Export to integration.flsnp" />
+                </p>
+            </li>
+            <li>Click <b>Export</b>.</li>
+        </ol>
+        <p class="NextSteps" MadCap:autonum="Next Steps">&#160;</p>
+        <p>Login to your Desire2Learn account to view the exported results data.</p>
+        <p class="PageBreak" MadCap:conditions="TurningPoint.TurningPoint Cloud">&#160;</p>
+    </body>
+</html>

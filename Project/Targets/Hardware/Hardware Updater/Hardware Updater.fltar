@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Hardware Updater"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Hardware Updater/Hardware Updater.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Hardware Updater </Variable>
+    <Variable
+      Name="Variables/Version #">2.0</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">Hardware Updater</Variable>
+    <Variable
+      Name="General/ProductName">Hardware Updater</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Hardware Updater User Guide</Variable>
+    <Variable
+      Name="General/VersionNumber">2.0</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="HardwareUpdater"
+    Author="Turning Technologies"
+    Subject="HardwareUpdater"
+    Keywords="UGHUrev3_08222014" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

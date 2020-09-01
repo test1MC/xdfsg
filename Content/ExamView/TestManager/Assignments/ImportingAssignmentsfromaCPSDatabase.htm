@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="811" MadCap:lastWidth="721" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2 class="task">Importing Assignments from a CPS Database</h2>
+        <p>Importing assignments from CPS brings in data that includes student responses, points earned, correct answers, difficulty level, and standards associated with the questions in the CPS session data. Even if the CPS session data is collected from an ExamView source, imported questions cannot be viewed from within Test Manager. Aside from this limitation, imported assignments appear identical to ExamView-created assignments and can be analyzed using Test Manager's reporting tools.</p>
+        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+            <p>Student records are matched to the Test Manager roster based on student ID alone. First name, last name, and device IDs are not compared.</p>
+        </div>
+        <ol class="Gotham">
+            <li>Use CPS to collect session data to be used as an ExamView assignment. Save the database as a CPS file (PC) or export it as a CXM file (Mac).</li>
+            <li>Open ExamView Test Manager and open the <span class="Bold">class</span> containing the roster that
+matches the CPS database roster.</li>
+            <li>Click <span class="Bold">File</span> from the Test Manager menu bar, mouse over <span class="Bold">Import</span> and select <span class="Bold">Assignments from CPS Database</span>. The <span class="Italic">Select CPS Database</span> window is displayed.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>Each assignment can contain a maximum of 250 questions. CPS session data that exceed this limit will only import the first 250 questions.</p></div></li>
+            <li>Navigate to the CPS database file and click <span class="Bold">Open</span>. The <span class="Italic">Import Assignments from CPS Database</span> window appears.</li>
+            <li>Select the session data to be imported, and click <span class="Bold">Next</span>.<ol><li>First select the CPS class roster that corresponds to the Test Manager class roster. The session data associated with this class roster is listed below.</li><li>Once the roster is verified, select some or all of the session data listed. Each session data listing that is selected is imported into Test Manager as a separate assignment.</li></ol></li>
+            <li>Assign point values, then click <span class="Bold">Next</span>.<p class="InList">CPS assigns equal point values for all questions within a session. By default, this value is 1 point per question. A different per question point value may be entered for each assignment.</p><p class="InList">Individual question point values can be changed after the assignment is imported by editing the assignment information.</p></li>
+            <li>Review the summary information. Click <span class="Bold">Finish</span> to accept the imported assignments into Test Manager.</li>
+        </ol>
+        <div class="ImageANDCaption">
+            <MadCap:dropDown>
+                <MadCap:dropDownHead>
+                    <MadCap:dropDownHotspot><span class="SmallTitle">Things to keep in mind:</span>
+                    </MadCap:dropDownHotspot>
+                </MadCap:dropDownHead>
+                <MadCap:dropDownBody>
+                    <ul>
+                        <li>CPS assigns equal point values for all questions within a session. By default, this
+value is 1 point per question. A different point value may be entered for each
+assignment.
+</li>
+                        <li>Individual question point values can be changed after the assignment is imported by
+editing the assignment information.</li>
+                        <li>Student records are matched to the ExamView Test Manager roster based on
+Student ID alone. First name, last name, and device IDs are not compared.
+</li>
+                        <li>Each assignment can contain a maximum of 250 questions. CPS session data that
+exceed this limit will only import the first 250 questions.</li>
+                    </ul>
+                </MadCap:dropDownBody>
+            </MadCap:dropDown>
+        </div>
+    </body>
+</html>

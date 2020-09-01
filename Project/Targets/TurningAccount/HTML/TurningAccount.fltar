@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[DocType.HTML] "
+  Skin="/Project/Skins/Turning Account.flskn"
+  DefaultUrl="/Content/TurningAccount/Welcome.htm"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  MasterToc="/Project/TOCs/TurningAccount/HTML/TACombined.fltoc"
+  ExcludeUnreferencedContent="true"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  Medium="non-print">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

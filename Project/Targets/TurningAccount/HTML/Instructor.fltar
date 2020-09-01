@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  Skin="/Project/Skins/Turning Account.flskn"
+  MasterToc="/Project/TOCs/TurningAccount/HTML/Instructors.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  ConditionTagExpression="include[DocType.HTML or &quot;Product.Turning Account&quot; or Users.Instructors]"
+  EnableSitemap="false"
+  SitemapWebUrl="http://help.turningtechnologies.com/TurningAccount/"
+  DefaultUrl="/Content/TurningAccount/Welcome.htm"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  ExcludeUnreferencedContent="true"
+  MoveOutputContentToRoot="false"
+  GlossaryTermConversion="marked"
+  Medium="non-print">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Turning Account Registration for Instructors</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/ExamViewCloudGlossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

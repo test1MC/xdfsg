@@ -1,0 +1,840 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Acceptable Range</Term>
+    </Terms>
+    <Definition
+      Link="">Applies to a numeric response question. If a specific value is not required for a correct answer, a participant’s response must fall between the minimum and maximum values (range) set to be counted as correct.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Acceptable Value</Term>
+    </Terms>
+    <Definition
+      Link="">Applies to a numeric response question. A participant’s response must be equal to the value to be counted as correct.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Active Participants</Term>
+    </Terms>
+    <Definition
+      Link="">Active participants are those who have responded to at least one question in the session, sent feedback and/or invalid responses.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Advanced Scoring</Term>
+    </Terms>
+    <Definition
+      Link="">An option for multiple choice and matching questions that allows point values to be set for each response. This preference is not valid when All or Nothing Scoring is checked.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>All or Nothing Scoring</Term>
+    </Terms>
+    <Definition
+      Link="">An option for multiple response and matching questions that, when checked, requires a participant to respond correctly to a question that has more than one correct answer to receive the full amount of points.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Allow Duplicates</Term>
+    </Terms>
+    <Definition
+      Link="">Allow Duplicates permits participants to respond with the same answer choice more than once.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Animated Chart</Term>
+    </Terms>
+    <Definition
+      Link="">An animated chart is a flash object (chart) that appears over the slide show in full screen.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Anonymous Questions</Term>
+    </Terms>
+    <Definition
+      Link="">A question marked Anonymous does not track participant list information when polling.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Anonymous (Participant List)</Term>
+    </Terms>
+    <Definition
+      Link="">An Anonymous participant list allows the polling of responses without associating responses to response devices.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Answer Key</Term>
+    </Terms>
+    <Definition
+      Link="">Located within the Question List Editor, this preference prints the selected test header information, question numbers and correct answers.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Anywhere Polling</Term>
+    </Terms>
+    <Definition
+      Link="">This polling environment allows polling independent of other applications. An interactive, floating toolbar displays polling with or without question lists on top of any application.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Anywhere Polling Showbar</Term>
+    </Terms>
+    <Definition
+      Link="">The Anywhere Polling showbar provides access to several features that may be used while polling in the Anywhere Polling environment.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Attendance Points</Term>
+    </Terms>
+    <Definition
+      Link="">Attendance Points can be delegated to track attendance in Results Manager. These points are added to the overall session points earned for each participant. Attendance points can be hidden or shown by checking the option in the Results Manager Overview.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Auto (Participant List)</Term>
+    </Terms>
+    <Definition
+      Link="">A participant list option that allows the polling of responses, tracking of responses with Device ID and any user information sent from the response device.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Benchmark</Term>
+    </Terms>
+    <Definition
+      Link="">A standard by which a grade can be measured. A participant falling below the benchmark will display the percentage in red; a participant falling at or above the benchmark will display the percentage in green.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Bullet Format</Term>
+    </Terms>
+    <Definition
+      Link="">Determines the type of answer notation to be displayed. The available options include: alphabetic uppercase [A, B, C, D], alphabetic lowercase [a, b, c, d], numeric starting at 1 [1, 2, 3, 4] or numeric starting at 0 [0, 1, 2, 3].</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Chart Window</Term>
+    </Terms>
+    <Definition
+      Link="">The chart window displays participant results in the Anywhere Polling environment. The window can be moved, resized, expanded and collapsed. Depending on the current question type, some buttons may not be visible or usable.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Comparative Links</Term>
+    </Terms>
+    <Definition
+      Link="">Comparative Links can be used to display the results from two separate questions on one chart. If a question is asked at the beginning of the presentation and then again towards the end, a comparative chart will display the results from each question.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Comparative Results</Term>
+    </Terms>
+    <Definition
+      Link="">The Comparative Results report allows a user to select two questions from the session and compare them side-by-side.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Compete</Term>
+    </Terms>
+    <Definition
+      Link="">The Compete button on the Anywhere Polling chart window and the PowerPoint Polling toolbar allows a user to insert a Team Leaderboard, Team MVP Leaderboard, Racing Leaderboard, Participant Leaderboard and Fastest Responders slide.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Conditional Branching</Term>
+    </Terms>
+    <Definition
+      Link="">Conditional Branching allows a user to control the order of slides in their PowerPoint Polling presentation based on participant responses.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Content</Term>
+    </Terms>
+    <Definition
+      Link="">Content consists of question lists and PowerPoint presentations that can be created, edited and organized into folders under the Content tab.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Continue Prior Session</Term>
+    </Terms>
+    <Definition
+      Link="">A previously run session can be continued, allowing for new response data to be added to the existing data.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Convert to Picture</Term>
+    </Terms>
+    <Definition
+      Link="">In the PowerPoint Polling environment, text-based answer options can be converted to pictures when visual aids would be beneficial to the audience.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Correct Answer Indicator</Term>
+    </Terms>
+    <Definition
+      Link="">A correct answer indicator denotes the correct answer or answers to a question. The audience will see the correct answer indicator after polling is closed.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Correct Point Value</Term>
+    </Terms>
+    <Definition
+      Link="">The correct point value indicates the number of points awarded to a participant for responding to a question correctly.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Demographic</Term>
+    </Terms>
+    <Definition
+      Link="">Demographics group participants by a specific criteria, i.e. male or female. Demographics can be assigned in a participant list or from a polling question.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Demographic Comparison</Term>
+    </Terms>
+    <Definition
+      Link="">In the PowerPoint Polling environment, the Demographic Comparison slide displays the responses based on the specified demographic.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Demographic Grouping</Term>
+    </Terms>
+    <Definition
+      Link="">The demographic grouping is the overall categorization of a group of demographics. For example, the demographic grouping “gender” groups the demographics “male” and “female.”</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Device ID</Term>
+    </Terms>
+    <Definition
+      Link="">A Device ID is the unique six to eight-digit hexadecimal character set that distinguishes every response device. On ResponseCards, the Device ID is found on the back below the barcode. In ResponseWare, the Device ID is viewable in the participant's Turning Account.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Duplicate (Question List and Participant List)</Term>
+    </Terms>
+    <Definition
+      Link="">An option in the Question List Editor and the Participant List Editor that duplicates the current question list or participant list as a new list to facilitate the ease of creating multiple lists with the same data or format.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Enforce Capitalization</Term>
+    </Terms>
+    <Definition
+      Link="">An option in the Slide Preferences Pane that requires participants to respond to short answer questions with proper punctuation.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Essay</Term>
+    </Terms>
+    <Definition
+      Link="">A question type that allows for an open ended response.  TurningPoint Cloud does not grade essay responses; only XR, NXT QT and ResponseWare devices are able to respond to essay questions.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Exclude from Grading</Term>
+    </Terms>
+    <Definition
+      Link="">In the Session Editor, questions that are excluded from grading will not figure into the overall session percentages, points possible or points earned if this option is selected.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Exclude Session</Term>
+    </Terms>
+    <Definition
+      Link="">In Results Manager, sessions that are excluded from grading will not figure into the overall percentages, points possible or points earned if this option is selected. If a session is excluded from grading, it cannot be included again.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Expected File Location</Term>
+    </Terms>
+    <Definition
+      Link="">This is the location that TurningPoint Cloud expects to find the selected session. If the session is not found in that location, a “locate” button will appear to allow for the redirection to the session’s location.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Export Overview</Term>
+    </Terms>
+    <Definition
+      Link="">Export Overview is an option in Results Manager that allows the export of the Participant List Overview to a CSV.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Export Participant</Term>
+    </Terms>
+    <Definition
+      Link="">Export Participant is an option in Results Manager that allows the export of multi-session information for each participant to a CSV or PDF.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Export Session</Term>
+    </Terms>
+    <Definition
+      Link="">Export Session is an option in Results Manager that allows the export of the selected session’s column results to a CSV in a predefined format.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Extract Session</Term>
+    </Terms>
+    <Definition
+      Link="">A session can be selected and its data extracted from that file. Extract options include the PowerPoint presentation, screenshots and the session’s question list.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Fastest Responders Slide</Term>
+    </Terms>
+    <Definition
+      Link="">The Fastest Responders slide displays the individual participants who responded correctly and fastest to the most recent question. This feature requires a correct response or point value.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Group Options</Term>
+    </Terms>
+    <Definition
+      Link="">Group Options denotes the individual demographic designation for assigning groups; i.e. “male” and “female” are group options assigned to the demographic grouping “gender.”</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Incorrect Point Value</Term>
+    </Terms>
+    <Definition
+      Link="">Incorrect point value denotes the number of points awarded to a participant for responding to a question incorrectly.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Integration</Term>
+    </Terms>
+    <Definition
+      Link="">Integrations allow for the sharing of data between the Turning Technologies Web Registration Tool or Learning Management Systems (LMS) and TurningPoint Cloud.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>IR</Term>
+    </Terms>
+    <Definition
+      Link="">IR is the abbreviation for Infrared. This refers to all Turning Technologies IR receivers and response devices.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Keyword</Term>
+    </Terms>
+    <Definition
+      Link="">When set on a short answer question, a participant’s response must equal the keyword to be counted as correct. Multiple keywords can be set.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Live Polling</Term>
+    </Terms>
+    <Definition
+      Link="">PowerPoint Polling offers the option to poll the presentation with live participant responses or simulated computer responses. By default, live polling is selected.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Matching</Term>
+    </Terms>
+    <Definition
+      Link="">A question type that allows for the matching of two columns of information. Responding to a matching question operates in the same manner of all other multiple response questions. All response devices are able to respond to a matching question, however a matching question is only supported in the Anywhere and Self-Paced environments.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Merge Session</Term>
+    </Terms>
+    <Definition
+      Link="">Multiple session files can be merged into a single session file. Sessions may be merged by questions, participants or by both questions and participants.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Merged (Session Manager)</Term>
+    </Terms>
+    <Definition
+      Link="">After the merge, a new category is created in the left panel called “Merged.” Merged sessions that are not added to a participant list are found in this category. Once in this category, sessions cannot be moved to a participant list.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Messaging</Term>
+    </Terms>
+    <Definition
+      Link="">Participants using ResponseCard NXT, QT Device or ResponseWare can send feedback/messages to the instructor during a session.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Moment to Moment</Term>
+    </Terms>
+    <Definition
+      Link="">In PowerPoint Polling, the Moment to Moment slide allows participants rate something on a scale of 1 to 5 over a period of time. The slide contains a question text box and a chart that shows the average response at each polling interval.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Multiple Choice</Term>
+    </Terms>
+    <Definition
+      Link="">A question type that allows for several answers from which the correct one(s) can be selected by the participant.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Multiple Responses</Term>
+    </Terms>
+    <Definition
+      Link="">Multiple responses allow participants to send more than one response to a multiple choice question.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>No Value</Term>
+    </Terms>
+    <Definition
+      Link="">When an answer choice is neither correct nor incorrect, the answer is considered to have no value.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Numeric Response</Term>
+    </Terms>
+    <Definition
+      Link="">A numeric response question requires the participants to respond with a numeric value. Only participants using a ResponseCard XR, ResponseCard NXT or ResponseWare may respond to a numeric response question.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>NXT</Term>
+    </Terms>
+    <Definition
+      Link="">A ResponseCard that allows for all of the functionality of the IR and RF ResponseCards, but also offers numeric response, short answer and essay responses, as well as messaging and Self-Paced Polling capability.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Overview</Term>
+    </Terms>
+    <Definition
+      Link="">In Results Manager, the Overview displays the details and options for the participant list and sessions. This can be viewed by clicking the Overview button or any of the shaded columns.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Participant</Term>
+    </Terms>
+    <Definition
+      Link="">Any individual who may respond to questions during a session.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Participant Leaderboard</Term>
+    </Terms>
+    <Definition
+      Link="">A Participant Leaderboard displays the top individual participants ranked by their total points.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Participant List</Term>
+    </Terms>
+    <Definition
+      Link="">A list of participants that are expected to be part of a session. Information about participants may be entered for precise tracking and reporting.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Participant List Overview</Term>
+    </Terms>
+    <Definition
+      Link="">This information is displayed when a participant list is selected from the Manage tab. Information includes details about the list as well as a preview of the content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Participant Monitor</Term>
+    </Terms>
+    <Definition
+      Link="">The Participant Monitor displays question information, participant information and participant question details.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Participant View</Term>
+    </Terms>
+    <Definition
+      Link="">In Results Manager, the Participant View displays the view and options of an individual participant.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Participant’s Session View</Term>
+    </Terms>
+    <Definition
+      Link="">In Results Manager, the Participant’s Session View displays the view and options of an individual participant’s session entry.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Performance Points</Term>
+    </Terms>
+    <Definition
+      Link="">Performance Points are assigned to a participant in Results Manager for performance in a specific session.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Performance Scale</Term>
+    </Terms>
+    <Definition
+      Link="">A scale set to display a text or numeric value equal to how the participant has performed across all sessions.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>PowerPoint Polling</Term>
+    </Terms>
+    <Definition
+      Link="">The PowerPoint Polling environment allows polling as an integrated part of a PowerPoint presentation. Polling slides are created from a ribbon/toolbar that is integrated/embedded into PowerPoint.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>PowerPoint Showbar</Term>
+    </Terms>
+    <Definition
+      Link="">The PowerPoint showbar appears automatically when a polling slide is displayed during the Slide Show. The showbar is a toolbar that includes options for polling, monitoring, viewing responses and other polling tools during the slide show.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Preferences</Term>
+    </Terms>
+    <Definition
+      Link="">The various settings that control the behavior of the software and each polling environment are referred to as Preferences.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Presentation Window</Term>
+    </Terms>
+    <Definition
+      Link="">This window displays the question and answer text of the currently polled question in the Anywhere environment.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>PresenterCard</Term>
+    </Terms>
+    <Definition
+      Link="">An RF (Radio Frequency) device that controls polling presentations via TurningPoint Cloud.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>PresenterWare</Term>
+    </Terms>
+    <Definition
+      Link="">PresenterWare is a separate mobile device application that controls polling presentations via TurningPoint Cloud. PresenterWare is available for Android and iOS devices.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Priority Ranking</Term>
+    </Terms>
+    <Definition
+      Link="">A question type that allows participants to vote multiple times, ranking items by response weights.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Prompt</Term>
+    </Terms>
+    <Definition
+      Link="">An object that can be added to a PowerPoint Polling slide which alerts the participants that the current slide is a polling slide.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Proxy Server</Term>
+    </Terms>
+    <Definition
+      Link="">In computer networks, a proxy server is a server (a computer system or an application program) that acts as an intermediary for requests from clients seeking resources from other servers.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>QT Device</Term>
+    </Terms>
+    <Definition
+      Link="">A response device that features a full QWERTY keyboard and offers numeric response, short answer and essay responses, as well as messaging and Self-Paced Polling capability.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Question List</Term>
+    </Terms>
+    <Definition
+      Link="">A question list is a list of questions created within the Content tab. A question list can be used to poll questions in Anywhere Polling and Self-Paced Polling, or to create slides in PowerPoint Polling.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Question List Overview</Term>
+    </Terms>
+    <Definition
+      Link="">The Question List Overview displays details about the question list as well as a preview of the contents.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Racing Leaderboard</Term>
+    </Terms>
+    <Definition
+      Link="">In the PowerPoint Polling environment, the Racing Leaderboard slide presents a visual representation of the team scores. An image to represent the teams is selected from the Slide Preferences Pane. When the slide is advanced, the images move in relation to the number of points earned.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Real-Time Registration Tool</Term>
+    </Terms>
+    <Definition
+      Link="">Found in the PowerPoint and Anywhere Polling environments, this tool provides a fast and simple way to utilize a participant list for smaller audiences. It allows participants to respond with their device, assigning the device to their name for the duration of the session.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Receiver</Term>
+    </Terms>
+    <Definition
+      Link="">A USB device that receives RF (Radio Frequency) or IR (Infrared) signals from response devices and communicates them to TurningPoint Cloud. A receiver is required for use with all ResponseCards and PresenterCards.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Refresh</Term>
+    </Terms>
+    <Definition
+      Link="">From the Content tab, the Refresh option allows the user to update the display of content if changes to the content folders have been made outside of TurningPoint Cloud on the local computer.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Removed Participants</Term>
+    </Terms>
+    <Definition
+      Link="">Participants with associated session data, but removed from a participant list, are considered removed participants.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Reports</Term>
+    </Terms>
+    <Definition
+      Link="">There are eight types of session reports (Results by Question, Results by Participant, Results Detail, Results by Demographic, Comparative Results, Session Log Report, Team Points and Demographic Comparison). Each report can be customized by selecting the data options on the right side of the reports window.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Reserved Session ID</Term>
+    </Terms>
+    <Definition
+      Link="">A unique ResponseWare Session ID created by the instructor. The reserved Session ID must be set from the instructor's account at www.rwpoll.com.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Reset Slides</Term>
+    </Terms>
+    <Definition
+      Link="">A PowerPoint Polling feature that allows selected slides to be reset while retaining the session data.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Reset Session</Term>
+    </Terms>
+    <Definition
+      Link="">A feature that resets the charts to zero percent and clears all session data.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Response Grid</Term>
+    </Terms>
+    <Definition
+      Link="">In the PowerPoint and Anywhere Polling environments, a Response Grid displays which participants have or have not responded to a question.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Response History</Term>
+    </Terms>
+    <Definition
+      Link="">A Results by Participant report option that displays the last 10 responses from a participant to any given question.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Response Times</Term>
+    </Terms>
+    <Definition
+      Link="">In the Results by Participant report, response times display the number of seconds it took each participant to respond to a question with their final valid response.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Response Weights</Term>
+    </Terms>
+    <Definition
+      Link="">For priority ranking questions, the response weight designates the number of votes each participant’s first, second, third, etc. responses may receive. For example, a response weight of 10 for a first choice (response) equals 10 votes for every participant’s first choice (response).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>ResponseWare</Term>
+    </Terms>
+    <Definition
+      Link="">A ResponseCard alternative that operates from a web-enabled device. ResponseWare offers the same functionality as IR and RF ResponseCards, but also offers numeric response, short answer and essay responses as well as messaging between the participant and instructor/other participants (if permitted by the instructor).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Results Manager</Term>
+    </Terms>
+    <Definition
+      Link="">A compilation of all sessions associated to a single participant list. Cumulative scores from multiple sessions and other tools are also available within Results Manager.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>RF</Term>
+    </Terms>
+    <Definition
+      Link="">RF is the abbreviation for Radio Frequency. This refers to all Turning Technologies RF receivers and response devices.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Save Session</Term>
+    </Terms>
+    <Definition
+      Link="">An option in each polling environment that is required if saved response data is desired for reporting or exporting.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Screenshot</Term>
+    </Terms>
+    <Definition
+      Link="">An image snapshot of the computer screen contents at the moment polling is closed in Anywhere Polling.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Self-Paced Polling</Term>
+    </Terms>
+    <Definition
+      Link="">The polling environment that allows participants to proceed through a polling session at their own pace. Question lists/tests are usually printed and distributed as participants answer questions on their XR or NXT ResponseCards.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Session</Term>
+    </Terms>
+    <Definition
+      Link="">A session is the collection of response data from a polling session. Saving the data will result in a session file.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Session Events</Term>
+    </Terms>
+    <Definition
+      Link="">Events that occur and are logged during a session, such as the beginning and end times of a poll and messages received or sent, are referred to as session events. These items can be viewed from the Session Log report.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Session ID</Term>
+    </Terms>
+    <Definition
+      Link="">A code that is generated in ResponseWare and used by all participants in order to gain access to the session.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Short Answer</Term>
+    </Terms>
+    <Definition
+      Link="">A question type that requires participants to respond with a short text answer. Only participants using a ResponseCard XR, NXT or ResponseWare may respond to a short answer question.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Simulated Polling</Term>
+    </Terms>
+    <Definition
+      Link="">PowerPoint Polling offers the option to poll the presentation with simulated computer responses. By selecting Simulated Polling, TurningPoint Cloud automatically populates the charts with response data.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Simulated (Session Manager)</Term>
+    </Terms>
+    <Definition
+      Link="">Sessions run in PowerPoint Polling with Simulated Polling will be grouped together under the same heading for reporting and session editing.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Slide Preferences Pane</Term>
+    </Terms>
+    <Definition
+      Link="">The Slide Preferences Pane is a movable, floating panel in the PowerPoint Polling environment that is displayed when a TurningPoint Cloud slide is selected. It offers the ability to customize slide options.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Standards</Term>
+    </Terms>
+    <Definition
+      Link="">Set learning benchmarks that can be attached to individual questions or slides. Standards achievement levels can be reviewed in Reports.
+
+Custom Standards - Any standard created to suit specific user needs. Custom Standards can be created manually or imported from another location.
+
+Downloaded Standards - These standards are available via the Turning Technologies software, QuestionPoint.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Team Leaderboard</Term>
+    </Terms>
+    <Definition
+      Link="">The Team Leaderboard displays the top teams ranked by their total points. The team’s points are the average of the team’s participants’ points.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Team MVP</Term>
+    </Terms>
+    <Definition
+      Link="">In the PowerPoint Polling environment, the Team MVP Leaderboard displays the top scoring participant for each team.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Tools</Term>
+    </Terms>
+    <Definition
+      Link="">The menu of additional features available for presentation enhancement in PowerPoint Polling is referred to as Tools. These features include: Convert to Picture, Ranking Wizard and Comparative Links.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Total Points Possible</Term>
+    </Terms>
+    <Definition
+      Link="">In Results Manager, this is the column that displays the total number of points (performance plus attendance) possible for each participant across all sessions.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>True/False</Term>
+    </Terms>
+    <Definition
+      Link="">A question type that requires a true or false response.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Turning Account</Term>
+    </Terms>
+    <Definition
+      Link="">A Turning Account is a unique identifier for both instructors and participants that is tied to all software accounts and response devices.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Unassigned Devices</Term>
+    </Terms>
+    <Definition
+      Link="">In Results Manager, any device that is not permanently assigned to a participant can be found below the participant list as an Unassigned Device. These devices may be associated to a participant at any time.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Unassigned Session View</Term>
+    </Terms>
+    <Definition
+      Link="">In Results Manager, an unassigned device may also have unassigned sessions. Any session individually selected may then be assigned to a participant on a per session basis.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Use in Competition</Term>
+    </Terms>
+    <Definition
+      Link="">This check box is found in the Demographic Options section of the Question List Editor. Use in Competition allows for demographics to also be used as teams in competitions.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>User ID</Term>
+    </Terms>
+    <Definition
+      Link="">A User ID is a unique identifier for a participant. This is not a required participant list field, however when present in a participant list and sent from a device, it can be used to match an unassigned device to the appropriate participant for that session.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Version</Term>
+    </Terms>
+    <Definition
+      Link="">Question lists are able to have multiple versions created, allowing different test versions to be given simultaneously in the Self-Paced Polling environment.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>Voting Weight</Term>
+    </Terms>
+    <Definition
+      Link="">A voting weight allows the adjustment of a participant’s vote to equal the same weight as that of a specified number of votes. For example, a voting weight of “4” would be equal to four votes.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry>
+    <Terms>
+      <Term>XR</Term>
+    </Terms>
+    <Definition
+      Link="">A ResponseCard that allows for all of the functionality of the IR and RF ResponseCards, but also offers numeric response, short answer and essay responses, as well as messaging and Self-Paced Polling capability.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

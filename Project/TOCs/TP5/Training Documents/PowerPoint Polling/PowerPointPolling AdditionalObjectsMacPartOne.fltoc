@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PowerPoint Polling for PCMac Additional Topics Part One"
+    Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/PowerPoint Polling Additional Topics.htm">
+    <TocEntry
+      Title="Priority Ranking"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Priority_Ranking.htm" />
+    <TocEntry
+      Title="Convert to Picture"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Convert_to_Picture.htm" />
+    <TocEntry
+      Title="The PowerPoint Polling Showbar"
+      Link="/Content/TP5/PowerPointPolling/ThePowerPointPollingShowbar.htm" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageType="firstright"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" />
+  <TocEntry
+    Title="About WorkSpace"
+    Link="/Content/WorkSpace/About/About.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/WorkSpace/About/TechnicalRequirements.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/WorkSpace/About/GettingStarted.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Downloading WorkSpace"
+        Link="/Content/WorkSpace/About/DownloadingInstallingWorkSpacePC.htm" />
+      <TocEntry
+        Title="Registering the Software"
+        Link="/Content/WorkSpace/About/Registering.htm"
+        BreakType="pageLayout"
+        StartSection="false" />
+      <TocEntry
+        Title="Checking for Software Updates"
+        Link="/Content/WorkSpace/About/CheckingforSoftwareUpdates.htm" />
+      <TocEntry
+        Title="Setting Up WorkSpace Connect"
+        Link="/Content/WorkSpace/About/SettingUpWorkSpaceConnect.htm" />
+      <TocEntry
+        Title="Setting Up the MobiView"
+        Link="/Content/WorkSpace/About/SettingUpMobiView.htm" />
+      <TocEntry
+        Title="Setting Up the Mobi Learners"
+        Link="/Content/WorkSpace/About/SettingUpMobiLearners.htm" />
+      <TocEntry
+        Title="Setting Up the DualBoard via USB"
+        Link="/Content/WorkSpace/About/SettingUpDualBoardviaUSB.htm" />
+      <TocEntry
+        Title="Setting Up the DualBoard via Wireless Kit"
+        Link="/Content/WorkSpace/About/SettingUpDualBoardviaWirelessKit.htm" />
+      <TocEntry
+        Title="Setting Up the Touch Board via USB"
+        Link="/Content/WorkSpace/About/SettingUpTouchBoardviaUSB.htm" />
+      <TocEntry
+        Title="Setting Up the Touch Board"
+        Link="/Content/Hardware/TouchBoard/ConnectingtheTouchBoardPlus.htm"
+        StartSection="false">
+        <TocEntry
+          Title="Mouse Actions"
+          Link="/Content/Hardware/TouchBoard/MouseActions.htm" />
+        <TocEntry
+          Title="Touch Board Gestures"
+          Link="/Content/Hardware/TouchBoard/TouchBoardGestures.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="The WorkSpace Toolbar"
+      Link="/Content/WorkSpace/About/TheWorkSpaceToolbar.htm" />
+    <TocEntry
+      Title="WorkSpace Modes"
+      Link="/Content/WorkSpace/About/WorkSpaceModes.htm" />
+    <TocEntry
+      Title="WorkSpace Window"
+      Link="/Content/WorkSpace/About/WorkSpaceWindow.htm"
+      BreakType="none"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Preferences"
+    Link="/Content/WorkSpace/Preferences/Preferences.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Options"
+      Link="/Content/WorkSpace/Preferences/Options.htm" />
+    <TocEntry
+      Title="New Page Setup"
+      Link="/Content/WorkSpace/Preferences/NewPageSetup.htm"
+      BreakType="none"
+      StartSection="false" />
+    <TocEntry
+      Title="Transparency and Language"
+      Link="/Content/WorkSpace/Preferences/TransparencyandLanguage.htm" />
+    <TocEntry
+      Title="Toolbar Settings"
+      Link="/Content/WorkSpace/Preferences/ToolbarSettings.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Creating a Custom Button"
+        Link="/Content/WorkSpace/Preferences/CreatingaCustomButton.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Customize Toolbar"
+      Link="/Content/WorkSpace/Preferences/CustomizeToolbar.htm">
+      <TocEntry
+        Title="Adding a Tool to the Toolbar"
+        Link="/Content/WorkSpace/Preferences/AddingaTooltotheToolbar.htm" />
+      <TocEntry
+        Title="Removing a Tool from the Toolbar"
+        Link="/Content/WorkSpace/Preferences/RemovingaToolfromtheToolbar.htm" />
+      <TocEntry
+        Title="Creating a Custom Scheme"
+        Link="/Content/WorkSpace/Preferences/CreatingaCustomScheme.htm"
+        BreakType="none"
+        StartSection="false" />
+    </TocEntry>
+    <TocEntry
+      Title="Gradient Page Setup"
+      Link="/Content/WorkSpace/Preferences/GradientPageSetup.htm">
+      <TocEntry
+        Title="Changing a Gradient"
+        Link="/Content/WorkSpace/Preferences/ChangingaGradient.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Tablet Settings"
+      Link="/Content/WorkSpace/Preferences/TabletSettings.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="The WorkSpace Toolbar and Menus"
+    Link="/Content/WorkSpace/Menu/TheWorkSpaceToolbarandMenu.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Toolbar"
+      Link="/Content/WorkSpace/Menu/Toolbar.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Table 1: WorkSpace Modes"
+        Link="/Content/WorkSpace/Menu/WorkSpaceModes.htm" />
+      <TocEntry
+        Title="Tools Available in Lesson and Annotate Over DesktopInteractive Mode"
+        Link="/Content/WorkSpace/Menu/ToolsLessonandAnnotateOverDesktopInteractiveMode.htm"
+        BreakType="none"
+        StartSection="false" />
+      <TocEntry
+        Title="Tools Available in Office Mode"
+        Link="/Content/WorkSpace/Menu/ToolsOfficeMode.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Menus"
+      Link="/Content/WorkSpace/Menu/Menus.htm" />
+    <TocEntry
+      Title="Other Options"
+      Link="/Content/WorkSpace/Menu/OtherOptions.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Selecting the SRS"
+        Link="/Content/WorkSpace/Menu/SelectingtheSRS.htm" />
+      <TocEntry
+        Title="Creating a Flow Question"
+        Link="/Content/WorkSpace/Menu/CreatingaFlowQuestion.htm"
+        BreakType="pageLayout"
+        StartSection="false" />
+      <TocEntry
+        Title="Asking a Flow Question"
+        Link="/Content/WorkSpace/Menu/AskingaFlowQuestion.htm" />
+      <TocEntry
+        Title="Device Manager"
+        Link="/Content/WorkSpace/Menu/DeviceManager.htm"
+        BreakType="pageLayout"
+        StartSection="false"></TocEntry>
+      <TocEntry
+        Title="Selecting Device Manager"
+        Link="/Content/WorkSpace/Menu/SelectingDeviceManager.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="WorkSpace Modes"
+    Link="../../../Content/WorkSpace/WorkSpace Modes/WorkSpace Modes.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Lesson Mode"
+      Link="../../../Content/WorkSpace/WorkSpace Modes/LessonModePC.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Accessing Lesson Mode"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/AccessingLessonMode.htm" />
+      <TocEntry
+        Title="WorkSpace Tools"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/WorkSpace_Tools.htm"
+        BreakType="none"
+        StartSection="false" />
+    </TocEntry>
+    <TocEntry
+      Title="Mouse Mode"
+      Link="../../../Content/WorkSpace/WorkSpace Modes/MouseMode.htm">
+      <TocEntry
+        Title="Enabling Mouse Mode"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/EnablingMouseMode.htm" />
+      <TocEntry
+        Title="Capture"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/Capture.htm"
+        BreakType="none"
+        StartSection="false" />
+    </TocEntry>
+    <TocEntry
+      Title="Annotate Over Desktop Mode"
+      Link="../../../Content/WorkSpace/WorkSpace Modes/AnnotateOverDesktopMode.htm">
+      <TocEntry
+        Title="Annotating Over the Desktop"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/AnnotatingOvertheDesktop.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Multi-User Mode"
+      Link="../../../Content/WorkSpace/WorkSpace Modes/MultiUserMode.htm">
+      <TocEntry
+        Title="Selecting the Multi-User Menu"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/SelectingtheMultiUserMenu.htm" />
+      <TocEntry
+        Title="Setting Up Multi-User Mode"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/SettingUpMultiUserMode.htm" />
+      <TocEntry
+        Title="Setting Up Quick Start"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/SettingUpQuickStart.htm" />
+      <TocEntry
+        Title="Selecting the Presenter"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/SelectingthePresenter.htm"></TocEntry>
+      <TocEntry
+        Title="Presenter Tools"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/PresenterTools.htm" />
+      <TocEntry
+        Title="Locking Tablets and Clickers (If Applicable)"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/LockingTabletsandClickers.htm" />
+      <TocEntry
+        Title="Exiting Multi-User Mode"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/ExitingMultiUserMode.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Office Mode"
+      Link="../../../Content/WorkSpace/WorkSpace Modes/OfficeMode.htm" />
+    <TocEntry
+      Title="Whiteboard Mode"
+      Link="../../../Content/WorkSpace/WorkSpace Modes/WhiteboardMode.htm"
+      BreakType="none"
+      StartSection="false">
+      <TocEntry
+        Title="Enabling Whiteboard Mode"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/EnablingWhiteboardMode.htm" />
+      <TocEntry
+        Title="Using Whiteboard Mode"
+        Link="../../../Content/WorkSpace/WorkSpace Modes/UsingWhiteboardMode.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Using WorkSpace"
+    Link="../../../Content/WorkSpace/UsingWorkspace/UsingWorkspace.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Using Layers"
+      Link="../../../Content/WorkSpace/UsingWorkspace/UsingLayers.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Copying an Object"
+      Link="../../../Content/WorkSpace/UsingWorkspace/CopyinganObject.htm" />
+    <TocEntry
+      Title="Locking and Unlocking an Object"
+      Link="../../../Content/WorkSpace/UsingWorkspace/LockingandUnlockinganObject.htm" />
+    <TocEntry
+      Title="Creating Page Transitions"
+      Link="../../../Content/WorkSpace/UsingWorkspace/CreatingPageTransitions.htm"
+      BreakType="none"
+      StartSection="false" />
+    <TocEntry
+      Title="Exporting a Presentation Object or Entity"
+      Link="../../../Content/WorkSpace/UsingWorkspace/ExportingaPresentationObjectorEntity.htm" />
+    <TocEntry
+      Title="Distributing Files"
+      Link="../../../Content/WorkSpace/UsingWorkspace/DistributingFiles.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="The Gallery"
+    Link="/Content/WorkSpace/The Gallery/The Gallery.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Searching the Gallery"
+      Link="/Content/WorkSpace/The Gallery/SearchingtheGallery.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Selecting a Gallery Object"
+      Link="/Content/WorkSpace/The Gallery/SelectingaGalleryObject.htm" />
+    <TocEntry
+      Title="Adding a File to the Gallery"
+      Link="/Content/WorkSpace/The Gallery/AddingaFile.htm" />
+    <TocEntry
+      Title="Building a Database"
+      Link="/Content/WorkSpace/The Gallery/BuildingaDatabase.htm" />
+    <TocEntry
+      Title="Importing a File from a Device"
+      Link="/Content/WorkSpace/The Gallery/ImportingaFilefromaDevice.htm" />
+    <TocEntry
+      Title="Editing Gallery Files"
+      Link="/Content/WorkSpace/The Gallery/EditingGalleryFiles.htm" />
+    <TocEntry
+      Title="Exporting Gallery Files"
+      Link="/Content/WorkSpace/The Gallery/ExportingGalleryFiles.htm" />
+    <TocEntry
+      Title="Adding a New Category"
+      Link="/Content/WorkSpace/The Gallery/AddingaNewCategory.htm" />
+    <TocEntry
+      Title="Adding a File to Favorites"
+      Link="/Content/WorkSpace/The Gallery/AddingaFiletoFavorites.htm" />
+    <TocEntry
+      Title="Deleting a File from the Gallery"
+      Link="/Content/WorkSpace/The Gallery/DeletingaFile.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

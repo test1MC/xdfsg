@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="2417" MadCap:lastWidth="879" MadCap:conditions="OS.PC">
+    <head>&#160;<link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h3>Conditional Branching</h3>
+        <p>Conditional branching allows a user to control the order of slides in the presentation based on responses received from participants.<MadCap:conditionalText MadCap:conditions="DocType.Training"> Conditional branching is set up by defining a condition which, if satisfied, advances to a specified slide.</MadCap:conditionalText></p>
+        <h4 class="task">Setting Up Conditional Branching</h4>
+        <p>Conditional branching is set up by defining a condition which, if satisfied, advances to a specified slide.</p>
+        <p class="Prerequisites" MadCap:autonum="Prerequisites">&#160;</p>
+        <p>A polling presentation that contains all of the branching slides is required. </p>
+        <div class="ImageANDCaption">
+            <div class="ImageFloatRight">
+                <p class="Caption">
+                    <MadCap:conditionalText MadCap:conditions="DocType.UG"> Office 2007/2010/2013</MadCap:conditionalText>
+                </p>
+                <p class="Caption">
+                    <img src="../../Graphics/TP5/PowerPointPolling/Tools-ConditionalBranching.png" class="MediumWide288px" />
+                </p>
+                <div class="ImageANDCaption">
+                    <p class="Caption" MadCap:conditions="DocType.UG">Office 2003</p>
+                    <p class="Caption" MadCap:conditions="DocType.UG">
+                        <img src="../../Graphics/TP5/PowerPointPolling/Tools-ConditionalBranching2003.png" class="MediumWide288px" />
+                    </p>
+                </div>
+            </div>
+        </div>
+        <ol class="Gotham">
+            <li>Click the <span class="Bold">Tools</span> icon on the TurningPoint ribbon/toolbar and select <span class="Bold">Conditional Branching</span>.<p class="InList">The <span class="Italic">Conditional Branching </span>window opens.</p><p><img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching.png" class="MediumWide288px" MadCap:conditions="DocType.UG" /></p></li>
+            <li>Select the <span class="Bold">slide</span> where the branch will begin from the <span class="Italic">Select a Slide</span> drop-down menu.<p><img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching-SelectSlide.png" class="MediumWide288px" /></p></li>
+            <li>Click <span class="Bold">Add</span> to add a rule.<p class="InList">The Conditional Branching Rules box displays the rule with a default name.</p></li>
+            <li>Optionally, click <span class="Bold">Rename</span> to change the default name of the rule.<p class="InList">Enter a <span class="Bold">name</span> in the box provided and click <span class="Bold">OK</span>.</p></li>
+            <li>Optionally, create additional conditions for a slide by clicking <span class="Bold">AND Condition</span> or <span class="Bold">OR Condition</span> as logical operators.<div class="Note" MadCap:conditions="DocType.UG" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>There can be up to 30 conditions per selected slide.</p></div><ul><li>Click AND Condition to link a conditional branching item to the previous item to specify that both conditions should be met. If “Condition” and “Condition” then go to “Slide Selection.”</li><li>Click OR Condition to link a conditional branching item to the previous item to specify that either condition can be met. If “Condition” or “Condition” then go to “Slide Selection.”</li></ul></li>
+            <li>Define all conditions in the Conditional Branching Rule Description by selecting the appropriate link.<ol><li><span class="Bold">Condition</span> - Choose Percentage of Responses, Number of Responders or Majority Rules.<p><img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching-ChooseRule.png" class="SmallHigh192px" /></p></li><li>The Compound Rule Condition Box opens and displays up to three components of the compound rule that must be selected.<p><img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching-CompleteRule.png" class="LargeWide480px" /></p></li><li><span class="Bold">Comparison Operator</span> - Choose an operator to satisfy the condition. The choices are Greater Than, Less Than, Equal To, Not Equal To, Greater Than or Equal To, or Less Than or Equal To.<p><img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching-ChooseOperator.png" class="SmallHigh192px" /></p></li><li><span class="Bold">Value</span> - Determines the value or percentage to compare to in the next step. For Number of Responders, enter a number of responses (from 0 to the total number of participants). If Percentage of Responses was chosen, enter a percentage of responses (from 1 to 100).<p><img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching-Percentage.png" class="SmallHigh192px" /> <img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching-Responses.png" /></p></li><li><span class="Bold">Selected Answer</span> - Determines what answer must be selected to make the condition true. The number or percentage of responses for the selected answer will be used in the comparison. Any of the answer choices on the slide may be chosen. The condition uses the number of responses for that selected answer choice.<p><img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching-Answers.png" class="SmallHigh192px"></img></p></li><li><span class="Bold">Slide Selection</span> - Select the slide to be displayed when the condition is fulfilled. Select any slide in the presentation.<p><img src="../../Graphics/TP5/PowerPointPolling/ConditionalBranching-ChooseSource.png" class="MediumWide288px"></img></p></li></ol></li>
+            <li>Repeat steps 3 - 6 to add additional independent conditions to the same slide. </li>
+            <li>Click <span class="Bold">OK</span> in the Conditional Branching window when all the conditions have been added to the slides.</li>
+        </ol>
+        <p MadCap:conditions="DocType.UG">When running the presentation, the slides set up for conditional branching will advance to the selected slide if the condition is met.</p>
+        <p MadCap:conditions="DocType.UG">A condition may be removed by selecting it from the list in the Conditional Branching window and clicking Delete.</p>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="TurningPoint and Skyward"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Export Schemes/TurningPoint/Skyward.fltoc"
+  ConditionTagExpression="include[DocType.UG or &quot;TurningPoint.TurningPoint 5&quot;] exclude[DocType.Handbook or DocType.QSG or DocType.Support or DocType.Training] "
+  PatchHeadingLevels="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">TurningPoint 5 and Skyward</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+    <Variable
+      Name="Schemes/NewVariable">Skyward</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TurningPoint 5 and Skyward"
+    Author="Turning Technologies"
+    Subject="TurningPoint 5 and Skyward"
+    Keywords="TurningPoint 5 and Skyward" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

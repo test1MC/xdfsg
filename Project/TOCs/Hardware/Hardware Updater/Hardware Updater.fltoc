@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    PageType="firstright"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="About the Hardware Updater"
+    Link="/Content/Hardware/Hardware Updater UG/About.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/Hardware/Hardware Updater UG/Technical_Requirements.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue" />
+    <TocEntry
+      Title="Downloading the Hardware Updater"
+      Link="/Content/Hardware/Hardware Updater UG/Downloading_the_Hardware_Updater.htm" />
+    <TocEntry
+      Title="Installing the Hardware Updater"
+      Link="/Content/Hardware/Hardware Updater UG/Installing_the_Hardware_Updater.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Updating a Device"
+    Link="/Content/Hardware/Hardware Updater UG/Updating.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Connecting via a Proxy Server"
+      Link="/Content/Hardware/Hardware Updater UG/Connecting_via_a_Proxy_Server.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Updating a Receiver"
+      Link="/Content/Hardware/Hardware Updater UG/Updating_a_Receiver.htm" />
+    <TocEntry
+      Title="Updating a ResponseCard"
+      Link="/Content/Hardware/Hardware Updater UG/Updating_a_ResponseCard.htm" />
+    <TocEntry
+      Title="Updating ResponseCard NXTs Over the Air"
+      Link="/Content/Hardware/Hardware Updater UG/Updating_ResponseCard_NXTs_Over_the_Air.htm" />
+    <TocEntry
+      Title="Using the Over the Air Recovery Mode"
+      Link="/Content/Hardware/Hardware Updater UG/Using_the_Over_the_Air_Recovery_Mode.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

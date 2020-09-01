@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  Skin="/Project/Skins/TurningPointCloud.flskn"
+  MasterToc="/Project/TOCs/TPC/TurningPointUserGuide.fltoc"
+  ConditionTagExpression="include[DocType.HTML or DocType.HTML-Mac or OS.Mac or &quot;Product.Turning Account&quot; or &quot;Product.TurningPoint Cloud&quot; or &quot;TurningPoint.TurningPoint Cloud&quot; or Users.Instructors or Versions.6_1] "
+  EnableSitemap="false"
+  SitemapWebUrl="http://help.turningtechnologies.com/TurningPointCloud/Mac/"
+  ExcludeUnreferencedContent="true"
+  Medium="non-print">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">TurningPoint Cloud for Mac</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Version #">6.1</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/TPC.flglo" />
+  </Glossaries>
+</CatapultTarget>

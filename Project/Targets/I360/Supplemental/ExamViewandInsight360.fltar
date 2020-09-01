@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/I360/Supplemental/ExamViewandInsight360.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ExamView and Insight 360</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="ExamView and Insight 360"
+    Subject="ExamView and Insight 360"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

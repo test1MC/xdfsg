@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="Insight 360™ and PowerSchool/PowerTeacher"
+    Link="/Content/I360/Insight360andPowerSchool/Insight360andPowerSchool.htm">
+    <TocEntry
+      Title="Before Class"
+      Link="/Content/I360/Insight360andPowerSchool/BeforeClass.htm" />
+    <TocEntry
+      Title="During Class"
+      Link="/Content/I360/Insight360andPowerSchool/DuringClass.htm" />
+    <TocEntry
+      Title="After Class"
+      Link="/Content/I360/Insight360andPowerSchool/AfterClass.htm" />
+    <TocEntry
+      Title="Contact Us"
+      Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+  </TocEntry>
+</CatapultToc>

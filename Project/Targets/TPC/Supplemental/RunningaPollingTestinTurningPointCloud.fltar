@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  PatchHeadingLevels="true"
+  MasterToc="/Project/TOCs/TPC/Supplemental/RunningaPollingTestinTurningPointCloud.fltoc"
+  ConditionTagExpression="include[DocType.Other]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <DocumentProperties
+    Title="RunningaPollingTestinTurningPointCloud"
+    Subject="RunningaPollingTestinTurningPointCloud"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Running a Polling Test in TurningPoint Cloud</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+  </Variables>
+</CatapultTarget>

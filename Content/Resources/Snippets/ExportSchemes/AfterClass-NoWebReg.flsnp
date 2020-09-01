@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h2>After Class</h2>
+        <p>After class, the session information can be exported from TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>and uploaded into <MadCap:variable name="Schemes.NewVariable" />.</p>
+    </body>
+</html>

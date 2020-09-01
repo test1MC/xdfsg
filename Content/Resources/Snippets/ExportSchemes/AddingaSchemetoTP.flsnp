@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h3 class="task">Adding an Export Scheme to TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud</MadCap:conditionalText></h3>
+        <ol class="Gotham">
+            <li>Contact the Integrations Team at <a href="mailto:integrations@turningtechnologies.com">integrations@turningtechnologies.com</a> to obtain the export scheme.</li>
+            <li><span class="Bold">Download</span> and <span class="Bold">save</span> the TPEX file.<div class="ImageFloatRight"><p><img src="../../../Graphics/ExportSchemes/TP5Window-MoveSchemeToFolder.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint 5" /></p></div><div class="ImageFloatRight"><p><img src="../../../Graphics/ExportSchemes/TPC-Window-MoveSchemeToFolder.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint Cloud" /></p></div></li>
+            <li><span class="Bold">Double-click</span> the saved TPEX file.<p class="InList">TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText> opens with the following prompt.</p></li>
+            <li>Click <span class="Bold">OK</span>.<p class="InList">The TPEX file is moved into the Schemes folder.</p></li>
+            <li><span class="Bold">Alternatively, locate</span> and <span class="Bold">open</span> the TurningPoint folder on your computer. <p class="InList">The default install locations are Libraries\Documents\<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint for PC</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint Cloud</MadCap:conditionalText> (PC) and <br />Documents &gt; <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint for Mac</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint Cloud</MadCap:conditionalText> (Mac).</p><div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>If you chose the <span class="Bold">No Install</span> version of TurningPoint for PC, locate the folder in the location where you extracted its contents, e.g., Desktop.</p></div></li>
+            <li><span class="Bold">Drag and drop</span> the scheme (TPEX file) into the <span class="Bold">Schemes</span> folder.</li>
+        </ol>
+    </body>
+</html>

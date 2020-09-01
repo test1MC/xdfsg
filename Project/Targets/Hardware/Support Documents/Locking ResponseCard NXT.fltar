@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Locking the ResponseCard NXT"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Support Documents/Locking ResponseCard NXT.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">How to Lock the ResponseCard NXT</Variable>
+    <Variable
+      Name="General/PRODUCT">How to Lock the ResponseCard NXT</Variable>
+    <Variable
+      Name="General/ProductName">How to Lock the ResponseCard NXT</Variable>
+    <Variable
+      Name="General/UserGuideTitle">How to Lock the ResponseCard NXT</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Locking the ResponseCard NXT"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

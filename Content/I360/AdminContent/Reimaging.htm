@@ -1,0 +1,460 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1474" MadCap:lastWidth="1186">
+    <head>
+        <link href="../../Resources/TableStyles/AlternateShading.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Using Insight 360 Cloud with Reimaging</h1>
+        <p>Many organizations use enterprise solutions that revert PCs back to a predefined state, upon the PC reboot. If your organization employs such a solution, you will want to ensure that the various pieces of Insight 360 Cloud are configured correctly, for optimal experience.</p>
+        <p>Below you will find a list of files and directories, used by Insight 360 Cloud, that should not be modified, as well as a list of minimum user permissions needed to run the software.</p>
+        <ul>
+            <li>The paths listed are the default paths. If a custom install was performed, these paths may vary.</li>
+            <li>Computers must be unlocked, or “thawed,” for any permanent changes to take effect.</li>
+            <li>The minimum permissions and ability to reimage on reboot are with the assumption that Insight 360 Cloud has been installed, registered, and activated before being placed minimum privileges (or reimage) on reboot setting.</li>
+        </ul>
+        <p class="SmallTitle" style="margin-top: 26pt;text-indent: 16px;">Windows Vista, Windows 7, Windows 8</p>
+        <table style="width: 694px;caption-side: top;mc-table-style: url('../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="507px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="87px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="100px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Folder/File Path<br />For 64 bit machines add “x86” for the Program Files folder</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Minimum</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>Reimage on Reboot</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\Insight 360 Cloud</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\Insight 360 Cloud\Tools\</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Users\&lt;&lt;username&gt;&gt;\AppData\Local\Insight360</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\ExamView</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\ExamView\Classes</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\ExamView\Tests</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\ExamView\Banks</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Users\&lt;&lt;username&gt;&gt;\AppData\Roaming\evmanage.prf</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>C:\Users\&lt;&lt;username&gt;&gt;\AppData\Roaming\evpro32.prf</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 694px;caption-side: top;mc-table-style: url('../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="507px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="87px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="100px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Registry Keys</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Minimum</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>Reimage on Reboot</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>HKEY_LOCAL_MACHINE\SOFTWARE\eInstruction\ExamView</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>HKEY_LOCAL_MACHINE\SOFTWARE\eInstruction\Learning Series</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="SmallTitle" style="margin-top: 26pt;text-indent: 16px;">Windows XP</p>
+        <table style="width: 694px;caption-side: top;mc-table-style: url('../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="507px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="87px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="100px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Folder/File Path<br />For 64 bit machines add “x86” for the Program Files folder</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Minimum</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>Reimage on Reboot</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\Insight 360 Cloud</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\Insight 360 Cloud\Tools\</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Documents and Settings\&lt;&lt;username&gt;&gt;\Local Settings\Application Data\Insight360</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\ExamView</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\ExamView\Classes</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\ExamView\Tests</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\Program Files\eInstruction\ExamView\Banks</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>C:\ Documents and Settings\&lt;&lt;username&gt;&gt;\Application Data\evmanage.prf</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>C:\ Documents and Settings\&lt;&lt;username&gt;&gt;\Application Data\evpro32.prf</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table style="width: 694px;caption-side: top;mc-table-style: url('../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="507px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="87px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="100px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Registry Keys</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Minimum</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>Reimage on Reboot</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>HKEY_LOCAL_MACHINE\SOFTWARE\eInstruction\ExamView</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>HKEY_LOCAL_MACHINE\SOFTWARE\eInstruction\Learning Series</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="SmallTitle" style="margin-top: 26pt;text-indent: 16px;">Mac OS X</p>
+        <table style="width: 694px;caption-side: top;mc-table-style: url('../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="507px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="87px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="100px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Folder/File Path</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Minimum</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>Reimage on Reboot</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>/Application/eInstruction/Insight 360 Cloud</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>/Application/eInstruction/Insight 360 Cloud/Tools</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>/Users/&lt;&lt;username&gt;&gt;/Library/Application Support/Insight360/Data</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>/Users/&lt;&lt;username&gt;&gt;/Library/Logs</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>/Users/&lt;&lt;username&gt;&gt;/Library/Preferences/</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read/Write</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>/Application/eInstruction/ExamView Pro</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Yes</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>/Application/eInstruction/ExamView Pro/Classes</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>/Application/eInstruction/ExamView Pro/Tests</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>/Application/eInstruction/ExamView Pro/Banks</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Read</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p>No</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/I360/TrainingDocuments/VerbalQuestionswithInsight360.fltoc"
+  ConditionTagExpression="include[DocType.Training or Users.Level1 or Versions.2-5]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="file:///W:/Insight 360 Level 1 - Verbal Questions"
+    Subject="file:///W:/Insight 360 Level 1 - Verbal Questions"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">file:///W:/Insight 360 Level 1 - Verbal Questions</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+  </Variables>
+</CatapultTarget>

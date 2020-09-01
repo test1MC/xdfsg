@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3971" MadCap:lastWidth="1091">
+    <head>&#160;<link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1 class="Plain">TurningPoint 5® and Blackboard™ 9</h1>
+        <p>This document outlines the steps for using TurningPoint with the Blackboard 9 Learning Management System (LMS).</p>
+        <p class="SmallTitle">How does the integration work?</p>
+        <p>Participants are instructed to register their response device through the Web Registration Tool hosted by Turning Technologies. The participant information from Blackboard 9 is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. In Results Manager, the participant list is updated with the latest registrations from the Web Registration Tool. Once the participant list is updated, the session scores are exported from TurningPoint in a specific format and then imported into Blackboard 9.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading the Full Grade Center from Blackboard 9</h3>
+        <ol class="Gotham">
+            <li>Login to Blackboard 9.</li>
+            <li>Click the <span class="Bold">Courses</span> tab and select the appropriate course below <span class="Bold">Course List</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/Blackboard-CourseList.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Click <span class="Bold">Grade Center</span> on the <span class="Italic">Control Panel</span>.</li>
+            <li>Click <span class="Bold">Full Grade Center</span>.</li>
+            <li>Click the <span class="Italic">Work Offline</span> drop-down menu and select <span class="Bold">Download</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/Blackboard-GradeCenter.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Below Data, select the radio button labeled <span class="Bold">User Information Only</span>.</li>
+            <li>Below Options, choose <span class="Bold">Comma</span> for Delimiter Type. For Display Hidden Information, select <span class="Bold">No</span>.</li>
+            <li>Below Save Location, choose <span class="Bold">My Computer</span> and click <span class="Bold">Submit</span>. <span class="Italic">Do not browse and save to Blackboard 9</span>!</li>
+            <li>Click <span class="Bold">Download</span>.</li>
+            <li>When prompted, choose <span class="Bold">Save File</span>.<p class="InList">Now that the CSV file has been saved, it is time to import the information as a TurningPoint participant list.</p></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/PowerPointPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AnywherePolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AfterClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/UpdatingPList.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task" MadCap:conditions="">Uploading Grades to Blackboard 9</h3>
+        <ol class="Gotham">
+            <li>Login to Blackboard 9.</li>
+            <li>Click the <span class="Bold">Courses</span> tab and select the appropriate course below <span class="Bold">Course List</span>.</li>
+            <li>Click <span class="Bold">Grade Center</span> on the Control Panel.</li>
+            <li>Click <span class="Bold">Full Grade Center</span>.</li>
+            <li>Click the <span class="Italic">Work Offline</span> drop-down menu and select <span class="Bold">Upload</span>.</li>
+            <li>Below Choose File, click <span class="Bold">Browse...</span> to locate the saved file. Select <span class="Bold">Comma</span> as the Delimiter Type and click <span class="Bold">Submit</span>.</li>
+            <li>Click <span class="Bold">Submit</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/Blackboard-UploadGradesConfirmation.png" class="LargeWide480pxGrayBorder"></img></p><p>The assignment now appears in the LMS.</p></li>
+        </ol>
+    </body>
+</html>

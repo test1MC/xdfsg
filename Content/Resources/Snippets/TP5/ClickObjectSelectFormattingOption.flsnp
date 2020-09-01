@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="39" MadCap:lastWidth="1070">
+    <body>
+        <p>
+            <MadCap:conditionalText MadCap:conditions="OS.PC">Right-click</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="OS.Mac">Control-click</MadCap:conditionalText> on the object and select a formatting option from the menu.</p>
+    </body>
+</html>

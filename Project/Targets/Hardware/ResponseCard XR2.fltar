@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseCard XR2"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/ResponseCard XR2.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseCard XR2</Variable>
+    <Variable
+      Name="General/PRODUCT">ResponseCard XR2</Variable>
+    <Variable
+      Name="General/ProductName">ResponseCard XR2</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="ResponseCard XR2"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

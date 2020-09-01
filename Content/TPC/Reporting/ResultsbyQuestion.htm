@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1353" MadCap:lastWidth="1182" MadCap:fileTags="File Tags/FileTagSetStatus.Ready for Review,File Tags/FileTagSetAuthor.Rean">
+    <head>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>Results by Question</h2>
+        <p>The default Results by Question report displays the following elements:</p>
+        <div class="ImageFloatRight">
+            <p style="text-align: left;">
+                <img src="../../Graphics/TPC/Reports/Report-ResultsByQuestion.png" class="MediumWide288pxGrayBorder" MadCap:conditions="DocType.UG" title="Reports - Results by Question" alt="Reports - Results by Question" />
+            </p>
+        </div>
+        <ul>
+            <li>Question text</li>
+            <li>Question type</li>
+            <li>Answer choices</li>
+            <li>Responses (percentage and count)</li>
+            <li>Chart</li>
+        </ul>
+        <div class="ImageANDCaption">
+            <p style="text-align: left;">
+                <img src="../../Graphics/TPC/Reports/Report-ResultsByQuestion.png" class="Thumbnail" MadCap:conditions="DocType.HTML" alt="Reports - Results by Question" title="Reports - Results by Question" />
+            </p>
+        </div>
+        <p>
+            <MadCap:snippetText src="../../Resources/Snippets/TPC/ReportCheckboxes.flsnp" /> Selections will be remembered for future use. </p>
+        <ul>
+            <li><span class="Bold">Question Statistics</span>- Adds a table to the report under each question that displays the Mean, Median, Variance and Standard Deviation for each question.</li>
+            <li>
+                <p><span class="Bold">Difficulty and Discrimination Index</span>- Displays the difficulty/discrimination index on a per question basis.</p>
+                <MadCap:dropDown>
+                    <MadCap:dropDownHead>
+                        <MadCap:dropDownHotspot>Difficulty and Discrimination Index Formulas</MadCap:dropDownHotspot>
+                    </MadCap:dropDownHead>
+                    <MadCap:dropDownBody>
+                        <p>The Difficulty Index<MadCap:footnote style="mc-footnote-position: page;">Kenneth D. Hopkins, Educational and Psychological Measurement and Evaluation, 8th ed. (Needham Heights, MA: Allyn and Bacon, 1998), 256 - 260.</MadCap:footnote> is a measure of how difficult the question was to correctly answer. It shows the percentage of
+participants that answered the question correctly based on the entire group of active participants. </p>
+                        <p>The Difficulty Index is
+calculated using the following formula: <span class="Bold">D = c / n</span></p>
+                        <ul>
+                            <li>D = Difficulty Index
+</li>
+                            <li>c = Number of participants that answered the question correctly
+</li>
+                            <li>n = Total number of active participants</li>
+                        </ul>
+                        <p>The Discrimination Index<MadCap:footnote style="mc-footnote-position: page;">Hopkins, 256 - 260.</MadCap:footnote> for a particular question is based on the point biserial correlation coefficient, which
+measures the correlation between the correct answer on a question and the total test scores of the active participants.</p>
+                        <p>To calculate this statistic, you must first determine the following:</p>
+                        <ul>
+                            <li>Total number of Participants that answered the question correctly</li>
+                            <li>Total number of Participants that answered the question incorrectly</li>
+                            <li>A Participant that has not responded to a question is considered to have answered incorrectly.</li>
+                            <li>Mean total score of the group of Participants that have answered the question correctly</li>
+                            <li>Mean total score of the group of Participants that answered the question incorrectly</li>
+                            <li>Mean total score of all active Participants</li>
+                            <li>Standard Deviation<p class="InList"><span class="ComputerText">standard deviation (σ) = √(Σ((x - μ)²) / n)</span></p></li>
+                            <li>x = a Participant’s score</li>
+                            <li>μ = mean total score</li>
+                            <li>n = total number of Participants</li>
+                        </ul>
+                        <p>The discrimination index can then be computed with the following formula:</p>
+                        <p><span class="ComputerText">discrimination index = ((Mp-Mq) / σ) * √((Np*Nq)/((Np+Nq) * (Np+Nq-1))</span>
+                        </p>
+                        <ul>
+                            <li>Mp = mean total score of the group of Participants that answered the question correctly</li>
+                            <li>Mq = mean total score of the group of Participants that answered the question incorrectly</li>
+                            <li>Np = total number of Participants that answered the question correctly</li>
+                            <li>Nq = total number of Participants that answered the question incorrectly</li>
+                            <li>σ = standard deviation of scores for the entire set</li>
+                        </ul>
+                    </MadCap:dropDownBody>
+                </MadCap:dropDown>
+            </li>
+            <li><span class="Bold">Screenshots</span>- Displays the screenshot with each question.</li>
+        </ul>
+        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+            <p><span class="Bold">Include Screenshots</span> must be checked in the Anywhere preferences.</p>
+        </div>
+        <ul>
+            <li><span class="Bold">Overall Standards</span>- Displays the percentage of overall comprehension for each standard.</li>
+            <li><span class="Bold">Show Essay Responses</span> - Displays responses to essay questions.</li>
+            <li><span class="Bold">Short Answer/Numeric Response</span>- Gives the option to choose between displaying only the top responses for Short Answer and Numeric Response questions, or to display all valid responses. Click the drop-down menu to show all responses.</li>
+        </ul>
+    </body>
+</html>

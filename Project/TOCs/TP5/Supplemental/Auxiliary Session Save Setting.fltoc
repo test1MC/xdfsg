@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Auxiliary Session Save Setting"
+    Link="/Content/TP5/Supplemental/AuxiliarySessionSave/AuxiliarySessionSave.htm">
+    <TocEntry
+      Title="Exposing the Auxiliary Session Save Setting for PC"
+      Link="/Content/TP5/Supplemental/AuxiliarySessionSave/Exposing_the_Auxiliary_Session_Save_Setting_for_PC.htm" />
+    <TocEntry
+      Title="Hiding the Auxiliary Session Save Setting for PC"
+      Link="/Content/TP5/Supplemental/AuxiliarySessionSave/Hiding_the_Auxiliary_Session_Save_Setting_for_PC.htm" />
+    <TocEntry
+      Title="Exposing the Auxiliary Session Save Setting for Mac"
+      Link="/Content/TP5/Supplemental/AuxiliarySessionSave/Exposing_the_Auxiliary_Session_Save_Setting_for_Mac.htm" />
+    <TocEntry
+      Title="Hiding the Auxiliary Session Save Setting for Mac"
+      Link="/Content/TP5/Supplemental/AuxiliarySessionSave/Hiding_the_Auxiliary_Session_Save_Setting_for_Mac.htm" />
+    <TocEntry
+      Title="Contact Us"
+      Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+</CatapultToc>

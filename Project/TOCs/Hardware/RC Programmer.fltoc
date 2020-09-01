@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    PageType="firstright"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="About ResponseCard Programmer"
+    Link="/Content/Hardware/Clickers/RCProgrammer/Programmer/Programmer.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="Before You Begin"
+      Link="/Content/Hardware/Clickers/RCProgrammer/Programmer/Before_You_Begin.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Changing ResponseCard RF, XR-01 and NXT Channels"
+        Link="/Content/Hardware/Clickers/RCProgrammer/Programmer/Changing_ResponseCard_RF__XR_01_and_NXT_Channels.htm" />
+      <TocEntry
+        Title="Changing the ResponseCard Programmer Channel"
+        Link="/Content/Hardware/Clickers/RCProgrammer/Programmer/Changing_the_ResponseCard_Programmer_Channel.htm"
+        StartSection="false" />
+      <TocEntry
+        Title="Setting the Program Key"
+        Link="/Content/Hardware/Clickers/RCProgrammer/Programmer/Setting_the_Program_Key.htm"
+        BreakType="pageLayout"
+        StartSection="false" />
+      <TocEntry
+        Title="Setting the Screen Contrast"
+        Link="/Content/Hardware/Clickers/RCProgrammer/Programmer/Setting_the_Screen_Contrast.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Programming Modes"
+    Link="/Content/Hardware/Clickers/RCProgrammer/ProgrammingModes/ProgrammingModes.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Auto Increment Mode"
+      Link="/Content/Hardware/Clickers/RCProgrammer/ProgrammingModes/Auto_Increment_Mode.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="User Defined Mode"
+      Link="/Content/Hardware/Clickers/RCProgrammer/ProgrammingModes/User_Defined_Mode.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Factory Default Mode"
+      Link="/Content/Hardware/Clickers/RCProgrammer/ProgrammingModes/Factory_Default_Mode.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

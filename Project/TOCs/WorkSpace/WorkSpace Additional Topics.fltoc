@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="WorkSpace Additional Topics PCJava"
+    Link="/Content/WorkSpace/Training/WorkSpaceAdditionalTopicsPCJava.htm"
+    BreakType="chapter"
+    PageType="normal"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Using Layers"
+      Link="/Content/WorkSpace/UsingWorkspace/UsingLayers.htm" />
+    <TocEntry
+      Title="Multi-User Mode"
+      Link="/Content/WorkSpace/WorkSpace Modes/MultiUserMode.htm">
+      <TocEntry
+        Title="Selecting the Multi-User Menu"
+        Link="/Content/WorkSpace/WorkSpace Modes/SelectingtheMultiUserMenu.htm" />
+      <TocEntry
+        Title="Setting Up Multi-User Mode"
+        Link="/Content/WorkSpace/WorkSpace Modes/SettingUpMultiUserMode.htm" />
+      <TocEntry
+        Title="Setting Up Quick Start"
+        Link="/Content/WorkSpace/WorkSpace Modes/SettingUpQuickStart.htm" />
+      <TocEntry
+        Title="Selecting the Presenter"
+        Link="/Content/WorkSpace/WorkSpace Modes/SelectingthePresenter.htm" />
+      <TocEntry
+        Title="Locking Tablets and Clickers (If Applicable)"
+        Link="/Content/WorkSpace/WorkSpace Modes/LockingTabletsandClickers.htm" />
+      <TocEntry
+        Title="Exiting Multi-User Mode"
+        Link="/Content/WorkSpace/WorkSpace Modes/ExitingMultiUserMode.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1632" MadCap:lastWidth="998">
+    <head>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>Connections</h2>
+        <p>Connection preferences apply to response devices and are grouped into <MadCap:conditionalText MadCap:conditions="OS.PC">five</MadCap:conditionalText><MadCap:conditionalText MadCap:conditions="OS.Mac">three</MadCap:conditionalText> sections:</p>
+        <ul MadCap:conditions="DocType.UG">
+            <li><span href="#ResponseDevices" class="BoldItalic">Response Devices</span>
+            </li>
+            <li><span href="#PresenterCard" class="BoldItalic">PresenterCard</span>
+            </li>
+            <li><span href="#PresenterWare" class="BoldItalic">PresenterWare</span>
+            </li>
+            <li MadCap:conditions="OS.PC"><span href="#RemotePoll" class="BoldItalic">RemotePoll</span>
+            </li>
+            <li MadCap:conditions="OS.PC"><span href="#RemotePollMonitor" class="BoldItalic">RemotePoll Monitor</span>
+            </li>
+        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><a name="ResponseDevices"></a><span class="SmallTitle">Response Devices</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section contains preferences for the response devices compatible with TurningPoint Cloud.</p>
+                <ul>
+                    <li><span class="Bold">ResponseCard Channels</span> - Displays the Receiver ID and channels of the receivers connected to the computer. To change the channel on the receiver, select the channel number from the drop-down menu.</li>
+                    <li><span class="Bold">Polling Connections</span> - The polling test is used to ensure that each response device can communicate with TurningPoint Cloud. For instructions on how to test the polling connections, see <MadCap:xref MadCap:unresolvedLink="import-link:welcome_new_2907076079_cacjccjj" href="../Welcome/GettingStarted/DeviceSteup/TestingthePollingConnections.htm"><b><i>Running a Polling Test in TurningPoint</i></b><span style="color: #524f52;" class="mcFormatColor"> on page 1</span></MadCap:xref>.</li>
+                    <li><span class="Bold">Force Channel Change</span> - Determines whether TurningPoint Cloud will allow the receiver channel to be maintained once connected. When checked, TurningPoint Cloud will force the receiver to change to the first available channel slot.</li>
+                    <li><span class="Bold">Enforce Participant List</span> - When checked, responses from participants who are not in the loaded participant list will be excluded. TurningPoint Cloud will accept all participant responses and append them to the end of the participant list.</li>
+                    <li><span class="Bold">Invalid Response Notifications</span> - When checked, the ResponseCard sends a notification or flash indicating that the participant chose an invalid response. This preference does NOT apply to ResponseCard IR.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><a name="PresenterCard"></a><span class="SmallTitle">PresenterCard</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section contains the preferences for pairing the PresenterCard with TurningPoint Cloud and setting the programmable buttons.</p>
+                <ul>
+                    <li><span class="Bold">PresenterCard Device ID</span> - Click <span class="Bold">Change</span> to open the PresenterCard pairing window. The PresenterCard must be paired to be compatible with TurningPoint Cloud. For pairing instructions, see <MadCap:xref MadCap:unresolvedLink="import-link:welcome_new_2907076079_cacfgehh" href="../Welcome/GettingStarted/DeviceSteup/PairingaPresenterCard.htm"><b><i>Pairing a PresenterCard</i></b><span style="color: #524f52;" class="mcFormatColor"> on page 1</span></MadCap:xref>.</li>
+                    <li><span class="Bold">PowerPoint Programmable Button 1</span> - Select an option from the drop-down menu for the first programmable button.</li>
+                    <li><span class="Bold">PowerPoint Programmable Button 2</span> - Select an option from the drop-down menu for the second programmable button.</li>
+                    <li><span class="Bold">PowerPoint Programmable Button 3</span> - Select an option from the drop-down menu for the third programmable button.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead><a name="PresenterWare"></a><span class="SmallTitle">PresenterWare</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This section contains the preferences for enabling PresenterWare Support. PresenterWare setup must be completed through either the PowerPoint Polling or Anywhere Polling preferences.</p>
+                <ul>
+                    <li><span class="Bold">Enable PresenterWare Support</span> - Check this option to enable PresenterWare Support via TurningPoint Cloud.</li>
+                    <li><span class="Bold">PresenterWare Connection</span> - Click <span class="Bold">Confirm</span>. To enable this button, PresenterWare must be launched on your smart phone or tablet.</li>
+                    <li><span class="Bold">Current IP Address</span> - Displays the presenting computer’s IP address to establish communication between the PresenterWare software and TurningPoint Cloud. </li>
+                    <li><span class="Bold">PresenterWare Port</span> - Enter the presenting computer’s network port number. Default is 6090.</li>
+                    <li><span class="Bold">Bonjour Name</span> - Optionally, enter your computer’s Bonjour name.<div class="Tip" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #904799;&quot; class=&quot;mcFormatColor&quot;&gt;TIP&lt;/span&gt;&lt;/span&gt;"><p>For more information about PresenterWare, including configuring a device, please visit <a href="http://www.turningtechnologies.com/user-guides">www.turningtechnologies.com/user-guides</a>.</p></div></li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="OS.PC">
+            <MadCap:dropDownHead><a name="RemotePoll"></a><span class="SmallTitle">RemotePoll</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p MadCap:conditions="OS.PC">This section contains the preferences for enabling RemotePoll.</p>
+                <div class="Important" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #f07600;&quot; class=&quot;mcFormatColor&quot;&gt;IMPORTANT&lt;/span&gt;&lt;/span&gt;">
+                    <p MadCap:conditions="OS.PC">Users who previously connected to RemotePoll via ResponseWare must utilize an IP connection in TurningPoint Cloud, as described below.</p>
+                </div>
+                <ul>
+                    <li><span class="Bold">Enable RemotePoll Support</span> - Check this option to enable RemotePoll Support via TurningPoint Cloud.</li>
+                    <li><span class="Bold">Current IP Address</span> - Displays the presenting computer’s IP Address to establish communication between the RemotePoll software and TurningPoint Cloud.</li>
+                    <li><span class="Bold">RemotePoll Port</span> - Enter the presenting computer’s network port number. Default is 1025.<div class="Tip" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #904799;&quot; class=&quot;mcFormatColor&quot;&gt;TIP&lt;/span&gt;&lt;/span&gt;"><p>For more information about RemotePoll, please visit <a href="http://www.turningtechnologies.com/user-guides">www.turningtechnologies.com/user-guides</a>.</p></div></li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:conditions="OS.PC">
+            <MadCap:dropDownHead><a name="RemotePollMonitor"></a><span class="SmallTitle">RemotePoll Monitor</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p MadCap:conditions="OS.PC">This section contains the preferences for enabling the RemotePoll Monitor.</p>
+                <ul>
+                    <li MadCap:conditions="OS.PC"><span class="Bold">Enable RemotePoll Monitor Support</span> - Check this option to enable RemotePoll Monitor Support via TurningPoint Cloud.</li>
+                    <li MadCap:conditions="OS.PC"><span class="Bold">Current IP Address</span> - Displays the presenting computer’s IP Address to establish communication between the RemotePoll Monitor software and TurningPoint Cloud.</li>
+                    <li MadCap:conditions="OS.PC"><span class="Bold">RemotePoll Port</span> - Enter the presenting computer’s network port number. Default is 2010.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>

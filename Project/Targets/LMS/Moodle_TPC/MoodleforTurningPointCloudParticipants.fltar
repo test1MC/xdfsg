@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/LMS/Moodle/MoodleforParticipants.fltoc"
+  ConditionTagExpression="include[DocType.UG or &quot;TurningPoint.TurningPoint Cloud&quot; or Users.Students]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Moodle for TurningPoint Cloud Participants</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+    <Variable
+      Name="LMS/LMS">Moodle</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Moodle for TurningPoint Cloud Participants"
+    Subject="Moodle for TurningPoint Cloud Participants"
+    Keywords="Moodle for TurningPoint Cloud Participants"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="LMS Support"
+    Link="/Content/LMS/ERP/LMS Support/LMSSupport.htm">
+    <TocEntry
+      Title="Viewing User Info"
+      Link="/Content/LMS/ERP/ViewingUserInfo.htm" />
+    <TocEntry
+      Title="Creating LTI Oauth"
+      Link="/Content/LMS/ERP/LMS Support/CreatingLTIOauth.htm" />
+    <TocEntry
+      Title="Searching LTI Information"
+      Link="/Content/LMS/ERP/LMS Support/SearchingLTIInformation.htm" />
+    <TocEntry
+      Title="Updating/Deleting LTI Information"
+      Link="/Content/LMS/ERP/LMS Support/UpdatingDeletingLTIInformation.htm" />
+  </TocEntry>
+</CatapultToc>

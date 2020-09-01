@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1519" MadCap:lastWidth="1042" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../../Resources/TableStyles/Invisible.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>Algorithmic Syntax</h2>
+        <p>A variable is a named object that can be modified during recalculation. Each variable has a unique name and a ”r;scope” or context where it is identified. In the ExamView Test Generator, the scope of a variable is either limited to a single question, a narrative and all questions linked to it, or to a matching group and all questions within that matching group.</p>
+        <p style="margin-bottom: 0pt;">All variables are one of the following types:</p>
+        <table style="width: 673px;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Invisible.css');" class="TableStyle-Invisible" cellspacing="0">
+            <col width="67px" class="TableStyle-Invisible-Column-Column1" />
+            <col width="606px" class="TableStyle-Invisible-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>int</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>integer (positive and negative whole numbers and zero)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>double</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>double-precision floating point (has fractional part)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyB-Column1-Body1">
+                        <p>string</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyA-Column1-Body1">
+                        <p>characters or letters</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>A variable name must begin with an alphabetic character, cannot be longer than 40 characters, and cannot contain characters other than alphabetic characters, numeric characters, and the underscore.</p>
+        <p>An expression is a mathematical, logical, or string phrase that contains constants, variables, operators, and keywords. An expression is used to define a variable.</p>
+        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+            <p class="ComputerText">y = x + 8</p>
+            <p>In this example, ”r;y” is a variable being defined, ”r;x” is a variable already defined, ”r;+” is an arithmetic operator to do addition, and ”r;8” is a numeric constant. You do not have to explicitly assign a type to any variable or constant. The program does that for you.</p>
+        </div>
+        <p class="SmallTitle">ExamView Test Generator uses the following arithmetic operators:</p>
+        <table style="width: 600px;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Invisible.css');" class="TableStyle-Invisible" cellspacing="0">
+            <col width="18px" class="TableStyle-Invisible-Column-Column1" />
+            <col width="582px" class="TableStyle-Invisible-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>+</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Addition (can also concatenate two string variables or constants)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>-</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Subtraction</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>*</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Multiplication (use 3 * x instead of 3x)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>/</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Division</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>\</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Integer division</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>%</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Modulus</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>^</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Power (use x^2 to represent x to the 2nd power)</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyB-Column1-Body1">
+                        <p>!</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyA-Column1-Body1">
+                        <p>Factorial</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="SmallTitle">In addition to the arithmetic operators, ExamView Test Generator uses the following relational operators:</p>
+        <table style="width: 600px;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Invisible.css');" class="TableStyle-Invisible" cellspacing="0">
+            <col width="22px" class="TableStyle-Invisible-Column-Column1" />
+            <col width="578px" class="TableStyle-Invisible-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>=</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Equals</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>&lt;</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Less than</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>&lt;=</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Less than or equal to</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>&gt;</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Greater than</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>&gt;=</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Greater than or equal to</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>&lt;&gt;</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>Not equal to</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>&amp;</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>And (you can also use "and")</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyB-Column1-Body1">
+                        <p>|</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyA-Column1-Body1">
+                        <p>Or (you can also use "or")</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>An expression that adds two strings together might look like this: </p>
+        <p class="ComputerText">y = "Mrs. " + firstName + " " + lastName</p>
+        <p>In this case, ”r;Mrs. ”r; and the space between the first and last name are considered string constants. The variables firstName and lastName would have already been defined as string variables. When the expression has been evaluated, y will be a string variable.</p>
+        <p>ExamView Test Generator will not let you combine variables of different types when writing expressions, except where variables of a particular type are expected. </p>
+        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+            <p>For example, you could not write an expression like: </p>
+            <p class="ComputerText">y = "Mrs. " + 8 * x</p>
+            <p>The program would not know whether the string constant ”r;Mrs. ”r; should be treated as a numeric variable and added to the product of 8 times x, or whether the product of 8 * x should be treated as a string variable and concatenated to ”r;Mrs. ”r; to give the string result y.</p>
+        </div>
+        <p>The list of keywords shows what types of variables or constants can be used as arguments (input) to the various functions, as well as what type of variable gets created by the keyword or function (output).</p>
+        <p style="margin-bottom: 0pt;">ExamView Test Generator also lets you use parentheses to assign precedence to parts of your expressions when the program evaluates them. The following list will help you when determining the order in which an expression is evaluated:</p>
+        <table style="width: 633px;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/Invisible.css');" class="TableStyle-Invisible" cellspacing="0">
+            <col width="76px" class="TableStyle-Invisible-Column-Column1" />
+            <col width="557px" class="TableStyle-Invisible-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>( )</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>parentheses</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>! + -</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>factorial, positive, negative</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>^</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>power</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>* / \ %</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>multiplication, division, integer division, modulus</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>+ - </p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>addition, subtraction</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>&lt; &lt;= &gt; &gt;=</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>less than, less than or equals, greater than, greater than or equals</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>= &lt;&gt;</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>equals, not equals</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyE-Column1-Body1">
+                        <p>&amp;</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyD-Column1-Body1">
+                        <p>and</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-Invisible-Body-Body1">
+                    <td class="TableStyle-Invisible-BodyB-Column1-Body1">
+                        <p>|</p>
+                    </td>
+                    <td class="TableStyle-Invisible-BodyA-Column1-Body1">
+                        <p>or</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseWare Web User Guide"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  Skin="/Project/Skins/ResponseWare.flskn"
+  MasterToc="/Project/TOCs/ResponseWare/Web/ResponseWareWeb.fltoc"
+  ConditionTagExpression="include[DocType.HTML or &quot;Product.TurningPoint Cloud&quot;] exclude[Product.TP] "
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  Medium="non-print"
+  DefaultUrl="/Content/ResponseWare/Participants/Web/ResponseWareWebUserGuide.htm"
+  ExcludeUnreferencedContent="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseWare Web User Guide</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

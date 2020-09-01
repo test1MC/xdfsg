@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4611" MadCap:lastWidth="1078">
+    <head>&#160;<link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud</MadCap:conditionalText> And PowerTeacher</h1>
+        <p>This document outlines the steps for using TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>with PowerTeacher.</p>
+        <p class="SmallTitle" MadCap:conditions="TurningPoint.TurningPoint 5">How does the integration work?</p>
+        <p MadCap:conditions="TurningPoint.TurningPoint 5">The participant information from PowerTeacher is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. Session scores are then exported from TurningPoint in a specific format and imported into PowerTeacher.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/How-RTR.flsnp" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading the Gradebook  From PowerTeacher</h3>
+        <ol class="Gotham">
+            <li>Open the PowerTeacher gradebook.</li>
+            <li>Click the <span class="Bold">Scoresheet</span> tab.</li>
+            <li>Right-click the <span class="Bold">column header</span> that corresponds to the assignment to which the TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>results data will be uploaded.</li>
+            <li>Select <span class="Bold">Export Scores Template</span>.<p><img src="../../Graphics/PowerTeacher/ExportScores.png" class="SmallHigh192pxGrayBorder" style="width: 148px; height: 199px;" /></p></li>
+            <li>Save the <span class="Bold">file</span> (.csv) to a specified location.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/PowerPointPolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AwywherePolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AfterClass-NoWebReg.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to PowerTeacher</h3>
+        <ol class="Gotham">
+            <li>Open the PowerTeacher <span class="Bold">gradebook</span>.</li>
+            <li>Select the <span class="Bold">class</span> to which the results data will be added from the <span class="Italic">Classes</span> section.<div class="ImageFloatRight"><p><img src="../../../Resources/Images/PTimportscores.png" class="SmallWide192px" /></p></div></li>
+            <li>Click the <span class="Bold">Scoresheet</span> tab.</li>
+            <li>From the <span class="Italic">Mode</span> menu, click the <span class="Bold">Assignments</span> button.</li>
+            <li>Click the appropriate assignment <span class="Bold">column header</span> to select the assignment column.</li>
+            <li>Click <span class="Bold">Tools</span> and select <span class="Bold">Import Scores</span>. Optionally, right-click the assignment header to access the Import Scores option.</li>
+            <li>Locate the saved <span class="Bold">CSV file</span>.<p>The <span class="Italic">Import Scores</span> window opens.</p><p style="text-align: left;"><img src="../../Graphics/PowerTeacher/AdvancedTab-ImportScores.png" class="MediumWide288px" /></p></li>
+            <li>Click the <span class="Bold">Advanced</span> tab.<ul><li>Select the <span class="Bold">CSV radio button</span>.</li></ul><ul><li>Make sure the <span class="Bold">Include First Row</span> checkbox is checked.</li></ul><ul><li>Uncheck the <span class="Bold">Validate Student Name</span> checkbox.</li></ul><ul><li>Choose <span class="Bold">Points</span> from the <span class="Italic">File Score Type</span> drop-down menu.</li></ul></li>
+            <li>Click <span class="Bold">Import</span>.</li>
+            <li>Verify that the scores have accurately imported to the <span class="Bold">Scoresheet</span>.</li>
+        </ol>
+    </body>
+</html>

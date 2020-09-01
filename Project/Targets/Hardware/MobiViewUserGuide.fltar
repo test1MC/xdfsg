@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/MobiView.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">MobiView</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/user-guides</Variable>
+    <Variable
+      Name="General/PRODUCT">MobiView</Variable>
+    <Variable
+      Name="General/ProductName">MobiView</Variable>
+    <Variable
+      Name="General/UserGuideTitle">MobiView User Guide</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="MobiViewUserGuide"
+    Author="Turning Technologies"
+    Subject="MobiViewUserGuide"
+    Keywords="UGMVrev2_08202014" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

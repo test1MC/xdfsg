@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Name="Normal" Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="bottom" BackgroundType="Solid" BackgroundImage="../Images/PageLayoutGraphics/TTechPDFfooter.png">
+        <Frame Flow="header" Height="0.3125in" Right="-48px" X="-48px" Y="-0.8125in" ColumnCount="1" Width="7.5in" Bottom="912px" Anchors="" BorderBottomStyle="solid" BorderBottomWidth="1px" BorderBottomColor="#c0c0c0">
+            <Content>
+                <xhtml:html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                        <xhtml:link xhtml:href="../TableStyles/Invisible.css" xhtml:rel="stylesheet" MadCap:stylesheetType="table" />
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:table xhtml:class="TableStyle-Invisible" xhtml:style="mc-table-style: url('../TableStyles/Invisible.css');" xhtml:cellspacing="0">
+                            <xhtml:col xhtml:style="width: 1320px;" xhtml:class="TableStyle-Invisible-Column-Column1" />
+                            <xhtml:col xhtml:class="TableStyle-Invisible-Column-Column1" />
+                            <xhtml:tbody>
+                                <xhtml:tr xhtml:class="TableStyle-Invisible-Body-Body1">
+                                    <xhtml:td xhtml:style="font-size: 9pt;color: #524f52;font-style: italic;" xhtml:class="TableStyle-Invisible-BodyB-Column1-Body1"><MadCap:variable xhtml:name="General.ProductName" />
+                                    </xhtml:td>
+                                    <xhtml:td xhtml:style="text-align: right;font-size: 9pt;color: #524f52;font-style: normal;" xhtml:class="TableStyle-Invisible-BodyA-Column1-Body1"><MadCap:variable xhtml:name="System.PageNumber" />
+                                    </xhtml:td>
+                                </xhtml:tr>
+                            </xhtml:tbody>
+                        </xhtml:table>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="body" ColumnCount="1" ColumnGap="0.25in" ColumnDivider="Solid 1pt Black" Width="7.5in" Height="9.375in" X="-48px" Y="-36px" Right="-48px" Bottom="0px">
+        </Frame>
+        <Frame X="-48px" Y="883px" Width="516px" Height="35px" Flow="footer" Right="156px" Bottom="-54px">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p><MadCap:variable xhtml:name="General.VanityURL" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

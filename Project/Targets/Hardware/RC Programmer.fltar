@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseCard Programmer"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/RC Programmer.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseCard Programmer</Variable>
+    <Variable
+      Name="Variables/Version #">2.2</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">ResponseCard Programmer</Variable>
+    <Variable
+      Name="General/ProductName">ResponseCard Programmer</Variable>
+    <Variable
+      Name="General/UserGuideTitle">ResponseCard Programmer User Guide</Variable>
+    <Variable
+      Name="General/VersionNumber">2.2</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="ResponseCardProgrammerUserGuide"
+    Author="Turning Technologies"
+    Subject="ResponseCardProgrammerUserGuide"
+    Keywords="UGHWrev3_08222014" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

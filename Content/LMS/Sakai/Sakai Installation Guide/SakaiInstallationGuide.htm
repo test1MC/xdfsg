@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1418" MadCap:lastWidth="973">
+    <head>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Sakai® Installation Guide</h1>
+        <h2>
+            <MadCap:snippetText src="../../../Resources/Snippets/LMS/What is Turning Technologies.flsnp" />
+        </h2>
+        <p>
+            <MadCap:snippetText src="../../../Resources/Snippets/LMS/TT develops.flsnp" />
+        </p>
+        <p>This guide provides Sakai® System Administrators with step-by-step instructions to install the Turning Technologies tool.</p>
+        <h2 class="task">Installing the Tool for Sakai</h2>
+        <ol class="Gotham">
+            <li>Deploy the .<b>zip</b> file in the Sakai root directory (under webapps, shared, etc. directories).</li>
+            <li><i>(Optional)</i> To add the Turning Technologies Tool icon in the left tool menu in worksites, a small one-time configuration to the Sakai installation is required.<p>Identify the skin being used; the following instructions assume the default, but if there is a custom skin you must ensure that the following modifications are made to the skin’s portal.css file.</p><ol><li>Open<b> $CATALINA_HOME/webapps/library/skin/default/portal.css</b></li></ol><div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>If there is a skin being used other than the default, switch ‘default’ in that directory with the skin.</p></div><ol MadCap:continue="true"><li>Add the following line:<p><b>.icon-sakai-turningtool {background-image: url(/turningtool-tool/img/ttech_icon.ico);}</b></p></li></ol><ol MadCap:continue="true"><li><b>Save</b> changes and <b>close</b>.</li></ol></li>
+            <li><b>Restart</b> the Sakai Server.</li>
+            <li><b>Log in</b> as the Administrator.</li>
+            <li>Select <b>Realms</b> in the <i>Administration Workspace</i> and select <b>!site.template.course</b>.<p><img src="../../Graphics/Sakai/InstallationGuides/Realms.png" style="width: 466.3811px; height: 330px;" class="MediumWide288pxGrayBorder" /></p></li>
+            <li>Select the <b>Instructor Role ID</b>.</li>
+            <li>Check all the <b>Turning Tool Functions</b> and click <b>Save</b> under <i>Complete the Realm Edit</i>.<p><img src="../../Graphics/Sakai/InstallationGuides/TurningToolFunctions.png" class="MediumHigh288pxGrayBorder" /></p><div class="Important" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #f07600;&quot; class=&quot;mcFormatColor&quot;&gt;IMPORTANT&lt;/span&gt;&lt;/span&gt;"><p>If using Shibboleth, copy the text below and paste it in <br />sakai.properties:#Turning Technologies Shibboleth<br />config: turningtool.shibbolethEnabled=true<br /><br />If using CAS, copy the text below and paste it in <br />sakai.properties:<br />#Turning Technologies CAS config: turningtool.casBaseUrl=&lt;CAS_SERVER_PATH&gt;</p></div></li>
+        </ol>
+    </body>
+</html>

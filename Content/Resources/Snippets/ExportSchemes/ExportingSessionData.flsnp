@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h3 class="task" MadCap:conditions="">Exporting the Session Data</h3>
+        <ol class="Gotham">
+            <li>Select the <b>grade column header</b>, click <span class="Bold">Export</span> and select <span class="Bold">Session</span>.<p><img src="../../../Graphics/ExportSchemes/TPC-ResultsManager-ExportSession.png" MadCap:conditions="TurningPoint.TurningPoint Cloud" class="SmallHigh192px" /><img src="../../Images/ResultsManager-ExportSession.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint 5" /></p></li>
+            <li>Select <MadCap:variable name="Schemes.NewVariable" /> from the <span class="Italic">Select a Scheme</span> drop-down menu and click <span class="Bold">Save</span>.</li>
+            <li><span class="Bold">Name</span> the file, browse to the desired <b>save location</b> and click <b>Save</b>.</li>
+        </ol>
+    </body>
+</html>

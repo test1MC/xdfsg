@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
+  <TocEntry
+    Title="TOC"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" />
+  <TocEntry
+    Title="ResponseWare App User Guide"
+    Link="/Content/ResponseWare/Participants/App/ResponseWareParticipantGuide.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/ResponseWare/Participants/App/TechnicalRequirements.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="ResponseWare and Turning Account"
+    Link="/Content/ResponseWare/Participants/ResponseWareandTurning Account.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Participants/CreatingaTurningAccount-Participants.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="ResponseWare App Options"
+    Link="/Content/ResponseWare/Participants/App/ResponseWareAppOptions.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+  <TocEntry
+    Title="Using the ResponseWare App"
+    Link="/Content/ResponseWare/Participants/App/UsingtheResponseWareApp.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Logging into a ResponseWare Session"
+      Link="/Content/ResponseWare/Participants/App/LoggingintoaResponseWareSession.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Responding to Multiple Choice Polling Questions"
+      Link="/Content/ResponseWare/Participants/App/RespondingtoMultipleChoicePollingQuestions.htm" />
+    <TocEntry
+      Title="Responding to Short Answer, Numeric or Essay Questions"
+      Link="/Content/ResponseWare/Participants/App/RespondingtoShortAnswerNumericorEssayQuestions.htm" />
+    <TocEntry
+      Title="Responding to Multiple Response Questions"
+      Link="/Content/ResponseWare/Participants/App/RespondingtoMultipleResponseQuestions.htm" />
+    <TocEntry
+      Title="Responding to Moment to Moment Questions"
+      Link="/Content/ResponseWare/Participants/App/RespondingtoMomenttoMomentQuestions.htm" />
+    <TocEntry
+      Title="Messaging the Presenter and the Group"
+      Link="/Content/ResponseWare/Participants/App/MessagingthePresenterandtheGroup.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Frequently Asked Questions"
+    Link="/Content/ResponseWare/Participants/ParticipantFAQ.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"></TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

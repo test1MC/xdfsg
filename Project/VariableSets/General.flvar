@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Comment=""
+    Name="CompanyName">Turning Technologies</Variable>
+  <Variable
+    Comment=""
+    Name="PhoneNumber">866 746 3015</Variable>
+  <Variable
+    Name="StreetAddress"
+    Comment=""
+    Definition="Some text"
+    OriginalName="StreetAddress">255 West Federal Street</Variable>
+  <Variable
+    Name="ProductName"
+    Comment=""
+    OriginalName="ProductName">PRODUCT NAME</Variable>
+  <Variable
+    Name="Fax"
+    Comment=""
+    OriginalName="Fax">Fax 330 884 6065</Variable>
+  <Variable
+    Name="CityStateZip"
+    Comment=""
+    Definition="Some text">Youngstown, Ohio  44503</Variable>
+  <Variable
+    Name="UserGuideTitle"
+    Comment="">User Guide</Variable>
+  <Variable
+    Name="VersionNumber"
+    OriginalName="VersionNumberDot"></Variable>
+  <Variable
+    Name="Year"
+    OriginalName="Year">2015</Variable>
+  <Variable
+    Name="VanityURL"
+    Comment="User Guides">turningtechnologies.com/user-guides</Variable>
+  <Variable
+    Name="VanityURL"
+    Comment="Training">turningtechnologies.com/training-support</Variable>
+  <Variable
+    Name="VanityURL"
+    Comment="TPC">turningtechnologies.com/polling-solutions/turningpoint-cloud</Variable>
+  <Variable
+    Name="VanityURL"
+    Comment="RW">turningtechnologies.com/response-solutions/responseware</Variable>
+  <Variable
+    Name="DocType"
+    Comment="" />
+  <Variable
+    Name="VanityURL"
+    Comment="EVAS">einstruction.com/products/examview/examview-assessment-suite</Variable>
+  <Variable
+    Name="VanityURL"
+    Comment="Integrations">turningtechnologies.com/technical-support/integration-solutions</Variable>
+  <Variable
+    Name="VanityURL"
+    Comment="I360">einstruction.com/insight-360-overview</Variable>
+  <Variable
+    Name="VanityURL"
+    Comment="Mobi">einstruction.com/products/mobile-interactive-whiteboards</Variable>
+  <Variable
+    Name="VanityURL"
+    Comment="WS">einstruction.com/workspace-overview</Variable>
+  <Variable
+    Name="PRODUCT"
+    Comment="" />
+  <Variable
+    Name="Clicker"
+    Comment="">QT Device</Variable>
+  <Variable
+    Name="Clicker"
+    Comment="">ResponseCard RF/RF LCD</Variable>
+  <Variable
+    Name="Clicker"
+    Comment="">ResponseCard NXT</Variable>
+  <Variable
+    Name="Clicker"
+    Comment="">ResponseWare</Variable>
+  <Variable
+    Name="PublishDate"
+    Comment=""
+    Type="DateTime">MMMM dd, yyy</Variable>
+</CatapultVariableSet>

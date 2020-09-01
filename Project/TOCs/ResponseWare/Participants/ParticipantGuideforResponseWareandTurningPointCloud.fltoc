@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Participants Using ResponseWare and TurningPoint Cloud"
+    Link="/Content/ResponseWare/Participants/TurningPoint5/Participants Using ResponseWare and TurningPoint Cloud.htm">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/ResponseWare/Participants/TurningPoint5/TechnicalRequirements.htm" />
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Participants/CreatingaTurningAccount-Participants.htm" />
+    <TocEntry
+      Title="Connect and Respond in Class"
+      Link="/Content/ResponseWare/Participants/TurningPoint5/ConnectandRespondinClass.htm">
+      <TocEntry
+        Title="Connecting and Responding in Class with the ResponseWare App"
+        Link="/Content/ResponseWare/Participants/TurningPoint5/ConnectingandRespondinginClasswiththeResponseWareApp.htm" />
+      <TocEntry
+        Title="Connecting and Responding in Class with ResponseWare Web"
+        Link="/Content/ResponseWare/Participants/TurningPoint5/ConnectandRespondinClasswithResponseWareWeb.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Contact Us - Condensed"
+      Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+  </TocEntry>
+</CatapultToc>

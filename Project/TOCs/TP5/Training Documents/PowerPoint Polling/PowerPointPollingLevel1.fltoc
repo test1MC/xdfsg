@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PowerPoint Polling for PCMac- Level 1"
+    Link="/Content/TP5/TrainingDocuments/SectionTitles/PowerPoint Polling - Level 1.htm">
+    <TocEntry
+      Title="Before Class"
+      Link="/Content/TP5/TrainingDocuments/SectionTitles/BeforeClass_PPP.htm">
+      <TocEntry
+        Title="Downloading the Software"
+        Link="/Content/TP5/TrainingDocuments/DownloadingtheSoftware.htm" />
+      <TocEntry
+        Title="Creating the Presentation"
+        Link="/Content/TP5/TrainingDocuments/PPPolling/CreatingthePresentation.htm" />
+      <TocEntry
+        Title="Saving the Presentation"
+        Link="/Content/TP5/TrainingDocuments/PPPolling/Saving_the_Presentation.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="During Class"
+      Link="/Content/TP5/TrainingDocuments/SectionTitles/DuringClass.htm">
+      <TocEntry
+        Title="Response Connections"
+        Link="/Content/TP5/TrainingDocuments/SectionTitles/Response Connections.htm">
+        <TocEntry
+          Title="Verifying the Receiver Channel"
+          Link="/Content/TP5/TrainingDocuments/VerifyingReceiverChannel.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard RF and RF LCD"
+          Link="/Content/TP5/TrainingDocuments/Changing_the_Channel_on_ResponseCard_RF_and_RF_LCD.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard NXT"
+          Link="/Content/TP5/TrainingDocuments/Changing_the_Channel_on_ResponseCard_NXT.htm" />
+        <TocEntry
+          Title="Connecting to ResponseWare (if applicable)"
+          Link="/Content/TP5/TrainingDocuments/Connecting_to_ResponseWare__if_applicable_.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Running Your TurningPoint Presentation"
+        Link="/Content/TP5/TrainingDocuments/PPPolling/RunningTPPresentation.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="The PowerPoint Polling Showbar"
+      Link="/Content/TP5/PowerPointPolling/ThePowerPointPollingShowbar.htm"
+      BreakType="none"
+      StartSection="false" />
+  </TocEntry>
+</CatapultToc>

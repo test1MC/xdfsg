@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Training Documents/FDOC/TransitioningTP5toTPCLMS.fltoc"
+  ConditionTagExpression="include[DocType.Training or &quot;Product.Turning Account&quot;]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Transitioning from TurningPoint 5 to TurningPoint Cloud</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Transitioning from TurningPoint 5 to TurningPoint Cloud"
+    Subject="Transitioning from TurningPoint 5 to TurningPoint Cloud"
+    Keywords="Transitioning from TurningPoint 5 to TurningPoint Cloud"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

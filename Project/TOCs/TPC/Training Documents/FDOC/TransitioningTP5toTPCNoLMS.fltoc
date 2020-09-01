@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Transitioning from TurningPoint 5 to TurningPoint Cloud - NO LMS"
+    Link="/Content/TPC/TrainingDocuments/FirstDayofClasses/TransitioningfromTurningPoint5toTurningPointCloud_NOLMS.htm">
+    <TocEntry
+      Title="Before Class"
+      Link="/Content/TPC/TrainingDocuments/FirstDayofClasses/BeforeClass.htm">
+      <TocEntry
+        Title="Creating a [%=ResponseWare.Turning ID%]"
+        Link="/Content/TurningAccount/Instructors/CreatingaTurningAccount-Instructor.htm" />
+      <TocEntry
+        Title="Creating a Participant List"
+        Link="/Content/TurningAccount/Instructors/CreatingaParticipantList.htm" />
+      <TocEntry
+        Title="Downloading a Participant List from the [%=ResponseWare.Turning ID%] Website"
+        Link="/Content/TPC/ParticipantLists/Creating/CreatingaParticipantListinTurningPointCloud.htm" />
+      <TocEntry
+        Title="Creating a New Question List"
+        Link="/Content/TPC/Content/QuestionLists/CreatingaNewQuestionList.htm" />
+      <TocEntry
+        Title="Importing Question Lists or Answer Keys"
+        Link="/Content/TPC/Welcome/GettingStarted/MigratingPreviousFiles/ImportingQuestionListsorAnswerKeys.htm" />
+      <TocEntry
+        Title="Exporting Participant Lists"
+        Link="/Content/TPC/ParticipantLists/Managing/ExportingParticipantLists.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="During Class"
+      Link="/Content/TPC/TrainingDocuments/FirstDayofClasses/DuringClass.htm">
+      <TocEntry
+        Title="Polling"
+        Link="/Content/TPC/TrainingDocuments/FirstDayofClasses/Polling.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="After Class"
+      Link="/Content/TPC/TrainingDocuments/FirstDayofClasses/AfterClass.htm">
+      <TocEntry
+        Title="Importing Sessions"
+        Link="/Content/TPC/IndividualSessionManagement/ImportingSessions.htm" />
+      <TocEntry
+        Title="Exporting Sessions"
+        Link="/Content/TPC/IndividualSessionManagement/ExportingSessions.htm" />
+      <TocEntry
+        Title="Generating Reports"
+        Link="/Content/TPC/Reporting/GeneratingReports.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

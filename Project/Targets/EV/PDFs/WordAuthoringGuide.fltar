@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/EV/AuthoringGuide.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  ConditionTagExpression="include[DocType.UG or Versions.Word] exclude[Versions.8 or Versions.EV] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <Variables>
+    <Variable
+      Name="General/PRODUCT">Word Authoring Guide</Variable>
+    <Variable
+      Name="General/ProductName">Word Authoring Guide</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Word Authoring Guide</Variable>
+    <Variable
+      Name="General/VersionNumber">9.0</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+  <DocumentProperties
+    Author="Turning Technologies"
+    Title="Word Authoring Guide"
+    Subject="Word Authoring Guide" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

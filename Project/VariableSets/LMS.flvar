@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="LMS"
+    Comment="">Blackboard</Variable>
+  <Variable
+    Name="LMS"
+    Comment="">Canvas</Variable>
+  <Variable
+    Name="LMS"
+    Comment="">Moodle</Variable>
+  <Variable
+    Name="LMS"
+    Comment="">Sakai</Variable>
+  <Variable
+    Name="LMS"
+    Comment="">Performance Matters</Variable>
+  <Variable
+    Name="LMS"
+    Comment="">Desire2Learn</Variable>
+</CatapultVariableSet>

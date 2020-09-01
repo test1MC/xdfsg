@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/LMS/Acuity/AcuitySelf-PacedPolling.fltoc"
+  ConditionTagExpression="include[OS.Mac or Product.TP]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+    <Variable
+      Name="Variables/Product Name">Acuity and Self-Paced Polling for Mac</Variable>
+    <Variable
+      Name="NewSet/TurningPoint">TurningPoint</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Acuity and Self-Paced Polling for Mac"
+    Subject="Acuity and Self-Paced Polling for Mac"
+    Keywords="Acuity and Self-Paced Polling for Mac"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

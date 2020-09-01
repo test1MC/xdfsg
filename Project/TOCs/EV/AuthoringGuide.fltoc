@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UGTitlePage.flpgl"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/OLDTOC.htm" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/ExamView/AuthoringGuide/Introduction.htm" />
+  <TocEntry
+    Title="Getting Started with ExamView® Assessment Suite"
+    Link="/Content/ExamView/AuthoringGuide/GettingStarted.htm" />
+  <TocEntry
+    Title="Computerized Testing Basics"
+    Link="/Content/ExamView/AuthoringGuide/ComputerizedTestingBasics.htm" />
+  <TocEntry
+    Title="Preparing Questions in Word"
+    Link="/Content/ExamView/AuthoringGuide/PreparingQuestions.htm">
+    <TocEntry
+      Title="Multiple Choice"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/MultipleChoice.htm"
+      conditions="Versions.EV"
+      StartSection="false" />
+    <TocEntry
+      Title="Bimodal"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/Bimodal.htm"
+      conditions="Versions.EV" />
+    <TocEntry
+      Title="Multiple Response"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/MultipleResponse.htm"
+      conditions="Versions.EV" />
+    <TocEntry
+      Title="Completion"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/Completion.htm"
+      conditions="Versions.EV" />
+    <TocEntry
+      Title="Modified True/False"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/ModifiedTrueFalse.htm"
+      conditions="Versions.EV" />
+    <TocEntry
+      Title="Matching"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/Matching.htm"
+      conditions="Versions.EV" />
+    <TocEntry
+      Title="Numeric Response"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/NumericResponse.htm"
+      conditions="Versions.EV" />
+    <TocEntry
+      Title="Short Answer, Problem, Essay, Case and Other"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/ShortAnswerProblemEssayCaseandOther.htm"
+      conditions="Versions.EV" />
+    <TocEntry
+      Title="To Create and Use Narratives"
+      Link="/Content/ExamView/AuthoringGuide/Narratives.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Using Artwork on Tests"
+    Link="/Content/ExamView/AuthoringGuide/UsingArtworkonTests.htm" />
+  <TocEntry
+    Title="Hands-onTutorial"
+    Link="/Content/ExamView/AuthoringGuide/Hands-onTutorial.htm" />
+  <TocEntry
+    Title="Sample Question Bank"
+    Link="/Content/ExamView/AuthoringGuide/SampleQuestionBank.htm" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/OLDContactUs.htm" />
+</CatapultToc>

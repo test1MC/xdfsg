@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1665" MadCap:lastWidth="1092" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../../../Resources/TableStyles/AlternateShading.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2>Supported Clickers</h2>
+        <p>Test Manager supports clickers to transmit student results directly into the gradebook (no other software application is needed). Currently, only numbered sets of clickers (K-12) are supported.</p>
+        <p class="SmallTitle">About the IR System</p>
+        <p>Each IR receiver unit supports up to 60 clickers and under optimal conditions can accept signals up to 60 feet away. Students must have a direct line-of-sight to successfully transmit to the receiver and when under heavy use, may experience signal interference that requires re-sending their response.</p>
+        <p>Students transmit their responses by simply pressing a button on the clicker. A feedback grid should be projected to the class to allow students to verify that their results have been successfully received.</p>
+        <p class="SmallTitle">About the Gen2 RF System</p>
+        <p>Each RF receiver unit supports up to 300 clickers in K-12 mode and has a range of 200 feet. Unlike the IR system, RF clickers are not limited to line-of-sight transmission. Because of its large range, it is important that each classroom use a different channel number to prevent communication problems. clickers and receivers are programmed  to a specific channel number and care should be taken not to mix the clickers from different sets. The channel number is displayed on the receiver in bright red when powered by a USB connection. Access the summary screen to display the channel number programmed for the clicker.</p>
+        <p class="SmallTitle">Summary Screen</p>
+        <div class="ImageFloatRight">
+            <p class="Caption">
+                <img src="../../../../Graphics/EV/TM/cps001.png" class="SmallWide192px" title="CPS Summary Screen" alt="CPS Summary Screen" />
+            </p>
+        </div>
+        <p>This is clicker ID 3 (0003), programmed for channel number 15 (CH:15). Notice that the lower right of the screen must show K12 not HE to work with Test Manager.</p>
+        <p>Students may enter responses up to 12 characters in length which include letters A-J, numbers, and symbols (+, -,*, /, X, Y, parentheses, decimal, space). Because of its multi-character support, students must press the Send button on the clicker when they are ready to transmit their answer. It is important that students verify that all of their answers have been received. In Teacher-Led Student-Managed sessions (TLSMA), the projected feedback grid changes color when responses are received. For Student-Managed sessions (SMA), the clicker's LCD screen displays a RECV'D message.</p>
+        <p class="SmallTitle">Student-Managed Session Screen</p>
+        <div class="ImageFloatRight">
+            <p>
+                <img src="../../../../Graphics/EV/TM/cps002.png" class="SmallWide192px" title="CPS Received Screen" alt="CPS Received Screen" />
+            </p>
+        </div>
+        <p>Questions that have transmitted a response display a RECV'D message on the right side of the screen.</p>
+        <p>The TLSMA grid provides feedback when an out of range response is transmitted. The SMA RECV'D message, however, does not discriminate between valid and out of range responses. For example, a student may transmit "F" for a multiple choice question that only has choices A-D. The LCD screen will display the student's answer along with the RECV'D message but Test Manager ignores invalid responses and they will appear in the gradebook as if there was no attempt at all.</p>
+        <p class="SmallTitle">About Device Manager</p>
+        <p>ExamView now can utilize Device Manager to configure and control the Student Response Systems (radio frequency or infrared hubs and their receivers).</p>
+        <p>Device Manager can be accessed from the notification area, and can be used to set the receiver channel, turn off all the clickers at once, and test the connection. </p>
+        <p class="SmallTitle">Supported Question Types for Response Pad Sessions</p>
+        <p>The questions types and number of answer choices supported by the session depends on the hardware and delivery mode selected. Unsupported questions will require manually scoring and entering the grades using the Edit Scores dialog.</p>
+        <p>Question Types Always Supported:</p>
+        <table style="width: 681px;caption-side: top;mc-table-style: url('../../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="148px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="533px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Type</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>Comments</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>True/False</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Button A = True; Button B = False</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Yes/No</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p>Button A = Yes; Button B = No</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>Question Types Conditionally Supported:</p>
+        <table style="width: 672px;caption-side: top;mc-table-style: url('../../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="168px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="168px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="168px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="168px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Type</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>IR SMA</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>IR TLSMA</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>RF SMA/TLSMA</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Multiple Choice</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Limit 5 or 6 choices*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Always</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Always</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Multiple Response</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Never</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Never</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Always</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Bimodal</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Only as MC</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Only as MC</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Only as MC</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Numeric Response</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Never</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Never</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Limit 12-characters</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Matching</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Limit A-E or A-F*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Limit A-H</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p>Limit A-J</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>*Depends on the Session Settings for the F-button function.</p>
+        <p>Question Types Never Supported:</p>
+        <table style="width: 681px;caption-side: top;mc-table-style: url('../../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="148px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="533px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Type</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>Suggested Action</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Modified True/False</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Change to True/False, remove, or move to end</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Completion</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Remove or move to end</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Short Answer</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Remove or move to end</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Problem</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Remove or move to end</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Essay</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Remove or move to end</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Case</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>Remove or move to end</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Other</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p>Remove or move to end</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Export Schemes/TurningPoint/WebCT_BlackboardVista.fltoc"
+  ConditionTagExpression="include[&quot;TurningPoint.TurningPoint Cloud&quot;] exclude[DocType.Other or &quot;TurningPoint.TurningPoint 5&quot;] "
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Schemes/NewVariable">WebCT/Blackboard Vista</Variable>
+    <Variable
+      Name="Variables/Product Name">TurningPoint Cloud and WebCT/Blackboard Vista</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TurningPoint Cloud and WebCT/Blackboard Vista"
+    Subject="TurningPoint Cloud and WebCT/Blackboard Vista"
+    Keywords="TurningPoint Cloud and WebCT/Blackboard Vista"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

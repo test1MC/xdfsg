@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="56" MadCap:lastWidth="874">
+    <head>
+    </head>
+    <body>
+        <p>To save a custom export scheme for the Response Grid report, make your changes and select <span class="Bold">Default</span> from the<span class="Italic"> Export Scheme</span> drop-down menu. You will then be prompted to save your scheme and can select the saved scheme the next time you generate a Response Grid report.</p>
+    </body>
+</html>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Results Manager"
+    Link="/Content/TP5/Results Manager/ResultsManager.htm">
+    <TocEntry
+      Title="Opening the Results Manager Overview"
+      Link="/Content/TP5/Results Manager/OpeningtheResultsManagerOverview.htm" />
+    <TocEntry
+      Title="Setting Session Performance Points"
+      Link="/Content/TP5/Results Manager/SettingSessionPerformancePoints.htm" />
+    <TocEntry
+      Title="Setting Attendance Points"
+      Link="/Content/TP5/Results Manager/SettingAttendancePoints.htm" />
+    <TocEntry
+      Title="Editing Participant Information"
+      Link="/Content/TP5/Results Manager/EditingParticipantInformation.htm" />
+    <TocEntry
+      Title="Viewing Grade Overview Information"
+      Link="/Content/TP5/Results Manager/ViewingGradeOverviewInformation.htm" />
+    <TocEntry
+      Title="Adding a Manual Grade Column"
+      Link="/Content/TP5/Results Manager/AddingaManualGradeColumn.htm" />
+    <TocEntry
+      Title="Assigning an Unassigned Device"
+      Link="/Content/TP5/Results Manager/AssigninganUnassignedDevice.htm" />
+    <TocEntry
+      Title="Updating Participant Lists from an LMS"
+      Link="/Content/TP5/Results Manager/UpdatingParticipantListsfromanLMS.htm" />
+    <TocEntry
+      Title="Exporting Sessions to an LMS Integration"
+      Link="/Content/TP5/Results Manager/ExportingSessionstoanLMSIntegration.htm" />
+  </TocEntry>
+</CatapultToc>

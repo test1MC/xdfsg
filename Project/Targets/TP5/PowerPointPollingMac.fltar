@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TP5/Training Documents/PowerPoint Polling/PowerPointPollingMac.fltoc"
+  ConditionTagExpression="include[OS.Mac or Users.Level1 or Versions.5]exclude[DocType.Other or DocType.UG or OS.PC]"
+  PatchHeadingLevels="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">PowerPoint Polling for Mac</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="PowerPointPollingforMac"
+    Subject="PowerPointPollingforMac"
+    Author="Turning Technologies"
+    Keywords="PowerPointPollingforMac" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

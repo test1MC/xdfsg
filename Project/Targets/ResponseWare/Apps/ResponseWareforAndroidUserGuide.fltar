@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseWare for Android User Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/ResponseWare/Apps/ResponseWareforAndroidiOS.fltoc"
+  ConditionTagExpression="include[DocType.Other or DocType.UG-PC or OS.PC or &quot;Product.TurningPoint Cloud&quot; or Users.Students]exclude[DocType.HTML or DocType.HTML-Mac or DocType.HTML-PC or DocType.UG-Mac or OS.Mac or Product.TP or Users.Instructors]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseWare for Android User Guide</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">ResponseWare for Android</Variable>
+    <Variable
+      Name="General/UserGuideTitle">ResponseWare for Android User Guide</Variable>
+    <Variable
+      Name="General/ProductName">ResponseWare for Android</Variable>
+    <Variable
+      Name="General/VersionNumber">2.1</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="ResponseWare for Android User Guide`"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

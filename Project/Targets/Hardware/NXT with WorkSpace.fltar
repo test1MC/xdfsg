@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseCard NXT and WorkSpace"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/RC NXT with Workspace.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/UG2Column.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseCard NXT and WorkSpace</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="ResponseCard NXT and WorkSpace"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

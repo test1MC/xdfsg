@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TurningPoint: Steps to Successfully Run Anywhere Polling with a Question List"
+    Link="/Content/TP5/TrainingDocuments/Steps/TenSteps_AnywhereTP5_Qlist.htm"
+    conditions="Versions.5"
+    StartSection="false" />
+</CatapultToc>

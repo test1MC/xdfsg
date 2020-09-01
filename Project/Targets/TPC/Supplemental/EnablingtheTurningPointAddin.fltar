@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/EnablingtheTurningPointAddin.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Enabling the TurningPoint Add-in</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/user-guides</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Enabling the TurningPoint Add-in"
+    Subject="Enabling the TurningPoint Add-in"
+    Keywords="Enabling the TurningPoint Add-in"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle" />
+  <Glossaries></Glossaries>
+</CatapultTarget>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles>
+    <Page Width="800" Height="800" Padding="1in" PageSize="Letter" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="bottom" BackgroundType="Solid" BackgroundImage="../Images/PageLayoutGraphics/ttech_oh_footer.png" PageType="title">
+        <Frame X="192px" Y="289px" Width="528px" Height="131px" Flow="decoration0" Right="-96px" Bottom="444px" BackgroundColor="#524f52" Anchors="" BackgroundType="GradientWE" BackgroundColorAlt="#c0c0c0" TextAlign="left" VerticalAlign="middle" BorderTopLeftRadius="" BorderTopRightRadius="" BorderBottomRightRadius="" BorderBottomLeftRadius="" BorderLeftStyle="solid" BorderLeftWidth="7px" BorderLeftColor="#ffff36">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="UGTitle" xhtml:style="text-align: left;"><MadCap:variable xhtml:name="General.ProductName" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="UGDocType"><MadCap:variable xhtml:name="General.DocType" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="Version" xhtml:style="text-align: left;"><MadCap:variable xhtml:name="General.VersionNumber" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-48px" Y="0px" Width="720px" Height="240px" Flow="body" Right="-48px" Bottom="624px" Anchors="" />
+    </Page>
+</PageStyles>

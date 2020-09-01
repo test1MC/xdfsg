@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="pageLayout"
+    StartSection="false" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm" />
+  <TocEntry
+    Title="About Flow®"
+    Link="/Content/Flow/About/About Flow.htm">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/Flow/About/TechnicalRequirements.htm">
+      <TocEntry
+        Title="Compatible Devices"
+        Link="/Content/Flow/About/CompatibleDevices.htm"
+        BreakType="pageLayout"
+        StartSection="false" />
+    </TocEntry>
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/Flow/About/GettingStarted.htm">
+      <TocEntry
+        Title="Downloading Flow"
+        Link="/Content/Flow/About/DownloadingFlow.htm" />
+      <TocEntry
+        Title="Installing Flow for PC"
+        Link="/Content/Flow/About/InstallingFlowforPC.htm" />
+      <TocEntry
+        Title="Installing Flow for Mac"
+        Link="/Content/Flow/About/InstallingFlowforMac.htm" />
+      <TocEntry
+        Title="Installing Flow for Linux"
+        Link="/Content/Flow/About/InstallingFlowforLinux.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Hardware"
+      Link="/Content/Flow/About/Hardware.htm">
+      <TocEntry
+        Title="Changing the Receiver Channel"
+        Link="/Content/Flow/About/ChangingtheReceiverChannel.htm" />
+      <TocEntry
+        Title="Using CPS IR, Spark RF and ResponseCard RF/RF LCD Clickers"
+        Link="/Content/Flow/About/UsingCPSIRSparkRFandResponseCardRFRFLCDClickers.htm"
+        BreakType="none"
+        StartSection="false" />
+      <TocEntry
+        Title="Using Pulse RF and ResponseCard NXT Clickers"
+        Link="/Content/Flow/About/UsingPulseRFandResponseCardNXTClickers.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="vPad"
+      Link="/Content/Flow/About/vPad.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Navigating Flow"
+    Link="/Content/Flow/Navigating Flow/Application.htm">
+    <TocEntry
+      Title="The Main Window"
+      Link="/Content/Flow/Navigating Flow/TheMainWindow.htm"></TocEntry>
+    <TocEntry
+      Title="Flow Menu"
+      Link="/Content/Flow/Navigating Flow/FlowMenu.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Participants"
+    Link="/Content/Flow/Participants/Participants.htm">
+    <TocEntry
+      Title="Registering Participants Anonymously"
+      Link="/Content/Flow/Participants/RegisteringParticipantsAnonymously.htm" />
+    <TocEntry
+      Title="Adding Participants to a Participant List"
+      Link="/Content/Flow/Participants/AddingParticipantstoaParticipantList.htm" />
+    <TocEntry
+      Title="Registration Chart"
+      Link="/Content/Flow/Participants/RegistrationChart.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Importing a Participant List from a CSV or XLSX File"
+      Link="/Content/Flow/Participants/ImportingaParticipantListfromaCSVorXLSFile.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Registration Chart"
+      Link="/Content/Flow/Participants/RegistrationChart.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Importing a Participant List from a Learning Management System (LMS)"
+      Link="/Content/Flow/Participants/ImportingaParticipantListfromaLearningManagementSystemLMS.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Using Assisted Registry"
+      Link="/Content/Flow/Participants/UsingAssistedRegistry.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Lesson Builder"
+    Link="/Content/Flow/LessonBuilder/LessonBuilder1.htm">
+    <TocEntry
+      Title="Adding a Question in the Lesson Builder"
+      Link="/Content/Flow/LessonBuilder/AddingaQuestionintheLessonBuilder.htm" />
+    <TocEntry
+      Title="Printing a Lesson"
+      Link="/Content/Flow/LessonBuilder/PrintingaLesson.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Content"
+    Link="/Content/Flow/Content/Content.htm">
+    <TocEntry
+      Title="Impromptu"
+      Link="/Content/Flow/Content/Impromptu.htm">
+      <TocEntry
+        Title="True/False"
+        Link="/Content/Flow/Content/QuestionTypes/TrueFalse.htm" />
+      <TocEntry
+        Title="Multiple Choice"
+        Link="/Content/Flow/Content/QuestionTypes/MultipleChoice.htm" />
+      <TocEntry
+        Title="Multiple Answer"
+        Link="/Content/Flow/Content/QuestionTypes/MultipleAnswer.htm" />
+      <TocEntry
+        Title="Short Text"
+        Link="/Content/Flow/Content/QuestionTypes/ShortText.htm" />
+      <TocEntry
+        Title="Numeric"
+        Link="/Content/Flow/Content/QuestionTypes/Numeric.htm" />
+      <TocEntry
+        Title="Constructed Response"
+        Link="/Content/Flow/Content/QuestionTypes/ConstructedResponse.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Flow Question Editor"
+      Link="/Content/Flow/Content/FlowQuestionEditor.htm">
+      <TocEntry
+        Title="Using the Flow Question Editor"
+        Link="/Content/Flow/Content/UsingtheFlowQuestionEditor.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="PowerPoint (PC Only)"
+      Link="/Content/Flow/Content/PowerPoint.htm">
+      <TocEntry
+        Title="Creating a Flow Question in PowerPoint"
+        Link="/Content/Flow/Content/CreatingaFlowQuestioninPowerPoint.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Flow Lesson"
+      Link="/Content/Flow/Content/FlowLesson.htm">
+      <TocEntry
+        Title="Asking Questions from a Flow Lesson"
+        Link="/Content/Flow/Content/UsingaFlowLessonasContent.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Homework"
+    Link="/Content/Flow/Homework/Homework.htm">
+    <TocEntry
+      Title="Publishing Homework via the Lesson Builder"
+      Link="/Content/Flow/Homework/PublishingHomeworkviaLessonBuilder.htm" />
+    <TocEntry
+      Title="Assigning and Completing Homework"
+      Link="/Content/Flow/Homework/AssigningHomework.htm" />
+    <TocEntry
+      Title="Downloading and Viewing Completed Homework"
+      Link="/Content/Flow/Homework/DownloadingandViewingHomework.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Polling"
+    Link="/Content/Flow/Polling/Polling.htm">
+    <TocEntry
+      Title="Polling Impromptu Questions"
+      Link="/Content/Flow/Polling/PollingImpromptuQuestions.htm" />
+    <TocEntry
+      Title="Polling Questions from the Flow Question Editor in an External Application"
+      Link="/Content/Flow/Polling/PollingQuestionsfromtheFlowQuestionEditor.htm" />
+    <TocEntry
+      Title="Polling Questions in a PowerPoint Presentation"
+      Link="/Content/Flow/Polling/PollingQuestionsinaPowerPointPresentation.htm" />
+    <TocEntry
+      Title="Manually Adding Time to a Question"
+      Link="/Content/Flow/Polling/ManuallyAddingTimetoaQuestion.htm" />
+    <TocEntry
+      Title="Viewing the Response Grid"
+      Link="/Content/Flow/Polling/ViewingtheResponseGrid.htm" />
+    <TocEntry
+      Title="Viewing Results in Real Time"
+      Link="/Content/Flow/Polling/ViewingResultsinRealTime.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Results"
+    Link="/Content/Flow/Results/Results.htm">
+    <TocEntry
+      Title="View Results"
+      Link="/Content/Flow/Results/ViewResults.htm">
+      <TocEntry
+        Title="Viewing Results by Session"
+        Link="/Content/Flow/Results/ViewingResultsbySession.htm" />
+      <TocEntry
+        Title="Viewing Results by Question"
+        Link="/Content/Flow/Results/ViewingResultsbyQuestion.htm" />
+      <TocEntry
+        Title="Viewing Results by Participant"
+        Link="/Content/Flow/Results/ViewingResultsbyParticipant.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Chart Options"
+      Link="/Content/Flow/Results/ChartOptions.htm" />
+    <TocEntry
+      Title="Edit Questions"
+      Link="/Content/Flow/Results/EditQuestions.htm" />
+    <TocEntry
+      Title="Saving Session Results"
+      Link="/Content/Flow/Results/SavingSessionResults.htm" />
+    <TocEntry
+      Title="Exporting Session Results"
+      Link="/Content/Flow/Results/ExportingResults.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"></TocEntry>
+  <TocEntry
+    Title="vPad"
+    Link="/Content/Flow/vPad/vPad.htm"
+    BreakType="chapter"
+    PageNumberReset="reset"
+    StartSection="true"
+    PageNumber="1"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/Flow/vPad/TechnicalRequirements1.htm" />
+    <TocEntry
+      Title="Installation"
+      Link="/Content/Flow/vPad/Installation.htm">
+      <TocEntry
+        Title="Installing vPad on the Computer"
+        Link="/Content/Flow/vPad/InstallingvPadontheComputer.htm" />
+      <TocEntry
+        Title="Connecting vPad Web"
+        Link="/Content/Flow/vPad/ConnectingvPadWeb.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Polling"
+      Link="/Content/Flow/vPad/Polling.htm">
+      <TocEntry
+        Title="Logging into a vPad Session"
+        Link="/Content/Flow/vPad/LoggingintoavPadSession.htm" />
+      <TocEntry
+        Title="Responding to a True/False or Multiple Choice Question"
+        Link="/Content/Flow/vPad/RespondingtoaTrueFalseorMultipleChoiceQuestion.htm" />
+      <TocEntry
+        Title="Responding to a Multiple Answer Question"
+        Link="/Content/Flow/vPad/RespondingtoaMultipleAnswerQuestion.htm" />
+      <TocEntry
+        Title="Responding to a Short Text or Numeric Question"
+        Link="/Content/Flow/vPad/RespondingtoaShortTextorNumericQuestion.htm" />
+      <TocEntry
+        Title="Responding to a Constructed Response Question"
+        Link="/Content/Flow/vPad/RespondingtoaConstructedResponseQuestion.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Homework Mode"
+      Link="/Content/Flow/vPad/HomeworkMode.htm">
+      <TocEntry
+        Title="Saving Homework Locally"
+        Link="/Content/Flow/vPad/SavingHomeworkLocally.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

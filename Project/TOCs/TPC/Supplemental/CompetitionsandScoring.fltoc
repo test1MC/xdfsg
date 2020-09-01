@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="TurningPoint Competitions"
+    Link="/Content/TPC/ParticipantLists/Demographics/Scoring/TurningPointCompetitions.htm">
+    <TocEntry
+      Title="Participants"
+      Link="/Content/TPC/ParticipantLists/Demographics/Scoring/Participants.htm">
+      <TocEntry
+        Title="Allowing Participants to Choose a Team"
+        Link="/Content/TPC/ParticipantLists/Demographics/Scoring/AllowingParticipantstoChooseaTeam.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Competition Elements"
+      Link="/Content/TPC/ParticipantLists/Demographics/Scoring/CompetitionElements.htm" />
+    <TocEntry
+      Title="Scoring Options"
+      Link="/Content/TPC/ParticipantLists/Demographics/Scoring/ScoringOptions.htm" />
+    <TocEntry
+      Title="Team Competition Example"
+      Link="/Content/TPC/ParticipantLists/Demographics/Scoring/TeamCompetitionExample.htm" />
+  </TocEntry>
+</CatapultToc>

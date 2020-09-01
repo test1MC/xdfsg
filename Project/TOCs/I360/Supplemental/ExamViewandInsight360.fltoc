@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="ExamView® Tests"
+    Link="/Content/I360/MyTests/ExamView/ExamViewTests.htm">
+    <TocEntry
+      Title="Opening ExamView® Test GeneratorCreating an ExamView Test"
+      Link="/Content/I360/MyTests/ExamView/OpeningExamViewTestGenerator.htm" />
+    <TocEntry
+      Title="Starting a Self-Paced Test"
+      Link="/Content/I360/MyTests/TestPlayer/StartingaSelfPacedTest.htm" />
+    <TocEntry
+      Title="Ending a Self-Paced Test"
+      Link="/Content/I360/MyTests/TestPlayer/EndingaSelfPacedTest.htm" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="eInstruction Hardware Compatibility Charts"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Compatibility Charts/eInstruction Hardware Compatibility Charts.fltoc"
+  PatchHeadingLevels="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Hardware Compatibility Charts</Variable>
+    <Variable
+      Name="General/PRODUCT">Hardware Compatibility Charts</Variable>
+    <Variable
+      Name="General/ProductName">Hardware Compatibility Charts</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Hardware Compatibility Charts</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false" />
+  <DocumentProperties
+    Title="Compatibility Charts"
+    Author="Turning Technologies" />
+</CatapultTarget>

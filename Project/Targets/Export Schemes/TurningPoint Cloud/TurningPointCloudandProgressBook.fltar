@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Export Schemes/TurningPoint/ProgressBook.fltoc"
+  ConditionTagExpression="include[&quot;TurningPoint.TurningPoint Cloud&quot;] "
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Schemes/NewVariable">ProgressBook</Variable>
+    <Variable
+      Name="Variables/Product Name">TurningPoint Cloud and ProgressBook</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TurningPoint Cloud and ProgressBook"
+    Subject="TurningPoint Cloud and ProgressBook"
+    Keywords="TurningPoint Cloud and ProgressBook"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

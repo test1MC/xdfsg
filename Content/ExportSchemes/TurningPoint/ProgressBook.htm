@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4937" MadCap:lastWidth="1078">
+    <head>&#160;<link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud</MadCap:conditionalText> and ProgressBook™</h1>
+        <p>This document outlines the steps for using TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>with ProgressBook.</p>
+        <p class="SmallTitle" MadCap:conditions="TurningPoint.TurningPoint 5">How does the integration work?</p>
+        <p MadCap:conditions="TurningPoint.TurningPoint 5">The participant information from ProgressBook is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. Session scores are then exported from TurningPoint in a specific format and imported into ProgressBook.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/How-RTR.flsnp" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading the Report from ProgressBook</h3>
+        <ol class="Gotham">
+            <li>Open ProgressBook.</li>
+            <li>Select an existing <span class="Bold">class</span>.<div class="ImageFloatRight"><p style="text-align: left;"><img src="../../Graphics/ExportSchemes/ProgressBookClasses.png" class="MediumHigh288px" /></p></div></li>
+            <li>Below <span class="Italic">Reports</span>, select <span class="Bold">Student Demographics by Class</span> and click <span class="Bold">Run</span>.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>Pop-ups must be enabled to download reports from ProgressBook.</p></div></li>
+            <li>In the <span class="Italic">Report Viewer</span> window, select the <span class="Bold">class</span> from the <span class="Italic">Class</span> drop-down menu. Leave the <span class="Bold">Set Optional Filters</span> section blank. Select ONLY the following options from the <span class="Italic">Columns</span> drop-down menu:<ul><li>Student Last Name</li></ul><ul><li>Student First Name</li></ul><ul><li>Student ID</li></ul></li>
+            <li>Click <span class="Bold">View Report</span>.</li>
+            <li>Select <span class="Bold">CSV</span> from the drop-down menu after the report is generated.</li>
+            <li>Click <span class="Bold">Export</span>.</li>
+            <li>Choose <span class="Bold">Save File</span> when prompted.<p class="InList">Now that the CSV file has been saved, it is time to import the information as a TurningPoint participant list.</p></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/PowerPointPolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AwywherePolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AfterClass-NoWebReg.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to ProgressBook</h3>
+        <ol class="Gotham">
+            <li>Open ProgressBook.</li>
+            <li>Select an existing <span class="Bold">class</span>.</li>
+            <li>Click <span class="Bold">Add an Assignment</span> below <span class="Italic">Assignments &amp; Marks</span>. You may be prompted to create an assignment type.</li>
+            <li>Enter a <span class="Bold">description of the assignment</span>, <span class="Bold">the assignment type</span>, <span class="Bold">date</span> and the <span class="Bold">total possible points</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/ProgressBook-AssignmentDetails.png" style="width: 576px;height: 191px;" class="PageLengthWide672px"></img></p></li>
+            <li>Click <span class="Bold">Save</span>.</li>
+            <li>Click the <span class="Bold">Marks</span> tab.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/ProgressBook-MarksTab.png" class="PageLengthWide672px" style="width: 581px;height: 192px;"></img></p></li>
+            <li>Click <span class="Bold">Import the Marks</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/ProgressBook-ImportTheMarks.png" class="PageLengthWide672px" style="width: 578px;height: 210px;"></img></p></li>
+            <li>Click <span class="Bold">Browse</span> to locate the saved file. Select <span class="Bold">No</span> for <span class="Italic">First row contains headers?</span></li>
+            <li>Click <span class="Bold">Import the Marks</span>.</li>
+            <li>Click the <span class="Bold">Save</span> button in the upper right corner of the screen.<p class="InList">The assignment now appears in the gradebook.</p></li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PowerPoint Polling for PCMac Additional Topics Part One"
+    Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/PowerPoint Polling Additional Topics.htm">
+    <TocEntry
+      Title="Demographic Assignment"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Demographic_Assignment_.htm" />
+    <TocEntry
+      Title="Generating a Results by Demographic Report"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Generating_a_Results_by_Demographic_Report.htm" />
+    <TocEntry
+      Title="Priority Ranking"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Priority_Ranking.htm" />
+    <TocEntry
+      Title="Competitions"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Competitions.htm" />
+    <TocEntry
+      Title="Team MVP"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Team_MVP.htm" />
+    <TocEntry
+      Title="Racing Leader Board"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Racing_Leader_Board.htm" />
+    <TocEntry
+      Title="Participant Competitions"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Participant_Competitions.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Fastest Responders"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Fastest_Responders.htm" />
+    <TocEntry
+      Title="Wager Slide"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Wager_Slide.htm" />
+    <TocEntry
+      Title="Comparative Links"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Comparative_Links.htm" />
+    <TocEntry
+      Title="Convert to Picture"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Convert_to_Picture.htm" />
+  </TocEntry>
+</CatapultToc>

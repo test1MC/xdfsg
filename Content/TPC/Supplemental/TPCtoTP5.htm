@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1566" MadCap:lastWidth="1011">
+    <head>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>&#160;</h1>
+        <h1>TurningPoint Cloud to TurningPoint 5</h1>
+        <p>Moving to from TurningPoint 5 to TurningPoint Cloud is intended to be a one-way migration. However, if you need to return to TurningPoint 5, the steps below will assist in the process.</p>
+        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+            <p>Copies are made of files converted from TurningPoint 5 to TurningPoint Cloud. The source file remains in its original location.</p>
+        </div>
+        <h2>Content</h2>
+        <p>If content was created in TurningPoint Cloud, it must be exported into TurningPoint 5. If content was brought into TurningPoint Cloud from TurningPoint 5, skip these steps and use the original TurningPoint 5 content.</p>
+        <ol class="Gotham">
+            <li>Open TurningPoint Cloud and sign into your Turning Account.</li>
+            <li>Click the <span class="Bold">Content</span> tab. </li>
+            <li>Click the <span class="Italic">Content</span> drop-down menu and select <span class="Bold">Export</span>.</li>
+            <li>Select the <span class="Bold">content</span> to export.</li>
+            <li>Click the <span class="Bold">...</span> button to save the file to a specified location.</li>
+            <li>Open TurningPoint 5 and select the <span class="Bold">Content</span> tab.</li>
+            <li>Click the <span class="Italic">Content</span> drop-down menu and select <span class="Bold">Import</span>.</li>
+            <li>Select the file to be imported and click <span class="Bold">Open</span>.</li>
+        </ol>
+        <h2>Participant List</h2>
+        <p>Participant list files cannot be directly exported back to TurningPoint 5 because of the encryption of personal information that is applied in TurningPoint Cloud. Follow the workaround process below to return personal data to TurningPoint 5.</p>
+        <ol class="Gotham">
+            <li>Open TurningPoint Cloud and sign into your Turning Account.</li>
+            <li>Click the <span class="Bold">Manage</span> tab, select the appropriate <span class="Bold">participant list</span> and click <span class="Bold">Edit Participants</span>.</li>
+            <li>Click <span class="Bold">Participant</span>, mouse over <span class="Bold">Export</span> and select <span class="Bold">CSV</span>.</li>
+            <li>Name and save the file.</li>
+            <li>Click <span class="Bold">Save and Close </span>and close TurningPoint Cloud.</li>
+            <li>Open TurningPoint 5 and select the <span class="Bold">Manage</span> tab.</li>
+            <li>Click the <span class="Italic">Participant List</span> drop-down menu and select <span class="Bold">New</span>.</li>
+            <li>Name the participant list and click <span class="Bold">Create List</span>.</li>
+            <li>Click <span class="Bold">Participant</span>, mouse over <span class="Bold">Import</span> and select <span class="Bold">CSV</span>.</li>
+            <li>Locate the CSV file and click <span class="Bold">Open</span>.<p class="InList">The <span class="Italic">Import List</span> window opens.</p></li>
+            <li>Within the <span class="Italic">Data</span> section, select <span class="Bold">Contains Headers</span>.</li>
+            <li>Click <span class="Bold">Import</span>.</li>
+        </ol>
+        <h2>Session Data</h2>
+        <p>Session files also include personal identifying information that is encrypted in TurningPoint Cloud. To return the data back to TurningPoint 5, it must be manually entered following the steps below.</p>
+        <ol class="Gotham">
+            <li>Open TurningPoint 5 and select the <span class="Bold">Manage</span> tab.</li>
+            <li>Select the appropriate <span class="Bold">participant list</span> and click <span class="Bold">Results Manager</span>.</li>
+            <li>Click <span class="Bold">Columns</span> and select <span class="Bold">Add Manual Column</span>.<p class="InList">The <span class="Italic">Manual Column</span> window opens.</p></li>
+            <li><span class="Bold">Name</span> the column and adjust performance/attendance points, if necessary.</li>
+            <li>Click <span class="Bold">Add</span>.</li>
+            <li>Open TurningPoint Cloud and sign in to your Turning Account.</li>
+            <li>Click the <span class="Bold">Manage</span> tab.</li>
+            <li>Select the appropriate <span class="Bold">participant list</span> and click <span class="Bold">Results Manager</span>.</li>
+            <li>Manually <span class="Bold">copy</span> the scores.</li>
+            <li><span class="Bold">Paste</span> the scores into the Results Manager manual column created in TurningPoint 5.<div class="Important" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #f07600;&quot; class=&quot;mcFormatColor&quot;&gt;IMPORTANT&lt;/span&gt;&lt;/span&gt;"><p>The data is not viewable or accessible in TurningPoint reports. However, the data will be included for all participant scoring for the overall course.</p></div></li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/DualBoard/DualBoard.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.UG or OS.Linux or OS.Mac or OS.PC or Product.DualBoard or &quot;Product.Touch Board&quot;]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">DualBoard</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">DualBoard</Variable>
+    <Variable
+      Name="General/ProductName">DualBoard</Variable>
+    <Variable
+      Name="General/UserGuideTitle">DualBoard User Guide</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="DualBoard"
+    Subject="DualBoard"
+    Keywords="DualBoard"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

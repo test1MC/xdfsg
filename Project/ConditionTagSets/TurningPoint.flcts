@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    BackgroundColor="#66ff00"
+    Name="Participant"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ad00ff"
+    Name="Instructor"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff8d00"
+    Name="TurningPoint 5"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ffff"
+    Name="TurningPoint Cloud"
+    Comment="" />
+</CatapultConditionTagSet>

@@ -1,0 +1,338 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/ExamView/TestManager/Welcome.htm"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UGTitlePage.flpgl"
+    conditions="DocType.UG"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="About ExamView Test Manager"
+    Link="/Content/ExamView/TestManager/About/About.htm">
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/ExamView/TestManager/About/GettingStarted.htm" />
+    <TocEntry
+      Title="Navigating the Software"
+      Link="/Content/ExamView/TestManager/About/NavigatingtheSoftware.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="The Test Manager Toolbar"
+      Link="/Content/ExamView/TestManager/About/TheTestManagerToolbar.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Classes"
+    Link="/Content/ExamView/TestManager/Classes/Classes.htm">
+    <TocEntry
+      Title="Creating a New Class"
+      Link="/Content/ExamView/TestManager/Classes/CreatingaNewClass.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Opening an Existing Class"
+      Link="/Content/ExamView/TestManager/Classes/OpeninganExistingClass.htm" />
+    <TocEntry
+      Title="Importing a Class Roster from Text (Mac)"
+      Link="/Content/ExamView/TestManager/Classes/ImportingaClassRosterfromText-Mac.htm" />
+    <TocEntry
+      Title="Importing a Class Roster from Text (PC)"
+      Link="/Content/ExamView/TestManager/Classes/ImportingaClassRosterfromText-PC.htm" />
+    <TocEntry
+      Title="Importing a Class Roster Through the Wizard"
+      Link="/Content/ExamView/TestManager/Classes/ImportingaClassRosterThroughtheWizard.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Performing Advanced Import Mapping (PC Only)"
+      Link="/Content/ExamView/TestManager/Classes/PerformingAdvancedImportMapping-PCOnly.htm" />
+    <TocEntry
+      Title="Importing a Class Roster from CPS"
+      Link="/Content/ExamView/TestManager/Classes/ImportingaClassRosterfromCPS.htm" />
+    <TocEntry
+      Title="Exporting a Class Roster as a Text File"
+      Link="/Content/ExamView/TestManager/Classes/ExportingaClassRosterasaTextFile.htm" />
+    <TocEntry
+      Title="Exporting a Class Roster as a CPS Database"
+      Link="/Content/ExamView/TestManager/Classes/ExportingaClassRosterasaCPSDatabase.htm" />
+    <TocEntry
+      Title="Adding a New Student"
+      Link="/Content/ExamView/TestManager/Classes/AddingaNewStudent.htm" />
+    <TocEntry
+      Title="Deleting a Student"
+      Link="/Content/ExamView/TestManager/Classes/DeletingaStudent.htm" />
+    <TocEntry
+      Title="Editing Class Information"
+      Link="/Content/ExamView/TestManager/Classes/EditingClassInformation.htm" />
+    <TocEntry
+      Title="Editing Student Information"
+      Link="/Content/ExamView/TestManager/Classes/EditingStudentInformation.htm" />
+    <TocEntry
+      Title="Finding a Student"
+      Link="/Content/ExamView/TestManager/Classes/FindingaStudent.htm" />
+    <TocEntry
+      Title="Saving a Class"
+      Link="/Content/ExamView/TestManager/Classes/Saving.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Assignments"
+    Link="/Content/ExamView/TestManager/Assignments/Assignments.htm">
+    <TocEntry
+      Title="Creating a New Assignment (Paper Test)"
+      Link="/Content/ExamView/TestManager/Assignments/CreatingaNewAssignmentPaperTest.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Creating a New Assignment (LAN Test)"
+      Link="/Content/ExamView/TestManager/Assignments/CreatingaNewAssignmentLANTest.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Importing Assignments from a CPS Database"
+      Link="/Content/ExamView/TestManager/Assignments/ImportingAssignmentsfromaCPSDatabase.htm" />
+    <TocEntry
+      Title="Copying an Assignment from One Class to Another"
+      Link="/Content/ExamView/TestManager/Assignments/CopyinganAssignmentfromOneClasstoAnother.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Copying All Class Records to a Spreadsheet"
+      Link="/Content/ExamView/TestManager/Assignments/CopyingAllClassRecordstoaSpreadsheet.htm" />
+    <TocEntry
+      Title="Editing Assignment Information"
+      Link="/Content/ExamView/TestManager/Assignments/EditingAssignmentInformation.htm" />
+    <TocEntry
+      Title="Viewing a Question"
+      Link="/Content/ExamView/TestManager/Assignments/ViewingaQuestion.htm" />
+    <TocEntry
+      Title="Updating Online Tests"
+      Link="/Content/ExamView/TestManager/Assignments/UpdatingOnlineTests.htm" />
+    <TocEntry
+      Title="Results from Scanners"
+      Link="/Content/ExamView/TestManager/Assignments/ResultsfromScanners/ResultsfromScanners.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Getting Results from a Scanner"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromScanners/GettingResultsfromaScanner.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Getting Results from a Dedicated OMR Scanner"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromScanners/DedicatedOMRScanner.htm" />
+      <TocEntry
+        Title="Getting Results from a Plain-Paper Scanner (Windows Only)"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromScanners/PlainPaperScanner-PCOnly.htm" />
+      <TocEntry
+        Title="Printing a Bubble Form (Windows Only)"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromScanners/PrintingBubbleForm-PCOnly.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Results from CPS Response Clickers"
+      Link="/Content/ExamView/TestManager/Assignments/ResultsfromCPSResponseClickers/SupportedClickers.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+      conditions="Versions.8">
+      <TocEntry
+        Title="Getting Results from CPS Response Clickers"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromCPSResponseClickers/GettingResultsfromResponsePads.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Assigning Response Clicker IDs"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromCPSResponseClickers/AssigningResponseClickerIDs.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Student-Managed Session with IR Pads"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromCPSResponseClickers/StudentManagedSessionwithIRPads.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Student-Managed Session with Gen2 RF Pads"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromCPSResponseClickers/StudentManagedSessionwithGen2RFPads.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Teacher-Led Student-Managed Session"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromCPSResponseClickers/TeacherLedStudentManagedSession.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Results from LAN Test"
+      Link="/Content/ExamView/TestManager/Assignments/ResultsfromLANTest/ResultsfromLANTest.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Getting Results from LAN Test"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromLANTest/GettingResultsfromLANTest.htm" />
+      <TocEntry
+        Title="Canceling/Resuming LAN Test"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromLANTest/CancelingResuming.htm" />
+      <TocEntry
+        Title="Troubleshooting"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromLANTest/Troubleshooting.htm" />
+      <TocEntry
+        Title="Entering/Editing Scores"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromLANTest/EnteringEditingScores.htm" />
+      <TocEntry
+        Title="Clearing Student Results"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromLANTest/ClearingStudentResults.htm" />
+      <TocEntry
+        Title="Deleting an Assignment"
+        Link="/Content/ExamView/TestManager/Assignments/ResultsfromLANTest/DeletinganAssignment.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Exporting Assignment Results as a Text File"
+      Link="/Content/ExamView/TestManager/Assignments/ExportingAssignmentResultsasaTextFile.htm" />
+    <TocEntry
+      Title="Exporting Assignment Results as an XML File"
+      Link="/Content/ExamView/TestManager/Assignments/ExportingAssignmentResultsasanXMLFile.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Exporting Detailed Results"
+      Link="/Content/ExamView/TestManager/Assignments/ExportingDetailedResults.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Reports"
+    Link="/Content/ExamView/TestManager/Reports/Reports.htm">
+    <TocEntry
+      Title="Creating/Managing Custom Filters"
+      Link="/Content/ExamView/TestManager/Reports/CreatingManagingCustomFilters.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Class Reports"
+      Link="/Content/ExamView/TestManager/Reports/ClassReports/ClassReports.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Assignment Results by Class"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/AssignmentResultsbyClass.htm" />
+      <TocEntry
+        Title="Class Assignment Summary"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/ClassAssignmentSummary.htm" />
+      <TocEntry
+        Title="Open-Ended Responses Worksheet"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/OpenEndedResponsesWorksheet.htm" />
+      <TocEntry
+        Title="Item Analysis Summary"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/ItemAnalysisSummary.htm" />
+      <TocEntry
+        Title="Item Remediation Summary"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/ItemRemediationSummary.htm" />
+      <TocEntry
+        Title="Learning Focus by Class"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/LearningFocusbyClass.htm" />
+      <TocEntry
+        Title="Performance Summary by Class"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/PerformanceSummarybyClass.htm" />
+      <TocEntry
+        Title="Class Performance Progress Chart"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/ClassPerformanceProgressChart.htm" />
+      <TocEntry
+        Title="Class Roster"
+        Link="/Content/ExamView/TestManager/Reports/ClassReports/ClassRoster.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Student Reports"
+      Link="/Content/ExamView/TestManager/Reports/StudentReports/StudentReports.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Assignment Results by Student"
+        Link="/Content/ExamView/TestManager/Reports/StudentReports/AssignmentResultsbyStudent.htm" />
+      <TocEntry
+        Title="Assignment Review"
+        Link="/Content/ExamView/TestManager/Reports/StudentReports/AssignmentReview.htm" />
+      <TocEntry
+        Title="Student Progress Report"
+        Link="/Content/ExamView/TestManager/Reports/StudentReports/StudentProgressReport.htm" />
+      <TocEntry
+        Title="Learning Focus by Student"
+        Link="/Content/ExamView/TestManager/Reports/StudentReports/LearningFocusbyStudent.htm" />
+      <TocEntry
+        Title="Performance Summary by Student"
+        Link="/Content/ExamView/TestManager/Reports/StudentReports/PerformanceSummarybyStudent.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Preferences"
+    Link="/Content/ExamView/TestManager/Preferences/Preferences.htm">
+    <TocEntry
+      Title="Changing the Preferences"
+      Link="/Content/ExamView/TestManager/Preferences/Changing.htm" />
+    <TocEntry
+      Title="General"
+      Link="/Content/ExamView/TestManager/Preferences/General.htm" />
+    <TocEntry
+      Title="Assignments"
+      Link="/Content/ExamView/TestManager/Preferences/Assignments.htm" />
+    <TocEntry
+      Title="Students"
+      Link="/Content/ExamView/TestManager/Preferences/Students.htm" />
+    <TocEntry
+      Title="Reports"
+      Link="/Content/ExamView/TestManager/Preferences/Reports.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Troubleshooting"
+    Link="/Content/ExamView/TestManager/Troubleshooting.htm"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+</CatapultToc>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="Running a Polling Test in TurningPoint"
+    Link="/Content/Hardware/SupportDocuments/PollingTest.htm"
+    BreakType="chapter"
+    PageType="normal"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Polling Test1"
+      Link="/Content/Hardware/SupportDocuments/PollingTest1.htm" />
+  </TocEntry>
+</CatapultToc>

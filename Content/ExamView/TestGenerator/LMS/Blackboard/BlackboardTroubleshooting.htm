@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="490" MadCap:lastWidth="1098" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3>Blackboard Troubleshooting</h3>
+        <p>If you have problems exporting/importing questions, refer to the information provided below. For the latest information regarding this export format go to the <span class="Italic">Support</span> area on our website www.eInstruction.com.</p>
+        <p>The following information describes situations where content exported from ExamView may be modified to fit the constraints imposed by Blackboard.</p>
+        <ul>
+            <li>Blackboard does not support the concept of a narrative (a common piece of information shared by multiple questions). During export to Blackboard, ExamView copies the content of each narrative to every question that refers to the narrative.</li>
+            <li>Each Matching question must have an answer choice. ExamView supports Matching questions that contain a picture or other content in place of individual answer choices. In this case, ExamView automatically creates choices named "choice a", "choice b", etc. for these Matching questions. <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>An ExamView test may have up to 26 Matching questions, however, Blackboard only supports up to 20 Matching questions.</p></div></li>
+            <li>Blackboard converts all ExamView tables to the Arial font.</li>
+            <li>The question pool name does not support special characters such as em-dash or smart-quotes. These characters are translated to -- or " characters. Other special characters may be deleted.</li>
+            <li>Once a question pool has been imported into Blackboard, any image files that were imported with the question pool remain on the Blackboard server even if you delete the question pool. This is a limitation in the current version of Blackboard. A system administrator with access to the file system can remove the image files by deleting all .jpg files in the following location:<p><span class="ComputerText">/usr/local/blackboard/docs/courses/&lt;id&gt;/&lt;course_id&gt;/ppg/examview/&lt;dir_name&gt;</span> (Linux systems only)</p></li>
+        </ul>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  MasterToc="/Project/TOCs/TPC/TurningPointUserGuide.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.UG or DocType.UG-PC or OS.PC or Versions.6_0]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">TurningPoint Cloud</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide for PC</Variable>
+    <Variable
+      Name="Variables/Version #">6.0</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TurningPoint Cloud for PC User Guide"
+    Subject="TurningPoint Cloud for PC User Guide"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/TPC.flglo" />
+  </Glossaries>
+</CatapultTarget>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UGTitlePage.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG"></TocEntry>
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="Technical Requirements"
+    Link="/Content/I360/AdminContent/TechReqs.htm">
+    <TocEntry
+      Title="Network Requirements"
+      Link="/Content/I360/AdminContent/Network_Requirements.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Licensing"
+    Link="/Content/I360/AdminContent/License.htm" />
+  <TocEntry
+    Title="Installation"
+    Link="/Content/I360/AdminContent/Installation/Installation.htm">
+    <TocEntry
+      Title="Install the Software Using the Disk"
+      Link="/Content/I360/AdminContent/Installation/Install_the_Software_Using_the_Disk.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Download Insight 360 from einstruction.com"
+      Link="/Content/I360/AdminContent/Installation/Download_Insight_360_from_einstruction_com.htm" />
+    <TocEntry
+      Title="Install by Silent (or Network) Installation"
+      Link="/Content/I360/AdminContent/Installation/Install_by_Silent__or_Network__Installation.htm" />
+    <TocEntry
+      Title="Install by Imaging/Ghosting"
+      Link="/Content/I360/AdminContent/Installation/Install_by_Imaging_Ghosting.htm" />
+    <TocEntry
+      Title="Registering/Activating Insight 360"
+      Link="/Content/I360/About/GettingStarted/RegisteringandActivatingInsight360.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Stopping the Insight 360 Auto-start"
+      Link="/Content/I360/AdminContent/Installation/Stopping_the_Insight_360_Auto_start.htm" />
+    <TocEntry
+      Title="Insight 360 Custom Settings"
+      Link="/Content/I360/AdminContent/Installation/Insight_360_Custom_Settings.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Using Insight 360 with Reimaging"
+    Link="/Content/I360/AdminContent/Reimaging.htm">
+    <TocEntry
+      Title="Changing the Default Data Directory Location"
+      Link="/Content/I360/AdminContent/Changing_the_Default_Data_Directory_Location.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="For Optimal Performance with Insight 360"
+    Link="/Content/I360/AdminContent/OptimalPerformance/OptimalPerformance.htm">
+    <TocEntry
+      Title="Networking Considerations"
+      Link="/Content/I360/AdminContent/OptimalPerformance/Networking_Considerations.htm" />
+    <TocEntry
+      Title="Wireless Networking Considerations"
+      Link="/Content/I360/AdminContent/OptimalPerformance/Wireless_Networking_Considerations.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Quality of Service (QOS)"
+      Link="/Content/I360/AdminContent/OptimalPerformance/Quality_of_Service__QOS_.htm" />
+    <TocEntry
+      Title="Anti Virus"
+      Link="/Content/I360/AdminContent/OptimalPerformance/Anti_Virus.htm" />
+    <TocEntry
+      Title="Multicasting"
+      Link="/Content/I360/AdminContent/OptimalPerformance/Multicasting.htm">
+      <TocEntry
+        Title="Alternative to enabling multicast"
+        Link="/Content/I360/AdminContent/OptimalPerformance/Alternative_to_enabling_multicast.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Web Access"
+    Link="/Content/I360/AdminContent/WebAccess.htm" />
+  <TocEntry
+    Title="Network Firewall and Content Filter"
+    Link="/Content/I360/AdminContent/Firewall.htm" />
+  <TocEntry
+    Title="Backup and Restoration"
+    Link="/Content/I360/AdminContent/Backup/Backup.htm">
+    <TocEntry
+      Title="Software Install Directories"
+      Link="/Content/I360/AdminContent/Backup/Software_Install_Directories.htm" />
+    <TocEntry
+      Title="Insight 360 Data"
+      Link="/Content/I360/AdminContent/Backup/Insight_360_Data.htm" />
+    <TocEntry
+      Title="ExamView Test Files"
+      Link="/Content/I360/AdminContent/Backup/ExamView_Test_Files_.htm" />
+    <TocEntry
+      Title="ExamView Test Bank Files"
+      Link="/Content/I360/AdminContent/Backup/ExamView_Test_Bank_Files_.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Uninstalling"
+    Link="/Content/I360/AdminContent/Uninstalling.htm" />
+  <TocEntry
+    Title="Modifying Exported Reports"
+    Link="/Content/I360/AdminContent/Reports.htm" />
+  <TocEntry
+    Title="Data Migration"
+    Link="/Content/I360/AdminContent/DataMigration.htm" />
+  <TocEntry
+    Title="Log Files"
+    Link="/Content/I360/AdminContent/LogFiles.htm" />
+  <TocEntry
+    Title="Virtual Environments"
+    Link="/Content/I360/AdminContent/VirtualEnvironments.htm"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.HTML"></TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+</CatapultToc>

@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="3089" MadCap:lastWidth="1077" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../../Resources/TableStyles/AlternateShading.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3>Special Functions</h3>
+        <p>ExamView Test Generator provides you with numerous special functions to use when defining variables, conditions, and user-defined functions.</p>
+        <table style="caption-side: top;mc-table-style: url('../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col class="TableStyle-AlternateShading-Column-Column1" style="width: 100px;" />
+            <col class="TableStyle-AlternateShading-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>choose</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">expression choose(int which, expression arg1, expression arg2, ...)</p>
+                        <p class="ComputerText"> - or -</p>
+                        <p class="ComputerText">expression choose(int which, list dataList)</p>
+                        <p>This function will select the argument at the which location in the list of arguments. The expression will be evaluated and returned. All of the arguments must be of the same type (string or numeric). If which is greater than the number of arguments, the function will use the remainder part of which to choose an argument. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p class="ComputerText">which = rand(5)</p>
+                            <p><span class="ComputerText">choose(which, 1, 14, 3.2, 6, 9)</span>   will return <span class="ComputerText">3.2</span> when <span class="ComputerText">which = 3</span></p>
+                            <p class="ComputerText">- or -</p>
+                            <p class="ComputerText">which = rand(5)</p>
+                            <p class="ComputerText">listOfData = list(1, 14, 3.2, 6, 9)</p>
+                            <p><span class="ComputerText">choose(which, listOfData)</span>         will return <span class="ComputerText">9</span> when <span class="ComputerText">which = 5</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>decs*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string decs(double x)</p>
+                        <p>This function returns a string representation of the decimal number. If the function determines that the number, x, has an infinitely repeating decimal part, the repeating part will be displayed with an overbar. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">decs(18.333333333333)</span>             will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mn>18.</mn><mover><mrow><mn>3</mn></mrow><mrow><mo>¯</mo></mrow></mover></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">decs(0.0142857142857)</span>             will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mn>0.0</mn><mover><mrow><mn>142857</mn></mrow><mrow><mo>¯</mo></mrow></mover></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">decs(4.25)</span>                        will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mn>4.25</mn></mrow></math></MadCap:equation></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>format</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string format(string format, double x)</p>
+                        <p>Writes formatted output to a string. For a complete description of formatting specifiers, look in any C programming manual. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">format("$%1.2f", 13.4)</span>     will return   "$13.40"</p>
+                            <p><span class="ComputerText">format("%d feet", 17)</span>               will return   "17 feet"</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>gcf</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int gcf(int x, int y)</p>
+                        <p>Returns the greatest common factor of the arguments, x and y.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>if</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">expression if (int condition, expression arg1, expression arg2)</p>
+                        <p>Use to implement a conditional expression. If condition evaluates to non-zero, arg1 will be returned, else arg2 will be returned. Both of the arguments must be of the same type (string or numeric).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>isalpha</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int isalpha(string x)</p>
+                        <p>If the first character of the string argument, x, is in the range "A" to "Z" or "a" to "z", the function will return TRUE (1), otherwise it will return FALSE (0).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>isdigit</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int isdigit(string x)</p>
+                        <p>If the first character of the string argument, x, is in the range "0" to "9", the function will return TRUE (1), otherwise it will return FALSE (0).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>isprime</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int isprime(int x)</p>
+                        <p>Evaluates the number to see if it is prime. If the number is prime, the function will return TRUE (1), otherwise it returns FALSE (0). NOTE: Values must be in the range 2 to 1,000,000.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>isrelprime</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int isrelprime(int x, int y)</p>
+                        <p>Evaluates the two numbers to see if they are relatively prime. If the greatest common factor of x and y is 1, the function will return TRUE (1), otherwise it returns FALSE (0).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>isunique</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int isunique(expression arg1, expression arg2, ...)</p>
+                        <p>Compares the arguments to see if there are any duplicates. If there are duplicate arguments, the function will return FALSE (0), otherwise it returns TRUE (1). All of the arguments must be of the same type (string or numeric). This function is useful as a "condition" in evaluating multiple choice answer choices. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p class="ComputerText">(condition)  isunique(answerA, answerB, answerC, answerD)</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>lcd</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int lcd(int x, int y)</p>
+                        <p>Returns the least common denominator of the arguments, x and y.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>list</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">list(expression arg1, expression arg2, ...)</p>
+                        <p>Use this function as a container to hold a group of similar expressions. The expressions must all be of the same type--either numeric or string. If you create a list of strings, you must make sure that no string element contains a comma, since the comma is used to delimit the list. A variable defined as a "list" can be used as an argument for the "choose" function. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p class="ComputerText">fruitList = list("apple", "pear", "peach", "tangerine")</p>
+                            <p class="ComputerText">whichFruit = rand(4)</p>
+                            <p class="ComputerText">fruit = choose(whichFruit, fruitList)</p>
+                            <p class="ComputerText">&#160;</p>
+                            <p class="ComputerText">weightList = list(110, 142, 153, 180, 212)</p>
+                            <p class="ComputerText">whichWeight = rand(5)</p>
+                            <p class="ComputerText">weight = choose(whichWeight, weightList)</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>prime</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int prime(int x, int y)</p>
+                        <p>Returns a pseudo-random prime number in the range x to y, inclusive. NOTE: Values must be in the range 2 to 1,000.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>range</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">double range(double x, double y, double increment {optional})</p>
+                        <p>Returns a pseudo-random number in the range x to y, inclusive. If the optional argument, increment, is included, the function will only select values in the given range that are offset from the lower limit by increment. </p>
+                        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+                            <p>If increment is in the form .1, .01, .001, etc., then the result will always have the same number of decimal places as the increment. Also, if x is less than zero, and y is greater than zero, and an increment is provided, then the value 0 will never be returned by the function.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>round</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">double round(double x, int precision)</p>
+                        <p>Rounds the argument, x, to have precision decimal places. </p>
+                        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+                            <p>If precision is greater than or equal to 10, this function rounds the argument, x, to the nearest precision.  </p>
+                        </div>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">round(3.14159265, 4)</span> will return  3.1416</p>
+                            <p><span class="ComputerText">round(1492.14, 10)</span>   will return  1490</p>
+                            <p><span class="ComputerText">round(1492.14, 100)</span>  will return  1500</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>sciens*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string sciens(double x)</p>
+                        <p>Function returns a string representation of the argument, x, in scientific notation.  </p>
+                        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+                            <p>You must be sure to also change the format to Scientific Notation and select the number of decimal places when formatting the variable.  </p>
+                        </div>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">sciens(143948.123)</span>   will return     <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mn>1.44</mn><mo>×</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>5</mn></mrow></msup></mrow></math></MadCap:equation>when using 2 decimal places.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>sgns</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string sgns(double x)</p>
+                        <p>If the argument, x, is less than zero, this function returns "-". Otherwise it returns "+".</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>sigfig</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string sigfig(double x, int numSigFigs, Boolean forceNumSigFigs)</p>
+                        <p>Creates a string version of the argument, x, that has numSigFigs significant digits. If forceNumSigFigs is TRUE, then the string returned will have exactly numSigFigs significant digits (even if the function has to randomly create some digits). If forceNumSigFigs is FALSE, then the function will return a string that has numSigFigs significant digits or less. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">sigfig(12362, 3, FALSE)</span>           will return  12400</p>
+                            <p><span class="ComputerText">sigfig(2.14, 5, TRUE)</span>             will return  2.1400</p>
+                            <p><span class="ComputerText">sigfig(1400, 4, TRUE)</span>             might return  1427</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>sqrs*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string sqrs(double x)</p>
+                        <p>After reducing the argument, x, to a multiple of a whole number and a radical, it returns a string representation in the form whole (square root) radical. When displayed, this function will draw a radical if necessary. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">sqrs(18)</span>  will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mn>3</mn><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">sqrs(16)</span>  will return  4</p>
+                            <p><span class="ComputerText">sqrs(-8)</span>  will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><mn>2</mn><mi>i</mi><msqrt><mrow><mn>2</mn></mrow></msqrt></mrow></math></MadCap:equation></p>
+                            <p><span class="ComputerText">sqrs(3.14159)</span>  will return <MadCap:equation xmlns:dsi="http://www.w3.org/1998/Math/MathML"><math><mrow><msqrt><mrow><mn>3.14159</mn></mrow></msqrt></mrow></math></MadCap:equation></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>symbol*</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string symbol(string x)</p>
+                        <p>Converts the string argument, x, to the appropriate Symbol character. </p>
+                        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+                            <p>Once the variable is inserted into a question or narrative, you need to highlight the variable and change it to Symbol font for it to display properly.  </p>
+                        </div>
+                        <p>The following list shows valid arguments to this function. For all other Symbol characters, use the chr function.</p>
+                        <p class="InList"><span class="ComputerText">symbol ("&lt;=")</span> will return "≤"</p>
+                        <p class="InList"><span class="ComputerText">symbol ("&gt;=") </span>will return "≥"</p>
+                        <p class="InList"><span class="ComputerText">symbol ("&lt;&gt;") </span>will return "≠"</p>
+                        <p class="InList"><span class="ComputerText">symbol ("x") </span>will return "×"</p>
+                        <p class="InList"><span class="ComputerText">symbol (".")</span> will return "▪"</p>
+                        <p class="InList"><span class="ComputerText">symbol ("/")</span> will return "٪"</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>unsort</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p class="ComputerText">list unsort(list dataList)</p>
+                        <p>This function will "unsort" or scramble the list of arguments. The list passed in as an argument must have been composed of only numeric data. Function will return a list that can be used as an argument for choose( )</p>
+                        <p class="ComputerText">      listofData = list (1, 2, 3, 4)</p>
+                        <p class="ComputerText">      unsort(ListofData) might return "2, 4, 3, 1"</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p>* Keywords marked with an asterisk are for display only and cannot be used as parts of an expression.</p>
+    </body>
+</html>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Turning Account for Participants"
+    Link="/Content/TurningAccount/Participants/TurningAccountforParticipants.htm">
+    <TocEntry
+      Title="Creating a [%=ResponseWare.Turning ID%]"
+      Link="/Content/TurningAccount/Participants/CreatingaTurningAccount-Participants.htm" />
+    <TocEntry
+      Title="Purchasing a License"
+      Link="/Content/TurningAccount/Participants/PurchasingaLicense.htm"></TocEntry>
+    <TocEntry
+      Title="Adding a Device"
+      Link="/Content/TurningAccount/Participants/AddingaDevice.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Enrolling in a Course"
+      Link="/Content/TurningAccount/Participants/EnrollinginaCourse.htm" />
+    <TocEntry
+      Title="Removing a Device"
+      Link="/Content/TurningAccount/Participants/RemovingaDevice.htm" />
+    <TocEntry
+      Title="Managing Your Account"
+      Link="/Content/TurningAccount/ManagingYourAccount.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG" />
+</CatapultToc>

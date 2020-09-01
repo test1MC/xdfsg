@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Compatibility Charts/Receiver Compatibility Chart.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Receiver Compatibility Chart</Variable>
+    <Variable
+      Name="General/PRODUCT">Receiver Compatibility Chart</Variable>
+    <Variable
+      Name="General/ProductName">Receiver Compatibility Chart</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Receiver Compatibility Chart</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="ReceiverCompatibilityChart"
+    Subject="ReceiverCompatibilityChart"
+    Keywords="SDHWrev2_08202014"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

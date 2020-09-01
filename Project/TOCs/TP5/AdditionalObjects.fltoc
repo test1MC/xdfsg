@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="AdditionalObjects"
+    Link="/Content/TP5/TrainingDocuments/PPPolling/AdditionalObjects.htm">
+    <TocEntry
+      Title="Inserting a Countdown Timer"
+      Link="/Content/TP5/PowerPointPolling/InsertingaCountdownTimer.htm" />
+    <TocEntry
+      Title="Inserting a Correct Answer Indicator"
+      Link="/Content/TP5/PowerPointPolling/InsertingaCorrectAnswerIndicator.htm" />
+    <TocEntry
+      Title="Inserting a Grid"
+      Link="/Content/TP5/PowerPointPolling/InsertingaGrid.htm" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/ReceiverswithCPSI360TP5.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="ReceiverswithCPSI360TP5/Product Name">Using Turning Technologies Receivers with CPS, Insight 360 and TurningPoint</Variable>
+    <Variable
+      Name="Variables/Product Name">Using Turning Technologies Receivers with CPS, Insight 360 and TurningPoint</Variable>
+    <Variable
+      Name="General/PRODUCT">Using Turning Technologies Receivers with CPS, Insight 360 and TurningPoint</Variable>
+    <Variable
+      Name="General/ProductName">Using Turning Technologies Receivers with CPS, Insight 360 and TurningPoint</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Using Turning Technologies Receivers with CPS, Insight 360 and TurningPoint</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Using Turning Technologies Receivers with CPS, Insight 360 and TurningPoint"
+    Subject="Using Turning Technologies Receivers with CPS, Insight 360 and TurningPoint"
+    Keywords="Using Turning Technologies Receivers with CPS, Insight 360 and TurningPoint"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

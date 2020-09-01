@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="WorkSpace PCMacLinux for New Users"
+    Link="/Content/WorkSpace/Training/BeforeClass.htm"
+    BreakType="chapter"
+    PageType="normal"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Charging the MobiView"
+      Link="/Content/WorkSpace/Training/ChargingtheMobiView.htm" />
+    <TocEntry
+      Title="Using the Digital Pen"
+      Link="/Content/WorkSpace/Training/UsingtheDigitalPen.htm" />
+    <TocEntry
+      Title="Pairing the MobiView with the Receiver"
+      Link="/Content/WorkSpace/Training/PairingtheMobiViewwiththeMultiHub.htm" />
+    <TocEntry
+      Title="Downloading WorkSpace"
+      Link="/Content/WorkSpace/About/DownloadingInstallingWorkSpacePC.htm" />
+    <TocEntry
+      Title="Downloading WorkSpace"
+      Link="/Content/WorkSpace/About/DownloadingInstallingWorkSpaceMac.htm" />
+    <TocEntry
+      Title="Downloading WorkSpace"
+      Link="/Content/WorkSpace/About/DownloadingInstallingWorkSpaceLinux.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="During Class"
+    Link="/Content/WorkSpace/Training/DuringClass.htm">
+    <TocEntry
+      Title="Toolbar"
+      Link="/Content/WorkSpace/Training/Toolbar.htm">
+      <TocEntry
+        Title="Minimizing and Expanding the Toolbar"
+        Link="/Content/WorkSpace/Training/MinimizingExpandingToolbar.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Lesson Mode vs. Mouse Mode"
+      Link="/Content/WorkSpace/Training/LessonModevsMouseMode.htm"></TocEntry>
+    <TocEntry
+      Title="Interactive Mode"
+      Link="/Content/WorkSpace/Training/LessonMode.htm"></TocEntry>
+    <TocEntry
+      Title="Preferences"
+      Link="/Content/WorkSpace/Training/Preferences.htm"></TocEntry>
+    <TocEntry
+      Title="Pen Tools"
+      Link="/Content/WorkSpace/Training/PenTools.htm" />
+    <TocEntry
+      Title="Annotations, Page Sorter and Screen Capture"
+      Link="/Content/WorkSpace/Training/AnnotationsPageSorterScreenCapture.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="The Gallery"
+    Link="/Content/WorkSpace/The Gallery/The Gallery.htm">
+    <TocEntry
+      Title="Searching the Gallery"
+      Link="/Content/WorkSpace/The Gallery/SearchingtheGallery.htm" />
+    <TocEntry
+      Title="Adding a File to Favorites"
+      Link="/Content/WorkSpace/The Gallery/AddingaFiletoFavorites.htm" />
+    <TocEntry
+      Title="Using Sims"
+      Link="/Content/WorkSpace/Training/UsingSims.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="MobiView"
+    Link="/Content/WorkSpace/Training/MobiView.htm">
+    <TocEntry
+      Title="Writing a Note"
+      Link="/Content/Hardware/MobiView/WritingaNote.htm" />
+    <TocEntry
+      Title="Using the Keyboard"
+      Link="/Content/Hardware/MobiView/UsingtheKeyboard.htm" />
+    <TocEntry
+      Title="Annotating Content"
+      Link="/Content/Hardware/MobiView/AnnotatingContent.htm" />
+  </TocEntry>
+</CatapultToc>

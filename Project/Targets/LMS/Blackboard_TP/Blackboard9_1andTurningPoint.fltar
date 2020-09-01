@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/LMS/Blackboard/Blackboard 9.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[&quot;TurningPoint.TurningPoint 5&quot;]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Blackboard 9.1 and TurningPoint</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Blackboard 9.1 and TurningPoint"
+    Subject="Blackboard 9.1 and TurningPoint"
+    Keywords="Blackboard 9.1 and TurningPoint"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Self-Paced Polling with Insight 360"
+    Link="/Content/I360/Training/Self-Paced Polling with Insight 360.htm">
+    <TocEntry
+      Title="Plan"
+      Link="/Content/I360/Training/Plan.htm">
+      <TocEntry
+        Title="Installing the Software"
+        Link="/Content/I360/About/GettingStarted/DownloadingandInstallingInsight360.htm" />
+      <TocEntry
+        Title="Registering/Activating Insight 360"
+        Link="/Content/I360/About/GettingStarted/RegisteringandActivatingInsight360.htm" />
+      <TocEntry
+        Title="Creating a New Class"
+        Link="/Content/I360/MyClasses/Classes/CreatingaNewClass.htm" />
+      <TocEntry
+        Title="Creating an Answer Key Test"
+        Link="/Content/I360/MyTests/AnswerKey/CreatinganAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Opening ExamView® Test GeneratorCreating an ExamView Test"
+        Link="/Content/I360/MyTests/ExamView/OpeningExamViewTestGenerator.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Teach"
+      Link="/Content/I360/Training/Teach.htm">
+      <TocEntry
+        Title="Response Connections"
+        Link="/Content/I360/Training/ResponseConnections.htm">
+        <TocEntry
+          Title="Pairing the Mobi 360 with the Receiver"
+          Link="/Content/Hardware/Mobi360/About/PairingtheMobi360withtheReceiver.htm" />
+        <TocEntry
+          Title="Setting Up the Insight 360 Teacher App and Student Apps"
+          Link="/Content/I360/About/GettingStarted/SettingUptheInsight360TeacherandStudentApps.htm" />
+        <TocEntry
+          Title="Setting Up Insight 360 Web Access"
+          Link="/Content/I360/About/GettingStarted/SettingUpInsight360WebAccess.htm" />
+        <TocEntry
+          Title="Connecting the Clickers"
+          Link="/Content/I360/Training/Connecting the Clickers.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Starting a Self-Paced Test"
+      Link="/Content/I360/MyTests/TestPlayer/StartingaSelfPacedTest.htm" />
+    <TocEntry
+      Title="Review"
+      Link="/Content/I360/Training/Review.htm">
+      <TocEntry
+        Title="Viewing Results of a Self-Paced Test"
+        Link="/Content/I360/MyTests/TestPlayer/ViewingResultsofaSelfPacedTest.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

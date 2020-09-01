@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <span class="Bold">HTML without default fonts</span> - This is a combination of the first two options. With this option, ExamView does not set the initial font unless you set a new font other than the default font.</body>
+</html>

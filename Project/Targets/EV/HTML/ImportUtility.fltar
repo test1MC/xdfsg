@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/ExamView/ImportUtility/Welcome.htm"
+  Skin="/Project/Skins/EVIU.flskn"
+  MasterToc="/Project/TOCs/EV/EVIU.fltoc"
+  ConditionTagExpression="include[DocType.HTML or Versions.9]"
+  EnableSitemap="false"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  SitemapWebUrl="http://help.turningtechnologies.com/examview/importutility/"
+  ExcludeUnreferencedContent="true"
+  Medium="non-print"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Product Name">ExamView Import Utility</Variable>
+    <Variable
+      Name="Variables/Version #">9.0</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/products/examview/examview-assessment-suite</Variable>
+  </Variables>
+</CatapultTarget>

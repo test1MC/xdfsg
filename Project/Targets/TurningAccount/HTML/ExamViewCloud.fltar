@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  Skin="/Project/Skins/HTML5 - Top Navigation.flskn"
+  MasterToc="/Project/TOCs/TurningAccount/HTML/EVC.fltoc"
+  EnableSitemap="false"
+  SitemapWebUrl="http://help.turningtechnologies.com/TurningAccount/"
+  DefaultUrl="/Content/TurningAccount/Content/Home.htm"
+  MasterPage="/Content/Resources/MasterPages/OtherTopics.flmsp"
+  ExcludeUnreferencedContent="true"
+  MoveOutputContentToRoot="false"
+  GlossaryTermConversion="marked"
+  Medium="non-print"
+  ConditionTagExpression="include[DocType.HTML] "
+  UseLocalBuildSettings="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Turning Account Registration for Instructors</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">ExamView Cloud</Variable>
+    <Variable
+      Name="General/ProductName">ExamView Cloud</Variable>
+    <Variable
+      Name="General/UserGuideTitle">ExamView Cloud User Guide</Variable>
+    <Variable
+      Name="General/VersionNumber">1.0</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/ExamViewCloudGlossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

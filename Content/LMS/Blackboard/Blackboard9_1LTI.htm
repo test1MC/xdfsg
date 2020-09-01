@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="1558" MadCap:lastWidth="981">
+    <head>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Blackboard® 9.1 Install Guide for TurningPoint® Cloud</h1>
+        <ol class="Gotham">
+            <li>Log in to Blackboard 9.1 as the Administrator.</li>
+            <li>Select the <span class="Bold">System Admin</span> tab in the upper right-corner.</li>
+            <li>Locate the <span class="Italic">Building Blocks</span> section and click the <span class="Bold">Building Blocks</span> link.</li>
+            <li>Click <span class="Bold">Installed Tools</span>.</li>
+            <li>Select the <span class="Bold">Upload Building Blocks </span>tab.</li>
+            <li>Click the <span class="Bold">Browse</span> button to locate the TurningTechnologies.war file.</li>
+            <li>Click <span class="Bold">Submit</span>.</li>
+            <li>Change the Turning Technologies Building Block from <span class="Bold">Inactive</span> to <span class="Bold">Set Available</span>.</li>
+            <li>Click <span class="Bold">Approve</span> in the upper right-corner of the <span class="Italic">Privileges</span> page.</li>
+        </ol>
+        <h3>Installing the LTI Link</h3>
+        <ol class="Gotham">
+            <li>Locate the <span class="Italic">Building Blocks</span> section and click the <span class="Bold">Building Blocks</span> link.</li>
+            <li>Click <span class="Bold">LTI Tool Providers</span>.</li>
+            <li>Select the <span class="Bold">Register Provider Domain </span>tab.</li>
+            <li>In the <span class="Italic">Provider Domain</span> field, enter ‘account.turningtechnologies.com.’</li>
+            <li>Change <span class="Italic">Default Configuration</span> to <span class="Bold">Set Globally</span>.</li>
+            <li>Enter the <span class="Bold">Tool Provider Key</span> provided by Turning Technologies.</li>
+            <li>Enter the <span class="Bold">Tool Provider Secret</span> provided by Turning Technologies.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>Requests for the Tool Provider Key and Tool Provider Secret should be sent to <a href="mailto:support@turningtechnologies.zendesk.com">support@turningtechnologies.zendesk.com</a>. Please include the Blackboard URL with the request.</p></div></li>
+            <li>Enter the following in <span class="Italic">Tool Provider Custom Parameters</span>.  Each parameter must be on its own line. <ul><li>lms_type=Blackboard</li><li>user_id=@X@user.id@X@</li></ul></li>
+            <li>To the right of <span class="Italic">Send User Data</span>, select <span class="Bold">Send user data over any connection</span>.</li>
+            <li>To the right of <span class="Italic">User Fields to Send</span>, select <span class="Bold">Role in course</span>, <span class="Bold">Name</span> and <span class="Bold">Email Address</span>.</li>
+            <li>To the right of <span class="Italic">Show User Acknowledgment Message</span>, select <span class="Bold">No</span>.</li>
+            <li>Click <span class="Bold">Submit</span>.</li>
+            <li>Mouse over account.turningtechnologies.com, click the drop-down arrow and select <span class="Bold">Manage Placements</span>.</li>
+            <li>Select <span class="Bold">Create Placement</span>.</li>
+            <li>In the <span class="Italic">Label</span> field, enter the desired tool name. <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>'Turning Account Registration' is preferred.</p></div></li>
+            <li>In the <span class="Italic">Handle</span> field, enter the same name as in the <span class="Italic">Label</span> field.<p class="InList">Optionally, add an icon which displays to the left of the Tool name in the course.</p></li>
+            <li>Enter the URL in the <span class="Italic">Tool Provider URL</span> field. The LMS URL below is an example of what should be entered:<a href="https://account.turningtechnologies.com/account/lti/?lmsUrl=http://blackboard.university.com/">https://account.turningtechnologies.com/account/lti?lmsUrl=http://blackboard.university.com/</a></li>
+            <li>Click <span class="Bold">Submit</span>.</li>
+        </ol>
+        <h3>Enabling the LTI Link for All Courses</h3>
+        <ol class="Gotham">
+            <li>Select the <span class="Bold">System Admin</span> tab in the upper right-corner.</li>
+            <li>Locate the <span class="Italic">Tools and Utilities</span> section and click the <span class="Bold">Tools</span> link.</li>
+            <li>Set <span class="Bold">Course and Organization</span> availabilities for Turning Account Registration as desired.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p><span class="Bold">Always on</span> for both Course Tool and Organization Tool is recommended to allow any instructor in the institution access to the direct integration software. This setting also allows any participant, at any time, to register a ResponseCard or a ResponseWare Device ID.</p></div></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ContactIntegrationsSupport.flsnp" />
+    </body>
+</html>

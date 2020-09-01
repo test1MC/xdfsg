@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Anywhere Polling - Quick Poll"
+    Link="/Content/TPC/TrainingDocuments/AWPolling/AnywherePollingQuickPoll.htm">
+    <TocEntry
+      Title="During Class"
+      Link="/Content/TPC/TrainingDocuments/SectionTitles/DuringClass_QuickPoll.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue">
+      <TocEntry
+        Title="Response Connections"
+        Link="/Content/TPC/TrainingDocuments/SectionTitles/Response Connections.htm">
+        <TocEntry
+          Title="Verifying the Receiver Channel"
+          Link="/Content/TPC/TrainingDocuments/VerifyingReceiverChannel.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard RF and RF LCD"
+          Link="/Content/TPC/TrainingDocuments/Changing_the_Channel_on_ResponseCard_RF_and_RF_LCD.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard NXT"
+          Link="/Content/TPC/TrainingDocuments/Changing_the_Channel_on_ResponseCard_NXT.htm" />
+        <TocEntry
+          Title="Connecting to ResponseWare (if applicable)"
+          Link="/Content/TPC/TrainingDocuments/Connecting to ResponseWare if applicable.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Polling Over Any Application"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/PollingOverAnyApplication.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="After Class"
+      Link="/Content/TPC/TrainingDocuments/SectionTitles/AfterClass_EditandReport.htm">
+      <TocEntry
+        Title="Editing a Session (Optional)"
+        Link="/Content/TPC/TrainingDocuments/EditingaSession.htm" />
+      <TocEntry
+        Title="Generating Reports"
+        Link="/Content/TPC/TrainingDocuments/Generating_Reports.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

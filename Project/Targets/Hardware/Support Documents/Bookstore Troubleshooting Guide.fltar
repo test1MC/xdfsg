@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Bookstore Troubleshooting Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Support Documents/Bookstore Troubleshooting Guide.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="Bookstore Troubleshooting Guide"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Bookstore Troubleshooting Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">Bookstore Troubleshooting Guide</Variable>
+    <Variable
+      Name="General/ProductName">Bookstore Troubleshooting Guide</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Bookstore Troubleshooting Guide</Variable>
+  </Variables>
+</CatapultTarget>

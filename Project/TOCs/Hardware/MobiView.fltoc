@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" />
+  <TocEntry
+    Title="About MobiViewTM"
+    Link="/Content/Hardware/MobiView/MobiView.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/Hardware/MobiView/TechnicalRequirements.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="MobiView Setup"
+    Link="/Content/Hardware/MobiView/MobiViewSetup.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Pairing the MobiView with the Receiver"
+      Link="/Content/Hardware/MobiView/PairingtheMobiViewwiththeReceiver.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Calibrating the MobiView Touchscreen"
+      Link="/Content/Hardware/MobiView/CalibratingtheMobiViewTouchscreen.htm" />
+    <TocEntry
+      Title="Changing the Language on the MobiView"
+      Link="/Content/Hardware/MobiView/ChangingtheLanguageontheMobiView.htm" />
+    <TocEntry
+      Title="Adjusting the Brightness on the MobiView"
+      Link="/Content/Hardware/MobiView/AdjustingtheBrightnessontheMobiView.htm" />
+    <TocEntry
+      Title="Updating Firmware"
+      Link="/Content/Hardware/MobiView/UpdatingFirmware.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Using MobiView"
+    Link="/Content/Hardware/MobiView/UsingMobiView.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Writing a Note"
+      Link="/Content/Hardware/MobiView/WritingaNote.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Annotating Content"
+      Link="/Content/Hardware/MobiView/AnnotatingContent.htm" />
+    <TocEntry
+      Title="Managing Favorites"
+      Link="/Content/Hardware/MobiView/ManagingFavorites.htm" />
+    <TocEntry
+      Title="Using the Keyboard"
+      Link="/Content/Hardware/MobiView/UsingtheKeyboard.htm" />
+    <TocEntry
+      Title="Viewing Reports"
+      Link="/Content/Hardware/MobiView/ViewingReports.htm" />
+    <TocEntry
+      Title="Accessing Settings"
+      Link="/Content/Hardware/MobiView/AccessingSettings.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Multi-User Mode"
+      Link="/Content/Hardware/MobiView/MultiUserMode.htm">
+      <TocEntry
+        Title="Configuring Multi-User Mode"
+        Link="/Content/Hardware/MobiView/ConfiguringMultiUserMode.htm"></TocEntry>
+      <TocEntry
+        Title="Selecting the Presenter"
+        Link="/Content/Hardware/MobiView/SelectingthePresenter.htm" />
+      <TocEntry
+        Title="Locking Tablets"
+        Link="/Content/Hardware/MobiView/LockingTablets.htm"></TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Care and Maintenance"
+    Link="/Content/Hardware/MobiView/CareandMaintenance.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Charging the MobiView"
+      Link="/Content/Hardware/MobiView/Charging.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Changing the MobiView Battery"
+      Link="/Content/Hardware/MobiView/ChangingtheMobiViewBattery.htm" />
+    <TocEntry
+      Title="Cleaning the MobiView"
+      Link="/Content/Hardware/MobiView/CleaningtheMobiView.htm" />
+    <TocEntry
+      Title="Changing the Digital Pen Battery"
+      Link="/Content/Hardware/MobiView/ChangingtheDigitalPenBattery.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

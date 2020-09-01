@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="ResponseWare Web User Guide"
+    Link="/Content/ResponseWare/Participants/Web/ResponseWareWebUserGuide.htm">
+    <TocEntry
+      Title="ResponseWare Web Display"
+      Link="/Content/ResponseWare/Participants/Web/ResponseWareWebDisplay.htm" />
+    <TocEntry
+      Title="ResponseWare and Turning Account"
+      Link="/Content/ResponseWare/Participants/ResponseWareandTurning Account.htm">
+      <TocEntry
+        Title="Creating a Turning Account"
+        Link="/Content/TurningAccount/Participants/CreatingaTurningAccount-Participants.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Using ResponseWare in Class"
+    Link="/Content/ResponseWare/Participants/Web/UsingResponseWareinClass.htm">
+    <TocEntry
+      Title="Logging into a ResponseWare Session"
+      Link="/Content/ResponseWare/Participants/Web/LoggingintoaResponseWareSession.htm" />
+    <TocEntry
+      Title="Responding to Multiple Choice Polling Questions"
+      Link="/Content/ResponseWare/Participants/Web/RespondingtoMultipleChoicePollingQuestions.htm" />
+    <TocEntry
+      Title="Responding to Short Answer, Numeric Response and Essay Questions"
+      Link="/Content/ResponseWare/Participants/Web/RespondingtoShortAnswerNumericResponseandEssayQuestions.htm" />
+    <TocEntry
+      Title="Responding to Multiple Response Questions"
+      Link="/Content/ResponseWare/Participants/Web/RespondingtoMultipleResponseQuestions.htm" />
+    <TocEntry
+      Title="Responding to Moment to Moment Questions"
+      Link="/Content/ResponseWare/Participants/Web/RespondingtoMomenttoMomentQuestions.htm" />
+    <TocEntry
+      Title="Messaging the Presenter and the Group"
+      Link="/Content/ResponseWare/Participants/Web/MessagingthePresenterandtheGroup.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Frequently Asked Questions"
+    Link="/Content/ResponseWare/Participants/ParticipantFAQ.htm">
+    <TocEntry
+      Title="Contact Us - Condensed"
+      Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+  </TocEntry>
+</CatapultToc>

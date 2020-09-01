@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Results Manager"
+    Link="/Content/TPC/ResultsManager/ResultsManager.htm">
+    <TocEntry
+      Title="Opening Results Manager"
+      Link="/Content/TPC/ResultsManager/OpeningResultsManager.htm" />
+    <TocEntry
+      Title="Results Manager Overview"
+      Link="/Content/TPC/ResultsManager/Overview/OpeningtheResultsManagerOverview.htm" />
+    <TocEntry
+      Title="Participants"
+      Link="/Content/TPC/ResultsManager/Participants.htm" />
+    <TocEntry
+      Title="Other Assignments"
+      Link="/Content/TPC/ResultsManager/Overview/AddingaManualGradeColumn.htm" />
+    <TocEntry
+      Title="Devices"
+      Link="/Content/TPC/ResultsManager/Devices/AssigninganUnassignedDevice.htm" />
+  </TocEntry>
+</CatapultToc>

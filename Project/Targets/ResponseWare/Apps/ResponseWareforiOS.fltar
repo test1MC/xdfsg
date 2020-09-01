@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseWare for iOS"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  Skin="/Project/Skins/ResponseWare.flskn"
+  MasterToc="/Project/TOCs/ResponseWare/Apps/ResponseWareforAndroidiOS.fltoc"
+  ConditionTagExpression="include[DocType.HTML-Mac or OS.Mac or &quot;Product.TurningPoint Cloud&quot;]exclude[DocType.HTML-PC or DocType.UG or DocType.UG-Mac or DocType.UG-PC or OS.PC or Product.TP]"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  Medium="non-print">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseWare for iOS</Variable>
+  </Variables>
+</CatapultTarget>

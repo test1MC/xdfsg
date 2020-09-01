@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Programming Device IDs"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Support Documents/Programming Device IDs.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Programming Device IDs</Variable>
+    <Variable
+      Name="General/PRODUCT">Programming Device IDs</Variable>
+    <Variable
+      Name="General/ProductName">Programming Device IDs</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Programming Device IDs</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Programming Device IDs"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

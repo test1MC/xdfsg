@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/CreatingAnswerKeywithVersionsforSPPPolling.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.Other]exclude[DocType.HTML]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="Creating an Answer Key with Versions for Self-Paced Polling"
+    Subject="Creating an Answer Key with Versions for Self-Paced Polling"
+    Author="Turning Technologies" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Creating an Answer Key with Versions for Self-Paced Polling</Variable>
+  </Variables>
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

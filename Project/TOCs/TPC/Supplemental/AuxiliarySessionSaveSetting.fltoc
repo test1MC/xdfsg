@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Auxiliary Session Save Setting"
+    Link="/Content/TPC/Preferences/AuxillarySave/AuxiliarySessionSave.htm">
+    <TocEntry
+      Title="Exposing the Auxiliary Session Save Setting for PC"
+      Link="/Content/TPC/Preferences/AuxillarySave/ExposingtheAuxiliarySessionSaveSettingforPC.htm" />
+    <TocEntry
+      Title="Hiding the Auxiliary Session Save Setting for PC"
+      Link="/Content/TPC/Preferences/AuxillarySave/HidingtheAuxiliarySessionSaveSettingforPC.htm" />
+    <TocEntry
+      Title="Exposing the Auxiliary Session Save Setting for Mac"
+      Link="/Content/TPC/Preferences/AuxillarySave/ExposingtheAuxiliarySessionSaveSettingforMac.htm" />
+    <TocEntry
+      Title="Hiding the Auxiliary Session Save Setting for Mac"
+      Link="/Content/TPC/Preferences/AuxillarySave/HidingtheAuxiliarySessionSaveSettingforMac.htm" />
+    <TocEntry
+      Title="Contact Us"
+      Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  </TocEntry>
+</CatapultToc>

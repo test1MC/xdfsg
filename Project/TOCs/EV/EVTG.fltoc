@@ -1,0 +1,815 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/ExamView/TestGenerator/Welcome.htm"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UGTitlePage.flpgl"
+    conditions="DocType.UG"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG"></TocEntry>
+  <TocEntry
+    Title="About ExamView® Test Generator"
+    Link="/Content/ExamView/TestGenerator/About/AboutExamViewTestGenerator.htm">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/ExamView/TestGenerator/About/TechnicalRequirements.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/ExamView/TestGenerator/About/GettingStarted.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Installing the ExamView Assessment Suite Software"
+        Link="/Content/ExamView/TestGenerator/About/InstallingExamViewAssessmentSuite.htm" />
+      <TocEntry
+        Title="Downloading ExamView"
+        Link="/Content/ExamView/TestGenerator/About/DownloadingExamView.htm" />
+      <TocEntry
+        Title="Welcome Screen"
+        Link="/Content/ExamView/TestGenerator/About/WelcomeScreen.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Switching Between the Test Builder and the Question Bank Editor"
+        Link="/Content/ExamView/TestGenerator/About/SwitchingBetweenTestBuilderandQuestionBankEditor.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="The Test Builder"
+    Link="/Content/ExamView/TestGenerator/TheTestBuilder/TheTestBuilder.htm">
+    <TocEntry
+      Title="Question Types"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/QuestionTypes.htm">
+      <TocEntry
+        Title="True/False"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/TrueFalse.htm" />
+      <TocEntry
+        Title="Modified True/False"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/ModifiedTrueFalse.htm" />
+      <TocEntry
+        Title="Multiple Choice"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/MultipleChoice.htm" />
+      <TocEntry
+        Title="Multiple Response"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/MultipleResponse.htm" />
+      <TocEntry
+        Title="Bimodal"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/Bimodal.htm" />
+      <TocEntry
+        Title="Yes/No"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/YesNo.htm" />
+      <TocEntry
+        Title="Numeric Response"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/NumericResponse.htm" />
+      <TocEntry
+        Title="Matching"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/Matching.htm" />
+      <TocEntry
+        Title="Completion"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/Completion.htm" />
+      <TocEntry
+        Title="Short Answer, Problem, Essay, Case and Other"
+        Link="/Content/ExamView/TestGenerator/QuestionTypes/ShortAnswerProblemEssayCaseandOther.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Test Builder Basics"
+      Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/TestBuilderBasics.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Test Builder Toolbar"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/Test_Builder_Toolbar.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Creating a Test with the QuickTest Wizard"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/CreatingaTestwiththeQuickTestWizard.htm" />
+      <TocEntry
+        Title="Creating a New Test and Selecting Questions"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/CreatingaNewTestandSelectingQuestions.htm" />
+      <TocEntry
+        Title="Opening a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/OpeningaTest.htm" />
+      <TocEntry
+        Title="Clearing Questions from a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/ClearingQuestions.htm" />
+      <TocEntry
+        Title="Editing/Creating Questions on a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/EditingCreatingQuestionsonaTest.htm" />
+      <TocEntry
+        Title="Using the Spell Checker"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/UsingSpellChecker.htm" />
+      <TocEntry
+        Title="Mixing Question Types on a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/MixingQuestionTypes.htm" />
+      <TocEntry
+        Title="Reordering Questions"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/ReorderingQuestions.htm" />
+      <TocEntry
+        Title="Sorting Questions in a Test/Question Bank"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/SortingQuestions.htm" />
+      <TocEntry
+        Title="Scrambling Questions on a Test (PC Only)"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/ScramblingQuestions.htm" />
+      <TocEntry
+        Title="Two-column Formatting"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/TwoColumnFormatting.htm" />
+      <TocEntry
+        Title="Printing a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/PrintingaTest.htm" />
+      <TocEntry
+        Title="Printing a Bubble Form (PC Only)"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/PrintingaBubbleForm-PCOnly.htm" />
+      <TocEntry
+        Title="Translating a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/TranslatingaTest.htm" />
+      <TocEntry
+        Title="Saving a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/SavingaTest.htm" />
+      <TocEntry
+        Title="Assigning a Password to a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/AssigningaPassword.htm" />
+      <TocEntry
+        Title="Exporting a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/ExportingaTest.htm" />
+      <TocEntry
+        Title="Importing an XML Document into the ExamView Test Generator"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/ImportinganXMLDocument.htm" />
+      <TocEntry
+        Title="Importing a CPS Lesson (PC Only)"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/ImportingaCPSLesson-PCOnly.htm" />
+      <TocEntry
+        Title="Generating a Test Summary Report"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/GeneratingaTestSummaryReport.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Question Selection Methods"
+      Link="/Content/ExamView/TestGenerator/TheTestBuilder/QuestionSelectionMethods/QuestionSelectionMethods.htm">
+      <TocEntry
+        Title="Selecting Questions Randomly"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/QuestionSelectionMethods/Randomly.htm" />
+      <TocEntry
+        Title="Selecting Questions from a List"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/QuestionSelectionMethods/FromaList.htm" />
+      <TocEntry
+        Title="Selecting Questions While Viewing"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/QuestionSelectionMethods/WhileViewing.htm" />
+      <TocEntry
+        Title="Selecting Questions by Standard"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/QuestionSelectionMethods/Standard.htm" />
+      <TocEntry
+        Title="Selecting Questions by Criteria"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/QuestionSelectionMethods/Criteria.htm" />
+      <TocEntry
+        Title="Selecting All Questions"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/QuestionSelectionMethods/AllQuestions.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Customizing the Appearance of a Test"
+      Link="/Content/ExamView/TestGenerator/TheTestBuilder/CustomizingAppearanceofaTest/CustomizingtheAppearanceofaTest.htm">
+      <TocEntry
+        Title="Changing the Layout and Style for a Test"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/CustomizingAppearanceofaTest/LayoutandStyle.htm" />
+      <TocEntry
+        Title="Optimizing Tests for Two-Column Format"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/CustomizingAppearanceofaTest/OptimizingTestsforTwoColumnFormat.htm" />
+      <TocEntry
+        Title="Changing Headers and Footers"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/CustomizingAppearanceofaTest/HeadersandFooters.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+        AutoEndOnLeftPage="disabled" />
+      <TocEntry
+        Title="Changing Question Type Instructions"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/CustomizingAppearanceofaTest/QuestionTypeInstructions.htm" />
+      <TocEntry
+        Title="Setting the Instruction Language"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/CustomizingAppearanceofaTest/SettingInstructionLanguage.htm" />
+      <TocEntry
+        Title="Formatting a Test with the Style Gallery (Window Only)"
+        Link="/Content/ExamView/TestGenerator/TheTestBuilder/CustomizingAppearanceofaTest/FormattingwiththeStyleGallery.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Question Bank Editor"
+    Link="/Content/ExamView/TestGenerator/TheQuestionBank/TheQuestionBank.htm">
+    <TocEntry
+      Title="Question Bank Editor Toolbar"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/QuestionBankEditorToolbar.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Creating a New Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/CreatingaNewQuestionBank.htm" />
+    <TocEntry
+      Title="Opening a Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/OpeningaQuestionBank.htm" />
+    <TocEntry
+      Title="Checking for Content Updates"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/CheckingforContentUpdates.htm" />
+    <TocEntry
+      Title="Creating, Editing and Deleting Questions in a Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/CreatingEditingDeletingQuestions.htm" />
+    <TocEntry
+      Title="Customizing the Layout and Style of a Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/CustomizingLayoutandStyle.htm" />
+    <TocEntry
+      Title="Using the Spell Checker"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/UsingSpellChecker.htm" />
+    <TocEntry
+      Title="Reordering Questions in a Question Bank Grouped by Question Type"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/ReorderingQuestions.htm" />
+    <TocEntry
+      Title="Mixing Question Types in a Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/MixingQuestionTypes.htm" />
+    <TocEntry
+      Title="Printing a Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/PrintingaQuestionBank.htm" />
+    <TocEntry
+      Title="Saving a Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/SavingaQuestionBank.htm" />
+    <TocEntry
+      Title="Assigning a Password to a Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/AssigningaPassword.htm" />
+    <TocEntry
+      Title="Copying an Entire Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/CopyinganEntireQuestionBank.htm" />
+    <TocEntry
+      Title="Exporting Questions from ExamView"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/ExportingQuestionsfromExamView.htm" />
+    <TocEntry
+      Title="Importing Questions from ExamView XML"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/ImportingQuestionsfromExamViewXML.htm" />
+    <TocEntry
+      Title="Importing a CPS Lesson (PC Only)"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/ImportingCPSLesson-PCOnly.htm" />
+    <TocEntry
+      Title="Importing Questions from Other Sources (PC Only)"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/ImportingQuestionsfromOtherSources-PCOnly.htm"
+      BreakType="pageLayout"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Publishing Tests"
+    Link="/Content/ExamView/TestGenerator/PublishingTests/PublishingTests.htm">
+    <TocEntry
+      Title="ExamView Test Player on LAN or the Internet"
+      Link="/Content/ExamView/TestGenerator/PublishingTests/ExamViewTestPlayeronLANortheInternet.htm">
+      <TocEntry
+        Title="Publishing a LAN-Based (Online) Test Without a Roster"
+        Link="/Content/ExamView/TestGenerator/PublishingTests/PublishingaLANBasedOnlineTestWithoutaRoster.htm" />
+      <TocEntry
+        Title="Publishing a LAN-Based (Online) Test with a Roster"
+        Link="/Content/ExamView/TestGenerator/PublishingTests/PublishingaLANBasedOnlineTestwithaRoster.htm" />
+      <TocEntry
+        Title="Student Feedback/Multimedia"
+        Link="/Content/ExamView/TestGenerator/PublishingTests/StudentFeedbackMultimedia.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Personal Websites"
+      Link="/Content/ExamView/TestGenerator/PublishingTests/PersonalWebsites.htm"
+      BreakType="pageLayout"
+      AutoEndOnLeftPage="disabled"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Saving an Internet Test to a Hard drive"
+        Link="/Content/ExamView/TestGenerator/PublishingTests/SavinganInternetTesttoaHarddrive.htm" />
+      <TocEntry
+        Title="Posting a Test to a Website"
+        Link="/Content/ExamView/TestGenerator/PublishingTests/PostingaTesttoaWebsite.htm" />
+      <TocEntry
+        Title="Taking a Test Using the Internet"
+        Link="/Content/ExamView/TestGenerator/PublishingTests/TakingaTestUsingtheInternet.htm" />
+      <TocEntry
+        Title="Taking an Internet Study Guide"
+        Link="/Content/ExamView/TestGenerator/PublishingTests/TakinganInternetStudyGuide.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Publisher Websites"
+      Link="/Content/ExamView/TestGenerator/PublishingTests/PublisherWebsites.htm">
+      <TocEntry
+        Title="Publishing a Test to a Publisher’s Website"
+        Link="/Content/ExamView/TestGenerator/PublishingTests/PublishingaTesttoaPublisherWebsite.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="The Word Processor"
+    Link="/Content/ExamView/TestGenerator/TheWordProcessor/TheWordProcessor.htm">
+    <TocEntry
+      Title="The Word Processor Toolbar"
+      Link="/Content/ExamView/TestGenerator/TheWordProcessor/TheWordProcessorToolbar.htm" />
+    <TocEntry
+      Title="Paragraph, Characters and Objects"
+      Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/ParagraphCharactersandObjects.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Using the Word Processor Ruler"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/UsingtheWordProcessorRuler.htm" />
+      <TocEntry
+        Title="Formatting Paragraphs"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/FormattingParagraphs.htm" />
+      <TocEntry
+        Title="Formatting Fonts"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/FormattingFonts.htm" />
+      <TocEntry
+        Title="Showing or Hiding Codes, Variable Names and Question Tags"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/ShowingHidingCodesVariableNamesQuestionTags.htm" />
+      <TocEntry
+        Title="Using Undo, Cut, Copy and Paste"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/UsingUndoCutCopyPaste.htm" />
+      <TocEntry
+        Title="Using Find and Replace"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/UsingFindandReplace.htm" />
+      <TocEntry
+        Title="Inserting a Symbol or Foreign Character"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/InsertingSymbolForeignCharacter.htm" />
+      <TocEntry
+        Title="Inserting/Editing an Equation"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/InsertingEditinganEquation.htm" />
+      <TocEntry
+        Title="Inserting/Editing a Hyperlink"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/InsertingEditingaHyperlink.htm" />
+      <TocEntry
+        Title="Inserting/Editing a Graph"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/InsertingEditingaGraph.htm" />
+      <TocEntry
+        Title="Inserting a Variable"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/InsertingaVariable.htm" />
+      <TocEntry
+        Title="Working with Tabs"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/WorkingwithTabs.htm" />
+      <TocEntry
+        Title="Formatting Borders and Shading"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/FormattingBordersandShading.htm" />
+      <TocEntry
+        Title="Copying/Applying Ruler Settings"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/CopyingApplyingRulerSettings.htm" />
+      <TocEntry
+        Title="Copying/Applying Style Settings"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Paragrpah_Characters_Objects/CopyingApplyingStyleSettings.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Pictures"
+      Link="/Content/ExamView/TestGenerator/TheWordProcessor/Pictures/Pictures.htm">
+      <TocEntry
+        Title="Inserting a Picture"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Pictures/Inserting.htm" />
+      <TocEntry
+        Title="Formatting Pictures"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Pictures/Formatting.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Tables"
+      Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/Tables.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Inserting a Table"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/InsertingaTable.htm" />
+      <TocEntry
+        Title="Inserting/Editing Rows and Columns"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/Inserting_Editing_Rows_and_Columns.htm" />
+      <TocEntry
+        Title="Formatting Existing Tables"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/FormattingExistingTables.htm" />
+      <TocEntry
+        Title="Merging Cells"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/MergingCells.htm" />
+      <TocEntry
+        Title="Splitting Cells"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/SplittingCells.htm" />
+      <TocEntry
+        Title="Converting a Table to Text"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/ConvertingaTabletoText.htm" />
+      <TocEntry
+        Title="Converting Tabular Text Into a Table"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/Converting_Tabular_Text_Into_a_Table.htm" />
+      <TocEntry
+        Title="Splitting a Table Into Two Separate Tables"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/SplittingaTableIntoTwoSeparateTables.htm" />
+      <TocEntry
+        Title="Adjusting Table Cell Height and Width"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/AdjustingCellHeightWidth.htm" />
+      <TocEntry
+        Title="Aligning Columns"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/AligningColumns.htm" />
+      <TocEntry
+        Title="Applying Borders and Shading to Tables"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/ApplyingBordersandShading.htm" />
+      <TocEntry
+        Title="Setting Table Properties"
+        Link="/Content/ExamView/TestGenerator/TheWordProcessor/Tables/SettingTableProperties.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="The Equation Editor"
+    Link="/Content/ExamView/TestGenerator/TheEquationEditor/TheEquationEditor.htm">
+    <TocEntry
+      Title="The Equation Editor Menu Bar"
+      Link="/Content/ExamView/TestGenerator/TheEquationEditor/EquationEditorMenuBar.htm" />
+    <TocEntry
+      Title="Creating an Equation"
+      Link="/Content/ExamView/TestGenerator/TheEquationEditor/CreatinganEquation.htm" />
+    <TocEntry
+      Title="Equation Editor Keyboard Shortcuts"
+      Link="/Content/ExamView/TestGenerator/TheEquationEditor/KeyboardShortcuts.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Changing the Equation Editor Preferences"
+      Link="/Content/ExamView/TestGenerator/TheEquationEditor/ChangingEquationEditorPreferences.htm" />
+    <TocEntry
+      Title="Inserting Symbols Into an Equation"
+      Link="/Content/ExamView/TestGenerator/TheEquationEditor/InsertingSymbols.htm" />
+    <TocEntry
+      Title="Inserting Templates Into an Equation"
+      Link="/Content/ExamView/TestGenerator/TheEquationEditor/InsertingTemplates.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Dynamic Content (Algorithms)"
+    Link="/Content/ExamView/TestGenerator/Dynamic Content/DynamicContent.htm">
+    <TocEntry
+      Title="Creating a New Algorithm"
+      Link="/Content/ExamView/TestGenerator/Dynamic Content/CreatingorEditinganAlgorithm.htm" />
+    <TocEntry
+      Title="Algorithmic Syntax"
+      Link="/Content/ExamView/TestGenerator/Dynamic Content/AlgorithmicSyntax.htm" />
+    <TocEntry
+      Title="Algorithm Definitions"
+      Link="/Content/ExamView/TestGenerator/Dynamic Content/AlgorithmDefinitions.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Constants"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/Constants.htm" />
+      <TocEntry
+        Title="Math Functions"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/MathFunctions.htm" />
+      <TocEntry
+        Title="Exponential and Logarithmic Functions"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/ExponentialandLogarithmicFunctions.htm" />
+      <TocEntry
+        Title="Trigonometric Functions"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/TrigonometricFunctions.htm" />
+      <TocEntry
+        Title="String Functions"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/StringFunctions.htm" />
+      <TocEntry
+        Title="Statistical Functions"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/StatisticalFunctions.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Logical Operators"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/LogicalOperators.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Fraction Functions"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/FractionFunctions.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Special Functions"
+        Link="/Content/ExamView/TestGenerator/Dynamic Content/SpecialFunctions.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Keywords"
+    Link="/Content/ExamView/TestGenerator/Dynamic Content/Keywords.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UGLandscape.flpgl" />
+  <TocEntry
+    Title="The Graph Tool"
+    Link="/Content/ExamView/TestGenerator/TheGraphTool/TheGraphTool.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+    <TocEntry
+      Title="Cartesian Graphs"
+      Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/CartesianGraphs.htm">
+      <TocEntry
+        Title="Inserting a Cartesian Graph"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/InsertingaCartesianGraph.htm" />
+      <TocEntry
+        Title="f(x) or f(y)"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/fxorfy.htm" />
+      <TocEntry
+        Title="Parabola"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Parabola.htm" />
+      <TocEntry
+        Title="Circle"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Circle.htm" />
+      <TocEntry
+        Title="Ellipse"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Ellipse.htm" />
+      <TocEntry
+        Title="Hyperbola"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Hyperbola.htm" />
+      <TocEntry
+        Title="Point (x, y)"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/PointXY.htm" />
+      <TocEntry
+        Title="Segment"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Segment.htm" />
+      <TocEntry
+        Title="Polynomial"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Polynomial.htm" />
+      <TocEntry
+        Title="Parametric Function"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/ParametricFunction.htm" />
+      <TocEntry
+        Title="Normal Curve"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/NormalCurve.htm" />
+      <TocEntry
+        Title="Picture"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Picture.htm" />
+      <TocEntry
+        Title="Shapes"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Shapes.htm" />
+      <TocEntry
+        Title="Pie Chart"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/PieChart.htm" />
+      <TocEntry
+        Title="Text Box"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/TextBox.htm" />
+      <TocEntry
+        Title="Compound"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/CartesianGraphs/Compound.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Polar Graphs"
+      Link="/Content/ExamView/TestGenerator/TheGraphTool/PolarGraphs/PolarGraphs.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Inserting a Polar Graph"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/PolarGraphs/InsertingaPolarGraph.htm" />
+      <TocEntry
+        Title="f(theta)"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/PolarGraphs/ftheta.htm" />
+      <TocEntry
+        Title="Point (r, theta)"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/PolarGraphs/PointRTheta.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Number Lines"
+      Link="/Content/ExamView/TestGenerator/TheGraphTool/NumberLines/NumberLines.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Inserting a Number Line"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/NumberLines/InsertingaNumberLine.htm" />
+      <TocEntry
+        Title="Point"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/NumberLines/Point.htm" />
+      <TocEntry
+        Title="Segment"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/NumberLines/Segment.htm" />
+      <TocEntry
+        Title="Ray"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/NumberLines/Ray.htm" />
+      <TocEntry
+        Title="Line"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/NumberLines/Line.htm" />
+      <TocEntry
+        Title="Box and Whisker Plot"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/NumberLines/BoxWhiskerPlot.htm" />
+      <TocEntry
+        Title="Vectors"
+        Link="/Content/ExamView/TestGenerator/TheGraphTool/NumberLines/Vectors.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Preferences"
+    Link="/Content/ExamView/TestGenerator/Preferences/Preferences.htm">
+    <TocEntry
+      Title="Changing the Preferences"
+      Link="/Content/ExamView/TestGenerator/Preferences/ChangingthePreferences.htm" />
+    <TocEntry
+      Title="General"
+      Link="/Content/ExamView/TestGenerator/Preferences/General.htm" />
+    <TocEntry
+      Title="Files"
+      Link="/Content/ExamView/TestGenerator/Preferences/Files.htm" />
+    <TocEntry
+      Title="Editing"
+      Link="/Content/ExamView/TestGenerator/Preferences/Editing.htm" />
+    <TocEntry
+      Title="Layout"
+      Link="/Content/ExamView/TestGenerator/Preferences/Layout.htm" />
+    <TocEntry
+      Title="Style"
+      Link="/Content/ExamView/TestGenerator/Preferences/Style.htm" />
+    <TocEntry
+      Title="Points"
+      Link="/Content/ExamView/TestGenerator/Preferences/Points.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Learning Management Systems"
+    Link="/Content/ExamView/TestGenerator/LMS/LMS.htm">
+    <TocEntry
+      Title="ANGEL"
+      Link="/Content/ExamView/TestGenerator/LMS/ANGEL/ANGEL.htm">
+      <TocEntry
+        Title="ANGEL Question Support"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGEL/ANGEL_Question_Support.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="ANGEL Publish Location"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGEL/ANGELPublishLocation.htm" />
+      <TocEntry
+        Title="Publishing a Test/Question Bank to ANGEL"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGEL/PublishingaTestQuestionBanktoANGEL.htm" />
+      <TocEntry
+        Title="Setting Up and Managing ANGEL Server Profiles"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGEL/SettingUpandManagingANGELServerProfiles.htm" />
+      <TocEntry
+        Title="Exporting a Test/Question Bank for ANGEL"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGEL/ExportingaTestQuestionBankforANGEL.htm" />
+      <TocEntry
+        Title="Converting Quizzes to Assessments, Surveys to Enhanced Surveys"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGEL/ConvertingQuizzestoAssessmentsSurveystoEnhancedSurveys.htm" />
+      <TocEntry
+        Title="Uploading an Unzipping Files to ANGEL"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGEL/UploadingandUnzippingFilestoANGEL.htm" />
+      <TocEntry
+        Title="ANGEL 7.3 (and higher) Advanced Publish Settings"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGELAdvancedPublishSettings/ANGEL-73andhigher.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl"></TocEntry>
+      <TocEntry
+        Title="ANGEL 7.0 - 7.2 Advanced Publish Settings"
+        Link="/Content/ExamView/TestGenerator/LMS/ANGELAdvancedPublishSettings/ANGEL-70-72.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl"></TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Blackboard"
+      Link="/Content/ExamView/TestGenerator/LMS/Blackboard/Blackboard.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Blackboard Question Support"
+        Link="/Content/ExamView/TestGenerator/LMS/Blackboard/BlackboardQuestionSupport.htm" />
+      <TocEntry
+        Title="Exporting a Test/Question Bank for Blackboard"
+        Link="/Content/ExamView/TestGenerator/LMS/Blackboard/ExportingaTestQuestionBankforBlackboard.htm" />
+      <TocEntry
+        Title="Uploading Questions into Blackboard"
+        Link="/Content/ExamView/TestGenerator/LMS/Blackboard/UploadingQuestionsintoBlackboard.htm" />
+      <TocEntry
+        Title="Creating a Quiz in Blackboard"
+        Link="/Content/ExamView/TestGenerator/LMS/Blackboard/CreatingaQuizinBlackboard.htm" />
+      <TocEntry
+        Title="Blackboard Troubleshooting"
+        Link="/Content/ExamView/TestGenerator/LMS/Blackboard/BlackboardTroubleshooting.htm">
+        <TocEntry
+          Title="Specific to the Blackboard 6.0 - 7.0 format only:"
+          Link="/Content/ExamView/TestGenerator/LMS/Blackboard/SpecifictotheBlackboard-6-7.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Desire2Learn"
+      Link="/Content/ExamView/TestGenerator/LMS/Desire2Learn/Desire2Learn.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="D2L Question Support"
+        Link="/Content/ExamView/TestGenerator/LMS/Desire2Learn/D2LQuestionSupport.htm">
+        <TocEntry
+          Title="Known Issues"
+          Link="/Content/ExamView/TestGenerator/LMS/Desire2Learn/KnownIssues.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Importing Question Content Into Desire2Learn"
+        Link="/Content/ExamView/TestGenerator/LMS/Desire2Learn/ImportingQuestionContentIntoDesire2Learn.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Moodle"
+      Link="/Content/ExamView/TestGenerator/LMS/Moodle/Moodle.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Moodle Question Support"
+        Link="/Content/ExamView/TestGenerator/LMS/Moodle/MoodleQuestionSupport.htm">
+        <TocEntry
+          Title="Known Issues"
+          Link="/Content/ExamView/TestGenerator/LMS/Moodle/KnownIssues.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Importing Question Content Into Moodle"
+        Link="/Content/ExamView/TestGenerator/LMS/Moodle/ImportingQuestionContentIntoMoodle.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="WebCT"
+      Link="/Content/ExamView/TestGenerator/LMS/WebCT/WebCT.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="WebCT Question Support"
+        Link="/Content/ExamView/TestGenerator/LMS/WebCT/WebCTQuestionSupport.htm">
+        <TocEntry
+          Title="Known Issues"
+          Link="/Content/ExamView/TestGenerator/LMS/WebCT/KnownIssues.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Publishing a Test/Bank to WebCT"
+        Link="/Content/ExamView/TestGenerator/LMS/WebCT/PublishingaTestBanktoWebCT.htm" />
+      <TocEntry
+        Title="Setting Up and Managing WebCT Server Profiles"
+        Link="/Content/ExamView/TestGenerator/LMS/WebCT/SettingUpandManagingWebCTServerProfiles.htm" />
+      <TocEntry
+        Title="Exporting a Test/Question Bank for WebCT"
+        Link="/Content/ExamView/TestGenerator/LMS/WebCT/ExportingaTestQuestionBankforWebCT.htm" />
+      <TocEntry
+        Title="Uploading and Unzipping Files Into WebCT CE 6/Vista 4"
+        Link="/Content/ExamView/TestGenerator/LMS/WebCT/UploadingandUnzippingFilesIntoWebCT.htm" />
+      <TocEntry
+        Title="WebCT Advanced Publish Settings"
+        Link="/Content/ExamView/TestGenerator/LMS/WebCT/WebCTAdvancedPublishSettings.htm"></TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Navigating the Software"
+    Link="/Content/ExamView/TestGenerator/About/NavigatingtheSoftware.htm">
+    <TocEntry
+      Title="Editing Commands and Keyboard Shortcuts"
+      Link="/Content/ExamView/TestGenerator/About/EditingCommandsandKeyboardShortcuts.htm" />
+    <TocEntry
+      Title="Navigate Within a Question, Answer, or Narrative"
+      Link="/Content/ExamView/TestGenerator/About/NavigateWithinaQuestionAnsweoNarrative.htm" />
+    <TocEntry
+      Title="Select Text and Pictures"
+      Link="/Content/ExamView/TestGenerator/About/SelectTextandPictures.htm" />
+    <TocEntry
+      Title="Selecting Items in a Table"
+      Link="/Content/ExamView/TestGenerator/About/SelectingItemsinaTable.htm" />
+    <TocEntry
+      Title="Navigate Within a Test or Question Bank"
+      Link="/Content/ExamView/TestGenerator/About/NavigateWithinaTestorQuestionBank.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Troubleshooting Tips"
+    Link="/Content/ExamView/TestGenerator/TroubleshootingTips.htm"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+</CatapultToc>

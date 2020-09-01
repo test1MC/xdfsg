@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Transitioning from a ResponseWare Account to a Turning Account"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/ResponseWare/Supplemental/ResponseWareAccounttoaTurningAccount.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="TransitioningfromaResponseWareAccounttoaTurningAccount"
+    Author="Turning Technologies"
+    Subject="TransitioningfromaResponseWareAccounttoaTurningAccount" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Transitioning from a ResponseWare Account to a Turning Account</Variable>
+  </Variables>
+  <PDF
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4723" MadCap:lastWidth="1078">
+    <head>&#160;<link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud </MadCap:conditionalText>and DATAWISE</h1>
+        <p>This document outlines the steps for using TurningPoint with DATAWISE.</p>
+        <p class="SmallTitle">How does the integration work?</p>
+        <p>The participant information from DATAWISE is downloaded and converted into a TurningPoint participant list. The DATAWISE test is downloaded as an XML file and converted into a TurningPoint question list. The participant list and question list are both loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. Session scores are then exported from TurningPoint in a specific format and imported into DATAWISE.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Exporting the Roster from DATAWISE</h3>
+        <ol class="Gotham">
+            <li>Login to DATAWISE.<div class="ImageFloatRight"><p><img src="../../Graphics/ExportSchemes/Datawise-GiveClickerTest.png" class="MediumWide288pxGrayBorder" /></p></div></li>
+            <li>Click <span class="Bold">Test Delivery</span> and select <span class="Bold">Give a Clicker Test</span>.</li>
+            <li>Select the <span class="Bold">Grade</span>, <span class="Bold">Period</span>, <span class="Bold">Group</span> and <span class="Bold">Group Teacher</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/Datawise-ExportRoster.png" class="MediumWide288pxGrayBorder" /></p></li>
+            <li>Click <span class="Bold">Export Roster</span>.</li>
+            <li>Click <span class="Bold">Save</span>.</li>
+        </ol>
+        <h3 class="task" MadCap:conditions="TurningPoint.TurningPoint Cloud">Exporting a Clicker Test from DATAWISE</h3>
+        <ol class="Gotham" MadCap:conditions="TurningPoint.TurningPoint Cloud">
+            <li>Login to DATAWISE.<div class="ImageFloatRight"><p><img src="../../Graphics/ExportSchemes/Datawise-GiveClickerTest.png" class="MediumWide288pxGrayBorder"></img></p></div></li>
+            <li>Click <b>Test Delivery</b> and select <b>Give a Clicker Test</b>.</li>
+            <li>Select the <span class="Bold">test</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/Datawise-Tests.png" class="MediumWide288pxGrayBorder"></img></p></li>
+            <li>Click <span class="Bold">Export Test for SMART</span>.</li>
+            <li><span class="Bold">Save</span> the test to the desired location. The test will be downloaded as an XML file.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <h3 class="task">Importing the Test into TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText></h3>
+        <ol class="Gotham">
+            <li>
+                <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">Open TurningPoint and select the <span class="Bold">Content</span> tab.</MadCap:conditionalText>
+                <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Open TurningPoint Cloud and sign in to your Turning&#160;Account.</MadCap:conditionalText>
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">Select the <span class="Bold">Content</span> tab.</li>
+            <li>Click <span class="Bold">Content</span> and select <span class="Bold">Import</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/TP5Dashboard-ContentDropdown.png" class="MediumWide288px" MadCap:conditions="TurningPoint.TurningPoint 5" /><img src="../../Graphics/ExportSchemes/TPC-Content-Import.png" class="SmallWide192px" MadCap:conditions="TurningPoint.TurningPoint Cloud" /></p></li>
+            <li>Select the <span class="Bold">DATAWISE test</span> and click <span class="Bold">Open</span>.</li>
+            <li>Click <span class="Bold">Yes</span> to convert the XML file into a TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>question list.<p class="InList">The question list is now listed in the left panel. The question list can not be edited in TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText>.</p></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/PowerPointPolling-RTR.flsnp" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AwywherePolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AfterClass-NoWebReg.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to DATAWISE</h3>
+        <ol class="Gotham">
+            <li>Login to DATAWISE.</li>
+            <li>Click <span class="Bold">Test Delivery</span> and select <span class="Bold">Give a Clicker Test</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/Datawise-GiveClickerTest.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Click <span class="Bold">Choose File</span>, select the <span class="Bold">file</span> that was exported from TurningPoint and click <b>Load File</b>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/Datawise-LoadFile.png" class="LargeWide480px"></img></p></li>
+            <li>Click <span class="Bold">User Selected</span> or <span class="Bold">Create New</span> to provide a test schedule.</li>
+        </ol>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl" />
+  <TocEntry
+    Title="WorkSpace Connect"
+    Link="../../../Content/WorkSpace/WorkSpace Connect/SettingUpWorkSpaceConnect.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="../../../Content/WorkSpace/WorkSpace Connect/TechnicalRequirements.htm" />
+    <TocEntry
+      Title="Installing WorkSpace Connect"
+      Link="../../../Content/WorkSpace/WorkSpace Connect/InstallingWorkSpaceConnect.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Enabling WorkSpace Connect"
+      Link="../../../Content/WorkSpace/WorkSpace Connect/EnablingWorkSpaceConnect.htm" />
+    <TocEntry
+      Title="Connecting to WorkSpace via the Application"
+      Link="../../../Content/WorkSpace/WorkSpace Connect/ConnectingtoWorkSpace.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Controlling WorkSpace"
+    Link="../../../Content/WorkSpace/WorkSpace Connect/ControllingWorkSpace.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="WorkSpace Toolbar"
+      Link="../../../Content/WorkSpace/WorkSpace Connect/WorkSpaceToolbar.htm" />
+    <TocEntry
+      Title="Exiting the WorkSpace Connect App"
+      Link="../../../Content/WorkSpace/WorkSpace Connect/ClosingtheWorkSpaceConnectApp.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

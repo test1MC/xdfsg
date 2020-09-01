@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseWare for iOS User Guide"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/ResponseWare/Apps/ResponseWareforAndroidiOS.fltoc"
+  ConditionTagExpression="include[DocType.Other or DocType.UG-Mac or OS.Mac or &quot;Product.TurningPoint Cloud&quot; or Users.Students]exclude[DocType.HTML or DocType.HTML-Mac or DocType.HTML-PC or DocType.UG-PC or OS.PC or Product.TP or Users.Instructors]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseWare for iOS User Guide</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="ResponseWare for iOS User Guide"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

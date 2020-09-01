@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Insight 360 Quick Start Guide"
+    Link="/Content/I360/About/Insight360QuickStartGuide.htm">
+    <TocEntry
+      Title="Setting Up the Insight 360 System"
+      Link="/Content/I360/About/SettingUp.htm">
+      <TocEntry
+        Title="Installing the Software"
+        Link="/Content/I360/About/GettingStarted/DownloadingandInstallingInsight360.htm"></TocEntry>
+      <TocEntry
+        Title="Registering/Activating Insight 360"
+        Link="/Content/I360/About/GettingStarted/RegisteringandActivatingInsight360.htm" />
+      <TocEntry
+        Title="Setting Up the Hardware"
+        Link="/Content/I360/About/GettingStarted/SettingUptheHardware.htm" />
+      <TocEntry
+        Title="Setting Up the Insight 360 Teacher and Student Apps"
+        Link="/Content/I360/About/GettingStarted/SettingUptheInsight360TeacherandStudentApps.htm" />
+      <TocEntry
+        Title="Setting Up Insight 360 Web Access"
+        Link="/Content/I360/About/GettingStarted/SettingUpInsight360WebAccess.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="My Classes"
+      Link="/Content/I360/MyClasses/MyClassesQSG.htm">
+      <TocEntry
+        Title="Creating a New Class"
+        Link="/Content/I360/MyClasses/Classes/CreatingaNewClass.htm" />
+      <TocEntry
+        Title="Importing Students from a CSV File"
+        Link="/Content/I360/MyClasses/Students/ImportingStudents.htm" />
+      <TocEntry
+        Title="Adding a Student ManuallyAdding Students to the Insight 360 Database Manually"
+        Link="/Content/I360/MyClasses/Students/AddingaStudentManually.htm" />
+      <TocEntry
+        Title="Adding/Removing Students from a ClassEnrolling Students in a Class"
+        Link="/Content/I360/MyClasses/Classes/AddingRemovingStudentsfromaClass.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="CueTag™ Creator"
+      Link="/Content/I360/About/CueTagCreator.htm"></TocEntry>
+    <TocEntry
+      Title="Tests"
+      Link="/Content/I360/MyTests/Tests.htm">
+      <TocEntry
+        Title="Creating and Delivering an Answer Key Test"
+        Link="/Content/I360/MyTests/CreatingDeliveringanAnswerKeyTest.htm" />
+      <TocEntry
+        Title="Opening ExamView® Test GeneratorCreating an ExamView Test"
+        Link="/Content/I360/MyTests/ExamView/OpeningExamViewTestGenerator.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Teaching Class"
+      Link="/Content/I360/MyTests/TeachingClass.htm">
+      <TocEntry
+        Title="Teaching Class"
+        Link="/Content/I360/MyTests/TeachingClass1.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="My Results"
+      Link="/Content/I360/MyResults/MyResults.htm">
+      <TocEntry
+        Title="Retrieving a Report"
+        Link="/Content/I360/MyResults/Configuring/GeneratingaReport.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+</CatapultToc>

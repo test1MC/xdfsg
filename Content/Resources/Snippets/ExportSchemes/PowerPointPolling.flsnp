@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h3 class="task">PowerPoint Polling</h3>
+        <ol class="Gotham">
+            <li>Open TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud and sign in to your Turning Account</MadCap:conditionalText>.</li>
+            <li>Select the <span class="Bold">participant list</span>, the <span class="Bold">content file</span> (optional) and click <span class="Bold">PowerPoint Polling</span>.</li>
+            <li>
+                <span class="Bold">Run</span> the polling session.<div class="Important" MadCap:conditions="DocType.Other,TurningPoint.TurningPoint Cloud" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #f07600;&quot; class=&quot;mcFormatColor&quot;&gt;IMPORTANT&lt;/span&gt;&lt;/span&gt;"><p>The <span class="Bold">Attendance</span><img src="../../Images/PPTShowbarIcon-Attendance.png" class="Callout35px" /> feature located on the PowerPoint Polling showbar must be utilized at least once during the session.</p></div></li>
+            <li>When you are finished polling, click <span class="Bold">Save</span> in the <span class="Italic">Session </span>section of the TurningPoint ribbon/toolbar.<div class="Warning" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #ee4137;&quot; class=&quot;mcFormatColor&quot;&gt;WARNING&lt;/span&gt;&lt;/span&gt;"><p>Saving only the PowerPoint presentation does not save the session data!</p></div><p class="InList">Session files should be stored in the default save location. If the session is saved in another location it will then need to be placed in the TurningPoint Cloud Sessions folder or imported into TurningPoint Cloud.</p></li>
+            <li>
+                <span class="Bold">Name</span> the session file and click <span class="Bold">Save</span>.</li>
+            <li>
+                <span class="Bold">Close</span> PowerPoint to return to the TurningPoint Cloud Dashboard.</li>
+        </ol>
+    </body>
+</html>

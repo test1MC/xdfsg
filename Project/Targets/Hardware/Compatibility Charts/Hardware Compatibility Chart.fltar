@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Compatibility Charts/Hardware Compatibility Chart.fltoc"
+  PatchHeadingLevels="false"
+  ConditionTagExpression="exclude[DocType.UG]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Hardware Compatibility Chart</Variable>
+    <Variable
+      Name="General/PRODUCT">Hardware Compatibility Chart</Variable>
+    <Variable
+      Name="General/ProductName">Hardware Compatibility Chart</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Hardware Compatibility Chart</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Hardware Compatibility Chart"
+    Subject="Hardware Compatibility Chart"
+    Keywords="Hardware Compatibility Chart"
+    Author="Turning Technologies" />
+  <PDF
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

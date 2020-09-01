@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="Blackboard"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="Moodle"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Sakai"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Desire2Learn"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="Canvas"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="Performance Matters"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="Acuity"
+    Comment="" />
+</CatapultConditionTagSet>

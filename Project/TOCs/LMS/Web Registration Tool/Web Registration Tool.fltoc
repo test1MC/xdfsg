@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    StartSection="false"
+    BreakType="pageLayout"
+    PageLayout="/Content/Resources/PageLayouts/UGTitlePage.flpgl"></TocEntry>
+  <TocEntry
+    Title="About the Web Registration Tool"
+    Link="/Content/LMS/WebRegistrationUtility/About.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+    <TocEntry
+      Title="Participant Registration"
+      Link="/Content/LMS/WebRegistrationUtility/Participant_Registration1.htm" />
+    <TocEntry
+      Title="Participant List"
+      Link="/Content/LMS/WebRegistrationUtility/Participant_List.htm">
+      <TocEntry
+        Title="Importing a CSV or TXT File"
+        Link="/Content/LMS/WebRegistrationUtility/Importing_a_CSV_or_TXT_File.htm" />
+      <TocEntry
+        Title="Importing a CSV or TXT File from a Supported Integration"
+        Link="/Content/LMS/WebRegistrationUtility/Importing_a_CSV_or_TXT_File_from_a_Supported_Integration.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Using the Web Registration Tool"
+    Link="/Content/LMS/WebRegistrationUtility/Using_2013.htm">
+    <TocEntry
+      Title="Updating the Participant List"
+      Link="/Content/LMS/WebRegistrationUtility/Updating_the_Participant_List.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+</CatapultToc>

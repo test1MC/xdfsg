@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PowerPoint Polling for PC Slide Preferences Pane"
+    Link="/Content/TP5/TrainingDocuments/PPPolling/SlidePreferences/PP Polling Additional Topics Part 3.htm">
+    <TocEntry
+      Title="Multiple Choice Question"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/SlidePreferences/Multiple_Choice_Question.htm" />
+    <TocEntry
+      Title="Short Answer Question"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/SlidePreferences/Short_Answer_Question.htm" />
+    <TocEntry
+      Title="Numeric Response Question"
+      Link="/Content/TP5/TrainingDocuments/PPPolling/SlidePreferences/Numeric_Response_Question.htm" />
+  </TocEntry>
+</CatapultToc>

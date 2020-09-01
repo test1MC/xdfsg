@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Triton and BlackBoard 9"
+    Link="/Content/ExportSchemes/Triton/TritonandBlackboard9/TritonandBlackboard9.htm">
+    <TocEntry
+      Title="Exporting and Modifying Session Information from Triton"
+      Link="/Content/ExportSchemes/Triton/TritonandBlackboard9/Exporting_and_Modifying_Session_Information_from_Triton.htm" />
+    <TocEntry
+      Title="Uploading Grades to Blackboard 9"
+      Link="/Content/ExportSchemes/Triton/TritonandBlackboard9/Uploading_Grades_to_Blackboard_9.htm" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/LMS/Canvas/Canvas Install Guide TPC.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Canvas Install Guide for TurningPoint Cloud</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+    <Variable
+      Name="LMS/LMS">Canvas</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Canvas Install Guide for TurningPoint Cloud"
+    Subject="Canvas Install Guide for TurningPoint Cloud"
+    Keywords="Canvas Install Guide for TurningPoint Cloud"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

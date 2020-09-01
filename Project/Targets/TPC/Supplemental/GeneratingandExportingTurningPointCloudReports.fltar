@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/GeneratingandExportingTurningPointCloudReports.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.Other]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <DocumentProperties
+    Title=" Generating and Exporting TurningPoint Reports"
+    Subject=" Generating and Exporting TurningPoint Reports"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Generating and Exporting TurningPoint Cloud Reports</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+  </Variables>
+</CatapultTarget>

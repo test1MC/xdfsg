@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/DownloadingTurningTechnologiesSoftware.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.Other or OS.Mac or OS.PC]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+    <Variable
+      Name="Variables/Product Name">Downloading Turning Technologies Software</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Downloading Turning Technologies Software"
+    Subject="Downloading Turning Technologies Software"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

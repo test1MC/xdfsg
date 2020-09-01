@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/UpdatingCPSPulseHardware.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Updating CPS Pulse™ Hardware</Variable>
+    <Variable
+      Name="General/PRODUCT">Updating CPS Pulse™ Hardware</Variable>
+    <Variable
+      Name="General/ProductName">Updating CPS Pulse™ Hardware</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Updating CPS Pulse™ Hardware</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false" />
+  <DocumentProperties
+    Title="Updating CPS Pulse™ Hardware"
+    Subject="Updating CPS Pulse™ Hardware"
+    Author="Turning Technologies" />
+</CatapultTarget>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="ERP"
+    Link="/Content/LMS/ERP/ERPLandingPage.htm"></TocEntry>
+  <TocEntry
+    Title="Accounting"
+    Link="/Content/LMS/ERP/Accounting/Accounting.htm">
+    <TocEntry
+      Title="Creating a License"
+      Link="/Content/LMS/ERP/Accounting/CreatingaLicense.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="LMS Support"
+    Link="/Content/LMS/ERP/LMS Support/LMSSupport.htm">
+    <TocEntry
+      Title="Viewing User Info"
+      Link="/Content/LMS/ERP/ViewingUserInfo.htm" />
+    <TocEntry
+      Title="Creating LTI Oauth"
+      Link="/Content/LMS/ERP/LMS Support/CreatingLTIOauth.htm" />
+    <TocEntry
+      Title="Searching LTI Information"
+      Link="/Content/LMS/ERP/LMS Support/SearchingLTIInformation.htm" />
+    <TocEntry
+      Title="Updating/Deleting LTI Information"
+      Link="/Content/LMS/ERP/LMS Support/UpdatingDeletingLTIInformation.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Sales Support"
+    Link="/Content/LMS/ERP/SalesSupport.htm">
+    <TocEntry
+      Title="Viewing User Info"
+      Link="/Content/LMS/ERP/ViewingUserInfo.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Technical Support"
+    Link="/Content/LMS/ERP/Support/Support.htm">
+    <TocEntry
+      Title="Viewing User Info"
+      Link="/Content/LMS/ERP/ViewingUserInfo.htm" />
+    <TocEntry
+      Title="Transferring Account Data"
+      Link="/Content/LMS/ERP/Support/TransferringAccountData.htm" />
+    <TocEntry
+      Title="Transferring LMS Data"
+      Link="/Content/LMS/ERP/Support/TransferringLMSData.htm" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  Skin="/Project/Skins/Device Manager.flskn"
+  ConditionTagExpression="include[DocType.HTML or Product.DeviceManager]"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  Medium="non-print"
+  DefaultUrl="/Content/DeviceManager/About.htm"
+  MasterToc="/Project/TOCs/DeviceManager/DeviceManager.fltoc"
+  ExcludeUnreferencedContent="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Product Name">Device Manager</Variable>
+    <Variable
+      Name="Variables/Version #">7.3</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

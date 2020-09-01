@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="3" MadCap:lastHeight="163" MadCap:lastWidth="923">
+    <body>
+        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Gotham Medium';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+            <p class="InList">The following symbols are supported:</p>
+            <p class="InList">ResponseCard NXT as of firmware version 2.0.0 and QT Device</p>
+            <p class="InList">. , \ " ? @ # $ % ^ &amp; * ( ) _ + - = / &lt; &gt; [ ] { } £ € √</p>
+            <p class="InList">ResponseCard XR as of firmware version 1.2.1</p>
+            <p class="InList">. , + - * / % ( ) ^ @ ! &amp; E √ €</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Self-Paced Polling"
+    Link="/Content/TPC/TrainingDocuments/SPPolling/Self-PacedPolling_New Users.htm"
+    StartSection="false">
+    <TocEntry
+      Title="Before the Test"
+      Link="/Content/TPC/TrainingDocuments/SectionTitles/Before the Test.htm">
+      <TocEntry
+        Title="Creating a Question List"
+        Link="/Content/TPC/TrainingDocuments/CreatingQuestionList.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="During the Test"
+      Link="/Content/TPC/TrainingDocuments/SectionTitles/During the Test.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Response Connections"
+        Link="/Content/TPC/TrainingDocuments/SectionTitles/Response Connections.htm">
+        <TocEntry
+          Title="Verifying the Receiver Channel"
+          Link="/Content/TPC/TrainingDocuments/VerifyingReceiverChannel.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard NXT"
+          Link="/Content/TPC/TrainingDocuments/Changing_the_Channel_on_ResponseCard_NXT.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="During Class"
+        Link="/Content/TPC/TrainingDocuments/SPPolling/AdministeringSelf-PacedTest.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="After Class"
+      Link="/Content/TPC/TrainingDocuments/SectionTitles/AfterClass_SelfPaced.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Generating Reports"
+        Link="/Content/TPC/TrainingDocuments/Generating_Reports.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Administrators">
+    <TocEntry
+      Title="Blackboard® 9.1 Install Guide for TurningPoint® Cloud"
+      Link="/Content/LMS/Blackboard/Blackboard9_1LTI.htm" />
+    <TocEntry
+      Title="Blackboard® 9.1 and TurningPoint® Cloud"
+      Link="/Content/LMS/Blackboard/Blackboard9.1withTurningPoint.htm">
+      <TocEntry
+        Title="Downloading a Participant List" />
+      <TocEntry
+        Title="Using_a_Downloaded_Participant_List" />
+      <TocEntry
+        Title="Updating_a_Participant_List" />
+      <TocEntry
+        Title="Exporting a Session to Blackboard" />
+    </TocEntry>
+    <TocEntry
+      Title="Canvas® Install Guide for TurningPoint® Cloud"
+      Link="/Content/LMS/Canvas/CanvasLTI.htm" />
+    <TocEntry
+      Title="Canvas® and TurningPoint® Cloud"
+      Link="/Content/LMS/Canvas/CanvasandTurningPoint.htm">
+      <TocEntry
+        Title="Downloading_a_Participant_List" />
+      <TocEntry
+        Title="Using_a_Downloaded_Participant_List" />
+      <TocEntry
+        Title="Updating_a_Participant_List" />
+      <TocEntry
+        Title="Exporting a Session to Canvas" />
+    </TocEntry>
+    <TocEntry
+      Title="DESIRE2LEARN® v10.3 LTI Install Guide for TurningPoint® Cloud"
+      Link="/Content/LMS/Desire2Learn/Desire2Learnv10_3LTI.htm" />
+    <TocEntry
+      Title="Desire2Learn® and TurningPoint® Cloud"
+      Link="/Content/LMS/Desire2Learn/Desire2LearnandTurningPoint.htm">
+      <TocEntry
+        Title="Downloading_a_Participant_List" />
+      <TocEntry
+        Title="Using_a_Downloaded_Participant_List" />
+      <TocEntry
+        Title="Updating_a_Participant_List" />
+      <TocEntry
+        Title="Exporting a Session to Desire2Learn" />
+    </TocEntry>
+    <TocEntry
+      Title="Moodle™ Install Guide for TurningPoint® Cloud"
+      Link="/Content/LMS/Moodle/MoodleLTI.htm" />
+    <TocEntry
+      Title="Moodle™ and TurningPoint® Cloud"
+      Link="/Content/LMS/Moodle/MoodleandTurningPoint.htm">
+      <TocEntry
+        Title="Downloading_a_Participant_List" />
+      <TocEntry
+        Title="Using_a_Downloaded_Participant_List" />
+      <TocEntry
+        Title="Updating_a_Participant_List" />
+      <TocEntry
+        Title="Exporting a Session to Moodle" />
+    </TocEntry>
+    <TocEntry
+      Title="Sakai® Install Guide for TurningPoint® Cloud"
+      Link="/Content/LMS/Sakai/SakaiLTI.htm" />
+    <TocEntry
+      Title="Sakai® and TurningPoint® Cloud"
+      Link="/Content/LMS/Sakai/SakaiandTurningPoint.htm">
+      <TocEntry
+        Title="Downloading a Participant List" />
+      <TocEntry
+        Title="Using a Downloaded Participant List" />
+      <TocEntry
+        Title="Updating a Participant List" />
+      <TocEntry
+        Title="Exporting a Session to Sakai" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Participants">
+    <TocEntry
+      Title="Blackboard® 9.1 for TurningPoint® Cloud Participants"
+      Link="/Content/LMS/Blackboard/BlackboardStudentGuide.htm">
+      <TocEntry
+        Title="Navigating to the Turning TechnologiesRegistration ToolAccount Registration Website" />
+      <TocEntry
+        Title="Adding a Device ID"
+        Link="/Content/TurningAccount/Participants/AddingaDevice.htm" />
+      <TocEntry
+        Title="Removing a Device ID"
+        Link="/Content/TurningAccount/Participants/RemovingaDevice.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Canvas® for TurningPoint® Cloud Participants"
+      Link="/Content/LMS/Canvas/CanvasStudentGuide.htm">
+      <TocEntry
+        Title="Navigating to the Turning Technologies Registration LinkTurning Account Registration Link" />
+      <TocEntry
+        Title="Adding a Device ID"
+        Link="/Content/TurningAccount/Participants/AddingaDevice.htm" />
+      <TocEntry
+        Title="Removing a Device ID"
+        Link="/Content/TurningAccount/Participants/RemovingaDevice.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Desire2Learn® for TurningPoint® Cloud Participants"
+      Link="/Content/LMS/Desire2Learn/Desire2LearnforParticipants.htm">
+      <TocEntry
+        Title="Navigating to the Turning TechnologiesAccount Registration Link" />
+      <TocEntry
+        Title="Adding a Device ID"
+        Link="/Content/TurningAccount/Participants/AddingaDevice.htm" />
+      <TocEntry
+        Title="Removing a Device ID"
+        Link="/Content/TurningAccount/Participants/RemovingaDevice.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Moodle™ for TurningPoint® Cloud Participants"
+      Link="/Content/LMS/Moodle/MoodleStudentGuide.htm">
+      <TocEntry
+        Title="Navigating to the Turning Technologies PaneAccount Registration" />
+      <TocEntry
+        Title="Adding a Device ID"
+        Link="/Content/TurningAccount/Participants/AddingaDevice.htm" />
+      <TocEntry
+        Title="Removing a Device ID"
+        Link="/Content/TurningAccount/Participants/RemovingaDevice.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Sakai® for TurningPoint® Cloud Participants"
+      Link="/Content/LMS/Sakai/SakaiforParticipants.htm">
+      <TocEntry
+        Title="Navigating to the Turning Technologies Device RegistrationTurning Account Registration Link" />
+      <TocEntry
+        Title="Adding a Device ID"
+        Link="/Content/TurningAccount/Participants/AddingaDevice.htm" />
+      <TocEntry
+        Title="Removing a Device ID"
+        Link="/Content/TurningAccount/Participants/RemovingaDevice.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

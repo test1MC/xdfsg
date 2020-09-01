@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="ExamView - New Users"
+    Link="/Content/ExamView/Training/NewUsers.htm">
+    <TocEntry
+      Title="Creating a Test with the QuickTest Wizard"
+      Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/CreatingaTestwiththeQuickTestWizard.htm" />
+    <TocEntry
+      Title="Creating a New Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/CreatingaNewQuestionBank.htm" />
+    <TocEntry
+      Title="Editing/Creating Questions on a Test"
+      Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/EditingCreatingQuestionsonaTest.htm" />
+    <TocEntry
+      Title="Toggle Bimodal"
+      Link="/Content/ExamView/TestGenerator/QuestionTypes/ToggleBimodal.htm" />
+    <TocEntry
+      Title="Saving a Test"
+      Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/SavingaTest.htm" />
+    <TocEntry
+      Title="Saving a Question Bank"
+      Link="/Content/ExamView/TestGenerator/TheQuestionBank/SavingaQuestionBank.htm" />
+    <TocEntry
+      Title="Printing a Test"
+      Link="/Content/ExamView/TestGenerator/TheTestBuilder/TestBuilderBasics/PrintingaTest.htm" />
+  </TocEntry>
+</CatapultToc>

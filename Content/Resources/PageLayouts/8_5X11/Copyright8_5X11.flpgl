@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="All" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1in" PaddingRight="1.5in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" Height="9in" Width="7in" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="bottom" BackgroundImage="../../Images/Footer_LeftPage.png">
+        <Frame Flow="body" Y="48px" Bottom="12px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="576px" Height="804px">
+        </Frame>
+        <Frame Flow="footer" Height="35px" Anchors="Left,Right,Bottom" Right="-48px" Bottom="-58px" X="144px" Y="887px" Width="480px" TextAlign="right" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="color: #a9a9a9;text-align: right;"><MadCap:variable xhtml:name="General.VanityURL" xhtml:style="font-size: 9pt;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

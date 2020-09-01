@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Updating CPS Pulse™ Hardware"
+    Link="/Content/Hardware/Clickers/UpdatingCPSPulseHardware/UpdatingCPSPulseHardware.htm"
+    BreakType="chapter"
+    PageType="normal"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Accessing the Firmware Updater"
+      Link="/Content/Hardware/Clickers/UpdatingCPSPulseHardware/AccessingtheFirmwareUpdater.htm" />
+    <TocEntry
+      Title="Updating the CPS Pulse SRS Devices"
+      Link="/Content/Hardware/Clickers/UpdatingCPSPulseHardware/UpdatingtheCPSPulseSRSDevices.htm" />
+    <TocEntry
+      Title="Updating the CPS Pulse Receiver"
+      Link="/Content/Hardware/Clickers/UpdatingCPSPulseHardware/UpdatingtheCPSPulseReceiver.htm" />
+  </TocEntry>
+</CatapultToc>

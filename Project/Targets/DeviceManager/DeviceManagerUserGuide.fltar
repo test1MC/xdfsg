@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/DeviceManager/DeviceManager.fltoc"
+  ConditionTagExpression="include[DocType.UG]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/ProductName">Device Manager</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Device Manager User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">Device Manager</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

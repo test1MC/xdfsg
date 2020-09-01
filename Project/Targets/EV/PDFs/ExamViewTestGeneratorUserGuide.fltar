@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[DocType.UG or Versions.9] "
+  MasterToc="/Project/TOCs/EV/EVTG.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <Variables>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">ExamView Test Generator</Variable>
+    <Variable
+      Name="General/ProductName">ExamView Test Generator</Variable>
+    <Variable
+      Name="General/UserGuideTitle">ExamView Test Generator User Guide</Variable>
+    <Variable
+      Name="General/VersionNumber">9.0</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+  <DocumentProperties
+    Title="ExamView Test Generator User Guide"
+    Subject="ExamView Test Generator User Guide"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

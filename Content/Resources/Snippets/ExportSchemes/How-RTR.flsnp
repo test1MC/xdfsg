@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="SmallTitle">How does the integration work?</p>
+        <p>The participant information from <MadCap:variable name="Schemes.NewVariable" /> is downloaded and converted into a TurningPoint Cloud participant list. The participant list is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. Session scores are then exported from TurningPoint Cloud in a specific format and imported into <MadCap:variable name="Schemes.NewVariable" />.</p>
+    </body>
+</html>

@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Name="Triton-W"
+    BackgroundColor="#adff2f"
+    Comment="Triton Web"
+    OriginalName="Triton-W" />
+  <ConditionTag
+    Comment="TurningPoint"
+    Name="TP"
+    BackgroundColor="#f07600" />
+  <ConditionTag
+    BackgroundColor="#00ffff"
+    Name="I360"
+    Comment="Insight 360" />
+  <ConditionTag
+    BackgroundColor="#ee4137"
+    Name="WS"
+    Comment="WorkSpace" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="Flow"
+    Comment="Flow" />
+  <ConditionTag
+    BackgroundColor="#7645cb"
+    Name="I360TA"
+    Comment="Insight 360 Teacher app" />
+  <ConditionTag
+    BackgroundColor="#002fff"
+    Name="I360SA"
+    Comment="Insight 360 Student app" />
+  <ConditionTag
+    BackgroundColor="#eb00ff"
+    Name="Mobi360"
+    Comment="Mobi 360" />
+  <ConditionTag
+    BackgroundColor="#dcff00"
+    Name="MobiView"
+    Comment="MobiView" />
+  <ConditionTag
+    BackgroundColor="#00a69c"
+    Name="RW"
+    Comment="ResponseWare" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="EV-TP"
+    Comment="ExamView Test Player" />
+  <ConditionTag
+    BackgroundColor="#7fff00"
+    Name="EV-TM"
+    Comment="ExamView Test Manager" />
+  <ConditionTag
+    Name="EV-TG"
+    Comment="ExamView Test Generator"
+    BackgroundColor="#559e0b" />
+  <ConditionTag
+    BackgroundColor="#ff69b4"
+    Name="Triton-PA"
+    Comment="Triton Proctor Application"
+    OriginalName="Triton-PA" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="DeviceManager"
+    Comment="DeviceManager"
+    OriginalName="DeviceManager" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="EV-LS"
+    Comment="ExamView Learning Series"
+    OriginalName="EV-LS" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="WS-Connect"
+    Comment="WorkSpace Connect" />
+  <ConditionTag
+    BackgroundColor="#00bfff"
+    Name="I360ITA"
+    Comment="Insight 360 IT Admin"
+    OriginalName="I360ITA" />
+  <ConditionTag
+    BackgroundColor="#00ff00"
+    Name="vPad"
+    Comment="vPad" />
+  <ConditionTag
+    BackgroundColor="#e9967a"
+    Name="HardwareUpdater"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#483d8b"
+    Name="KeyTrak"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b4513"
+    Name="RCProgrammer"
+    Comment=""
+    OriginalName="RCProgrammer" />
+  <ConditionTag
+    BackgroundColor="#ff00ff"
+    Name="PresenterCard"
+    Comment=""
+    OriginalName="PresenterCard" />
+  <ConditionTag
+    BackgroundColor="#2f4f4f"
+    Name="PresenterWare"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#32cbcd"
+    Name="TurningPoint Cloud"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffe4c4"
+    Name="PPP PC"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#f0f8ff"
+    Name="PPP Mac"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#9acd32"
+    Name="Touch Board"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#fa8072"
+    Name="Touch Board Plus"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffd700"
+    Name="DualBoard"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ff0000"
+    Name="AdjustIt - Arm"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#cd5c5c"
+    Name="AdjustIt - Stand"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#0000ff"
+    Name="AdjustIt - Mount"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#008000"
+    Name="Export"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffa500"
+    Name="Turning Account"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="TurningPoint Lite"
+    Comment="" />
+</CatapultConditionTagSet>

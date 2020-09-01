@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/SDK Receiver Overview.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">SDK Receiver Overview</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+    <Variable
+      Name="General/PRODUCT">SDK Receiver Overview</Variable>
+    <Variable
+      Name="General/ProductName">SDK Receiver Overview</Variable>
+    <Variable
+      Name="General/UserGuideTitle">SDK Receiver Overview</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="SDK Receiver Overview"
+    Subject="SDK Receiver Overview"
+    Keywords="SDK Receiver Overview"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

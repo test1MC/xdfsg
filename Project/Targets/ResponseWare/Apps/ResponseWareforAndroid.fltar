@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseWare for Android"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  Skin="/Project/Skins/ResponseWare.flskn"
+  MasterToc="/Project/TOCs/ResponseWare/Apps/ResponseWareforAndroidiOS.fltoc"
+  ConditionTagExpression="include[DocType.HTML-PC or OS.PC or &quot;Product.TurningPoint Cloud&quot;]exclude[DocType.HTML-Mac or DocType.UG or DocType.UG-Mac or DocType.UG-PC or OS.Mac or Product.TP]"
+  MakeFileLowerCase="true"
+  Medium="non-print"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  ExcludeUnreferencedContent="true"
+  DefaultUrl="/Content/ResponseWare/Participants/App/ResponseWareParticipantGuide.htm">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseWare for Android</Variable>
+  </Variables>
+</CatapultTarget>

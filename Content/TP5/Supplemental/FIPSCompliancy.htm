@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="643" MadCap:lastWidth="720">
+    <head>
+        <link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>FIPS and TurningPoint®</h1>
+        <p>This document outlines FIPS compliance and TurningPoint (version 5.x) in a Microsoft Windows® environment.</p>
+        <p>TurningPoint can be compliant with FIPS (Federal Information Processing Standard) 140-2. FIPS 140-2 specifies how particular algorithms can be used, and how encryption keys are to be developed and managed. </p>
+        <p class="SmallTitle">How is TurningPoint FIPS compliant?</p>
+        <ul>
+            <li> During installation, if TurningPoint detects that the computer is FIPS compliant, the software disables any functionality within the application that utilizes the MD5 hash algorithm.</li>
+        </ul>
+        <p class="SmallTitle">How does TurningPoint determine if the operating system is FIPS compliant?</p>
+        <ul>
+            <li>The following queries are performed at runtime:<ul><li><span class="Bold">Windows XP/Server 2003</span> <ul><li>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\<span class="Italic">FIPSAlgorithmPolicy</span></li></ul></li><li><span class="Bold">Windows Vista and newer</span><ul><li>HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\FipsAlgorithmPolicy\<span class="Italic">Enabled</span></li></ul></li></ul></li>
+        </ul>
+        <p class="SmallTitle">Which features are disabled in the FIPS compliant version of TurningPoint?</p>
+        <ul>
+            <li>ResponseWare (disabled ONLY in TurningPoint 5.0 and 5.1; ResponseWare in TurningPoint 5.2 and higher does not require the MD5 hash algorithm)<ul><li>A check is performed when calling Login to see if the environment is enforcing FIPS compliance </li></ul></li>
+            <li>Moodle and Sakai integrations<ul><li>A &lt;FIPSCompliant&gt; node was added to the lms_properties.xml to denote which systems are not FIPS compliant</li></ul></li>
+            <li>HID receiver piece that prevents compliance</li>
+        </ul>
+        <p class="SmallTitle">Does this product inter-operate between two services?</p>
+        <ul>
+            <li>Yes. Turning Technologies utilizes web services to communicate to the following: automatic updates (turned off by default in TurningPoint), ResponseWare and K12 Standards (all hosted by Turning Technologies) and third party Learning Management Systems (LMS). ResponseWare and LMS services are turned off by default when in a FIPS compliant environment.</li>
+        </ul>
+    </body>
+</html>

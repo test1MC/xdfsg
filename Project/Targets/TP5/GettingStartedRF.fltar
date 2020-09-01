@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TP5/Training Documents/FDOC/Getting Started_HW.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name"> </Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+    <Variable
+      Name="Clickers/Clicker">ResponseCard RF/RF LCD</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="GettingStarted/ResponseCardRF/RFLCDTurningPoint5"
+    Subject="GettingStarted/ResponseCardRF/RFLCDTurningPoint5"
+    Keywords="TDTP-5.3rev1_08112014"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

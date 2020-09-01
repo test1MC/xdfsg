@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Taking Attendance in TurningPoint Cloud"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/TakingAttendanceinTurningPointCloud.fltoc"
+  ConditionTagExpression="include[DocType.Other]exclude[DocType.HTML or DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <DocumentProperties
+    Title="TakingAttendanceinTurningPointCloud"
+    Author="Turning Technologies"
+    Subject="TakingAttendanceinTurningPointCloud" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Taking Attendance in TurningPoint Cloud</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+  </Variables>
+</CatapultTarget>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/EV/EVIU.fltoc"
+  ConditionTagExpression="include[DocType.UG or Versions.9]"
+  PatchHeadingLevels="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ExamView Import Utility</Variable>
+    <Variable
+      Name="Variables/Version #">9.0</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/products/examview/examview-assessment-suite</Variable>
+    <Variable
+      Name="General/ProductName">ExamView Import Utility</Variable>
+    <Variable
+      Name="General/VersionNumber">9.0</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true" />
+  <DocumentProperties
+    Title="ExamView Import Utility User Guide"
+    Subject="ExamView Import Utility User Guide"
+    Author="Turning Technologies"
+    Keywords="UGEVTG-8.1rev2_031714" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

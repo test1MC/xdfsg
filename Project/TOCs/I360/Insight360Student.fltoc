@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/I360/StudentApp/Welcome.htm"
+    conditions="DocType.HTML"
+    StartSection="false" />
+  <TocEntry
+    Title="Insight 360™ Student App for iOSAndroid"
+    Link="/Content/I360/StudentApp/Insight360Student.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/I360/StudentApp/TechnicalRequirements.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Instructors/CreatingaTurningAccount-Instructor.htm" />
+    <TocEntry
+      Title="Obtaining the Insight 360 Student App"
+      Link="/Content/I360/StudentApp/ObtainingtheInsight360StudentApp.htm" />
+    <TocEntry
+      Title="Connecting to the Teacher Computer"
+      Link="/Content/I360/StudentApp/ConnectingtheInsight360StudentApp.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG2Column.flpgl" />
+    <TocEntry
+      Title="Removing a Computer from the Previous Desktop List"
+      Link="/Content/I360/StudentApp/RemovingaComputerfromthePreviousDesktopList.htm" />
+    <TocEntry
+      Title="Student Annotation Tools"
+      Link="/Content/I360/StudentApp/StudentAnnotationTools.htm" />
+    <TocEntry
+      Title="Answering Questions"
+      Link="/Content/I360/StudentApp/AnsweringQuestions.htm" />
+    <TocEntry
+      Title="Annotating Constructed Response Content"
+      Link="/Content/I360/StudentApp/AnnotatingConstructedResponseContent.htm" />
+    <TocEntry
+      Title="Exporting Content to External Applications"
+      Link="/Content/I360/StudentApp/ExportingContenttoExternalApplications.htm" />
+    <TocEntry
+      Title="Using the Insight 360 Student App with Self-Paced Tests"
+      Link="/Content/I360/StudentApp/UsingtheInsight360StudentAppwithSelfPacedTests.htm" />
+    <TocEntry
+      Title="Using the Scratchpad"
+      Link="/Content/I360/StudentApp/UsingtheScratchpad.htm" />
+    <TocEntry
+      Title="Viewing Results"
+      Link="/Content/I360/StudentApp/ViewingResults.htm" />
+    <TocEntry
+      Title="Exiting the Insight 360 Student App"
+      Link="/Content/I360/StudentApp/ExitingtheInsight360Studentapp.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Copyright Statement"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.HTML"
+    StartSection="false" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+</CatapultToc>

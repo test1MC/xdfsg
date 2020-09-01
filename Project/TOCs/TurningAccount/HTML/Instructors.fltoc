@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Turning Account for Instructors"
+    Link="/Content/TurningAccount/Welcome.htm">
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Instructors/CreatingaTurningAccount-Instructor.htm"
+      ReplaceMergeNode="false" />
+    <TocEntry
+      Title="Creating a Participant List"
+      Link="/Content/TurningAccount/Instructors/CreatingaParticipantList.htm" />
+    <TocEntry
+      Title="Importing a Participant List"
+      Link="/Content/TPC/ParticipantLists/ImportingaParticipantListTA.htm" />
+    <TocEntry
+      Title="Downloading Software"
+      Link="/Content/TurningAccount/Instructors/DownloadingSoftware.htm" />
+    <TocEntry
+      Title="Viewing License Information"
+      Link="/Content/TurningAccount/Instructors/ViewingLicenseInformation.htm" />
+  </TocEntry>
+</CatapultToc>

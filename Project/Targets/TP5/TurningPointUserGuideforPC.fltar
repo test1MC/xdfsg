@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TP5/TurningPointUserGuide.fltoc"
+  ConditionTagExpression="include[DocType.UG or OS.PC]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">TurningPoint 5 for PC</Variable>
+    <Variable
+      Name="Variables/Version #">5.3</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+  <DocumentProperties
+    Title="TurningPoint5forPCUserGuide"
+    Author="Turning Technologies"
+    Subject="TurningPoint5forPCUserGuide"
+    Keywords="UGTPrev3_11042014" />
+</CatapultTarget>

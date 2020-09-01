@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="734" MadCap:lastWidth="913">
+    <head>&#160;<link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h2 class="task" style="margin-top: 18pt;">Exposing the Auxiliary Session Save Setting for PC</h2>
+        <p>Prior to editing the TurningPoint 5 settings, verify that version 5.3 of the TurningPoint 5 software is installed and that you are logged in as the Administrator.</p>
+        <p class="Prerequisites" MadCap:autonum="Prerequisites">&#160;</p>
+        <p>TurningPoint 5 must be opened once and then closed prior to performing the steps below. If TurningPoint 5 is not opened and then closed, the TurningPointexe.settings file will not be visible.</p>
+        <ol class="Gotham">
+            <li>Open the TurningPoint 5 folder.</li>
+            <li>Double-click the <span class="Bold">Application</span> folder.</li>
+            <li>Locate and open the <span class="Bold">TurningPointexe.settings</span> file. It is recommended to open the file with Notepad.</li>
+            <li>In Notepad, click <span class="Bold">Edit</span> and select <span class="Bold">Find</span>.</li>
+            <li>Search for <span class="Bold">secondary</span>.</li>
+            <li>Press <span class="Bold">Enter</span> three times until the command <br /><span class="ComputerText">&lt;DisplaySecondarySaveLocation datatype="Boolean"&gt;False&lt;/DisplaySecondarySaveLocation&gt;</span> is displayed.</li>
+            <li>In the above command, change <span class="ComputerText">False</span> to <span class="Bold">True</span>.</li>
+            <li>Click <span class="Bold">File</span> and select <span class="Bold">Save</span>.<p class="InList">The secondary save location now appears in Preferences.</p><p><img src="Location.png" class="MediumWide288px" /></p></li>
+            <li>Open TurningPoint 5 and click the <span class="Bold">Preferences <img src="../../../Graphics/TP5/Welcome/Icon-Preferences.png" class="Inline30px" /></span> icon in the lower right corner of the Dashboard.</li>
+            <li>Select <span class="Bold">Software</span> from left menu and locate <span class="Italic">Auxiliary Session Save Location</span>.</li>
+            <li>Click<span class="Bold"> ...</span> to select a save location.</li>
+            <li>Click <span class="Bold">Close</span>.</li>
+        </ol>
+    </body>
+</html>

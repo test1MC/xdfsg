@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/WorkSpace/WorkSpaceforJava.fltoc"
+  ConditionTagExpression="include[DocType.UG or OS.Linux or OS.Mac]exclude[DocType.Handbook or DocType.HTML or DocType.HTML-Mac or DocType.HTML-PC or DocType.Other or DocType.QSG or DocType.StyleGuide or DocType.Support or DocType.Training or DocType.UG-Mac or DocType.UG-PC or OS.PC or Product.DeviceManager or Product.EV-LS or Product.EV-TG or Product.EV-TM or Product.EV-TP or Product.Flow or Product.HardwareUpdater or Product.I360 or Product.I360ITA or Product.I360SA or Product.I360TA or Product.KeyTrak or Product.Mobi360 or Product.MobiView or &quot;Product.PPP Mac&quot; or &quot;Product.PPP PC&quot; or Product.PresenterCard or Product.PresenterWare or Product.RCProgrammer or Product.RW or &quot;Product.Touch Board&quot; or Product.TP or Product.Triton-PA or Product.Triton-W or &quot;Product.TurningPoint Cloud&quot; or Product.vPad or Product.WS or Product.WS-Connect or &quot;Touch Board.Touch Board&quot;]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">WorkSpace for Java</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/workspace-overview</Variable>
+    <Variable
+      Name="Variables/Version #">6.3</Variable>
+    <Variable
+      Name="General/VersionNumber">6.3</Variable>
+    <Variable
+      Name="General/PRODUCT">WorkSpace for Java</Variable>
+    <Variable
+      Name="General/ProductName">WorkSpace for Java</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="WorkSpaceforJavaUserGuide"
+    Subject="WorkSpaceforJavaUserGuide"
+    Author="Turning Technologies"
+    Keywords="UGWS-6rev3_032514" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

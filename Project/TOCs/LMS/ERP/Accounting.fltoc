@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Accounting"
+    Link="/Content/LMS/ERP/Accounting/Accounting.htm">
+    <TocEntry
+      Title="Creating a License"
+      Link="/Content/LMS/ERP/Accounting/CreatingaLicense.htm" />
+  </TocEntry>
+</CatapultToc>

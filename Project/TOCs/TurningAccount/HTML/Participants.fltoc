@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Turning Account for Participants"
+    Link="/Content/TurningAccount/Welcome.htm">
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Participants/CreatingaTurningAccount-Participants.htm" />
+    <TocEntry
+      Title="Purchasing a License"
+      Link="/Content/TurningAccount/Participants/PurchasingaLicense.htm" />
+    <TocEntry
+      Title="Adding a Device"
+      Link="/Content/TurningAccount/Participants/AddingaDevice.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="../../../../Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Enrolling in a Course"
+      Link="/Content/TurningAccount/Participants/EnrollinginaCourse.htm" />
+    <TocEntry
+      Title="Joining a ResponseWare Session"
+      Link="/Content/TurningAccount/Participants/JoiningaResponseWareSession.htm" />
+    <TocEntry
+      Title="Removing a Device"
+      Link="/Content/TurningAccount/Participants/RemovingaDevice.htm" />
+  </TocEntry>
+</CatapultToc>

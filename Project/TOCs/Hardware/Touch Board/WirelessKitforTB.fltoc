@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Wireless Kit for Touch Board"
+    Link="/Content/Hardware/TouchBoard/WirelessKitfor ouchBoard.htm"
+    BreakType="chapter"
+    PageType="normal"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Connecting the Touch Board Plus via Wireless Kit"
+      Link="/Content/Hardware/TouchBoard/ConnectingtheTouchBoardPlus.htm" />
+    <TocEntry
+      Title="DeclarationofConformity"
+      Link="/Content/Hardware/TouchBoard/DeclarationofConformity_1.htm" />
+  </TocEntry>
+</CatapultToc>

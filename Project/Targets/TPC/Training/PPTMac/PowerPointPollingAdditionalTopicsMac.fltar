@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[OS.Mac or &quot;Product.TurningPoint Cloud&quot; or Versions.6_1]"
+  PatchHeadingLevels="true"
+  MasterToc="/Project/TOCs/TPC/Training Documents/PowerPoint Polling/Mac/PowerPointPolling AdditionalObjectsMacPartOne.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">PowerPoint Polling for Mac Additional Topics </Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/training-support</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="PowerPoint Polling for Mac Additional Topics"
+    Subject="PowerPoint Polling for Mac Additional Topics"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

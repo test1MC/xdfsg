@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/I360/PlugIns/Insight360andPowerSchool.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Insight 360 and PowerSchool/PowerTeacher</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/insight-360-overview</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Insight 360 and PowerSchool/PowerTeacher"
+    Subject="Insight 360 and PowerSchool/PowerTeacher"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

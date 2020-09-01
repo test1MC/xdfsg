@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h3 class="task">Exporting a Session to an Export Scheme</h3>
+        <p>After the file is added to the Schemes folder, you can export a session from TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText> and import it into a scheme.</p>
+        <ol class="Gotham">
+            <li>Open <span class="Bold">TurningPoint</span><MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"><span class="Bold">Cloud</span></MadCap:conditionalText>.</li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">Sign in to your Turning Account</li>
+            <li>From the Manage tab, select the <span class="Bold">participant list</span> that corresponds with your session.</li>
+            <li>Click <span class="Bold">Results Manager</span> in the lower right corner of the Dashboard.</li>
+            <li>Select the <span class="Bold">column header</span> from the column to be exported, click the <span class="Italic">Export</span> icon and choose <span class="Bold">Session</span>.<p class="InList">The <span class="Italic">Export Session to Data Scheme</span> window is displayed.</p></li>
+            <li>Select the <span class="Bold">appropriate scheme</span> from the drop-down menu and click <span class="Bold">Save</span>.<p class="InList">The file is exported and saved as either a CSV or TXT file.</p></li>
+        </ol>
+    </body>
+</html>

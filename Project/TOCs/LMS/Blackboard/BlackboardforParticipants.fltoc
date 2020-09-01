@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Blackboard® 9.1 for TurningPoint Cloud Participants"
+    Link="/Content/LMS/Blackboard/BlackboardStudentGuide.htm">
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Participants/CreatingaTurningAccount-Participants.htm"
+      StartSection="false"
+      conditions="TurningPoint.TurningPoint Cloud" />
+    <TocEntry
+      Title="Purchasing or Redeeming a License"
+      Link="/Content/TurningAccount/Participants/PurchasingaLicense.htm"
+      conditions="TurningPoint.TurningPoint Cloud" />
+    <TocEntry
+      Title="Adding a Device"
+      Link="/Content/TurningAccount/Participants/AddingaDevice.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+      conditions="TurningPoint.TurningPoint Cloud" />
+    <TocEntry
+      Title="Removing a Device"
+      Link="/Content/TurningAccount/Participants/RemovingaDevice.htm"
+      conditions="TurningPoint.TurningPoint Cloud" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+</CatapultToc>

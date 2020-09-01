@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <h3 class="task">Self-Paced Polling</h3>
+        <ol class="Gotham">
+            <li>Open TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud and sign in to your Turning Account</MadCap:conditionalText>.</li>
+            <li>Select the <span class="Bold">participant list</span>, the <span class="Bold">content file</span> and click <span class="Bold">Self-Paced Polling</span>.</li>
+            <li>
+                <span class="Bold">Run</span> the polling session.</li>
+            <li>When you are finished polling, click <span class="Bold">Save</span> on the Self-Paced Polling toolbar.<p class="InList">Session files should be stored in the default save location. If the session is saved in another location it will then need to be placed in the TurningPoint Cloud Sessions folder or imported into TurningPoint Cloud.</p></li>
+            <li>
+                <span class="Bold">Name</span> the session files and click <span class="Bold">Save</span>.</li>
+            <li>
+                <span class="Bold">Close</span> Self-Paced Polling to return to the TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud</MadCap:conditionalText> Dashboard.</li>
+        </ol>
+    </body>
+</html>

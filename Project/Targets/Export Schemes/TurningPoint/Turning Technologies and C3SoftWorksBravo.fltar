@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Turning Technologies and C3 SoftWorks - Bravo!"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Export Schemes/SDKs/C3SoftWorks-BravoandResponseCards.fltoc"
+  ConditionTagExpression="include[DocType.UG] "
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Turning Technologies and C3 Softworks - Bravo!</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Turning Technologies and C3 SoftWorks - Bravo!"
+    Author="Turning Technologies"
+    Subject="Turning Technologies and C3 SoftWorks - Bravo!"
+    Keywords="Turning Technologies and C3 SoftWorks - Bravo!" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="5" MadCap:lastHeight="1960" MadCap:lastWidth="1086">
+    <body>
+        <h3 class="task">Downloading a Participant List from an Integration (LMS)</h3>
+        <div class="Note">
+            <p>Importing from an LMS can only be used if the integration has been installed on the LMS server. Please contact your IT Department to confirm that the LMS integration is installed and configured to operate with TurningPoint Cloud.</p>
+        </div>
+        <p MadCap:conditions="Product.TurningPoint Cloud">To import a participant list with an exported file from an Integration, see <MadCap:xref MadCap:unresolvedLink="import-link:participant_lists_new_1259139257_chdjgcge" href="../../../TPC/ParticipantLists/Managing/ImportingParticipantLists.htm"><b><i>Importing Participant Lists</i></b><span style="color: #524f52;" class="mcFormatColor"> on page 1</span></MadCap:xref>.</p>
+        <div class="ImageFloatRight">
+            <p>
+                <img src="../../../Graphics/TPC/Windows/Window-CreateParticipantList1.png" class="MediumWide288pxGrayBorder" MadCap:conditions="DocType.UG" alt="Create Participant List Window" title="Create Participant List Window" />
+            </p>
+        </div>
+        <ol class="Gotham">
+            <li>
+                <MadCap:snippetText src="../TPC/Open TPC.flsnp" />
+            </li>
+            <li>
+                <MadCap:snippetText src="../TPC/SelectManagetab.flsnp" />
+            </li>
+            <li>Click the <span class="Italic">Participant List</span> drop-down menu and select <span class="Bold">New</span>.<p class="InList">The <span class="Italic">Create Participant List</span> window opens.</p><p class="InList"><img src="../../../Graphics/TPC/Windows/Window-CreateParticipantList1.png" class="Thumbnail" MadCap:conditions="DocType.HTML" alt="Create Participant List Window" title="Create Participant List Window" /></p></li>
+            <li>Select the <span class="Bold">Download from Integration </span>radio button and click <span class="Bold">Create List</span>.<p class="InList">The <span class="Italic">Connect to Integration</span> window opens.</p><p class="InList"><img src="../../../Graphics/TPC/Windows/Window-ConnectToIntegration.png" class="Thumbnail" MadCap:conditions="DocType.HTML" alt="Connect To Integration Window" title="Connect To Integration Window" /></p></li>
+            <li>Select the appropriate <span class="Bold">Integration</span> from the <span class="Italic">Integration</span> drop-down menu.<div class="ImageFloatRight"><p><img src="../../../Graphics/TPC/Windows/Window-ConnectToIntegration.png" class="MediumWide288pxGrayBorder" MadCap:conditions="DocType.UG" alt="Connect To Integration Window" title="Connect To Integration Window" /></p></div></li>
+            <li>Enter the <span class="Bold">Server Address</span>, <span class="Bold">Username</span> and <span class="Bold">Password</span> in the appropriate fields.</li>
+            <li>Click <span class="Bold">Connect</span>.<p class="InList">Optionally, click <span class="Bold">Remember this information </span>to have the Integration, Server Address and User Name stored for future use. </p></li>
+            <li>If applicable, select the <span class="Bold">Institution</span> from the <span class="Italic">Select an Institution</span> drop-down menu.<p class="InList">The <span class="Italic">Import Participant List</span> window opens.</p></li>
+            <li>Select the <span class="Bold">course or courses</span> to import. Optionally, select the <span class="Bold">Select All</span> checkbox to import all courses.</li>
+            <li>Click <span class="Bold">Import</span>.<div class="ImageFloatRight"><p><img src="../../../Graphics/TPC/Windows/Window-ImportParticipantListConfirmation.png" class="MediumWide288pxGrayBorder" MadCap:conditions="DocType.UG" alt="Successful Import Confirmation" title="Successful Import Confirmation" /></p></div><p class="InList">A confirmation box is displayed.</p><p class="InList"><img src="../../../Graphics/TPC/Windows/Window-ImportParticipantListConfirmation.png" class="Thumbnail" MadCap:conditions="DocType.HTML" alt="Successful Import Confirmation" title="Successful Import Confirmation" /></p></li>
+            <li>Click <span class="Bold">OK</span>.<p class="InList">The participant list is added to the left panel of the <span class="Italic">Participant List Overview</span> screen.</p></li>
+            <li>Select the <span class="Bold">participant list </span>to view the participant information.<div class="Tip"><p>The imported participant list contains the following information: Device ID(s), License Status, First Name, Last Name, User ID and Email.</p></div></li>
+        </ol>
+    </body>
+</html>

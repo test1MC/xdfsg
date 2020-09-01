@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="ResponseCard NXT"
+    Link="/Content/Hardware/Clickers/RCNXT/ResponseCardNXT.htm">
+    <TocEntry
+      Title="Changing the Channel on the ResponseCard NXT"
+      Link="/Content/Hardware/Clickers/RCNXT/ChangingtheChannelNXT.htm" />
+    <TocEntry
+      Title="Presentation Mode Toolbox"
+      Link="/Content/Hardware/Clickers/RCNXT/PresentationMode-Toolbox.htm" />
+    <TocEntry
+      Title="Responding in Presentation Mode"
+      Link="/Content/Hardware/Clickers/RCNXT/PresentationMode-Responding.htm" />
+    <TocEntry
+      Title="Presentation Mode Example Screens"
+      Link="/Content/Hardware/Clickers/RCNXT/PresentationMode-ExampleScreens.htm" />
+    <TocEntry
+      Title="Test Mode Toolbox"
+      Link="/Content/Hardware/Clickers/RCNXT/TestMode-Toolbox.htm" />
+    <TocEntry
+      Title="Logging Into a Test on the ResponseCard NXT"
+      Link="/Content/Hardware/Clickers/RCNXT/TestMode-LogginIn.htm" />
+    <TocEntry
+      Title="Taking a Test on a ResponseCard NXT"
+      Link="/Content/Hardware/Clickers/RCNXT/TestMode-TakingaTest.htm" />
+    <TocEntry
+      Title="Navigating Questions on the ResponseCard NXT"
+      Link="/Content/Hardware/Clickers/RCNXT/TestMode-Navigating.htm" />
+    <TocEntry
+      Title="Sending a Test on the ResponseCard NXT"
+      Link="/Content/Hardware/Clickers/RCNXT/TestMode-Sending.htm" />
+  </TocEntry>
+</CatapultToc>

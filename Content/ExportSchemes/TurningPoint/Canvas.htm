@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="3638" MadCap:lastWidth="1091">
+    <head>&#160;<link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud</MadCap:conditionalText> and Canvas</h1>
+        <p>This document outlines the steps for using TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>with Canvas.</p>
+        <p class="SmallTitle" MadCap:conditions="TurningPoint.TurningPoint 5">How does the integration work?</p>
+        <p MadCap:conditions="TurningPoint.TurningPoint 5">Participants are instructed to register their response device through the Web Registration Tool hosted by Turning Technologies. The participant information from Canvas is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. In Results Manager, the participant list is updated with the latest registrations from the Web Registration Tool. Once the participant list is updated, the session scores are exported from TurningPoint in a specific format and then imported into Canvas.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/How-TurningAccount.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading Scores from Canvas</h3>
+        <ol class="Gotham">
+            <li>Login to Canvas.<div class="ImageFloatRight"><p><img src="../../Graphics/ExportSchemes/Canvas-Courses-MyCourses.png" class="MediumWide288pxGrayBorder" style="width: 450px; height: 173px;"></img></p></div></li>
+            <li>Mouse over <span class="Bold">Courses</span> and select the appropriate <span class="Bold">course</span>.</li>
+            <li>Click <span class="Bold">Grades</span> from the left panel.</li>
+            <li>Click the <span class="Italic">Options</span><img src="../../Graphics/ExportSchemes/Canvas-Icon-Options.png" class="Callout25px"></img> drop-down menu and select <span class="Bold">Download Scores (.csv)</span>.</li>
+            <li><span class="Bold">Open</span> the CSV file in Microsoft Excel.</li>
+            <li>Click <span class="Bold">File</span> and select <span class="Bold">Save As</span>.</li>
+            <li><span class="Bold">Name</span> the file, <span class="Bold">browse</span> to the desired save location and click <span class="Bold">Save</span>.<p class="InList">Now that the CSV file has been saved, it is time to import the information as a TurningPoint participant list.</p></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/PowerPointPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AnywherePolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AfterClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/UpdatingPList.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to Canvas</h3>
+        <ol class="Gotham">
+            <li>Login to Canvas.</li>
+            <li>Mouse over <span class="Bold">Courses</span> and select the appropriate <span class="Bold">course</span>.</li>
+            <li>Click <span class="Bold">Grades</span> from the left panel.</li>
+            <li>Click the <span class="Italic">Options</span> drop-down menu and select <span class="Bold">Upload Scores (.csv)</span>.</li>
+            <li>Click <span class="Bold">Choose File</span>, select the file and click <span class="Bold">Open</span>.</li>
+            <li>Click <span class="Bold">Upload Data</span>.</li>
+            <li>Select the assignment type from the drop-down menu and click <span class="Bold">Continue</span>.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>Enter the points possible for the new assignment.</p></div></li>
+            <li>Click <span class="Bold">Save Changes</span>.<p class="InList">The assignment now appears in the gradebook.</p></li>
+        </ol>
+    </body>
+</html>

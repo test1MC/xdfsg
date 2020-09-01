@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Moodle™ for TurningPoint Cloud Participants"
+    Link="/Content/LMS/Moodle/MoodleStudentGuide.htm">
+    <TocEntry
+      Title="Creating a Turning Account"
+      Link="/Content/TurningAccount/Participants/CreatingaTurningAccount-Participants.htm"
+      conditions="TurningPoint.TurningPoint Cloud" />
+    <TocEntry
+      Title="Purchasing or Redeeming a License"
+      Link="/Content/TurningAccount/Participants/PurchasingaLicense.htm"
+      conditions="TurningPoint.TurningPoint Cloud" />
+    <TocEntry
+      Title="Adding a Device"
+      Link="/Content/TurningAccount/Participants/AddingaDevice.htm"
+      conditions="TurningPoint.TurningPoint Cloud" />
+    <TocEntry
+      Title="Removing a Device"
+      Link="/Content/TurningAccount/Participants/RemovingaDevice.htm"
+      conditions="TurningPoint.TurningPoint Cloud" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+</CatapultToc>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Anywhere Polling Additional Topics"
+    Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Anywhere Polling_Additional Topics.htm">
+    <TocEntry
+      Title="Environment 1: Polling On-the-Fly or Over an Application"
+      Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Environment 1.htm">
+      <TocEntry
+        Title="Demographic Assignment"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Demographic_Assignment.htm" />
+      <TocEntry
+        Title="Team Competitions"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Team_Competitions.htm" />
+      <TocEntry
+        Title="Team Leaderboard"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Team_Leaderboard.htm" />
+      <TocEntry
+        Title="Participant Leaderboard"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Participant_Leaderboard.htm" />
+      <TocEntry
+        Title="Fastest Responder"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Fastest_Responder.htm" />
+      <TocEntry
+        Title="Compare with Question"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Compare_with_Question.htm"
+        BreakType="none"
+        StartSection="false" />
+    </TocEntry>
+    <TocEntry
+      Title="Environment 2: Polling with a Question List"
+      Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Environment_2__Polling_with_a_Question_List.htm"
+      BreakType="none"
+      StartSection="false">
+      <TocEntry
+        Title="Results by Demographic Report"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Results_by_Demographic_Report.htm"
+        BreakType="none"
+        StartSection="false" />
+      <TocEntry
+        Title="Question List: Team Competitions"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Question_List__Team_Competitions.htm"
+        BreakType="pageLayout"
+        StartSection="false" />
+      <TocEntry
+        Title="Question List: Priority Ranking"
+        Link="/Content/TP5/TrainingDocuments/AWPolling/AdditionalTopics/Question_List__Priority_Ranking.htm"
+        BreakType="pageLayout"
+        StartSection="false"
+        ReplaceMergeNode="false" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

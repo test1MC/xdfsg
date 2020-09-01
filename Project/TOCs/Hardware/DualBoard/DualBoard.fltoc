@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+    conditions="DocType.UG"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    PageType="normal"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    PageType="firstright"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Warnings"
+    Link="/Content/Hardware/DualBoard/Warnings.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same" />
+  <TocEntry
+    Title="Getting Started"
+    Link="/Content/Hardware/DualBoard/GettingStarted.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="What’s in the Box?"
+      Link="/Content/Hardware/DualBoard/WhatsintheBox.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Pens"
+      Link="/Content/Hardware/DualBoard/Pens.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Set Up"
+    Link="/Content/Hardware/DualBoard/SetUp.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Installing WorkSpace"
+      Link="/Content/Hardware/TouchBoard/WorkSpace/InstallingWorkSpace.htm"
+      BreakType="pageLayout"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="Installing Ubuntu GNOME"
+      Link="/Content/Hardware/DualBoard/InstallingUbuntuGNOME.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Setting Up the Pen Station"
+      Link="/Content/Hardware/DualBoard/SettingUpthePenStation.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Mounting the DualBoard"
+      Link="/Content/Hardware/DualBoard/MountingtheDualBoard.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Connecting the Video Projector"
+      Link="/Content/Hardware/DualBoard/ConnectingtheVideoProjector.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Powering on the DualBoard"
+      Link="/Content/Hardware/DualBoard/PoweringontheDualBoard.htm" />
+    <TocEntry
+      Title="Connecting the DualBoard via USB"
+      Link="/Content/Hardware/DualBoard/ConnectingtheDualBoardviaUSB.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Connecting the DualBoard via Wireless Kit"
+      Link="/Content/Hardware/DualBoard/ConnectingtheDualBoardviaWirelessKit.htm" />
+    <TocEntry
+      Title="Calibrating the DualBoard"
+      Link="/Content/Hardware/DualBoard/CalibratingDualBoard.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+  </TocEntry>
+  <TocEntry
+    Title="Using The DualBoard"
+    Link="/Content/Hardware/DualBoard/UsingtheDualBoard.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="How DualBoard Works"
+      Link="/Content/Hardware/DualBoard/HowDualBoardWorks.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="DualBoard Features Menu"
+      Link="/Content/Hardware/DualBoard/DualBoardFeaturesMenu.htm"
+      BreakType="none"
+      StartSection="false">
+      <TocEntry
+        Title="Setting the Customizable Function Keys"
+        Link="/Content/Hardware/DualBoard/SettingtheCustomizableFunctionKeys.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Getting Started with Workspace"
+      Link="/Content/Hardware/DualBoard/GettingStartedwithWorkspace.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Opening Workspace from DualBoard"
+        Link="/Content/Hardware/DualBoard/OpeningWorkspace.htm" />
+      <TocEntry
+        Title="Viewing Connected Devices"
+        Link="/Content/Hardware/DualBoard/ViewingConnectedDevices.htm" />
+      <TocEntry
+        Title="WorkSpace Window"
+        Link="/Content/WorkSpace/About/WorkSpaceWindow.htm"
+        StartSection="false" />
+      <TocEntry
+        Title="The WorkSpace Toolbar and Modes"
+        Link="/Content/Hardware/TouchBoard/WorkSpace/TheWorkSpaceToolbarandModes.htm" />
+      <TocEntry
+        Title="Creating a Lesson"
+        Link="/Content/Hardware/DualBoard/CreatingaLesson.htm" />
+      <TocEntry
+        Title="Multi-User Mode"
+        Link="/Content/Hardware/TouchBoard/WorkSpace/Multi-UserMode.htm">
+        <TocEntry
+          Title="Setting Up Multi-User Mode"
+          Link="/Content/WorkSpace/WorkSpace Modes/SettingUpMultiUserMode.htm" />
+        <TocEntry
+          Title="Selecting the Presenter"
+          Link="/Content/WorkSpace/WorkSpace Modes/SelectingthePresenter.htm" />
+        <TocEntry
+          Title="Locking Tablets and Clickers"
+          Link="/Content/Hardware/TouchBoard/WorkSpace/LockingTabletsandClickers.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Distributing Files"
+        BreakType="pageLayout"
+        StartSection="false"
+        Link="/Content/WorkSpace/UsingWorkspace/DistributingFiles.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Optional Accessories"
+    Link="/Content/Hardware/DualBoard/OptionalAccessories.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+  <TocEntry
+    Title="Care and Maintenance"
+    Link="/Content/Hardware/DualBoard/CareandMaintenance.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+  <TocEntry
+    Title="Troubleshooting"
+    Link="/Content/Hardware/DualBoard/Troubleshooting.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+  <TocEntry
+    Title="Declaration of Conformity"
+    Link="/Content/Hardware/DualBoard/DeclarationofConformity.htm" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

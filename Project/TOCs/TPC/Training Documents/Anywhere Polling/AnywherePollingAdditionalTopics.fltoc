@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Anywhere Polling Additional Topics"
+    Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/AnywherePollingAdditionalTopics.htm">
+    <TocEntry
+      Title="Environment 1: Polling On-the-Fly or Over an Application"
+      Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/Environment1.htm">
+      <TocEntry
+        Title="Demographic Assignment"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/DemographicAssignment.htm" />
+      <TocEntry
+        Title="Team Competitions"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/TeamCompetitions.htm" />
+      <TocEntry
+        Title="Team Leaderboard"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/TeamLeaderboard.htm" />
+      <TocEntry
+        Title="Participant Leaderboard"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/ParticipantLeaderboard.htm" />
+      <TocEntry
+        Title="Fastest Responder"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/FastestResponder.htm" />
+      <TocEntry
+        Title="Compare with Question"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/ComparewithQuestion.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Environment 2: Polling with a Question List"
+      Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/Environment2.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Results by Demographic Report"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/ResultsbyDemographicReport.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Question List: Team Competitions"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/QuestionListTeamCompetitions.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Question List: Priority Ranking"
+        Link="/Content/TPC/TrainingDocuments/AWPolling/AdditionalTopics/QuestionListPriorityRanking.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+        ReplaceMergeNode="false" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

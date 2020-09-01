@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <body>
+        <p class="SmallTitle">How does the integration work?</p>
+        <p>Participants are instructed to register their response device through the Turning Account registration website hosted by Turning Technologies. The participant information from <MadCap:variable name="Schemes.NewVariable" /> is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. In Results Manager, the participant list is updated with the latest registrations from the Turning Account registration website. Once the participant list is updated, the session scores are exported from TurningPoint Cloud in a specific format and then imported into <MadCap:variable name="Schemes.NewVariable" />.</p>
+    </body>
+</html>

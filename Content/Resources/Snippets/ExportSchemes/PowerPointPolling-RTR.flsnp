@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1440" MadCap:lastWidth="1073">
+    <body>
+        <h3 class="task">PowerPoint Polling</h3>
+        <p MadCap:conditions="TurningPoint.TurningPoint Cloud">The Real-Time Registration Tool provides a fast and simple way to assign response devices to a participant list. Registration only takes a few moments, thus eliminating the need for manually adding Device IDs into the permanent participant list. The steps below can be performed before each presentation to ensure each participant has the appropriate response device.</p>
+        <ol class="Gotham">
+            <li>Open TurningPoint<MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud"> Cloud and sign in to your Turning Account</MadCap:conditionalText>.<div class="ImageFloatRight"><p><img src="../../../Graphics/ExportSchemes/Window-RTRPC.png" class="MediumWide288px" /></p></div></li>
+            <li>Select the <span class="Bold">participant list</span>, the <span class="Bold">content file</span> (optional) and click <span class="Bold">PowerPoint Polling</span>.</li>
+            <li>Click the <span class="Bold">Real-Time Registration Tool</span> on the TurningPoint ribbon/toolbar.<p class="InList">The Real-Time Registration Tool opens.</p></li>
+            <li>Click <span class="Bold">Play</span> to open registration.</li>
+            <li>Each participant must press a number on their response device that corresponds with the number to the left of their name or User ID.<p class="InList">The Device ID for the participant will appear in the Device ID column.</p><p class="InList">If more than 10 participants are in the participant list, click the forward or back buttons to scroll page by page to see the remaining participants.</p></li>
+            <li>Click the <span class="Bold">Pause</span> button to close registration once all participants have responded.</li>
+            <li MadCap:conditions="TurningPoint.TurningPoint 5"><span class="Bold">Close</span> the Real-Time Registration tool.</li>
+            <li MadCap:conditions="TurningPoint.TurningPoint 5"><span class="Bold">Run</span> the polling session.</li>
+            <li MadCap:conditions="TurningPoint.TurningPoint 5">
+                <p>When you are finished polling, click <span class="Bold">Save</span> in the Session section of the TurningPoint ribbon/toolbar.<div class="Note"><p>Saving the PowerPoint presentation only does not save the session data!</p></div><p class="InList">Session files should be stored in the default save location. If the session is saved in another location it will then need to be placed in the TurningPoint Sessions folder or imported into TurningPoint.</p></p>
+            </li>
+            <li MadCap:conditions="TurningPoint.TurningPoint 5"><span class="Bold">Name</span> the session file and click <span class="Bold">Save</span>.</li>
+            <li MadCap:conditions="TurningPoint.TurningPoint 5"><span class="Bold">Close</span> PowerPoint to return to the TurningPoint Dashboard.</li>
+            <li MadCap:conditions="TurningPoint.TurningPoint Cloud">Save the registrations by <span class="Bold">closing</span> the Real-Time Registration Tool.<p class="InList">The following message appears.</p><p style="text-align: left;"><img src="../../../Graphics/ExportSchemes/Window-SaveRTRMessage.png" style="width: 398.1912px;height: 72.5984px;" class="LargeWide480pxGrayBorder" /></p><p>To permanently save the Device IDs to the participant list, click <span class="Bold">Yes</span>. Otherwise, click No. If you click No, the software will not remember Device IDs for future use.</p><p>If No is selected, the participant list is temporarily saved. </p><div class="Warning"><p>If the registrations were not saved to the permanent participant list and the session is reset or polling is closed, the Device IDs are not saved.</p></div></li>
+        </ol>
+    </body>
+</html>

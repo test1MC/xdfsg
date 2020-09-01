@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Compatibility Charts/CompatibilityChartsCombined.fltoc"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Compatibility Charts</Variable>
+    <Variable
+      Name="General/PRODUCT">Compatibility Charts</Variable>
+    <Variable
+      Name="General/ProductName">Compatibility Charts</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Compatibility Charts</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="CompatibilityCharts"
+    Subject="CompatibilityCharts"
+    Author="Turning Technologies"
+    Keywords="SDHWrev2_08202014" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

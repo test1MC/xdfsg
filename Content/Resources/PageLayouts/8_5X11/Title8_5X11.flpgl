@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="All" Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="normal" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundRepeat="no-repeat" BackgroundImage="../../Images/Footer_Title.png" BackgroundPositionX="left" BackgroundPositionY="bottom" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame X="192px" Y="192px" Width="528px" Height="143px" Flow="decoration0" Right="-96px" Bottom="529px" BackgroundType="GradientWE" BackgroundColor="#524f52" BackgroundColorAlt="#a9a9a9" BorderLeftStyle="solid" BorderLeftWidth="5px" BorderLeftColor="#ffff36" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="UGTitle" xhtml:style="margin-bottom: 1em;margin-top: 1.50em;"><MadCap:variable xhtml:name="General.ProductName" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="UGDocType" xhtml:style="margin-bottom: 1em;"><MadCap:variable xhtml:name="General.DocType" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="Version"><MadCap:variable xhtml:name="General.VersionNumber" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="firstright" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundRepeat="no-repeat" BackgroundImage="../../Images/Footer_Title.png" BackgroundPositionX="left" BackgroundPositionY="bottom" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame X="192px" Y="192px" Width="528px" Height="143px" Flow="decoration0" Right="-96px" Bottom="529px" BackgroundType="GradientWE" BackgroundColor="#524f52" BackgroundColorAlt="#a9a9a9" BorderLeftStyle="solid" BorderLeftWidth="5px" BorderLeftColor="#ffff36" Anchors="">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="UGTitle" xhtml:style="margin-bottom: 1em;margin-top: 1.50em;"><MadCap:variable xhtml:name="General.PRODUCT" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="UGDocType" xhtml:style="margin-bottom: 1em;"><MadCap:variable xhtml:name="General.DocType" />
+                        </xhtml:p>
+                        <xhtml:p xhtml:class="Version"><MadCap:variable xhtml:name="General.VersionNumber" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Width="7in" Height="9in" Padding="20px" PageSize="Letter" PageType="emptyleft" PaddingLeft="1in" PaddingRight="1in" PaddingTop="1in" PaddingBottom="1in" Orientation="portrait" BackgroundRepeat="no-repeat" BackgroundImage="../../Images/Footer_LeftPage.png" BackgroundPositionX="left" BackgroundPositionY="bottom" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame X="137px" Y="406px" Width="351px" Height="52px" Flow="decoration0" Right="136px" Bottom="406px" Anchors="Left,Right,Top,Bottom">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="EmptyPageText" xhtml:style="text-align: center;">This page intentionally left blank to ensure new chapters start on right (odd number) pages.</xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame Flow="footer" Height="35px" Anchors="Left,Right,Bottom" Right="0px" Bottom="-58px" X="96px" Y="887px" Width="528px" TextAlign="right" VerticalAlign="top" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:style="color: #a9a9a9;text-align: right;"><MadCap:variable xhtml:name="General.VanityURL" xhtml:style="font-size: 9pt;" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

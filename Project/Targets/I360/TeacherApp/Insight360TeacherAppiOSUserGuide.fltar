@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/I360/TeacherApp.fltoc"
+  ConditionTagExpression="include[DocType.UG or DocType.UG-Mac or OS.Mac] "
+  PatchHeadingLevels="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Insight 360 Teacher App</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/user-guides</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide for iOS</Variable>
+    <Variable
+      Name="Variables/Version #">2.5</Variable>
+    <Variable
+      Name="General/DocType">User Guide for iOS</Variable>
+    <Variable
+      Name="General/ProductName">Insight 360 Teacher App</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Insight 360 Teacher App User Guide for iOS</Variable>
+    <Variable
+      Name="General/VersionNumber">2.4</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true" />
+  <DocumentProperties
+    Keywords="UGI360TA-rev2_03052015"
+    Title="Insight 360 Teacher App for iOS"
+    Subject="Insight 360 Teacher App for iOS"
+    Author="Turning Technologies" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

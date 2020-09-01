@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Hardware Compatibility Chart"
+    Link="/Content/Hardware/CompatibilityCharts/CompatibilityChart-EIHardware.htm"
+    BreakType="chapter"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/ChaptersLandscape8_5X11.flpgl"
+    PageType="normal" />
+  <TocEntry
+    Title="Receiver Compatibility Chart"
+    Link="/Content/Hardware/CompatibilityCharts/CompatibilityChart-EIReceiver.htm" />
+  <TocEntry
+    Title="Clicker Compatibility Chart"
+    Link="/Content/Hardware/CompatibilityCharts/CompatibilityChart-EIClicker.htm" />
+  <TocEntry
+    Title="Whiteboard Compatibility Chart"
+    Link="/Content/Hardware/CompatibilityCharts/CompatibilityChart-Whiteboard.htm" />
+</CatapultToc>

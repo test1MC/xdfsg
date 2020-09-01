@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="2139" MadCap:lastWidth="809">
+    <head>
+        <link href="../../../Resources/TableStyles/AlternateShading.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>Insight 360 Cloud Custom Settings</h2>
+        <p>This feature is available with Insight 360 Cloud v2.3.1+</p>
+        <p>Insight 360 Cloud will look for an XML file called CustomSettings in the top-level data directory to populate settings on the Preferences, Registration/Activation and Mobile Devices tabs. If the file does not exist, the program defaults will be used. If the file exists, and the contents parsed correctly, the normal defaults will be overwritten by those in the CustomSettings.xml file. This feature exists to help IT departments in large deployments of Insight 360 Cloud to be able to change Insight 360 Cloud's default settings and/or to help users complete the registration and activation process.</p>
+        <p>The CustomSettings.xml file must be in the Insight360 local data folder (where the log files are stored), NOT in the data directory itself:</p>
+        <table style="width: 681px;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="148px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col width="533px" class="TableStyle-AlternateShading-Column-Column1" />
+            <thead>
+                <tr class="TableStyle-AlternateShading-Head-Header1">
+                    <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                        <p>Platform</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                        <p>Path Name</p>
+                    </td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                        <p>Windows</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p>C:\{User}\AppData\Local\Insight360\CustomSettings.xml</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                        <p>Mac OS</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p>Users &gt; [username] &gt; Library &gt; Application Support &gt; Insight360 &gt; CustomSettings.xml</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;">
+            <p>The Custom Settings feature does NOT modify the registration and activation process in anyway - it merely allows the registration fields to be pre-populated by the CustomSettings file. The CustomSettings file can be unique to an individual machine/user or it can be generalized for a set of users.</p>
+        </div>
+        <p class="SmallTitle">Below is a sample of the XML tags that may be used with the Custom Settings feature:</p>
+        <p style="text-align: center;">
+            <img src="../../../Graphics/I360/001.png" style="width: 511.4533px; height: 370.0569px;" class="PageLengthWide672px" />
+        </p>
+        <p>The above example includes all of the supported custom settings available in the 2.3.1 release.</p>
+        <div class="ImageANDCaption">
+            <p class="SmallTitle" style="text-indent: 16px;">Available XML Tags</p>
+            <table style="width: 706px;caption-side: top;mc-table-style: url('../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+                <col width="253px" class="TableStyle-AlternateShading-Column-Column1" />
+                <col width="453px" class="TableStyle-AlternateShading-Column-Column1" />
+                <thead>
+                    <tr class="TableStyle-AlternateShading-Head-Header1">
+                        <td class="TableStyle-AlternateShading-HeadE-Column1-Header1">
+                            <p>Tag</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-HeadD-Column1-Header1">
+                            <p>Explanation</p>
+                        </td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">CustomSettings</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">This tag is used to encapsulate all the custom settings to be read by the software</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">OneTimeInitialization</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">If true, settings will only be read in lieu of the defaults on first run (and thereafter as saved by the user). If false, values in the custom settings file will be used each time the settings tabs are loaded.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">UseStudentId</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">True or false</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">UseStickerId</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">True or false. UseStudentId and UseStickerId must be opposite if both are specified.</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">StartingStickerId</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A positive integer (1 or higher)</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">SendFeedbackToStudentDevices</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">
+                                <MadCap:snippetText src="../../../Resources/Snippets/I360/TrueorFalse.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">PromptTeacherOnStudentRejoin</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">
+                                <MadCap:snippetText src="../../../Resources/Snippets/I360/TrueorFalse.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">MobileSettingsUseConstructedResponse</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">
+                                <MadCap:snippetText src="../../../Resources/Snippets/I360/TrueorFalse.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">MobileSettingsRequireSessionCode</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">
+                                <MadCap:snippetText src="../../../Resources/Snippets/I360/TrueorFalse.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">MobileSettingsEnableWebAccess</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">
+                                <MadCap:snippetText src="../../../Resources/Snippets/I360/TrueorFalse.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">RegistrationCustomSettings</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">An encapsulation of the registration form fields</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">Country</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A value in the drop-down list (default = null)</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">Title</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A value in the drop-down list (default = null)</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">FirstName</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A character string</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">LastName</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A character string</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">Email</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A character string (checked for format on submission)</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">State</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A value in the drop-down list (default = null)</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">SoftwareRegistrationCode</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A character string (checked for validity on submission)</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">NCESDistrictId</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A value in the "District" drop-down, using the NCES index value*</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">NCESSchoolId</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">A value in the "School/Institution" drop-down, using the NCES index value*</p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyE-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">AllowSoftwareUpdatesConnection</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">
+                                <MadCap:snippetText src="../../../Resources/Snippets/I360/TrueorFalse.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                    <tr class="TableStyle-AlternateShading-Body-Body1">
+                        <td class="TableStyle-AlternateShading-BodyB-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">AllowUsageDataCollection</p>
+                        </td>
+                        <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                            <p style="margin-top: 3pt;margin-bottom: 3pt;font-weight: normal;font-style: normal;font-size: 9.5pt;letter-spacing: 0em;color: #514f51;text-decoration: none;">
+                                <MadCap:snippetText src="../../../Resources/Snippets/I360/TrueorFalse.flsnp" />
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <p>*Values can be determined by using the NCES Public School search at <a href="http://nces.ed.gov/ccd/schoolsearch/index.asp">http://nces.ed.gov/ccd/schoolsearch/index.asp</a> and/or <a href="http://nces.ed.gov/ccd/districtsearch/index.asp">http://nces.ed.gov/ccd/districtsearch/index.asp</a></p>
+        <p class="SmallTitle">Other notes:</p>
+        <p>If a tag in the CustomSettings.xml file is not formatted correctly, i.e., it is not understood by the software, it will be ignored and the last saved or default value will be used instead.</p>
+        <p>Preferences and Mobile Devices settings tabs are loaded upon Insight 360 Cloud Director restart. See the flowchart below for more detail.</p>
+        <p>The Registration/Activation settings tab is loaded whenever the tab is loaded. If the tab is already loaded (e.g., visible to the user) when a custom settings value is changed, the new value will NOT be read until the tab is reloaded (click on another settings tab and click back on the Registration/Activation tab). See the flowchart for more detail.</p>
+        <p style="text-align: center;">
+            <img src="../../../Graphics/I360/002.png" style="width: 400.3911px; height: 300.66px;" class="MediumHigh288px" />
+        </p>
+        <p>The Registration and Activation processed are not changed by this feature. This feature only affects the values of the fields on the Registration/Activation tab. Changing a field value will not change the registration record unless the registration is submitted. Changing the SRC field value will not change the license unless the license is activated. Re-activating a license will not affect the license terms in any way.</p>
+        <p>The software can load settings from three sources: defaults, user settings or the CustomSettings.xml file. This flowchart details how the program decides which settings are restored on which conditions.</p>
+    </body>
+</html>

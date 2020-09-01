@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="554" MadCap:lastWidth="1150">
+    <head>
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h2>Network Requirements</h2>
+        <p class="SmallTitle">Instructor’s Computer</p>
+        <ul>
+            <li>Internet connection, for items such as registration and reporting</li>
+            <li>Access to <a href="http://insight360services.einstruction.com/">http://insight360services.einstruction.com</a>, <a href="http://reports360.einstruction.com/">http://reports360.einstruction.com</a> and <a href="http://insight360.einstruction.com/">http://insight360.einstruction.com</a></li>
+            <li>Whitelist Insight 360 Cloud on firewalls, including local machines, such as Windows Firewall</li>
+            <li>Insight 360 Cloud optionally uses IGMP multicast to make joining from teacher and participant mobile devices easier (this is called service discovery). Utilizing IGMP allows the instructors and students to select their class and automatically connect (compared to using an IP Address to connect to the classroom). For this to work, IGMP and Multicast must be enabled on the wireless network. Insight 360 Cloud uses the IGMP address of <b>239.255.107.13</b>.</li>
+            <li>The following TCP ports should be allowed to receive connections:<ul><li><span class="Bold">65007</span> - To accept connections from teacher mobile device</li><li><span class="Bold">65009</span> - To accept connections from participant mobile devices for Premium</li><li><span class="Bold">65008</span> - To accept connections from participant voting automated Pulse devices</li></ul></li>
+            <li>Also, UDP port <span class="Bold">31009</span> must be open to allow receipt of Multicast UDP messages if service discovery is desired.</li>
+            <li>If your deployment includes third party integrations via Insight 360 Cloud’s HTTP API, then TCP port <span class="Bold">64250</span> must also be open on the instructor’s computer to receive HTTP requests from the third party application.</li>
+        </ul>
+        <p class="SmallTitle">Insight 360 Teacher App</p>
+        <ul>
+            <li>Teacher mobile device should be on the same local area network as the instructor’s computer</li>
+            <li>Local high-speed Wi-Fi</li>
+        </ul>
+        <p class="SmallTitle">Insight 360 Cloud Student App</p>
+        <ul>
+            <li>Participant mobile devices should be on the same local area network as the instructor’s computer</li>
+            <li>Local high-speed Wi-Fi</li>
+        </ul>
+    </body>
+</html>

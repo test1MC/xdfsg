@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/LMS/Performance Matters/Performance Matters and TurningPoint.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.UG or &quot;TurningPoint.TurningPoint 5&quot;]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Performance Matters and TurningPoint</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+    <Variable
+      Name="LMS/LMS">Performance Matters</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Performance Matters and TurningPoint"
+    Subject="Performance Matters and TurningPoint"
+    Keywords="Performance Matters and TurningPoint"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

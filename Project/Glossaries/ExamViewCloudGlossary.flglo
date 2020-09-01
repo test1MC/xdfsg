@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultGlossary>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Content</Term>
+    </Terms>
+    <Definition
+      Link="">Items such as questions (QTI packages), Tests (testlets, homework, etc.) and Resources are referred to as content in ExamView Cloud.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Access Rights</Term>
+    </Terms>
+    <Definition
+      Link="">The default options that can be assigned to individial users to a folder or test. The access rights options are: read, edit, export, delete and create.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Author</Term>
+    </Terms>
+    <Definition
+      Link="">The person who created the original version of the object.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Created</Term>
+    </Terms>
+    <Definition
+      Link="">The date the object was created.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Created Date</Term>
+    </Terms>
+    <Definition
+      Link="">The date the content was originated.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Create Content</Term>
+    </Terms>
+    <Definition
+      Link="">Rights to originate content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Delete</Term>
+    </Terms>
+    <Definition
+      Link="">Rights to eliminate content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Description</Term>
+    </Terms>
+    <Definition
+      Link="">A text field where users can write about content. The description is searchable by keywords.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Digital Rights Management (DRM)</Term>
+    </Terms>
+    <Definition
+      Link="">The ability of the content creator to put restrictions on its content. For example, length of time licensed for, edit, delivery restrictions, number of licenses, etc.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Edit</Term>
+    </Terms>
+    <Definition
+      Link="">Rights to change content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>ExamView Assessment Suite (EVAS)</Term>
+    </Terms>
+    <Definition
+      Link="">The legacy ExamView content management, delivery and reporting system.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>ExamView Cloud (EVC)</Term>
+    </Terms>
+    <Definition
+      Link="">The web-based ExamView system.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>ExamView Cloud Player</Term>
+    </Terms>
+    <Definition
+      Link="">The native EVC web-based test player.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>ExamView Cloud Reporter</Term>
+    </Terms>
+    <Definition
+      Link="">The native EVC report tool for tests.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>ExamView Desktop (EVD)</Term>
+    </Terms>
+    <Definition
+      Link="">The desktop application that is part of EVAS.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Export</Term>
+    </Terms>
+    <Definition
+      Link="">Rights to send content to another folder, or package used outside of the system.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Folder</Term>
+    </Terms>
+    <Definition
+      Link="">An overarching container of content. Rights are assigned at the folder level and apply to the content within that folder.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>General</Term>
+    </Terms>
+    <Definition
+      Link="">A tab that contains "general" information about the content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Interactions</Term>
+    </Terms>
+    <Definition
+      Link="">The QTI name for a question type.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Last Access</Term>
+    </Terms>
+    <Definition
+      Link="">The date the object was last viewed.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Learning Object</Term>
+    </Terms>
+    <Definition
+      Link="">Learning Objects are items transmitted to a delivery system where parameters of the object are placed on the total of the objects.  (e.g. a folder of questions may be transferred to a delivery system and that folder would have parameters associated with it, such as able to be delivered by tablet and computer = True, and paper and clicker  = False, or time available, or access rights, etc)</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Lifecycle</Term>
+    </Terms>
+    <Definition
+      Link="">A tab that contains dates and information about key changes to content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Manage Access Rights</Term>
+    </Terms>
+    <Definition
+      Link="">The section of a folder where the user can find and assign rights to a user.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Metadata</Term>
+    </Terms>
+    <Definition
+      Link="">Specified information that describes an object, either to categorize or describe.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Modified Date</Term>
+    </Terms>
+    <Definition
+      Link="">The last date the content, including metadata, was changed.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Own Store</Term>
+    </Terms>
+    <Definition
+      Link="">Where the user of an account goes to use their licensed and created content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Question</Term>
+    </Terms>
+    <Definition
+      Link="">A problem posed for the purpose of eliciting a response.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Question - Complex</Term>
+    </Terms>
+    <Definition
+      Link="">A series or group of questions. This is where the response to one question is used either in a subsequent question, or as a part of the process to answer subsequent questions.  The intent is for a student to solve a multi-step problem, and if they get an early part wrong they are not penalized if they use that wrong answer correctly to answer the remainder of the question.  In this case the process of answering is as much or more important than getting a specific part correct.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Question - Compound</Term>
+    </Terms>
+    <Definition
+      Link="">A series or group of questions. This may be more than one question associated with a passage or graphic.  Parameters may be placed on the questions where all must be aswered correctly for it to be correct in total.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Question Bank</Term>
+    </Terms>
+    <Definition
+      Link="">A folder structure that organizes and stores content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Read</Term>
+    </Terms>
+    <Definition
+      Link="">Rights to see content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Resource</Term>
+    </Terms>
+    <Definition
+      Link="">Items that are port of questions (e.g. passages, graphics, video, audio, etc.).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Resource Type</Term>
+    </Terms>
+    <Definition
+      Link="">A description of the content (e.g. folder, test, question, etc.).</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Rights</Term>
+    </Terms>
+    <Definition
+      Link="">Rules applied to a user that details what the user can and cannot do.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Search results</Term>
+    </Terms>
+    <Definition
+      Link="">A field, table or view that displays the outcome of a search.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Store</Term>
+    </Terms>
+    <Definition
+      Link="">A place to go to acquire content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Survey</Term>
+    </Terms>
+    <Definition
+      Link="">One or more questions designed to elicit an unbiased response to a question in order to gain information on a specific topic.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Technical</Term>
+    </Terms>
+    <Definition
+      Link="">A tab that contains information about content with regards to question type and how that content can be used with other media.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Test</Term>
+    </Terms>
+    <Definition
+      Link="">A group of questions designed to be delivered as a group and therefore things like navigation through the questions, when correct answer is displayed, etc are determined at schedule.  This is opposed to a Learning Object that is a group of questions designed to be a resource where administration parameters are determined in the delivery system.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Title</Term>
+    </Terms>
+    <Definition
+      Link="">The searchable name of a folder, test, question or content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Users</Term>
+    </Terms>
+    <Definition
+      Link="">Those logins to the system that use the system to create and manage content.</Definition>
+  </GlossaryEntry>
+  <GlossaryEntry
+    TermClass="Popup">
+    <Terms>
+      <Term>Technology Enhanced Items (TEI)</Term>
+    </Terms>
+    <Definition
+      Link="">A computer-delivered test item that require students to indicate their response in ways other than multiple choice format. TEIs are used extensively in annual PARCC and Smarter Balance tests measuring students’ performance relative to the common core. Instead of measuring recall, TEIs measure a students underlying conceptual understanding. However, regardless of a students level of understanding TEIs are new to students and thus requires practice. Learning to take TEIs is a skill itself.</Definition>
+  </GlossaryEntry>
+</CatapultGlossary>

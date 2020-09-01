@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Export Schemes/TurningPoint/EasyGradePro.fltoc"
+  ConditionTagExpression="include[&quot;TurningPoint.TurningPoint Cloud&quot;] "
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Schemes/NewVariable">Easy Grade Pro</Variable>
+    <Variable
+      Name="Variables/Product Name">TurningPoint Cloud and Easy Grade Pro</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/technical-support/integration-solutions</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TurningPoint Cloud and Easy Grade Pro"
+    Subject="TurningPoint Cloud and Easy Grade Pro"
+    Keywords="TurningPoint Cloud and Easy Grade Pro"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

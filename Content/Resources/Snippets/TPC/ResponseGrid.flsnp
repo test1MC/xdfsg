@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="2" MadCap:lastHeight="55" MadCap:lastWidth="987">
+    <body>
+        <p>The response grid displays the participant name by default. As the participants respond, the corresponding box will change color. If polling with an auto list, it is recommended to change the response grid text to <span class="Italic">Device ID Only</span> in the preferences. As the participants respond a Device ID will appear in the box.</p>
+    </body>
+</html>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4339" MadCap:lastWidth="1078">
+    <head>&#160;<link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud</MadCap:conditionalText> and Prosper</h1>
+        <p>This document outlines the steps for using TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>with Prosper.</p>
+        <p class="SmallTitle" MadCap:conditions="TurningPoint.TurningPoint 5">How does the integration work?</p>
+        <p MadCap:conditions="TurningPoint.TurningPoint 5">The participant information from Prosper is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. Session scores are then exported from TurningPoint in a specific format and imported into Prosper.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/How-RTR.flsnp" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Exporting Data from Prosper</h3>
+        <ol class="Gotham">
+            <li>Login to Prosper.</li>
+            <li>Select the <span class="Bold">Analysis &amp; Reporting</span> tab.<div class="ImageFloatRight"><p><img src="../../Graphics/ExportSchemes/ProgramAndClass.png" class="MediumWide288pxGrayBorder" /></p></div></li>
+            <li>Select a <span class="Bold">program</span> from the <span class="Italic">Program</span> drop-down menu.</li>
+            <li>Choose the appropriate <span class="Bold">class</span> and click <span class="Bold">Next</span>.</li>
+            <li>It is not necessary to select a Test for step 2. Click <span class="Bold">Next</span>.</li>
+            <li>Select the <span class="Bold">Learner Roster Report</span> from the <span class="Italic">Report</span> drop-down menu and click <span class="Bold">Display</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/Prosper-LearnerRosterReport.png" class="MediumWide288pxGrayBorder" /></p><div class="ImageFloatRight"><p>&#160;</p></div></li>
+            <li>Click the <span class="Bold">Export</span><img src="../../Graphics/ExportSchemes/Prosper-Icon-Export.png" class="Callout35px" /> icon.</li>
+            <li style="page-break-before: always;">Select <span class="Bold">Text</span> for the Export Format and <span class="Bold">Comma</span> for the Text Delimiter. Browse to a specified location (<span class="Bold">...</span>) and <span class="Bold">name</span> the file.<p><img src="../../Graphics/ExportSchemes/Prosper-Export.png" class="SmallHigh192pxGrayBorder" /></p><p>Now that the CSV file has been saved, it is time to import the information as a TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>participant list.</p></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/PowerPointPolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AwywherePolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AfterClass-NoWebReg.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to Prosper</h3>
+        <ol class="Gotham">
+            <li>Login to Prosper.</li>
+            <li>Select the <span class="Bold">Data Collection &amp; Scoring</span> tab.<div class="ImageFloatRight"><p><img src="../../Graphics/ExportSchemes/Prosper-Import-TestData.png" class="MediumWide288px" /></p></div></li>
+            <li>Select the <span class="Bold">class</span> from the <span class="Italic">Class</span> drop-down menu.</li>
+            <li>Select the <span class="Bold">program</span> from the <span class="Italic">Program</span> drop-down menu and click <span class="Bold">Next</span>.</li>
+            <li>Select the appropriate <span class="Bold">test</span> to score from the <span class="Italic">Tests</span> drop-down menu and click <span class="Bold">Next</span>.</li>
+            <li>Click <span class="Bold">File</span>, mouse over <span class="Bold">Import</span> and select <span class="Bold">Test Data</span>.</li>
+            <li>Browse to the saved file location and click <span class="Bold">OK</span>.</li>
+            <li>Click <span class="Bold">Finish</span>.</li>
+        </ol>
+    </body>
+</html>

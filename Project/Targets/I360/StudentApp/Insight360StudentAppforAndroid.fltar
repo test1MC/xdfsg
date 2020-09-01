@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[DocType.UG or DocType.UG-PC or OS.PC]"
+  PatchHeadingLevels="true"
+  MasterToc="/Project/TOCs/I360/Insight360Student.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Insight 360 Student App for Android</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/user-guides</Variable>
+    <Variable
+      Name="Variables/Version #">1.0</Variable>
+    <Variable
+      Name="General/VersionNumber">1.0</Variable>
+    <Variable
+      Name="General/DocType">User Guide for Android</Variable>
+    <Variable
+      Name="General/ProductName">Insight 360 Student App</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Insight 360 Student App User Guide for Android</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Insight 360 Student App"
+    Subject="Insight 360 Student App"
+    Author="Turning Technologies"
+    Keywords="UGISA-1rev2_031314" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

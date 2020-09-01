@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Touch Board/WirelessKitforTB.fltoc"
+  MasterPageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[&quot;Product.Touch Board&quot;]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Wireless Kit for Touch Board Plus</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">Wireless Kit for Touch Board Plus</Variable>
+    <Variable
+      Name="General/ProductName">Wireless Kit for Touch Board Plus</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Wireless Kit for Touch Board Plus User Guide</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Wireless Kit for Touch Board Plus"
+    Subject="Wireless Kit for Touch Board Plus"
+    Keywords="Wireless Kit for Touch Board Plus"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

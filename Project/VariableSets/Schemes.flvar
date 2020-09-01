@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultVariableSet>
+  <Variable
+    Name="NewVariable"
+    Comment="">ANGEL</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Brain Honey</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Certpoint</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">CIITS</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">DATAWISE</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Easy Grade Pro</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Markbook 2012</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">PowerTeacher</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">ProgressBook</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Prosper</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Saba</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">WebCT/Blackboard Vista</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Canvas</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Blackboard 9</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Illuminate</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Desire2Learn</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Moodle</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Sakai</Variable>
+  <Variable
+    Name="NewVariable"
+    Comment="">Skyward</Variable>
+</CatapultVariableSet>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1690" MadCap:lastWidth="1069" MadCap:ignoredWords="Recovered_Original">
+    <head>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>ResponseWare Session Data Recovery</h1>
+        <p>Use the data recovery tool to recover data from a ResponseWare session file containing partial data.</p>
+        <div class="Warning" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #ee4137;&quot; class=&quot;mcFormatColor&quot;&gt;WARNING&lt;/span&gt;&lt;/span&gt;">
+            <p>THE FOLLOWING IS FOR INTERNAL USE ONLY. DO NOT DISTRIBUTE TO EXTERNAL PARTIES.</p>
+        </div>
+        <p class="Prerequisites" MadCap:autonum="Prerequisites">&#160;</p>
+        <ul>
+            <li>The TurningPoint session file must have been run at least the day before and exported from the Manage tab.<div class="Important" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #f07600;&quot; class=&quot;mcFormatColor&quot;&gt;IMPORTANT&lt;/span&gt;&lt;/span&gt;"><p>The Data Recovery Tool searches the backup database that updates at midnight each day.</p></div><div class="Warning" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #ee4137;&quot; class=&quot;mcFormatColor&quot;&gt;WARNING&lt;/span&gt;&lt;/span&gt;"><p>If the session file is not exported from the Manage tab, you will not be able to access it in the Recovery Tool.</p></div></li>
+            <li>The password associated with the session file is required to access the data.</li>
+            <li>The session ID or presenter email is required to complete the search.</li>
+        </ul>
+        <div class="SayThis">
+            <p>Go to the <span class="Bold">Manage</span> tab. Select the <span class="Bold">session</span>, click the <span class="Italic">Session</span> drop-down menu and select <span class="Bold">Export</span>. Select an export destination and click <span class="Bold">Save</span>. You will be prompted for a password for the session file. We recommend setting the password as "password" (all lowercase). If a different password is used, include the password when forwarding the session file.</p>
+        </div>
+        <ol class="Gotham">
+            <li>Open the ResponseWare Session Data Recovery Tool.<p><img src="../Graphics/RW/SessionDataRecoveryTool.png" title="ResponseWare Session Data Recovery Tool" alt="ResponseWare Session Data Recovery Tool" class="Thumbnail" /></p></li>
+            <li>Click <span class="Bold">Load Session</span>.</li>
+            <li>Select the <span class="Bold">TPZX file</span> and click <span class="Bold">Open</span>. If applicable, enter the password associated with the session file.<div class="Tip" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #904799;&quot; class=&quot;mcFormatColor&quot;&gt;TIP&lt;/span&gt;&lt;/span&gt;"><p class="InList">If "password" is used to export the session file, the Recovery Tool automatically loads the session.</p></div><p>The current session data contained in the session file appears in the bottom left panel.</p></li>
+            <li>Click <span class="Bold">Load Recovery</span>.</li>
+            <li>Enter the <span class="Bold">Session ID</span>. Alternatively, enter the <span class="Bold">presenter's full email address</span>.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>The Session ID is case sensitive.</p></div></li>
+            <li>Click <span class="Bold">Search</span>.</li>
+            <li>Select the <span class="Bold">session</span> and click <span class="Bold">Recover</span>.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>The available sessions display your local timestamp, which may differ from the loaded session displaying the presenter's timestamp.</p></div><p>The recovered session data appears in the bottom right panel.</p><p class="InList"><img src="../Graphics/RW/SessionDataRecoveryTool_003.png" class="Thumbnail" /></p></li>
+            <li>Click <span class="Bold">Analyze</span>.</li>
+            <li>Review the recovered data in the bottom right panel.</li>
+            <li>Optionally, click <span class="Bold">View Raw Data</span> to view the individual recorded response data.</li>
+            <li>If <span class="Bold">IGNORE</span> appears within any of the recovered questions, compare this to the question from the session file.</li>
+            <li>Optionally, you can force match any questions that have been ignored. In the <span class="Italic">Enter forced matches</span> field, enter the <span class="Bold">recovery question number</span> first and the <span class="Bold">session question number</span> next, separating the two numbers with a comma. If there are additional forced matches, separate the pair of numbers with a semi-colon.<div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; "><p class="InList">You would like to merge recovery question 7 with session question 6 and merge recovery question 8 with session question 7.</p><p class="InList">7,6;8,7</p></div></li>
+            <li>Optionally, you can force ignore any matches. In the <span class="Italic">Enter Recovery to ignore</span> field, enter the <span class="Bold">recovery question number</span>.</li>
+            <li>Click <span class="Bold">Analyze</span>.</li>
+            <li>When the corresponding questions are set to merge, click <span class="Bold">Recover</span>.</li>
+            <li>Next to <span class="Italic">Recovery Data</span>, click <span class="Bold">View Report</span>.</li>
+            <li>Click Save.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>The session is saved as <span class="Italic">Recovered_Original Session Name</span>.</p></div></li>
+        </ol>
+    </body>
+</html>

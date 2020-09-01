@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Repair on Office 13 and MS Graph"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/Repair on Office 13 and MS Graph.fltoc"
+  ConditionTagExpression="include[DocType.UG]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">How to Repair Office 2013 and Microsoft Graph</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="How to Repair Office 2013 and Microsoft Graph"
+    Author="Turning Technologies"
+    Subject="How to Repair Office 2013 and Microsoft Graph"
+    Keywords="How to Repair Office 2013 and Microsoft Graph" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

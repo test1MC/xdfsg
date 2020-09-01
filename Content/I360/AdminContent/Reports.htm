@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="475" MadCap:lastWidth="1099">
+    <head>
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Modifying Exported Reports</h1>
+        <p>Insight 360 Cloud allows you to modify the format of an exported report. This can be done on a single computer, or the IT Department can define the format and send the file format to multiple computers. </p>
+        <div class="ImageFloatRight">
+            <p>
+                <img src="../../Graphics/I360/results.PNG" style="width: 408.7833px;height: 297.5879px;" class="LargeWide480px" />
+            </p>
+        </div>
+        <p class="SmallTitle">Single Computer Export</p>
+        <ol class="Gotham">
+            <li>Open Insight 360 Cloud and click the <span class="Bold">My Results</span> tab.</li>
+            <li>Select a <span class="Bold">report</span>.</li>
+            <li>To modify the format of the Export to CSV report, select Show Advanced Export Options.</li>
+            <li>You can now select which columns to include or exclude. You will see one drop-down box for each column that will appear in the report. The first drop-down will appear in the first column of the report. The second drop-down will appear in the second column, and so on. Select where you would like each column to appear, or select None if you do not want that column to appear in the report.</li>
+            <li>The settings are saved until you go back into the Show Advanced Export Options and modify the format.</li>
+        </ol>
+        <p class="SmallTitle">Multiple Computer Export</p>
+        <p>Similar to defining the export for a single computer, an IT Department could define an export format and push that format out to multiple instructor computers. </p>
+        <ol class="Gotham">
+            <li>Follow steps 1 through 4 above.</li>
+            <li>You have now created this file: CsvExportMap.xml. It is located in the DATA_PATH directory. If you have installed Insight 360 Cloud in its default location, the file would be located at AppData\Local\Insight360\Data</li>
+            <li>This file can now be pushed out to the instructors’ computers and placed in the same location as above.</li>
+            <li>When the instructor clicks Export to CSV, the data will be exported in the format you have defined.</li>
+            <li>If the instructor goes into Show Advanced Export Options and modifies the export format, the data will no longer export in the format that you defined.</li>
+        </ol>
+    </body>
+</html>

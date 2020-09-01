@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Insight 360™"
+    Link="/Content/I360/Training/Insight360-Level2CueTagging.htm">
+    <TocEntry
+      Title="Plan"
+      Link="/Content/I360/Training/Plan.htm">
+      <TocEntry
+        Title="Installing the Software"
+        Link="/Content/I360/About/GettingStarted/DownloadingandInstallingInsight360.htm" />
+      <TocEntry
+        Title="Registering/Activating Insight 360"
+        Link="/Content/I360/About/GettingStarted/RegisteringandActivatingInsight360.htm" />
+      <TocEntry
+        Title="Creating a New Class"
+        Link="/Content/I360/MyClasses/Classes/CreatingaNewClass.htm"></TocEntry>
+      <TocEntry
+        Title="Tagging Questions with the CueTag Creator"
+        Link="/Content/I360/About/CueTagCreator.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Teach"
+      Link="/Content/I360/Training/Teach.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Response Connections"
+        Link="/Content/I360/Training/ResponseConnections.htm">
+        <TocEntry
+          Title="Pairing the Mobi 360 with the Receiver"
+          Link="/Content/Hardware/Mobi360/About/PairingtheMobi360withtheReceiver.htm" />
+        <TocEntry
+          Title="Setting Up the Insight 360 Teacher App and Student Apps"
+          Link="/Content/I360/About/GettingStarted/SettingUptheInsight360TeacherandStudentApps.htm" />
+        <TocEntry
+          Title="Setting Up Insight 360 Web Access"
+          Link="/Content/I360/About/GettingStarted/SettingUpInsight360WebAccess.htm" />
+        <TocEntry
+          Title="Connecting the Clickers"
+          Link="/Content/I360/Training/Connecting the Clickers.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Asking Tagged Questions"
+        Link="/Content/I360/Training/TeachingClass/Asking_Tagged_Questions.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+      <TocEntry
+        Title="Displaying Question Results On-screen"
+        Link="/Content/I360/Training/QuestionZone/DisplayingQuestionResultsonscreen.htm" />
+      <TocEntry
+        Title="Viewing Reports"
+        Link="/Content/I360/Training/ResultsZone/Viewing_Reports.htm" />
+      <TocEntry
+        Title="Ending a Class Session"
+        Link="/Content/Hardware/Mobi360/ResultsZone/EndingaClassSession.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Assess"
+      Link="/Content/I360/Training/Review.htm">
+      <TocEntry
+        Title="Retrieving a Report"
+        Link="/Content/I360/MyResults/Configuring/GeneratingaReport.htm"></TocEntry>
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

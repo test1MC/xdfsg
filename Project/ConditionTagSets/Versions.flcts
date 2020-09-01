@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultConditionTagSet
+  Comment="My set of condition tags">
+  <ConditionTag
+    Comment=""
+    Name="9"
+    BackgroundColor="Blue" />
+  <ConditionTag
+    Comment=""
+    Name="8"
+    BackgroundColor="Red" />
+  <ConditionTag
+    BackgroundColor="#00ffff"
+    Name="Word"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#8b008b"
+    Name="EV"
+    Comment="" />
+  <ConditionTag
+    BackgroundColor="#ffff00"
+    Name="ASUG"
+    Comment="" />
+</CatapultConditionTagSet>

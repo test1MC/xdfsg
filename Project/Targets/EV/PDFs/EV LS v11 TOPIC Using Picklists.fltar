@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[DocType.UG]"
+  MasterToc="/Project/TOCs/EV/EV LS v11 TOPIC Using Picklists.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Using a Pick List to Populate a Question’s Standard Field in ExamView® Assessment Suite</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/products/examview/examview-assessment-suite</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Using a Pick List to Populate a Question’s Standard Field in ExamView Assessment Suite"
+    Subject="Using a Pick List to Populate a Question’s Standard Field in ExamView Assessment Suite"
+    Keywords="Using a Pick List to Populate a Question’s Standard Field in ExamView Assessment Suite"
+    Author="Turning Technologies" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="330" MadCap:lastWidth="861" MadCap:conditions="DocType.Other">
+    <head>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h2 class="task" style="margin-top: 18pt;">Hiding the Auxiliary Session Save Setting for Mac</h2>
+        <p>The secondary save location may be hidden so that users cannot choose their own save location.</p>
+        <p class="Prerequisites" MadCap:autonum="Prerequisites">&#160;</p>
+        <p>Turning Point Cloud must be closed.</p>
+        <ol class="Gotham">
+            <li>Open <span class="Bold">Terminal</span>.</li>
+            <li><span class="Bold">Copy and paste</span> ONE of the following commands: <p class="InList"><span class="Bold">All Users</span>:</p><p class="InList"><span style="font-size: 8pt;" class="ComputerText">sudo defaults write /Library/Preferences/com.turningtechnologies.TurningPoint-Cloud TTSettingsKeyExposeAuxiliarySavePreference -boolean NO</span></p><p class="InList"><span class="Bold">Current Users</span>: </p><p class="InList"><span style="font-size: 9pt;" class="ComputerText">defaults write com.turningtechnologies.TurningPoint-Cloud TTSettingsKeyExposeAuxiliarySavePreference -boolean NO</span></p></li>
+            <li>Enter your password if prompted and press <span class="Bold">Return</span>.<p class="InList">The setting is now hidden.</p></li>
+        </ol>
+    </body>
+</html>

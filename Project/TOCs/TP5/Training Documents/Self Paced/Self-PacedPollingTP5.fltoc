@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Self-Paced Polling"
+    Link="/Content/TP5/TrainingDocuments/SPPolling/Self-PacedPolling_New Users.htm">
+    <TocEntry
+      Title="Before the Test"
+      Link="/Content/TP5/TrainingDocuments/SectionTitles/Before the Test.htm">
+      <TocEntry
+        Title="Downloading the Software"
+        Link="/Content/TP5/TrainingDocuments/DownloadingtheSoftware.htm" />
+      <TocEntry
+        Title="Creating a Question List"
+        Link="/Content/TP5/TrainingDocuments/CreatingQuestionList.htm" />
+      <TocEntry
+        Title="Creating a Participant List (Optional)"
+        Link="/Content/TP5/TrainingDocuments/Creating_a_Participant_List.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="During the Test"
+      Link="/Content/TP5/TrainingDocuments/SectionTitles/During the Test.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Response Connections"
+        Link="/Content/TP5/TrainingDocuments/SectionTitles/Response Connections.htm">
+        <TocEntry
+          Title="Verifying the Receiver Channel"
+          Link="/Content/TP5/TrainingDocuments/VerifyingReceiverChannel.htm" />
+        <TocEntry
+          Title="Changing the Channel on ResponseCard NXT"
+          Link="/Content/TP5/TrainingDocuments/Changing_the_Channel_on_ResponseCard_NXT.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="During Class"
+        Link="/Content/TP5/TrainingDocuments/SPPolling/During_Class.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="After Class"
+      Link="/Content/TP5/TrainingDocuments/SectionTitles/AfterClass_SelfPaced.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Generating Reports"
+        Link="/Content/TP5/TrainingDocuments/Generating_Reports.htm" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="RESPONSECARD XR2"
+    Link="/Content/Hardware/Clickers/RCXR2/ResponseCardXR2.htm"
+    BreakType="chapter"
+    PageType="normal"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled">
+    <TocEntry
+      Title="Responding to a Multiple Choice Question"
+      Link="/Content/Hardware/Clickers/RCXR2/RespondingtoaMultipleChoiceQuestion.htm" />
+    <TocEntry
+      Title="Responding to a Multiple Response Question"
+      Link="/Content/Hardware/Clickers/RCXR2/RespondingtoaMultipleResponseQuestion.htm" />
+    <TocEntry
+      Title="Responding to Short Answer and Numeric Response Questions"
+      Link="/Content/Hardware/Clickers/RCXR2/RespondingtoShortAnswerandNumericQuestions.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

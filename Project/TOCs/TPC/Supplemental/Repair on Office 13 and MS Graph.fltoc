@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="How to Repair Office 2013 and Microsoft Graph"
+    Link="/Content/TPC/Supplemental/RepaironOffice/RepaironOffice13andMSGraph/Repair on Office 13 and MS Graph.htm">
+    <TocEntry
+      Title="Repairing Office 2013"
+      Link="/Content/TPC/Supplemental/RepaironOffice/RepaironOffice13andMSGraph/Repairing_Office_2013.htm"></TocEntry>
+    <TocEntry
+      Title="Repairing Microsoft Graph"
+      Link="/Content/TPC/Supplemental/RepaironOffice/RepaironOffice13andMSGraph/Repairing_Microsoft_Graph.htm" />
+    <TocEntry
+      Title="Contact Us"
+      Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+  </TocEntry>
+</CatapultToc>

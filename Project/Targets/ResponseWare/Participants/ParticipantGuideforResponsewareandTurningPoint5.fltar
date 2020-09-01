@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Participant Guide for ResponseWare and TurningPoint 5"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/ResponseWare/Participants/ParticipantGuideforResponseWareandTurningPoint5.fltoc"
+  PatchHeadingLevels="false"
+  ConditionTagExpression="include[Product.TP or &quot;Product.Turning Account&quot; or Users.Students]exclude[DocType.Other or DocType.UG or &quot;Product.TurningPoint Cloud&quot; or &quot;Product.TurningPoint Lite&quot; or Users.Instructors]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Participants Using ResponseWare and TurningPoint 5</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Participant Guide for ResponseWare and TurningPoint 5"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

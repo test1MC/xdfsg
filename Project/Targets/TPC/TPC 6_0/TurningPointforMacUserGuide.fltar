@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  MasterToc="/Project/TOCs/TPC/TurningPointUserGuide.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.UG or DocType.UG-Mac or OS.Mac or Versions.6_0]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">TurningPoint Cloud</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide for Mac</Variable>
+    <Variable
+      Name="Variables/Version #">6.0</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TurningPoint Cloud for Mac User Guide"
+    Subject="TurningPoint Cloud for Mac User Guide"
+    Author="Turning Technologies"
+    Keywords="TurningPoint Cloud for Mac User Guide" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+</CatapultTarget>

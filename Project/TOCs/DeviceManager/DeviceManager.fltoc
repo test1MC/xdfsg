@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="TOC"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="About Device Manager"
+    Link="/Content/DeviceManager/About.htm"
+    BreakType="chapter"
+    ChapterNumberReset="reset"
+    ChapterNumber="1"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    PageType="firstright">
+    <TocEntry
+      Title="Accessing Device Manager"
+      Link="/Content/DeviceManager/AccessingDeviceManager.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl">
+      <TocEntry
+        Title="Opening Device Manager from the Notification Area (PC)"
+        Link="/Content/DeviceManager/OpeningDeviceManagerfromtheSystemTrayPC.htm" />
+      <TocEntry
+        Title="Opening Device Manager from the Menu Extras (Mac)"
+        Link="/Content/DeviceManager/OpeningDeviceManagerfromtheMenuExtrasMac.htm"></TocEntry>
+      <TocEntry
+        Title="Opening Device Manager from the Panel (Linux)"
+        Link="/Content/DeviceManager/OpeningDeviceManagerfromthePanelLinux.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl"></TocEntry>
+      <TocEntry
+        Title="Opening Device Manager in Ubuntu GNOME"
+        Link="/Content/DeviceManager/OpeningDeviceManagerinUbuntuGNOME.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Device Manager Menu"
+      Link="/Content/DeviceManager/DeviceManagerMenu.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Connecting Student Response Receivers"
+    Link="/Content/DeviceManager/ConnectingStudentResponseReceivers.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue">
+    <TocEntry
+      Title="Connecting Receivers"
+      Link="/Content/DeviceManager/ConnectingReceivers.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="MobiView"
+    Link="/Content/DeviceManager/MobiView_1.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Connecting the MultiHub Receiver"
+      Link="/Content/DeviceManager/ConnectingtheMultiHubReceiver.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="DualBoard, Touch Board and Touch Board Plus"
+    Link="/Content/DeviceManager/DualBoardTouchBoardandTouchBoardPlus.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Connecting the DualBoard via USB"
+      Link="/Content/Hardware/DualBoard/ConnectingtheDualBoardviaUSB.htm" />
+    <TocEntry
+      Title="Connecting the DualBoard via Wireless Kit"
+      Link="/Content/Hardware/DualBoard/ConnectingtheDualBoardviaWirelessKit.htm" />
+    <TocEntry
+      Title="Connecting the Touch Board and Touch Board PlusPlus via USB"
+      Link="/Content/Hardware/TouchBoard/ConnectingtheTouchBoardviaUSB.htm" />
+    <TocEntry
+      Title="Connecting the Touch Board Plus via Wireless Kit"
+      Link="/Content/Hardware/TouchBoard/ConnectingtheTouchBoardPlus.htm" />
+    <TocEntry
+      Title="Calibrating"
+      Link="/Content/DeviceManager/Calibrating.htm">
+      <TocEntry
+        Title="Calibrating the DualBoard"
+        Link="/Content/Hardware/DualBoard/CalibratingDualBoard.htm" />
+      <TocEntry
+        Title="Calibrating the Touch Board or Touch Board Plus via Device Manager"
+        Link="/Content/Hardware/TouchBoard/CalibratingtheTouchBoardviaDeviceManager.htm" />
+      <TocEntry
+        Title="Calibrating the Touch Board or Touch Board Plus (Windows 7 and Windows 8)"
+        Link="/Content/Hardware/TouchBoard/CalibratingtheTouchBoard(Windows7andWindows8).htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Opening the Touch Board/Touch Board Plus Properties Window"
+      Link="/Content/DeviceManager/OpeningtheTouchBoardPropertiesWindow.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Preferences"
+    Link="/Content/DeviceManager/Preferences_.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Preferences"
+      Link="/Content/DeviceManager/Preferences.htm" />
+    <TocEntry
+      Title="Pen Buttons"
+      Link="/Content/DeviceManager/PenButtons.htm" />
+    <TocEntry
+      Title="Firmware Update"
+      Link="/Content/DeviceManager/FirmwareUpdate.htm" />
+    <TocEntry
+      Title="MOBI Reports"
+      Link="/Content/DeviceManager/MOBIReports.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Options and Help"
+    Link="/Content/DeviceManager/OptionsandHelp.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Options Menu"
+      Link="/Content/DeviceManager/OptionsMenu.htm" />
+    <TocEntry
+      Title="Help Menu"
+      Link="/Content/DeviceManager/HelpMenu.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Appendix: Properties"
+    Link="/Content/DeviceManager/Properties.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="RRRF-02, 03 and 04"
+      Link="/Content/DeviceManager/RF020304Receiver.htm" />
+    <TocEntry
+      Title="CPS IR"
+      Link="/Content/DeviceManager/CPSIR.htm" />
+    <TocEntry
+      Title="CPS Pulse (CPS RF)"
+      Link="/Content/DeviceManager/CPSPulse.htm" />
+    <TocEntry
+      Title="PRS RF (Response RF)"
+      Link="/Content/DeviceManager/PRSRF.htm" />
+    <TocEntry
+      Title="MobiView"
+      Link="/Content/DeviceManager/MobiView.htm" />
+    <TocEntry
+      Title="DualBoard"
+      Link="/Content/DeviceManager/DualBoard.htm" />
+    <TocEntry
+      Title="Touch Board/Touch Board Plus"
+      Link="/Content/DeviceManager/TouchBoard.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Copyright Statement"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl" />
+</CatapultToc>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Creating a [%=ResponseWare.Turning ID%]"
+    Link="/Content/TurningAccount/Instructors/CreatingaTurningAccount-Instructor.htm" />
+  <TocEntry
+    Title="[%=ResponseWare.TP 6%]: Steps to Successfully Run Anywhere Polling (Quick Poll)"
+    Link="/Content/TPLite/AnywherePollingTenSteps_TPLS.htm"
+    BreakType="pageLayout"
+    StartSection="false" />
+</CatapultToc>

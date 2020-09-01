@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4148" MadCap:lastWidth="1078">
+    <head>&#160;<link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud</MadCap:conditionalText> and MarkBook 2012</h1>
+        <p>This document outlines the steps for using TurningPoint with MarkBook 2012.</p>
+        <p class="SmallTitle" MadCap:conditions="TurningPoint.TurningPoint 5">How does the integration work?</p>
+        <p MadCap:conditions="TurningPoint.TurningPoint 5">The participant information from MarkBook 2012 is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. Session scores are then exported from TurningPoint in a specific format and  imported into MarkBook 2012.</p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading the Roster from MarkBook 2012</h3>
+        <div class="ImageFloatRight">
+            <p>
+                <img src="../../Graphics/Markbook/SelectClass.png" class="MediumWide288px">
+                </img>
+            </p>
+        </div>
+        <ol class="Gotham">
+            <li>Open MarkBook 2012.</li>
+            <li>Select the appropriate <span class="Bold">class</span> from the <span class="Italic">Select a Class</span> drop-down menu and click <span class="Bold">Open</span>.</li>
+            <li>Click <span class="Bold">File</span> and mouse over <span class="Bold">Exports</span>.</li>
+            <li>Select <span class="Bold">...to TurningPoint</span>.<p class="InList">If necessary, click <span class="Bold">Enter Device IDs</span> to add Device IDs to the participant list.</p></li>
+            <li>Click <span class="Bold">Save File</span>.<p class="InList">Now that the CSV file has been saved, it is time to import the information as a TurningPoint <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">Cloud </MadCap:conditionalText>participant list.</p></li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/PowerPointPolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AwywherePolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AfterClass-NoWebReg.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to MarkBook 2012</h3>
+        <ol class="Gotham">
+            <li>Login to MarkBook 2012.</li>
+            <li>Click the appropriate <span class="Bold">class</span> from the <span class="Italic">Select a Class</span> drop-down menu and click <span class="Bold">Open</span>.</li>
+            <li>Click <span class="Bold">New Entry</span>.</li>
+            <li>Enter the <span class="Bold">Title</span> of the assignment.</li>
+            <li>In the <span class="Italic">Out Of</span> field, enter the total points possible for the assignment.</li>
+            <li>Select <span class="Bold">Import Marks</span>.</li>
+            <li>Locate the file and click <span class="Bold">Open</span>.</li>
+            <li>Select the second value under the <span class="Italic">This field has the ‘marks’ </span>drop-down menu.<p style="text-align: left;"><img src="../../Graphics/Markbook/Menu-FieldHasTheMarks.png" class="MediumHigh288px" /></p><div class="Tip" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #904799;&quot; class=&quot;mcFormatColor&quot;&gt;TIP&lt;/span&gt;&lt;/span&gt;"><p>The first value is the Student Number. The second value is the point total received by the first participant.</p></div></li>
+            <li>Uncheck <span class="Bold">The first record of this file is a ‘header.’</span> It does not have any data to be imported.</li>
+            <li>Click <span class="Bold">Import</span>.<p class="InList">The assignment now appears in the gradebook.</p></li>
+        </ol>
+    </body>
+</html>

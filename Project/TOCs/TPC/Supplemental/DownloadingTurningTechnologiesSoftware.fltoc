@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Downloading Turning Technologies Software"
+    Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/DownloadingTurningTechnologiesSoftware.htm">
+    <TocEntry
+      Title="Installing the PC Version of TurningPoint Cloud (EXE File)"
+      Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/InstallingTurningPointEXEFile.htm" />
+    <TocEntry
+      Title="Opening the No Install PC Version of TurningPoint Cloud (Zipped File)"
+      Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/OpeningTurningPointZippedFile.htm" />
+    <TocEntry
+      Title="Opening the No Install Mac Version of TurningPoint Cloud"
+      Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/OpeningTurningPoint.htm" />
+  </TocEntry>
+</CatapultToc>

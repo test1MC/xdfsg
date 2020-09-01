@@ -1,0 +1,706 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    conditions="DocType.UG"
+    BreakType="pageLayout"
+    PageType="title"
+    StartSection="false" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.UG"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    conditions="DocType.UG"
+    StartSection="false" />
+  <TocEntry
+    Title="Welcome to TurningPoint Cloud!"
+    Link="/Content/TPC/Welcome/Welcome.htm">
+    <TocEntry
+      Title="What’s New in TurningPoint Cloud?"
+      Link="/Content/TPC/Welcome/WhatsNewinTurningPoint.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/TPC/Welcome/TechnicalRequirements.htm"
+      BreakType="pageLayout"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="Getting Started"
+      Link="/Content/TPC/Welcome/GettingStarted/GettingStarted.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Download and Setup"
+        Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/DownloadandSetup.htm">
+        <TocEntry
+          Title="Creating a [%=ResponseWare.Turning ID%]"
+          Link="/Content/TurningAccount/Instructors/CreatingaTurningAccount-Instructor.htm" />
+        <TocEntry
+          Title="Downloading TurningPoint Cloud"
+          Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/DownloadingTurningPoint.htm" />
+        <TocEntry
+          Title="Opening TurningPoint Cloud (Zipped File)"
+          Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/OpeningTurningPointZippedFile.htm" />
+        <TocEntry
+          Title="Opening TurningPoint Cloud"
+          Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/OpeningTurningPoint.htm" />
+        <TocEntry
+          Title="Installing TurningPoint Cloud (EXE File)"
+          Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/InstallingTurningPointEXEFile.htm" />
+        <TocEntry
+          Title="Configuring Automatic Updates"
+          Link="/Content/TPC/Welcome/GettingStarted/DownloadandSetup/ConfiguringAutomaticUpdates.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Device Setup"
+        Link="/Content/TPC/Welcome/GettingStarted/DeviceSteup/DeviceSetup.htm">
+        <TocEntry
+          Title="Changing the Channel on the Receiver"
+          Link="/Content/TPC/Welcome/GettingStarted/DeviceSteup/ChangingtheChannelontheReceiver.htm" />
+        <TocEntry
+          Title="Locking the Receiver Channel"
+          Link="/Content/TPC/Welcome/GettingStarted/DeviceSteup/LockingtheReceiverChannel.htm" />
+        <TocEntry
+          Title="Enabling ResponseWare"
+          Link="/Content/TPC/Welcome/GettingStarted/DeviceSteup/EnablingResponseWare.htm" />
+        <TocEntry
+          Title="Testing the Polling Connections"
+          Link="/Content/TPC/Welcome/GettingStarted/DeviceSteup/TestingthePollingConnections.htm" />
+        <TocEntry
+          Title="Pairing a PresenterCard"
+          Link="/Content/TPC/Welcome/GettingStarted/DeviceSteup/PairingaPresenterCard.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Migrating Previous Turning Technologies Files"
+        Link="/Content/TPC/Welcome/GettingStarted/MigratingPreviousFiles/MigratingPreviousTurningTechnologiesFiles.htm">
+        <TocEntry
+          Title="Importing Participant Lists"
+          Link="/Content/TPC/Welcome/GettingStarted/MigratingPreviousFiles/ImportingParticipantLists.htm" />
+        <TocEntry
+          Title="Importing Session Files"
+          Link="/Content/TPC/Welcome/GettingStarted/MigratingPreviousFiles/ImportingSessionFiles.htm" />
+        <TocEntry
+          Title="Importing Question Lists or Answer Keys"
+          Link="/Content/TPC/Welcome/GettingStarted/MigratingPreviousFiles/ImportingQuestionListsorAnswerKeys.htm" />
+        <TocEntry
+          Title="Converting TurningPoint 2008 Presentations"
+          Link="/Content/TPC/Welcome/GettingStarted/MigratingPreviousFiles/ConvertingTurningPoint2008Presentations.htm" />
+        <TocEntry
+          Title="Converting Graph Charts to Excel Charts"
+          Link="/Content/TPC/Welcome/GettingStarted/MigratingPreviousFiles/ConvertingGraphChartstoExcelCharts.htm" />
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Content"
+    Link="/Content/TPC/Content/Content.htm">
+    <TocEntry
+      Title="Managing Content"
+      Link="/Content/TPC/Content/ManagingContent/ManagingContent.htm">
+      <TocEntry
+        Title="Organizing Content Into Folders"
+        Link="/Content/TPC/Content/ManagingContent/OrganizingContentIntoFolders.htm" />
+      <TocEntry
+        Title="Importing Content"
+        Link="/Content/TPC/Content/ManagingContent/ImportingContent.htm" />
+      <TocEntry
+        Title="Exporting Content"
+        Link="/Content/TPC/Content/ManagingContent/ExportingContent.htm" />
+      <TocEntry
+        Title="Converting an ExamView Test or CPS Export File into a Question List"
+        Link="/Content/TPC/Content/ManagingContent/ConvertinganExamViewTestorCPSExportFileintoaQuestionList.htm" />
+      <TocEntry
+        Title="Deleting Content"
+        Link="/Content/TPC/Content/ManagingContent/DeletingContent.htm" />
+      <TocEntry
+        Title="Refreshing Folder Content"
+        Link="/Content/TPC/Content/ManagingContent/RefreshingFolderContent.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Question Lists"
+      Link="/Content/TPC/Content/QuestionLists/QuestionLists.htm">
+      <TocEntry
+        Title="Creating a New Question List"
+        Link="/Content/TPC/Content/QuestionLists/CreatingaNewQuestionList.htm" />
+      <TocEntry
+        Title="Question Types and Options"
+        Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/QuestionTypesandOptions.htm">
+        <TocEntry
+          Title="Multiple Choice"
+          Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/MultipleChoice.htm" />
+        <TocEntry
+          Title="Short Answer"
+          Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/ShortAnswer.htm" />
+        <TocEntry
+          Title="Numeric Response"
+          Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/NumericResponse.htm" />
+        <TocEntry
+          Title="True/False"
+          Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/TrueFalse.htm"></TocEntry>
+        <TocEntry
+          Title="Matching"
+          Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/Matching.htm" />
+        <TocEntry
+          Title="Essay"
+          Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/Essay.htm" />
+        <TocEntry
+          Title="Demographic Assignment"
+          Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/DemographicAssignment.htm" />
+        <TocEntry
+          Title="Priority Ranking"
+          Link="/Content/TPC/Content/QuestionLists/QuestionTypesandOptions/PriorityRanking.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Editing Question List Content"
+        Link="/Content/TPC/Content/QuestionLists/EditingQuestionListContent.htm" />
+      <TocEntry
+        Title="Updating Question Preferences within the Question List Editor"
+        Link="/Content/TPC/Content/QuestionLists/UpdatingQuestionPreferenceswithintheQuestionListEditor.htm" />
+      <TocEntry
+        Title="Importing Questions into a Question List"
+        Link="/Content/TPC/Content/QuestionLists/ImportingQuestionsintoaQuestionList.htm" />
+      <TocEntry
+        Title="Importing a Word Document into TurningPoint"
+        Link="/Content/TPC/Content/QuestionLists/TPWordImport.htm" />
+      <TocEntry
+        Title="Applying New Question List Preferences to Existing Questions"
+        Link="/Content/TPC/Content/QuestionLists/ApplyingNewQuestionListPreferencestoExistingQuestions.htm" />
+      <TocEntry
+        Title="Printing a Question List"
+        Link="/Content/TPC/Content/QuestionLists/PrintingaQuestionList.htm" />
+      <TocEntry
+        Title="Versions for Self-Paced Polling"
+        Link="/Content/TPC/Content/QuestionLists/Versions/VersionsforSelfPacedPolling.htm">
+        <TocEntry
+          Title="Adding a Version"
+          Link="/Content/TPC/Content/QuestionLists/Versions/AddingaVersion.htm" />
+        <TocEntry
+          Title="Editing a Version"
+          Link="/Content/TPC/Content/QuestionLists/Versions/EditingaVersion.htm" />
+        <TocEntry
+          Title="Renaming a Version"
+          Link="/Content/TPC/Content/QuestionLists/Versions/RenamingaVersion.htm" />
+        <TocEntry
+          Title="Deleting a Version"
+          Link="/Content/TPC/Content/QuestionLists/Versions/DeletingaVersion.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="Standards"
+      Link="/Content/TPC/Content/Standards/Standards.htm">
+      <TocEntry
+        Title="Downloading Standards"
+        Link="/Content/TPC/Content/Standards/DownloadingStandards.htm" />
+      <TocEntry
+        Title="Assigning Standards Using a Downloaded Standards List"
+        Link="/Content/TPC/Content/Standards/AssigningStandardsUsingaDownloadedStandardsList.htm" />
+      <TocEntry
+        Title="Creating a Custom Standards List"
+        Link="/Content/TPC/Content/Standards/CreatingaCustomStandardsList.htm" />
+      <TocEntry
+        Title="Assigning Standards Using a Custom Standards List"
+        Link="/Content/TPC/Content/Standards/AssigningStandardsUsingaCustomStandardsList.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Participant Lists"
+    Link="/Content/TPC/ParticipantLists/ParticipantLists.htm">
+    <TocEntry
+      Title="Creating Participant Lists"
+      Link="/Content/TPC/ParticipantLists/Creating/CreatingParticipantLists.htm">
+      <TocEntry
+        Title="Creating a Participant List"
+        Link="/Content/TPC/ParticipantLists/Creating/CreatingaParticipantListinTurningPointCloud.htm" />
+      <TocEntry
+        Title="Downloading a Participant List from the Turning Account Website"
+        Link="/Content/TPC/ParticipantLists/Creating/CreatingaParticipantListinTurningPointCloud.htm" />
+      <TocEntry
+        Title="Downloading a Participant List from an Integration"
+        Link="/Content/TPC/ParticipantLists/Creating/DownloadingaParticipantListfromanIntegration.htm" />
+      <TocEntry
+        Title="Manually Creating a Participant List"
+        Link="/Content/TPC/ParticipantLists/Creating/ManuallyCreatingaParticipantList.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Modifying Participant Lists"
+      Link="/Content/TPC/ParticipantLists/Modifying/ModifyingParticipantLists.htm">
+      <TocEntry
+        Title="Editing Participant List Information"
+        Link="/Content/TPC/ParticipantLists/Modifying/EditingParticipantListInformation.htm" />
+      <TocEntry
+        Title="Importing a CSV or TXT File"
+        Link="/Content/TPC/ParticipantLists/Modifying/ImportingaCSVorTXTFile.htm" />
+      <TocEntry
+        Title="Exporting to a CSV, HTML or Template File"
+        Link="/Content/TPC/ParticipantLists/Modifying/ExportingtoaCSVHTMLorTemplateFile.htm" />
+      <TocEntry
+        Title="Importing a Template File"
+        Link="/Content/TPC/ParticipantLists/Modifying/ImportingaTemplateFile.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Demographics"
+      Link="/Content/TPC/ParticipantLists/Demographics/Demographics.htm">
+      <TocEntry
+        Title="Adding Demographics to a Participant List"
+        Link="/Content/TPC/ParticipantLists/Demographics/AddingDemographicstoaParticipantList.htm" />
+      <TocEntry
+        Title="Editing Demographics in a Participant List"
+        Link="/Content/TPC/ParticipantLists/Demographics/EditingDemographicsinaParticipantList.htm" />
+      <TocEntry
+        Title="Removing Demographics from a Participant List"
+        Link="/Content/TPC/ParticipantLists/Demographics/RemovingDemographicsfromaParticipantList.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Managing Participant Lists"
+      Link="/Content/TPC/ParticipantLists/Managing/ManagingParticipantLists.htm">
+      <TocEntry
+        Title="Changing a Participant List Name"
+        Link="/Content/TPC/ParticipantLists/Managing/ChangingaParticipantListName.htm" />
+      <TocEntry
+        Title="Exporting Participant Lists"
+        Link="/Content/TPC/ParticipantLists/Managing/ExportingParticipantLists.htm" />
+      <TocEntry
+        Title="Importing Participant Lists"
+        Link="/Content/TPC/ParticipantLists/Managing/ImportingParticipantLists.htm" />
+      <TocEntry
+        Title="Duplicating a Participant List"
+        Link="/Content/TPC/ParticipantLists/Managing/DuplicatingaParticipantList.htm" />
+      <TocEntry
+        Title="Printing a Participant List"
+        Link="/Content/TPC/ParticipantLists/Managing/PrintingaParticipantList.htm" />
+      <TocEntry
+        Title="Deleting a Participant List"
+        Link="/Content/TPC/ParticipantLists/Managing/DeletingaParticipantList.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Preferences"
+    Link="/Content/TPC/Preferences/Preferences.htm">
+    <TocEntry
+      Title="Opening the TurningPoint Cloud Preferences"
+      Link="/Content/TPC/Preferences/OpeningtheTurningPointPreferences.htm" />
+    <TocEntry
+      Title="Software"
+      Link="/Content/TPC/Preferences/Software.htm"></TocEntry>
+    <TocEntry
+      Title="Connections"
+      Link="/Content/TPC/Preferences/Connections.htm"></TocEntry>
+    <TocEntry
+      Title="PowerPoint"
+      Link="/Content/TPC/Preferences/PowerPoint.htm"></TocEntry>
+    <TocEntry
+      Title="Anywhere"
+      Link="/Content/TPC/Preferences/Anywhere.htm"></TocEntry>
+    <TocEntry
+      Title="Self-Paced"
+      Link="/Content/TPC/Preferences/SelfPaced.htm"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="PowerPoint Polling"
+    Link="/Content/TPC/PowerPointPolling/PowerPointPolling.htm">
+    <TocEntry
+      Title="Opening the PowerPoint Polling Environment"
+      Link="/Content/TPC/PowerPointPolling/OpeningthePowerPointPollingEnvironment.htm" />
+    <TocEntry
+      Title="Content"
+      Link="/Content/TPC/PowerPointPolling/Content/Content.htm">
+      <TocEntry
+        Title="Inserting a Polling Slide"
+        Link="/Content/TPC/PowerPointPolling/Content/InsertingaPollingSlide.htm" />
+      <TocEntry
+        Title="Converting a PowerPoint Slide into a Multiple Choice Polling Slide"
+        Link="/Content/TPC/PowerPointPolling/Content/ConvertingaPowerPointSlideintoaMultipleChoicePollingSlide.htm" />
+      <TocEntry
+        Title="Converting a Multiple Choice Slide into a Demographic Slide"
+        Link="/Content/TPC/PowerPointPolling/Content/ConvertingaMultipleChoiceSlideintoaDemographicSlide.htm" />
+      <TocEntry
+        Title="Saving Custom Chart Templates"
+        Link="/Content/TPC/PowerPointPolling/Content/SavingCustomChartTemplates.htm" />
+      <TocEntry
+        Title="Slide Types and Slide Preferences"
+        Link="/Content/TPC/PowerPointPolling/Content/SlideTypesandSlidePreferences.htm" />
+      <TocEntry
+        Title="Objects"
+        Link="/Content/TPC/PowerPointPolling/Content/Objects/Objects.htm">
+        <TocEntry
+          Title="Inserting a Correct Answer Indicator"
+          Link="/Content/TPC/PowerPointPolling/Content/Objects/InsertingaCorrectAnswerIndicator.htm" />
+        <TocEntry
+          Title="Inserting a Chart/Changing the Chart Type"
+          Link="/Content/TPC/PowerPointPolling/Content/Objects/InsertingaChartChangingtheChartType.htm" />
+        <TocEntry
+          Title="Inserting an Animated Chart"
+          Link="/Content/TPC/PowerPointPolling/Content/Objects/Inserting_an_Animated_Chart.htm" />
+        <TocEntry
+          Title="Inserting a Countdown Timer"
+          Link="/Content/TPC/PowerPointPolling/Content/Objects/InsertingaCountdownTimer.htm" />
+        <TocEntry
+          Title="Inserting a Grid"
+          Link="/Content/TPC/PowerPointPolling/Content/Objects/InsertingaGrid.htm" />
+        <TocEntry
+          Title="Inserting a Prompt"
+          Link="/Content/TPC/PowerPointPolling/Content/Objects/InsertingaPrompt.htm" />
+        <TocEntry
+          Title="Inserting a Response Counter"
+          Link="/Content/TPC/PowerPointPolling/Content/Objects/Inserting_a_Response_Counter.htm" />
+        <TocEntry
+          Title="Inserting Stats"
+          Link="/Content/TPC/PowerPointPolling/Content/Objects/Inserting_Stats.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Competition"
+        Link="/Content/TPC/PowerPointPolling/Content/Competition.htm" />
+      <TocEntry
+        Title="Import"
+        Link="/Content/TPC/PowerPointPolling/Content/Import.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Tools"
+      Link="/Content/TPC/PowerPointPolling/Tools/Tools.htm">
+      <TocEntry
+        Title="Comparative Links"
+        Link="/Content/TPC/PowerPointPolling/Tools/ComparativeLinks.htm" />
+      <TocEntry
+        Title="Conditional Branching"
+        Link="/Content/TPC/PowerPointPolling/Tools/ConditionalBranching.htm" />
+      <TocEntry
+        Title="Convert to Picture"
+        Link="/Content/TPC/PowerPointPolling/Tools/ConverttoPicture.htm" />
+      <TocEntry
+        Title="Demographic Comparison"
+        Link="/Content/TPC/PowerPointPolling/Tools/DemographicComparison.htm" />
+      <TocEntry
+        Title="Ranking Wizard"
+        Link="/Content/TPC/PowerPointPolling/Tools/RankingWizard.htm" />
+      <TocEntry
+        Title="Standards"
+        Link="/Content/TPC/PowerPointPolling/Tools/Standards.htm" />
+      <TocEntry
+        Title="Import"
+        Link="/Content/TPC/PowerPointPolling/Tools/Import1.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Polling"
+      Link="/Content/TPC/PowerPointPolling/Polling/Polling.htm">
+      <TocEntry
+        Title="Resetting a PowerPoint Polling Session or Charts"
+        Link="/Content/TPC/PowerPointPolling/Polling/ResettingaPowerPointPollingSessionorCharts.htm" />
+      <TocEntry
+        Title="Continuing a Prior PowerPoint Polling Session"
+        Link="/Content/TPC/PowerPointPolling/Polling/ContinuingaPriorPowerPointPollingSession.htm" />
+      <TocEntry
+        Title="Using the Real-Time Registration Tool"
+        Link="/Content/TPC/PowerPointPolling/Polling/UsingtheRealTimeRegistrationTool.htm" />
+      <TocEntry
+        Title="Running a Slide Show"
+        Link="/Content/TPC/PowerPointPolling/Polling/RunningaSlideShow.htm" />
+      <TocEntry
+        Title="The PowerPoint Polling Showbar"
+        Link="/Content/TPC/PowerPointPolling/Polling/ThePowerPointPollingShowbar.htm" />
+      <TocEntry
+        Title="Viewing a Response Grid"
+        Link="/Content/TPC/PowerPointPolling/Polling/ViewingaResponseGrid.htm" />
+      <TocEntry
+        Title="Using the Participant Monitor"
+        Link="/Content/TPC/PowerPointPolling/Polling/UsingtheParticipantMonitor.htm" />
+      <TocEntry
+        Title="Taking Attendance in PowerPoint Polling"
+        Link="/Content/TPC/Supplemental/Taking Attendance in TPC/Taking Attendance in PowerPoint Polling.htm" />
+      <TocEntry
+        Title="Messaging"
+        Link="/Content/TPC/PowerPointPolling/Polling/Messaging.htm" />
+      <TocEntry
+        Title="Inserting New Slides During the Presentation"
+        Link="/Content/TPC/PowerPointPolling/Polling/InsertingNewSlidesDuringthePresentation.htm" />
+      <TocEntry
+        Title="Using Data Slicing"
+        Link="/Content/TPC/PowerPointPolling/Polling/UsingDataSlicing.htm" />
+      <TocEntry
+        Title="Saving a PowerPoint Polling Session"
+        Link="/Content/TPC/PowerPointPolling/Polling/SavingaPowerPointPollingSession.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Anywhere Polling"
+    Link="/Content/TPC/AnywherePolling/AnywherePolling.htm">
+    <TocEntry
+      Title="Polling"
+      Link="/Content/TPC/AnywherePolling/Polling/Polling.htm">
+      <TocEntry
+        Title="Running a Session"
+        Link="/Content/TPC/AnywherePolling/Polling/RunningaSession.htm" />
+      <TocEntry
+        Title="Running a Session With a Question List"
+        Link="/Content/TPC/AnywherePolling/Polling/RunningaSessionWithaQuestionList.htm" />
+      <TocEntry
+        Title="About the Anywhere Polling Showbar"
+        Link="/Content/TPC/AnywherePolling/Polling/AbouttheAnywherePollingShowbar.htm" />
+      <TocEntry
+        Title="About the Chart Window"
+        Link="/Content/TPC/AnywherePolling/Polling/AbouttheChartWindow.htm" />
+      <TocEntry
+        Title="Quick Poll Question Types"
+        Link="/Content/TPC/AnywherePolling/Polling/QuickPollQuestionTypes.htm" />
+      <TocEntry
+        Title="Taking Attendance in Anywhere Polling"
+        Link="/Content/TPC/Supplemental/Taking Attendance in TPC/Taking Attendance in Anywhere Polling.htm" />
+      <TocEntry
+        Title="Marking a Question as Anonymous"
+        Link="/Content/TPC/AnywherePolling/Polling/MarkingaQuestionasAnonymous.htm" />
+      <TocEntry
+        Title="Using the Real-Time Registration Tool"
+        Link="/Content/TPC/AnywherePolling/Polling/UsingtheRealTimeRegistrationTool.htm" />
+      <TocEntry
+        Title="Messaging"
+        Link="/Content/TPC/AnywherePolling/Polling/AnywhereMessaging.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Sessions"
+      Link="/Content/TPC/AnywherePolling/Sessions/Sessions.htm">
+      <TocEntry
+        Title="Saving an Anywhere Polling Session"
+        Link="/Content/TPC/AnywherePolling/Sessions/SavinganAnywherePollingSession.htm" />
+      <TocEntry
+        Title="Resetting an Anywhere Polling Session"
+        Link="/Content/TPC/AnywherePolling/Sessions/ResettinganAnywherePollingSession.htm" />
+      <TocEntry
+        Title="Continuing a Prior Anywhere Polling Session"
+        Link="/Content/TPC/AnywherePolling/Sessions/ContinuingaPriorAnywherePollingSession.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Self-Paced Polling"
+    Link="/Content/TPC/SelfPacedPolling/SelfPacedPolling.htm">
+    <TocEntry
+      Title="Setting Up Self-Paced Polling"
+      Link="/Content/TPC/SelfPacedPolling/SettingUpSelfPacedPolling.htm" />
+    <TocEntry
+      Title="Viewing the Compact Mode"
+      Link="/Content/TPC/SelfPacedPolling/ViewingtheCompactMode.htm" />
+    <TocEntry
+      Title="Manually Setting a Timer"
+      Link="/Content/TPC/SelfPacedPolling/ManuallySettingaTimer.htm" />
+    <TocEntry
+      Title="Polling"
+      Link="/Content/TPC/SelfPacedPolling/Polling/Polling.htm">
+      <TocEntry
+        Title="Self-Paced Polling"
+        Link="/Content/TPC/SelfPacedPolling/Polling/SelfPacedPolling.htm" />
+      <TocEntry
+        Title="Viewing the Live Results Monitor"
+        Link="/Content/TPC/SelfPacedPolling/Polling/ViewingtheLiveResultsMonitor.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Sessions"
+      Link="/Content/TPC/SelfPacedPolling/Sessions/Sessions.htm">
+      <TocEntry
+        Title="Saving a Self-Paced Polling Session"
+        Link="/Content/TPC/SelfPacedPolling/Sessions/SavingaSelfPacedPollingSession.htm" />
+      <TocEntry
+        Title="Resetting a Self-Paced Polling Session"
+        Link="/Content/TPC/SelfPacedPolling/Sessions/ResettingaSelfPacedPollingSession.htm" />
+      <TocEntry
+        Title="Continuing a Self-Paced Polling Session"
+        Link="/Content/TPC/SelfPacedPolling/Sessions/ContinuingaSelfPacedPollingSession.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Individual Session Management"
+    Link="/Content/TPC/IndividualSessionManagement/IndividualSessionManagement.htm">
+    <TocEntry
+      Title="Importing Sessions"
+      Link="/Content/TPC/IndividualSessionManagement/ImportingSessions.htm" />
+    <TocEntry
+      Title="Importing a ResponseCard AnyWhere Session"
+      Link="/Content/TPC/IndividualSessionManagement/ImportingaResponseCardAnyWhereSession.htm" />
+    <TocEntry
+      Title="Pairing a Session to a Participant List"
+      Link="/Content/TPC/IndividualSessionManagement/PairingAutoSessiontoPList.htm" />
+    <TocEntry
+      Title="Exporting Sessions"
+      Link="/Content/TPC/IndividualSessionManagement/ExportingSessions.htm" />
+    <TocEntry
+      Title="Extracting Session Information"
+      Link="/Content/TPC/IndividualSessionManagement/ExtractingSessionInformation.htm" />
+    <TocEntry
+      Title="Creating a Participant List from an Auto Session"
+      Link="/Content/TPC/IndividualSessionManagement/CreatingaParticipantListfromanAutoSession.htm" />
+    <TocEntry
+      Title="Merging Sessions"
+      Link="/Content/TPC/IndividualSessionManagement/MergingSessions.htm" />
+    <TocEntry
+      Title="Deleting Sessions"
+      Link="/Content/TPC/IndividualSessionManagement/DeletingSessions.htm" />
+    <TocEntry
+      Title="Changing a Session Name"
+      Link="/Content/TPC/IndividualSessionManagement/ChangingaSessionName.htm" />
+    <TocEntry
+      Title="Editing a Session"
+      Link="/Content/TPC/IndividualSessionManagement/EditingaSession.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Results Manager"
+    Link="/Content/TPC/ResultsManager/ResultsManager.htm">
+    <TocEntry
+      Title="Overview"
+      Link="/Content/TPC/ResultsManager/Overview/Overview.htm">
+      <TocEntry
+        Title="Opening the Results Manager Overview"
+        Link="/Content/TPC/ResultsManager/Overview/OpeningtheResultsManagerOverview.htm" />
+      <TocEntry
+        Title="Adding a Manual Grade Column"
+        Link="/Content/TPC/ResultsManager/Overview/AddingaManualGradeColumn.htm" />
+      <TocEntry
+        Title="Reordering the Session Columns"
+        Link="/Content/TPC/ResultsManager/Overview/ReorderingtheSessionColumns.htm" />
+      <TocEntry
+        Title="Overwriting Session Scores"
+        Link="/Content/TPC/ResultsManager/Overview/OverwritingSessionScores.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Sessions"
+      Link="/Content/TPC/ResultsManager/Sessions/Sessions.htm">
+      <TocEntry
+        Title="Excluding a Session"
+        Link="/Content/TPC/ResultsManager/Sessions/ExcludingaSession.htm" />
+      <TocEntry
+        Title="Setting Session Performance Points"
+        Link="/Content/TPC/ResultsManager/Sessions/SettingSessionPerformancePoints.htm" />
+      <TocEntry
+        Title="Setting Attendance Points"
+        Link="/Content/TPC/ResultsManager/Sessions/AssigningAttendancePointsinResultsManager.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Participants"
+      Link="/Content/TPC/ResultsManager/Participants/Participants.htm">
+      <TocEntry
+        Title="Editing Participant Information"
+        Link="/Content/TPC/ResultsManager/Participants/EditingParticipantInformation.htm" />
+      <TocEntry
+        Title="Viewing Grade Overview Information"
+        Link="/Content/TPC/ResultsManager/Participants/ViewingGradeOverviewInformation.htm" />
+      <TocEntry
+        Title="Removing a Participant from a Single Session"
+        Link="/Content/TPC/ResultsManager/Participants/RemovingaParticipantfromaSingleSession.htm" />
+      <TocEntry
+        Title="Removing a Participant from the Participant List via Results Manager"
+        Link="/Content/TPC/ResultsManager/Participants/RemovingaParticipantfromtheParticipantListviaResultsManager.htm" />
+      <TocEntry
+        Title="Viewing Removed Participants"
+        Link="/Content/TPC/ResultsManager/Participants/ViewingRemovedParticipants.htm" />
+      <TocEntry
+        Title="Deleting a Removed Participant from Results Manager"
+        Link="/Content/TPC/ResultsManager/Participants/DeletingaRemovedParticipantfromResultsManager.htm" />
+      <TocEntry
+        Title="Reinstating a Participant"
+        Link="/Content/TPC/ResultsManager/Participants/ReinstatingaParticipant.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Devices"
+      Link="/Content/TPC/ResultsManager/Devices/Devices.htm">
+      <TocEntry
+        Title="Saving Device IDs from the Real-Time Registration Tool"
+        Link="/Content/TPC/ResultsManager/Devices/SavingDeviceIDsfromtheRealTimeRegistrationTool.htm" />
+      <TocEntry
+        Title="Adding or Removing Devices"
+        Link="/Content/TPC/ResultsManager/Devices/AddingorRemovingDevices.htm" />
+      <TocEntry
+        Title="Assigning an Unassigned Device"
+        Link="/Content/TPC/ResultsManager/Devices/AssigninganUnassignedDevice.htm" />
+      <TocEntry
+        Title="Merging Secondary Devices"
+        Link="/Content/TPC/ResultsManager/Devices/MergingSecondaryDevices.htm" />
+      <TocEntry
+        Title="Viewing the Grade Overview for Unassigned Devices"
+        Link="/Content/TPC/ResultsManager/Devices/ViewingtheGradeOverviewforUnassignedDevices.htm" />
+      <TocEntry
+        Title="Assigning a Single Session to a Participant"
+        Link="/Content/TPC/ResultsManager/Devices/AssigningaSingleSessiontoaParticipant.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Export"
+      Link="/Content/TPC/ResultsManager/Export/Export.htm">
+      <TocEntry
+        Title="Exporting a Participant Report"
+        Link="/Content/TPC/ResultsManager/Export/ExportingaParticipantReport.htm" />
+      <TocEntry
+        Title="Adding an Export Scheme to TurningPoint Cloud"
+        Link="/Content/TPC/ResultsManager/Export/Adding a Scheme to TP 5.htm" />
+      <TocEntry
+        Title="Exporting a Session to an Export Scheme"
+        Link="/Content/TPC/ResultsManager/Export/ExportingaSessiontoanExportScheme.htm" />
+      <TocEntry
+        Title="Exporting the Results Manager Overview"
+        Link="/Content/TPC/ResultsManager/Export/ExportingtheResultsManagerOverview.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Integrations"
+      Link="/Content/TPC/ResultsManager/Integrations/Integrations.htm">
+      <TocEntry
+        Title="Updating Participant Lists from an LMS"
+        Link="/Content/TPC/ResultsManager/Integrations/UpdatingParticipantListsfromanLMS.htm" />
+      <TocEntry
+        Title="Exporting Sessions to an LMS Integration"
+        Link="/Content/TPC/ResultsManager/Integrations/ExportingSessionstoanLMS.htm" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Reports"
+    Link="/Content/TPC/Reporting/Reporting.htm">
+    <TocEntry
+      Title="Generating Reports"
+      Link="/Content/TPC/Reporting/GeneratingReports.htm" />
+    <TocEntry
+      Title="Exporting a Report"
+      Link="/Content/TPC/Reporting/ExportingaReport.htm" />
+    <TocEntry
+      Title="Exporting Multiple Reports"
+      Link="/Content/TPC/Reporting/ExportingMultipleReports.htm" />
+    <TocEntry
+      Title="Saving and Printing a PDF Report"
+      Link="/Content/TPC/Reporting/SavingandPrintingaPDFReport.htm" />
+    <TocEntry
+      Title="Results by Question"
+      Link="/Content/TPC/Reporting/ResultsbyQuestion.htm" />
+    <TocEntry
+      Title="Results by Participant"
+      Link="/Content/TPC/Reporting/ResultsbyParticipant.htm" />
+    <TocEntry
+      Title="Results Detail"
+      Link="/Content/TPC/Reporting/ResultsDetail.htm" />
+    <TocEntry
+      Title="Attendance"
+      Link="/Content/TPC/Reporting/Attendance.htm" />
+    <TocEntry
+      Title="Results by Demographic"
+      Link="/Content/TPC/Reporting/ResultsbyDemographic.htm" />
+    <TocEntry
+      Title="Demographic Comparison"
+      Link="/Content/TPC/Reporting/DemographicComparison.htm" />
+    <TocEntry
+      Title="Comparative Results"
+      Link="/Content/TPC/Reporting/ComparativeResults.htm" />
+    <TocEntry
+      Title="Team Points"
+      Link="/Content/TPC/Reporting/TeamPoints.htm" />
+    <TocEntry
+      Title="Session Log Report"
+      Link="/Content/TPC/Reporting/SessionLogReport.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    conditions="DocType.HTML" />
+</CatapultToc>

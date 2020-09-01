@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="ResponseWare for Presenters in TurningPoint 5"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[DocType.UG-PC or OS.PC or Product.TP or &quot;Product.Turning Account&quot; or Users.Instructors] exclude[DocType.HTML or DocType.HTML-Mac or DocType.HTML-PC or DocType.Other or DocType.UG or DocType.UG-Mac or OS.Mac or &quot;Product.TurningPoint Cloud&quot; or Users.Students] "
+  MasterToc="/Project/TOCs/ResponseWare/Presenters/ResponsewareforTurningPointInstructors.fltoc"
+  PatchHeadingLevels="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseWare for TurningPoint 5 Instructors</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="ResponseWareforTurningPoint5Instructors"
+    Author="Turning Technologies"
+    Subject="ResponseWareforTurningPoint5Instructors" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

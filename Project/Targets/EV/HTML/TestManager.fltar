@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  ConditionTagExpression="include[DocType.HTML or Versions.9]"
+  Skin="/Project/Skins/EVTM.flskn"
+  MasterToc="/Project/TOCs/EV/EVTM.fltoc"
+  GetLatestBeforeCompile="false"
+  DefaultUrl="/Content/ExamView/TestManager/Welcome.htm"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  EnableSitemap="false"
+  SitemapWebUrl="http://help.turningtechnologies.com/examview/testmanager/"
+  ExcludeUnreferencedContent="true"
+  Medium="non-print"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Product Name">ExamView Test Manager</Variable>
+    <Variable
+      Name="Variables/Version #">9.0</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/products/examview/examview-assessment-suite</Variable>
+  </Variables>
+</CatapultTarget>

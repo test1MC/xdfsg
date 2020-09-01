@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4687" MadCap:lastWidth="1078">
+    <head>&#160;<link href="../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint 5">TurningPoint 5®</MadCap:conditionalText>
+            <MadCap:conditionalText MadCap:conditions="TurningPoint.TurningPoint Cloud">TurningPoint® Cloud</MadCap:conditionalText> and CIITS</h1>
+        <p MadCap:conditions="TurningPoint.TurningPoint 5">This document outlines the steps for using TurningPoint <span class="Bold">(versions 5.2 and above) </span>with CIITS.</p>
+        <p class="SmallTitle" MadCap:conditions="TurningPoint.TurningPoint 5">How does the integration work?</p>
+        <p MadCap:conditions="TurningPoint.TurningPoint 5">The participant information from CIITS is downloaded and converted into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. Session scores are then exported from TurningPoint in a specific format and then imported into CIITS.</p>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/How-RTR.flsnp" MadCap:conditions="TurningPoint.TurningPoint Cloud" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading the Student Analysis from CIITS</h3>
+        <ol class="Gotham">
+            <li>Login to CIITS.</li>
+            <li>Mouse over the <span class="Bold">Classrooms</span> tab and select <span class="Bold">Student Performance</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/CIITS-StudentPerformance.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Select the <span class="Bold">Student Analysis</span> tab and click <span class="Bold">Advanced:</span><span class="Bold">create your own report</span>.<p style="text-align: left;"><img src="../../Graphics/ExportSchemes/CIITS-StudentAnalysis.png" class="LargeWide480pxGrayBorder"></img></p></li>
+            <li>Select <span class="Bold">Student Demographics</span> from the <span class="Italic">Analyze By</span> drop-down menu.</li>
+            <li>Select <span class="Bold">Student ID</span> from the <span class="Italic">Analysis Groups</span> drop-down menu.</li>
+            <li>Click <span class="Bold">Add Column</span>.</li>
+            <li>Click <span class="Bold">Export to Excel</span>.</li>
+            <li><span class="Bold">Save</span> the exported file.</li>
+            <li><span class="Bold">Change</span> the extension from .xls to <span class="Bold">.csv</span>. <div class="Tip" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #904799;&quot; class=&quot;mcFormatColor&quot;&gt;TIP&lt;/span&gt;&lt;/span&gt;"><p style="text-align: left;">To change the extension from .xls to .csv, click <span class="Bold">File &gt; Save As</span>. Select <span class="Bold">CSV</span>. </p></div></li>
+        </ol>
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ImportingFileintoTP.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/PowerPointPolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AwywherePolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/AfterClass-NoWebReg.flsnp" />
+        <MadCap:snippetBlock src="../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">Uploading Grades to CIITS</h3>
+        <ol class="Gotham">
+            <li>Log into CIITS.</li>
+            <li>Mouse over the <span class="Bold">Assessment Admin</span> tab and select <span class="Bold">Find a Test</span>.</li>
+            <li>Select the <span class="Bold">test</span> from <span class="Italic">Test Central</span>.</li>
+            <li>Click <span class="Bold">Score Test</span> from the Actions panel on the left.</li>
+            <li>Click <span class="Bold">Upload Scores</span> under the test name from the Search Results panel on the left.</li>
+            <li>Select <span class="Bold">SchoolNet</span> from the <span class="Italic">Choose File Format</span> drop-down menu.</li>
+            <li>Click Choose File, select the <span class="Bold">CSV file</span> from the previous section and click <span class="Bold">Open</span>.<p class="InList">The scores are now uploaded into CIITS.</p></li>
+        </ol>
+    </body>
+</html>

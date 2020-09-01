@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/ExamView/TestPlayer/Welcome.htm"
+  Skin="/Project/Skins/EVTP.flskn"
+  MasterToc="/Project/TOCs/EV/EVTP.fltoc"
+  ConditionTagExpression="include[DocType.HTML or Versions.9]"
+  EnableSitemap="false"
+  SitemapWebUrl="http://help.turningtechnologies.com/examview/testplayer/"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp"
+  ExcludeUnreferencedContent="true"
+  Medium="non-print"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Product Name">ExamView Test Player</Variable>
+    <Variable
+      Name="Variables/Version #">9.0</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/products/examview/examview-assessment-suite</Variable>
+  </Variables>
+  <Destinations></Destinations>
+</CatapultTarget>

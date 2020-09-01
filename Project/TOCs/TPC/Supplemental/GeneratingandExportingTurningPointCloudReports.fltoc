@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Generating and Exporting TurningPoint Reports"
+    Link="/Content/TPC/Reporting/TurningPoint5ReportsGeneratingandExporting.htm">
+    <TocEntry
+      Title="Generating Reports"
+      Link="/Content/TPC/Reporting/GeneratingReports.htm" />
+    <TocEntry
+      Title="Exporting a Report"
+      Link="/Content/TPC/Reporting/ExportingaReport.htm"
+      StartSection="false" />
+  </TocEntry>
+</CatapultToc>

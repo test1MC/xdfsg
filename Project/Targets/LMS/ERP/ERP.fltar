@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/LMS/ERP/ERP_HTML.fltoc"
+  Skin="/Project/Skins/ERP.flskn"
+  Medium="non-print"
+  ConditionTagExpression="include[DocType.HTML] "
+  ExcludeUnreferencedContent="true"
+  MasterPage="/Content/Resources/MasterPages/UserGuide.flmsp">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

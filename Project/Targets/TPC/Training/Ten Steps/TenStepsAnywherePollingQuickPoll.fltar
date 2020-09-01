@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Training Documents/Anywhere Polling/AnywherePollingQuickPoll.fltoc"
+  ConditionTagExpression=""
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">TurningPoint Cloud: Steps to Successfully Run Anywhere Polling (Quick Poll)</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="TurningPoint Cloud: Steps to Successfully Run Anywhere Polling (Quick Poll)"
+    Subject="TurningPoint Cloud: Steps to Successfully Run Anywhere Polling (Quick Poll)"
+    Keywords="TurningPoint Cloud: Steps to Successfully Run Anywhere Polling (Quick Poll)"
+    Author="Turning Technologies" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

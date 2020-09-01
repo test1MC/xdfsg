@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="WebHelp2"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  DefaultUrl="/Content/Hardware/Mobi360/About/About.htm"
+  Skin="/Project/Skins/Test.flskn"
+  MasterToc="/Project/TOCs/Hardware/Mobi360UserGuideHTML.fltoc"
+  ConditionTagExpression="include[DocType.HTML or Product.Mobi360]"
+  Medium="non-print"
+  ServerEnabled="false">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="true"
+    GenerateGlossaryProxy="true" />
+  <Variables>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Product Name">Mobi 360</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/products/mobile-interactive-whiteboards</Variable>
+  </Variables>
+  <Destinations>
+    <Destination
+      Link="/Project/Destinations/Destination.fldes" />
+  </Destinations>
+</CatapultTarget>

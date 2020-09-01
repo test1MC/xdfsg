@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Mobi360UserGuidePDF.fltoc"
+  ConditionTagExpression="include[DocType.UG or Product.Mobi360]"
+  PatchHeadingLevels="true">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="true"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/DocType">User Guide</Variable>
+    <Variable
+      Name="Variables/Product Name">Mobi 360</Variable>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/user-guides</Variable>
+    <Variable
+      Name="General/PRODUCT">Mobi 360</Variable>
+    <Variable
+      Name="General/ProductName">Mobi 360</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Mobi 360 User Guide</Variable>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+  <DocumentProperties
+    Keywords="UGM360-1rev3_031114"
+    Title="Mobi360UserGuide"
+    Subject="Mobi360UserGuide"
+    Author="Turning Technologies" />
+</CatapultTarget>

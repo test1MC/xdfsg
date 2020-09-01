@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/I360/Supplemental/ProgrammedQT.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Using Insight 360 with a Programmed QT Device</Variable>
+    <Variable
+      Name="Variables/WEB">einstruction.com/insight-360-overview</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="Using Insight 360 with a Programmed QT Device"
+    Subject="Using Insight 360 with a Programmed QT Device"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false" />
+</CatapultTarget>

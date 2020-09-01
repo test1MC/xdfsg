@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc>
+  <TocEntry
+    Title="Bookstore Troubleshooting Guide"
+    Link="/Content/Hardware/SupportDocuments/BookstoreTroubleshootingGuide.htm"
+    BreakType="chapter"
+    AutoEndOnLeftPage="disabled"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    PageType="normal">
+    <TocEntry
+      Title="ResponseCard RF Troubleshooting Flowchart"
+      Link="/Content/Hardware/SupportDocuments/ResponseCardRFTroubleshootingFlowchart.htm"></TocEntry>
+    <TocEntry
+      Title="ResponseCard XR and NXT Troubleshooting Flowchart"
+      Link="/Content/Hardware/SupportDocuments/ResponseCardXR_NXTTroubleshootingFlowchart.htm" />
+    <TocEntry
+      Title="Downloading Turning Technologies Software"
+      Link="/Content/Hardware/SupportDocuments/DownloadingTurningTechnologiesSoftware/DownloadingTurningTechnologiesSoftware.htm">
+      <TocEntry
+        Title="How do I download the software?"
+        Link="/Content/Hardware/SupportDocuments/DownloadingTurningTechnologiesSoftware/HowDoIDownloadtheSoftware.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Changing the Channel"
+      Link="/Content/Hardware/SupportDocuments/ChangingtheChannel.htm"
+      BreakType="pageLayout"
+      StartSection="false"></TocEntry>
+    <TocEntry
+      Title="Running a Polling Test in TurningPoint"
+      Link="/Content/Hardware/SupportDocuments/PollingTest.htm"
+      BreakType="pageLayout"
+      StartSection="false">
+      <TocEntry
+        Title="Running a Polling Test"
+        Link="/Content/Hardware/SupportDocuments/PollingTestforRFReceiver.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Programming Device IDs"
+      Link="/Content/Hardware/SupportDocuments/ProgrammingDeviceIDs.htm"
+      StartSection="false"
+      BreakType="pageLayout" />
+  </TocEntry>
+</CatapultToc>

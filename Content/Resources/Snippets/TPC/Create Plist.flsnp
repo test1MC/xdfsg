@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1704" MadCap:lastWidth="1069">
+    <head>
+    </head>
+    <body>
+        <div class="ImageFloatRight">
+            <p>
+                <img src="../../../Graphics/TPC/Windows/Window-CreateParticipantList1.png" class="MediumWide288pxGrayBorder" MadCap:conditions="DocType.UG,DocType.Training" title="Create Participant List Window" alt="Create Participant List Window" />
+            </p>
+        </div>
+        <ol class="Gotham">
+            <li>Open TurningPoint Cloud and sign in to your Turning Account.</li>
+            <li>Select the <span class="Bold">Manage</span> tab.</li>
+            <li>Click the <span class="Italic">Participant List</span> drop-down menu and select <span class="Bold">New</span>.<p>The <span class="Italic">Create Participant List</span> window opens.</p><p><img src="../../../Graphics/TPC/Windows/Window-CreateParticipantList1.png" class="Thumbnail" MadCap:conditions="DocType.HTML" alt="Create Participant List Window" title="Create Participant List Window" /></p></li>
+            <li>Select the <span class="Bold">Download from Integration</span> radio button and click <span class="Bold">Create List</span>.<p>The <span class="Italic">Connect to Integration</span> window opens.</p><p><img src="../../../Graphics/TPC/Windows/Window-ConnectToIntegration.png" class="Thumbnail" MadCap:conditions="DocType.HTML" alt="Connect To Integration Window" title="Connect To Integration Window" /></p></li>
+            <li>Select <span class="Bold">Turning Account Registration</span> from the <span class="Italic">Integration</span> drop-down menu.<div class="ImageFloatRight"><p style="text-align: left;"><img src="../../../Graphics/TPC/Windows/Window-ConnectToIntegration.png" class="MediumWide288pxGrayBorder" MadCap:conditions="DocType.UG,DocType.Training" title="Connect To Integration Window" alt="Connect To Integration Window" /></p></div></li>
+            <li>The <span class="Bold">Server Address</span>, <span class="Bold">Username</span> and <span class="Bold">Password</span> are automatically populated.</li>
+            <li>Click <span class="Bold">Connect</span>.<p class="InList">The <span class="Italic">Import Participant List</span> window opens.</p></li>
+            <li>Select the participant list or lists to import. Optionally, check <span class="Bold">Select All</span> to import all participant lists.</li>
+            <li>Click <span class="Bold">Import</span>.<p class="InList">A confirmation box is displayed.</p><p class="InList"><img src="../../../Graphics/TPC/Windows/Window-ImportParticipantListConfirmation.png" class="MediumWide288pxGrayBorder" title="Successful Import Confirmation" alt="Successful Import Confirmation" /></p></li>
+            <li>Click <span class="Bold">OK</span>.<p class="InList">The participant list is added to the left panel of the <span class="Italic">Participant List Overview</span> screen.</p></li>
+            <li>Select the participant list to view the participant information.<div class="Tip"><p>The imported participant list contains the following information: Device ID(s), License Status, First Name, Last Name, User ID and Email.</p></div></li>
+        </ol>
+    </body>
+</html>

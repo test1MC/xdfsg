@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Title8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"
+    conditions="DocType.UG"
+    PageType="firstright"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Copyright8_5X11.flpgl"
+    PageNumberReset="reset"
+    PageNumber="1" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/TOC8_5X11.flpgl"
+    PageType="firstright"
+    PageNumberReset="continue" />
+  <TocEntry
+    Title="Overview"
+    Link="/Content/Hardware/TouchBoard/Overview.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    ChapterNumber="1"
+    ChapterNumberReset="reset"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same">
+    <TocEntry
+      Title="What's in the Box"
+      Link="/Content/Hardware/TouchBoard/WhatsintheBox.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Technical Requirements"
+      Link="/Content/Hardware/TouchBoard/TechnicalRequirements.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageNumberReset="continue"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"></TocEntry>
+    <TocEntry
+      Title="Installing Ubuntu GNOME"
+      Link="/Content/Hardware/DualBoard/InstallingUbuntuGNOME.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Set Up"
+    Link="/Content/Hardware/TouchBoard/Set Up.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Installing WorkSpace"
+      Link="/Content/Hardware/TouchBoard/WorkSpace/InstallingWorkSpace.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Mounting the Touch Board Plus"
+      Link="/Content/Hardware/TouchBoard/MountingtheTouchBoard.htm" />
+    <TocEntry
+      Title="Connecting the Video Projector"
+      Link="/Content/Hardware/TouchBoard/ConnectingtheVideoProjector.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Connecting the Touch Board"
+      Link="/Content/Hardware/TouchBoard/ConnectingtheTouchBoardviaUSB.htm"
+      BreakType="none"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Calibrating the Touch Board (OS X and Linux)"
+      Link="/Content/Hardware/TouchBoard/CalibratingtheTouchBoardviaDeviceManager.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Calibrating the Touch Board (Windows 7 and Windows 8)"
+      Link="/Content/Hardware/TouchBoard/CalibratingtheTouchBoard(Windows7andWindows8).htm"
+      BreakType="pageLayout"
+      StartSection="false"></TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Using the Touch Board"
+    Link="/Content/Hardware/TouchBoard/UsingtheTouchBoard.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="Mouse Actions"
+      Link="/Content/Hardware/TouchBoard/MouseActions.htm"
+      BreakType="pageLayout"
+      StartSection="false" />
+    <TocEntry
+      Title="Touch Board Gestures"
+      Link="/Content/Hardware/TouchBoard/TouchBoardGestures.htm" />
+    <TocEntry
+      Title="Care and Maintenance"
+      Link="/Content/Hardware/TouchBoard/CareandMaintenance.htm" />
+    <TocEntry
+      Title="Additional Solutions"
+      Link="/Content/Hardware/TouchBoard/MobileSolution.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="WorkSpace"
+    Link="/Content/Hardware/TouchBoard/WorkSpace/WorkSpace.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl">
+    <TocEntry
+      Title="WorkSpace Window"
+      BreakType="pageLayout"
+      StartSection="false"
+      Link="/Content/WorkSpace/About/WorkSpaceWindow.htm" />
+    <TocEntry
+      Title="WorkSpace Modes"
+      Link="/Content/Hardware/TouchBoard/WorkSpace/TheWorkSpaceToolbarandModes.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Annotating"
+      Link="/Content/Hardware/TouchBoard/WorkSpace/Annotating.htm"></TocEntry>
+    <TocEntry
+      Title="Multi-User Mode"
+      Link="/Content/Hardware/TouchBoard/WorkSpace/Multi-UserMode.htm">
+      <TocEntry
+        Title="Setting Up Multi-User Mode"
+        StartSection="false"
+        SectionNumberReset="continue"
+        VolumeNumberReset="same"
+        ChapterNumberReset="continue"
+        ComputeToc="false"
+        Link="/Content/WorkSpace/WorkSpace Modes/SettingUpMultiUserMode.htm"></TocEntry>
+      <TocEntry
+        Title="Selecting the Presenter"
+        Link="/Content/WorkSpace/WorkSpace Modes/SelectingthePresenter.htm" />
+      <TocEntry
+        Title="Locking Tablets and Clickers"
+        Link="/Content/Hardware/TouchBoard/WorkSpace/LockingTabletsandClickers.htm"
+        BreakType="none"
+        StartSection="false"
+        PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Distributing Files"
+      Link="/Content/WorkSpace/UsingWorkspace/DistributingFiles.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Declaration of Conformity"
+    Link="/Content/Hardware/TouchBoard/DeclarationofConformity.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    PageType="right" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm"
+    BreakType="chapter"
+    PageType="firstright"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/8_5X11/Chapters8_5X11.flpgl"
+    AutoEndOnLeftPage="disabled" />
+</CatapultToc>

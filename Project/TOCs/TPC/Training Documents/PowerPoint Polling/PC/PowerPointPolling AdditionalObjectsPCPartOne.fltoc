@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PowerPoint Polling for PCMac Additional Topics Part One"
+    Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/PowerPointPollingAdditionalTopics.htm">
+    <TocEntry
+      Title="Demographic Assignment"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/DemographicAssignment.htm" />
+    <TocEntry
+      Title="Generating a Results by Demographic Report"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/GeneratingaResultsbyDemographicReport.htm" />
+    <TocEntry
+      Title="Priority Ranking"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/PriorityRanking.htm" />
+    <TocEntry
+      Title="Competitions"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/Competitions.htm" />
+    <TocEntry
+      Title="Team MVP"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/TeamMVP.htm" />
+    <TocEntry
+      Title="Racing Leader Board"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/RacingLeaderBoard.htm" />
+    <TocEntry
+      Title="Participant Competitions"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/ParticipantCompetitions.htm" />
+    <TocEntry
+      Title="Fastest Responders"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/FastestResponders.htm" />
+    <TocEntry
+      Title="Wager Slide"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/WagerSlide.htm" />
+    <TocEntry
+      Title="Comparative Links"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/ComparativeLinks.htm" />
+    <TocEntry
+      Title="Convert to Picture"
+      Link="/Content/TPC/TrainingDocuments/PPPolling/AdditionalTopicsPart1/ConverttoPicture.htm" />
+  </TocEntry>
+</CatapultToc>

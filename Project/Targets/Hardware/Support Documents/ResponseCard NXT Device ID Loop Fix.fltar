@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/Support Documents/NXT ID LOOP fix.fltoc">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">ResponseCard NXT Device ID Loop Fix</Variable>
+    <Variable
+      Name="General/PRODUCT">ResponseCard NXT Device ID Loop Fix</Variable>
+    <Variable
+      Name="General/ProductName">ResponseCard NXT Device ID Loop Fix</Variable>
+    <Variable
+      Name="General/UserGuideTitle">ResponseCard NXT Device ID Loop Fix</Variable>
+  </Variables>
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+  <DocumentProperties
+    Title="ResponseCard NXT Device ID Loop Fix"
+    Subject="ResponseCard NXT Device ID Loop Fix"
+    Keywords="ResponseCard NXT Device ID Loop Fix"
+    Author="Turning Technologies" />
+</CatapultTarget>

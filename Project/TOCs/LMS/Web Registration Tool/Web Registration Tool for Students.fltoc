@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Web Registration Tool for Students"
+    Link="/Content/LMS/WebRegistrationUtility/WebRegistrationToolforStudents.htm">
+    <TocEntry
+      Title="Contact Us"
+      Link="/Content/Resources/GlobalTopics/ContactUs-Condensed.htm" />
+  </TocEntry>
+</CatapultToc>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="Team Scoring"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/TPC/Supplemental/CompetitionsandScoring.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[DocType.Other]">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <PDF
+    ShowUsedBookmarks="false"
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">Competitions and Scoring</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="CompetitionsandScoring"
+    Author="Turning Technologies"
+    Subject="CompetitionsandScoring" />
+</CatapultTarget>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/EV/EVASUG.fltoc"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css"
+  ConditionTagExpression="include[Versions.ASUG] exclude[DocType.HTML or Versions.8] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false"
+    ExpandingTextConversion="expand"
+    PopupConversion="remove-body" />
+  <Variables>
+    <Variable
+      Name="General/DocType">User Guide</Variable>
+    <Variable
+      Name="General/PRODUCT">ExamView Assessment Suite</Variable>
+    <Variable
+      Name="General/ProductName">ExamView Assessment Suite</Variable>
+    <Variable
+      Name="General/UserGuideTitle">ExamViewAssessmentSuiteUserGuide</Variable>
+    <Variable
+      Name="General/VersionNumber">9.0</Variable>
+  </Variables>
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+  <DocumentProperties
+    Title="ExamView Assessment Suite User Guide"
+    Subject="ExamView Assessment Suite User Guide"
+    Author="Turning Technologies" />
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

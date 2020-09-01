@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="1771" MadCap:lastWidth="1077" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../../Resources/TableStyles/AlternateShading.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h3>String Functions</h3>
+        <p>ExamView Test Generator provides you with numerous pre-defined string functions to use when defining variables, conditions, and user-defined functions.</p>
+        <table style="caption-side: top;mc-table-style: url('../../../Resources/TableStyles/AlternateShading.css');" class="TableStyle-AlternateShading" cellspacing="0">
+            <col width="100px" class="TableStyle-AlternateShading-Column-Column1" />
+            <col class="TableStyle-AlternateShading-Column-Column1" />
+            <tbody>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>asc</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int asc(string x)</p>
+                        <p>Computes the ascii value of the first character in the string. If the string is empty, it returns 0.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>chr</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string chr(int x)</p>
+                        <p>Returns a string character with the ASCII value of the argument, x. If x is less than 32 or greater than 255, the function will return a question mark. You should use this function to generate characters found only in the Symbol font. Once the variable is inserted into a question or narrative, you need to highlight the variable and change it to Symbol font for it to display properly.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>instr</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int instr(string x, string y)</p>
+                        <p>Searches in the string, x, for the sub-string, y. If it finds it, the function will return the position in the string, x, where the first occurrence of y was found (between 1 and the length of string, x). If the substring is not found, the function returns FALSE (0).</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>lcase</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string lcase(string x)</p>
+                        <p>Converts the string argument, x, to lower case. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">lcase("ExamView")</span>  will return <span class="ComputerText"> "examview"</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>left</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string left(string x, int y)</p>
+                        <p>Returns the first y characters of the string argument, x. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p class="ComputerText">left("ExamView", 3)  will return "Exa"</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>len</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">int len(string x)</p>
+                        <p>Returns the number of characters in the string argument, x, not counting the null-terminating character.</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>ltrim</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string ltrim(string x)</p>
+                        <p>Trims spaces from the left side of the string argument, x. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">ltrim("  ExamView  ")</span>  will return <span class="ComputerText"> "ExamView  "</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>mid</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string mid(string x, int start, int y)</p>
+                        <p>Returns y characters starting at the start position in the string argument, x. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">mid("ExamView", 2, 4)</span>  will return <span class="ComputerText">"xamV"</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>right</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string right(string x, int y)</p>
+                        <p>Returns the last y characters of the string argument, x. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">right("ExamView", 3)</span>  will return <span class="ComputerText"> "iew"</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>rtrim</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string rtrim(string x)</p>
+                        <p>Trims spaces from the right side of the string argument, x. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">rtrim("  ExamView   ")</span>  will return <span class="ComputerText">"  ExamView"</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>sentence</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string sentence(string x)</p>
+                        <p>Changes string argument, x, into a sentence that can be subdivided using the choose function. This allows us to create a sentence that can word wrap. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">sentence("This is a long sentence that might need to wrap.")</span>
+                            </p>
+                            <p><span class="ComputerText">choose(3, mySentence)</span> to access the 3rd tenth of the variable  <span class="ComputerText">mySentence</span>.</p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>str</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string str(double x)</p>
+                        <p>Returns a string representation of the argument, x. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">str(18)</span>  will return  <span class="ComputerText">"18"</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>strdup</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string strdup(string x, int numTimes)</p>
+                        <p>Returns a string by combining the string argument, x, a variable number of times. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">strdup("(2)", 5) </span> will return  <span class="ComputerText">"(2)(2)(2)(2)(2)"</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>trim</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string trim(string x)</p>
+                        <p>Trims spaces from both the left and the right side of the string argument, x. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">trim("  ExamView   ")</span>  will return <span class="ComputerText"> "ExamView"</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyE-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>ucase</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyD-Column1-Body1">
+                        <p class="ComputerText">string ucase(string x)</p>
+                        <p>Converts the string argument, x, to upper case. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">ucase("ExamView")</span>  will return <span class="ComputerText"> "EXAMVIEW"</span></p>
+                        </div>
+                    </td>
+                </tr>
+                <tr class="TableStyle-AlternateShading-Body-Body1">
+                    <td class="TableStyle-AlternateShading-BodyB-Column1-Body1" style="vertical-align: middle;padding-left: 6px;padding-right: 6px;padding-top: 3px;padding-bottom: 3px;border-right-style: none;border-right-width: 1px;border-right-color: #ffffff;">
+                        <p>val</p>
+                    </td>
+                    <td class="TableStyle-AlternateShading-BodyA-Column1-Body1">
+                        <p class="ComputerText">double val(string x)</p>
+                        <p>Returns a numeric representation of the string argument, x. </p>
+                        <div class="Example" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #31b24a;&quot; class=&quot;mcFormatColor&quot;&gt;EXAMPLE&lt;/span&gt;&lt;/span&gt; ">
+                            <p><span class="ComputerText">val("18")</span>  will return  18</p>
+                            <p><span class="ComputerText">val("-4")</span>  will return  -4</p>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="8" MadCap:lastHeight="4037" MadCap:lastWidth="1078">
+    <head>&#160;<link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" /></head>
+    <body>
+        <h1>TurningPoint 5® and Skyward®</h1>
+        <p>This document outlines the steps for using TurningPoint with the Skyward software.</p>
+        <p class="SmallTitle">How does the integration work?</p>
+        <p>Participant information is entered into a TurningPoint participant list that is loaded before you begin your polling session. Once the session is run and the results are saved, it can be opened in Results Manager. Session scores are exported from TurningPoint in a specific format and then imported into Skyward.</p>
+        <p><b>Prior to using the Skyward integration, the Skyward .tpex file must be added to your TurningPoint Schemes folder. Contact Customer Support (information below) to obtain the file.</b>
+        </p>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/BeforeClass.flsnp" />
+        <h3 class="task">Downloading the Roster</h3>
+        <ol class="Gotham">
+            <li>Login to Skyward.</li>
+            <li>Click the <b>Teacher Access</b> tab in the upper left corner.</li>
+            <li>Click the <b>My Classes</b> link.</li>
+            <li>Locate the appropriate class and click the corresponding <b>Class Options</b> link.<p class="InList">The <span class="Italic">Class Options</span> page is displayed.</p></li>
+            <li>Select <b>Reports</b>.</li>
+            <li>Expand the <b>Class Information</b> folder and select <b>Class Roster</b>.</li>
+            <li>Click <b>Export to Excel</b>.<p class="InList">The roster is exported.</p></li>
+        </ol>
+        <h3 class="task" style="page-break-before: always;" MadCap:conditions="DocType.UG">Creating a Participant List</h3>
+        <ol class="Gotham">
+            <li>Open TurningPoint and select the <b>Manage</b> tab.<div class="ImageFloatRight"><p><img src="../../Graphics/Window-ManuallyCreateParticipantList.png" class="MediumWide288px" /></p></div></li>
+            <li>Click the <i>Participant List</i> drop-down menu and select <b>New</b>.<p class="InList">The <i>Create Participant List</i> window opens.</p></li>
+            <li>Name the new participant list, select <b>Create Manually</b> and click <b>Create List</b>.<p class="InList">The Participant List Editor is displayed.</p></li>
+            <li><b>Drag and drop</b> the downloaded Skyward roster (Excel file) into the Participant List Editor.<div class="Tip" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #904799;&quot; class=&quot;mcFormatColor&quot;&gt;TIP&lt;/span&gt;&lt;/span&gt;"><p>It is also possible to copy and paste text from an Excel file directly into the Participant List Editor.</p></div></li>
+            <li>Press <b>Enter</b> on the keyboard to add another participant.</li>
+            <li>Click <b>Save and Close</b> to save the participant list and return to the Participant List Overview screen.</li>
+        </ol>
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/DuringClass.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/PowerPointPolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AwywherePolling-RTR.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/Self-PacedPolling.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/AfterClass-NoWebReg.flsnp" />
+        <MadCap:snippetBlock src="../../../Resources/Snippets/ExportSchemes/ExportingSessionData.flsnp" />
+        <h3 class="task">ploading Grades to Skyward</h3>
+        <ol class="Gotham">
+            <li>Login to Skyward.</li>
+            <li>Click <b>Open Educator Access Plus</b>.</li>
+            <li>Located within the Teacher Access folder, click <b>My Gradebook</b>.</li>
+            <li>Click the <b>Gradebook link</b>.</li>
+            <li>Mouse over <b>Assignments</b> and select <b>Advanced Export/Import Assignments</b>.</li>
+            <li>Select <b>Import Scores extracted from TurningPoint</b>.</li>
+            <li>Select the <b>assignment</b>.<div class="Note" MadCap:autonum="&lt;span style=&quot;font-family: 'Montserrat';&quot; class=&quot;mcFormatFamily&quot;&gt;&lt;span style=&quot;color: #00a69c;&quot; class=&quot;mcFormatColor&quot;&gt;NOTE&lt;/span&gt;&lt;/span&gt;"><p>If participants have responded to an “online” assignment, scores cannot be imported. This is to prevent results data from being overwritten.</p></div></li>
+            <li>Select the XML file exported from TurningPoint and click <b>Import Scores from File</b>.<p class="InList">The results now appear in the gradebook. </p></li>
+        </ol>
+    </body>
+</html>

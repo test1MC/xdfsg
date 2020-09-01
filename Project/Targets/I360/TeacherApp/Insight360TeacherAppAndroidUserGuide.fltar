@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/I360/TeacherApp.fltoc"
+  ConditionTagExpression="include[DocType.UG or OS.PC] "
+  PatchHeadingLevels="true"
+  MasterStylesheet="/Content/Resources/Stylesheets/Styles.css">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/WEB">turningtechnologies.com/user-guides</Variable>
+    <Variable
+      Name="Variables/DocType">User Guide for Android</Variable>
+    <Variable
+      Name="Variables/Product Name">Insight 360 Teacher App </Variable>
+    <Variable
+      Name="Variables/PublishDate"
+      Type="DateTime">19 November 2014</Variable>
+    <Variable
+      Name="Variables/Version #">1.1</Variable>
+    <Variable
+      Name="General/ProductName">Insight 360 Teacher App</Variable>
+    <Variable
+      Name="General/DocType">User Guide for Android</Variable>
+    <Variable
+      Name="General/UserGuideTitle">Insight 360 Teacher App User Guide for Android</Variable>
+    <Variable
+      Name="General/VersionNumber">1.1</Variable>
+  </Variables>
+  <PDF
+    ShowUsedBookmarks="false"
+    CollapsedBookmarks="true"
+    TitleBar="DocumentTitle" />
+  <DocumentProperties
+    Keywords="UGI360TA-rev2_03032015"
+    Title="Insight360TeacherAppforAndroid"
+    Subject="Insight360TeacherAppforAndroid"
+    Author="Turning Technologies" />
+  <Glossaries>
+    <Glossary
+      Link="/Project/Glossaries/Glossary.flglo" />
+  </Glossaries>
+</CatapultTarget>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="PowerPoint Polling PC Additional Objects"
+    Link="/Content/TPC/PowerPointPolling/Content/Objects/TPObjects.htm">
+    <TocEntry
+      Title="Countdown Timer"
+      Link="/Content/TPC/PowerPointPolling/Content/Objects/InsertingaCountdownTimer.htm" />
+    <TocEntry
+      Title="Correct Answer Indicator"
+      Link="/Content/TPC/PowerPointPolling/Content/Objects/InsertingaCorrectAnswerIndicator.htm" />
+    <TocEntry
+      Title="Response Grid"
+      Link="/Content/TPC/PowerPointPolling/Content/Objects/InsertingaGrid.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+  </TocEntry>
+</CatapultToc>

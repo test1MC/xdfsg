@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Triton Data Collection System and CIITS"
+    Link="/Content/ExportSchemes/Triton/Triton and CIITS/Triton and CIITS.htm">
+    <TocEntry
+      Title="Exporting Student IDs from CIITS"
+      Link="/Content/ExportSchemes/Triton/Triton and CIITS/Exporting_Student_IDs_from_CIITS.htm" />
+    <TocEntry
+      Title="Entering the CIITS Information into the Participant Upload Template"
+      Link="/Content/ExportSchemes/Triton/Triton and CIITS/Entering_the_CIITS_Information_into_the_Participant_Upload_Template.htm" />
+    <TocEntry
+      Title="Exporting Session Information"
+      Link="/Content/ExportSchemes/Triton/Triton and CIITS/Exporting_Session_Information.htm" />
+    <TocEntry
+      Title="Uploading Session Information into CIITS"
+      Link="/Content/ExportSchemes/Triton/Triton and CIITS/Uploading_Session_Information_into_CIITS.htm" />
+  </TocEntry>
+</CatapultToc>

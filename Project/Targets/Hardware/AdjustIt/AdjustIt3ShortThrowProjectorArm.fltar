@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultTarget
+  Version="2"
+  Comment="New Target"
+  Type="PDF"
+  Destinations=""
+  GlossaryTermConversion="marked"
+  MasterToc="/Project/TOCs/Hardware/AdjustIt/AdjustIt3ShortThrowProjectorArm.fltoc"
+  PatchHeadingLevels="true"
+  ConditionTagExpression="include[&quot;Product.AdjustIt - Arm&quot;] ">
+  <PrintedOutput
+    CollapseMargins="true"
+    GenerateTOCProxy="false"
+    GenerateIndexProxy="false"
+    GenerateGlossaryProxy="false" />
+  <Variables>
+    <Variable
+      Name="Variables/Product Name">AdjustIt 3 - Short Throw Projector Arm</Variable>
+    <Variable
+      Name="General/UserGuideTitle">AdjustIt 3 Short Throw Projector Arm</Variable>
+    <Variable
+      Name="General/PRODUCT">AdjustIt 3 Short Throw Projector Arm</Variable>
+    <Variable
+      Name="General/ProductName">AdjustIt 3 Short Throw Projector Arm</Variable>
+  </Variables>
+  <DocumentProperties
+    Title="AdjustIt 3 - Short Throw Projector Arm"
+    Subject="AdjustIt 3 - Short Throw Projector Arm"
+    Author="Turning Technologies"
+    Keywords="UGHWrev1_08212014" />
+  <PDF
+    TitleBar="DocumentTitle"
+    CollapsedBookmarks="true" />
+</CatapultTarget>

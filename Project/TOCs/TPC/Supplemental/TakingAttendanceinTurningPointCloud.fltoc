@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Taking Attendance in TurningPoint Cloud"
+    Link="/Content/TPC/Supplemental/Taking Attendance in TPC/Taking Attendance in TurningPoint Cloud.htm">
+    <TocEntry
+      Title="Taking Attendance in PowerPoint Polling"
+      Link="/Content/TPC/Supplemental/Taking Attendance in TPC/Taking Attendance in PowerPoint Polling.htm" />
+    <TocEntry
+      Title="Taking Attendance in Anywhere Polling"
+      Link="/Content/TPC/Supplemental/Taking Attendance in TPC/Taking Attendance in Anywhere Polling.htm" />
+    <TocEntry
+      Title="Generating an Attendance Report"
+      Link="/Content/TPC/Supplemental/Taking Attendance in TPC/Generating an Attendance Report.htm">
+      <TocEntry
+        Title="Attendance"
+        Link="/Content/TPC/Reporting/Attendance.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Setting Participation Points"
+      Link="/Content/TPC/ResultsManager/Sessions/AssigningAttendancePointsinResultsManager.htm" />
+  </TocEntry>
+</CatapultToc>

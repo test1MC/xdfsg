@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Welcome"
+    Link="/Content/ExamView/TestPlayer/Welcome.htm"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="TitlePage"
+    Link="/Content/Resources/GlobalTopics/TitlePage.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UGTitlePage.flpgl"
+    conditions="DocType.UG"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="Table of Contents"
+    Link="/Content/Resources/GlobalTopics/TOC.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.UG" />
+  <TocEntry
+    Title="Using ExamView Test Player"
+    Link="/Content/ExamView/TestPlayer/UsingTestPlayer.htm">
+    <TocEntry
+      Title="Getting Started with the ExamView Test Player"
+      Link="/Content/ExamView/TestPlayer/GettingStarted.htm" />
+    <TocEntry
+      Title="Taking a Test with the Test Player"
+      Link="/Content/ExamView/TestPlayer/TakingaTestwiththeTestPlayer.htm" />
+    <TocEntry
+      Title="Navigating the Test"
+      Link="/Content/ExamView/TestPlayer/NavigatingtheTest.htm" />
+    <TocEntry
+      Title="Test Player Button Controls"
+      Link="/Content/ExamView/TestPlayer/TestPlayerButtonControls.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Going to a Specific Question/Checking for Unanswered Questions"
+      Link="/Content/ExamView/TestPlayer/GoingtoaSpecificQuestion.htm" />
+    <TocEntry
+      Title="Checking a Response"
+      Link="/Content/ExamView/TestPlayer/CheckingaResponse.htm" />
+    <TocEntry
+      Title="Playing a Multimedia Link"
+      Link="/Content/ExamView/TestPlayer/PlayingaMultimediaLink.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Answering Multiple Choice, True/False, Yes/No or Matching Questions"
+      Link="/Content/ExamView/TestPlayer/AnsweringMultipleChoiceTrueFalseYesNoorMatchingQuestions.htm" />
+    <TocEntry
+      Title="Answering Modified True/False Questions"
+      Link="/Content/ExamView/TestPlayer/AnsweringModifiedTrueFalseQuestions.htm" />
+    <TocEntry
+      Title="Answering Multiple Response Questions"
+      Link="/Content/ExamView/TestPlayer/AnsweringMultipleResponseQuestions.htm" />
+    <TocEntry
+      Title="Answering Numeric Response Questions"
+      Link="/Content/ExamView/TestPlayer/AnsweringNumericResponseQuestions.htm"
+      BreakType="none"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Answering Completion Questions"
+      Link="/Content/ExamView/TestPlayer/AnsweringCompletionQuestions.htm" />
+    <TocEntry
+      Title="Answering Short Answer, Problem, Essay, Case or Other Questions"
+      Link="/Content/ExamView/TestPlayer/AnsweringShortAnswerProblemEssayCaseorOtherQuestions.htm" />
+    <TocEntry
+      Title="Closing the Program"
+      Link="/Content/ExamView/TestPlayer/ClosingtheProgram.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Keyboard Shortcuts"
+    Link="/Content/ExamView/TestPlayer/KeyboardShortcut.htm">
+    <TocEntry
+      Title="French"
+      Link="/Content/ExamView/TestPlayer/French.htm"></TocEntry>
+    <TocEntry
+      Title="German"
+      Link="/Content/ExamView/TestPlayer/German.htm" />
+    <TocEntry
+      Title="Haitian-Creole"
+      Link="/Content/ExamView/TestPlayer/HaitianCreole.htm"
+      BreakType="pageLayout"
+      StartSection="false"
+      PageLayout="/Content/Resources/PageLayouts/UG.flpgl" />
+    <TocEntry
+      Title="Spanish"
+      Link="/Content/ExamView/TestPlayer/Spanish.htm" />
+  </TocEntry>
+  <TocEntry
+    Title="Troubleshooting Tips"
+    Link="/Content/ExamView/TestPlayer/TroubleshootingTips.htm"></TocEntry>
+  <TocEntry
+    Title="Copyright"
+    Link="/Content/Resources/GlobalTopics/Copyright.htm"
+    BreakType="pageLayout"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/UG.flpgl"
+    conditions="DocType.HTML" />
+  <TocEntry
+    Title="Contact Us"
+    Link="/Content/Resources/GlobalTopics/ContactUs.htm" />
+</CatapultToc>

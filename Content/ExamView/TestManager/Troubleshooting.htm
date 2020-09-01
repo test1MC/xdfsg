@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="1576" MadCap:lastWidth="1237" MadCap:fileTags="File Tags/FileTagSetAuthor.Nikki,File Tags/FileTagSetStatus.Out for Review">
+    <head>
+        <link href="../../Resources/Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>Troubleshooting</h1>
+        <div class="HeaderStripe">
+        </div>
+        <h2>
+            <MadCap:toggler targets="omr">Dedicated OMR Scanning</MadCap:toggler>
+        </h2>
+        <ul MadCap:targetName="omr">
+            <li>If the Apperson Advantage 1200 scanner becomes unresponsive, click Stop Scanning, press the Reset Options button (located on the scanner), and then click Start Scanning. If that does not solve the problem, cancel the scanning process. Turn the scanner off, then back on, and try to scan the forms again.</li>
+            <li>The Apperson Advantage 1200 scanner prints the percentage score on the scanner form. For tests with just objective questions all set to 1 point, the score will be correct. If your test includes open-ended questions or questions with varied point values, the score printed on the form will not match the score displayed by the software. Unfortunately, there is no way to turn off printing. However, you can remove the print cartridges.</li>
+            <li>If you consistently receive errors when scanning forms or the data is not being read properly, check your hardware user manual to clean the scanner.</li>
+        </ul>
+        <h2>
+            <MadCap:toggler targets="plainpaper;plainpaper">Plain-Paper Scanning (PC Only)
+</MadCap:toggler>
+        </h2>
+        <MadCap:dropDown MadCap:targetName="plainpaper">
+            <MadCap:dropDownHead><span class="SmallTitle">Scanners</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>Be sure that the scanner is attached to the computer, the drivers are properly installed, and the scanner is on before turning on the computer. After installing the scanner drivers, it may be necessary to restart the computer.</li>
+                    <li>Verify that the scanner is a supported model by checking the eInstruction by Turning Technologies website. If the scanner model is valid, verify that it works with another application besides the scanner interface (such as Adobe Photoshop or Paint). If the scanner is not working in other programs, the problem is likely a hardware issue. Contact the scanner manufacturer for assistance.</li>
+                    <li>Scanner manufacturers frequently make updates to their drivers to correct problems. Visit the manufacturer’s website to download and install the latest drivers.</li>
+                    <li>Many scanners will install multiple drivers and will appear in the scanner selection list multiple times. Try to select the entry that uses the appropriate connection (e.g. USB or parallel port) for your particular scanner model. If it is not clear which entry is correct, just select one and try it. Selecting the incorrect scanner choice will likely result in a failure to initiate scanning or a failure to scan more than one page in the stack. Selecting the incorrect scanner choice will not result in erroneous results appearing for a student. Simply cancel the session and select the other scanner choice if communication problems occur. The most recently selected scanner will appear as the default once a scanning session is finished, so this choice only needs to be made once.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:targetName="plainpaper">
+            <MadCap:dropDownHead><span class="SmallTitle">Forms</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <ul>
+                    <li>Plain paper scanning only supports bubble forms.</li>
+                    <li>The bubble form must be installed into the copy of Test Manager where the results are being scanned. Verify that the form name appears in the list of forms displayed in the Print Bubble Form dialog.</li>
+                    <li>Forms should be printed on letter sized (8.5” x 11”) white paper at 100% scale, in portrait orientation only. Plain-paper scanning does not support forms printed on other paper sizes, colored paper, or forms that have been scaled or printed in landscape orientation.</li>
+                    <li>For best results, a laser printer is recommended for printing the bubble forms.</li>
+                    <li>Forms must either be printed directly from ExamView or photocopied from an original printout. Do not use forms that are photocopied from a photocopy.</li>
+                    <li>Verify that the forms are placed properly into the scanner ADF or flatbed. Check that the orientation of the image side of the form matches the direction specified by the scanner manufacturer.</li>
+                    <li>Verify that the bubbles are properly filled in with dark marks and erasures are complete.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <h2>
+            <MadCap:toggler targets="msg;msg;msg;msg">Scanner Error Messages
+</MadCap:toggler>
+        </h2>
+        <MadCap:dropDown MadCap:targetName="msg">
+            <MadCap:dropDownHead><span class="SmallTitle">Can't recognize the scanned image. Check to see that the form is properly loaded in the scanner.</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>The most common cause for this error is a form placed backwards in the scanner (image side placed away from the scanning surface). Check that the form is properly loaded and try flipping the form over and re-scanning. Other causes for this error include using a non-supported form or using a form that is not properly installed (see the Forms Troubleshooting section above).</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:targetName="msg">
+            <MadCap:dropDownHead><span class="SmallTitle">The form definition file &lt;name&gt; does not appear to be installed.</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Error messages that refer to the form definition file indicate that a necessary resource file is missing, out-dated, or invalid. To correct this problem, the installer for either the form or ExamView will need to be run. Make a note of the file name as it will be needed should you require additional assistance from Technical Support.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:targetName="msg">
+            <MadCap:dropDownHead><span class="SmallTitle">Can't reliably detect the necessary marks on the form. Check to see if any part of the form is missing or has unusual marks.</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This error may indicate that the framing border around the form has extra markings or is broken up. Check that the form is free from extraneous marks and that the printout quality is crisp. Only use forms printed directly from a laser printer or photocopied from the original laser printout to avoid quality degradation.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <MadCap:dropDown MadCap:targetName="msg">
+            <MadCap:dropDownHead><span class="SmallTitle">The form appears to have fed improperly. Check to see that the form is properly loaded in the scanner</span>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>This error typically appears if the form is recognized by Test Manager but the scanned image is distorted or heavily skewed, making scoring unreliable. Try re-scanning the form as distortion is likely the result of a mechanical misfeed from the ADF.</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+    </body>
+</html>
